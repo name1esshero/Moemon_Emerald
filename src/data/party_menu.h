@@ -480,6 +480,16 @@ static const struct WindowTemplate sCancelButtonWindowTemplate =
     .width = 6,
     .height = 2,
     .paletteNum = 3,
+    .baseBlock = 0x1C7,
+};
+static const struct WindowTemplate sCancelButtonWindowTemplate_equal =
+{
+    .bg = 0,
+    .tilemapLeft = 24,
+    .tilemapTop = 17,
+    .width = 6,
+    .height = 2,
+    .paletteNum = 3,
     .baseBlock = 0x207, //0x1C7,  //Custom party menu
 };
 
@@ -495,6 +505,16 @@ static const struct WindowTemplate sMultiCancelButtonWindowTemplate =
 };
 
 static const struct WindowTemplate sConfirmButtonWindowTemplate =
+{
+    .bg = 0,
+    .tilemapLeft = 24,
+    .tilemapTop = 16,
+    .width = 6,
+    .height = 2,
+    .paletteNum = 3,
+    .baseBlock = 0x1D3,
+};
+static const struct WindowTemplate sConfirmButtonWindowTemplate_equal =
 {
     .bg = 0,
     .tilemapLeft = 24,
