@@ -503,6 +503,16 @@ static const struct WindowTemplate sMultiCancelButtonWindowTemplate =
     .paletteNum = 3,
     .baseBlock = 0x1C7,
 };
+static const struct WindowTemplate sMultiCancelButtonWindowTemplate_equal =
+{
+    .bg = 0,
+    .tilemapLeft = 24,
+    .tilemapTop = 18,
+    .width = 6,
+    .height = 2,
+    .paletteNum = 3,
+    .baseBlock = 0x207, //0x1C7,  //Custom party menu
+};
 
 static const struct WindowTemplate sConfirmButtonWindowTemplate =
 {
