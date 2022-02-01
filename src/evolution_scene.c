@@ -778,6 +778,17 @@ static void Task_EvolutionScene(u8 taskId)
             GetSetPokedexFlag(SpeciesToNationalPokedexNum(gTasks[taskId].tPostEvoSpecies), FLAG_SET_SEEN);
             GetSetPokedexFlag(SpeciesToNationalPokedexNum(gTasks[taskId].tPostEvoSpecies), FLAG_SET_CAUGHT);
             IncrementGameStat(GAME_STAT_EVOLVED_POKEMON);
+            if (gMain.inBattle && gBattleOutcome == 0)
+            { 
+                // Update BattlePokemon stats if in battle
+                u8 monId = gTasks[taskId].tPartyId;
+                if (monId == LEFT_PKMN) 
+                    CopyPlayerPartyMonToBattleData(0, monId);
+                else if (monId == RIGHT_PKMN) 
+                {
+                    CopyPlayerPartyMonToBattleData(2, monId);
+                }
+            }
         }
         break;
     case EVOSTATE_TRY_LEARN_MOVE:
