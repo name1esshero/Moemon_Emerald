@@ -49,6 +49,7 @@
 #include "tv.h"
 #include "window.h"
 #include "constants/event_objects.h"
+#include "tx_randomizer_and_challenges.h"
 
 typedef u16 (*SpecialFunc)(void);
 typedef void (*NativeFunc)(void);
@@ -1727,6 +1728,21 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
             break;
         }
     }
+
+    if (gSpecialVar_Result == PARTY_SIZE && HMsOverwriteOptionActive())
+    {
+        u16 itemId = BattleMoveIdToItemId(moveId);
+        #ifndef NDEBUG
+            MgbaPrintf(MGBA_LOG_DEBUG, "ScrCmd_checkpartymove itemId=%d", itemId);
+        #endif
+        if (itemId == 0)
+            return FALSE;
+        if (!CheckBagHasItem(itemId, 1))
+            return FALSE;
+        gSpecialVar_0x8004 = GetMonData(&gPlayerParty[0], MON_DATA_SPECIES, NULL);
+        gSpecialVar_Result = 0;
+    }
+
     return FALSE;
 }
 
