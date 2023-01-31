@@ -451,13 +451,7 @@ static void SpriteCB_PokemonLogoShine(struct Sprite *sprite)
             }
 
             backgroundColor = _RGB(sprite->data[1], sprite->data[1], sprite->data[1]);
-            if (sprite->x == DISPLAY_WIDTH / 2 + 12
-                || sprite->x == DISPLAY_WIDTH / 2 + 16
-                || sprite->x == DISPLAY_WIDTH / 2 + 20
-                || sprite->x == DISPLAY_WIDTH / 2 + 24)
-                gPlttBufferFaded[0] = RGB(24, 31, 12);
-            else
-                gPlttBufferFaded[0] = backgroundColor;
+            gPlttBufferFaded[0] = backgroundColor;
         }
         sprite->x += 4;
     }
