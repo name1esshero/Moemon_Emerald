@@ -13860,9 +13860,9 @@ u8 GetTypeBySpecies(u16 species, u8 typeNum)
     u8 type;
 
     if (typeNum == 1)
-        type = gSpeciesInfo[species].types[1];
+        type = gSpeciesInfo[species].types[0];
     else
-        type = gSpeciesInfo[species].types[2];
+        type = gSpeciesInfo[species].types[1];
 
     if (!gSaveBlock1Ptr->tx_Random_Type)
         return type;
