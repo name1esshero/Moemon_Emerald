@@ -383,8 +383,10 @@
 #define STRINGID_NUZLOCKECAPTUREBLOCKED     382
 #define STRINGID_SPECIESCLAUSECAPTUREBLOCKED 383
 #define STRINGID_SAMESPECIESCAPTUREBLOCKED  384
+//revive enemy pokemon
+#define STRINGID_PKMNSITEMREVIVED           385
 
-#define BATTLESTRINGS_COUNT                 385
+#define BATTLESTRINGS_COUNT                 386
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,

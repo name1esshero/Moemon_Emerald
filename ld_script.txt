@@ -345,6 +345,7 @@ SECTIONS {
         src/international_string_util.o(.text);
         src/tx_rac_menu.o(.text);
         src/tx_randomizer_and_challenges.o(.text);
+        src/wonder_trade.o(.text);
     } =0
 
     script_data :
@@ -710,6 +711,7 @@ SECTIONS {
         data/sound_data.o(.rodata);
         src/tx_rac_menu.o(.rodata);
         src/tx_randomizer_and_challenges.o(.rodata);
+        src/wonder_trade.o(.rodata);
     } =0
 
     song_data :

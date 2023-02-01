@@ -495,6 +495,7 @@ static const u8 sText_PkmnsItemRestoredStatus[] = _("{B_SCR_ACTIVE_NAME_WITH_PRE
 static const u8 sText_PkmnsItemRestoredHPALittle[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX}'s {B_LAST_ITEM}\nrestored its HP a little!");
 static const u8 sText_ItemAllowsOnlyYMove[] = _("{B_LAST_ITEM} allows the\nuse of only {B_CURRENT_MOVE}!\p");
 static const u8 sText_PkmnHungOnWithX[] = _("{B_DEF_NAME_WITH_PREFIX} hung on\nusing its {B_LAST_ITEM}!");
+static const u8 sText_PkmnsItemRevived[] = _("{B_TARGET_OF_REVIVE} was revived!");
 const u8 gText_EmptyString3[] = _("");
 static const u8 sText_YouThrowABallNowRight[] = _("You throw a BALL now, right?\nI… I'll do my best!");
 
@@ -889,6 +890,7 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_S
     [STRINGID_NUZLOCKECAPTUREBLOCKED - BATTLESTRINGS_TABLE_START] = gText_NuzlockeCantThrowPokeBallRoute,
     [STRINGID_SPECIESCLAUSECAPTUREBLOCKED - BATTLESTRINGS_TABLE_START] = gText_NuzlockeCantThrowPokeBallSpeciesClause,
     [STRINGID_SAMESPECIESCAPTUREBLOCKED - BATTLESTRINGS_TABLE_START] = gText_NuzlockeCantThrowPokeBallAlreadyCaught,
+    [STRINGID_PKMNSITEMREVIVED - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemRevived,
 };
 
 const u16 gMissStringIds[] =
@@ -2543,6 +2545,19 @@ u32 BattleStringExpandPlaceholders(const u8 *src, u8 *dst)
             case B_TXT_SCR_ACTIVE_NAME_WITH_PREFIX: // scripting active battlerId name with prefix
                 HANDLE_NICKNAME_STRING_CASE(gBattleScripting.battler, gBattlerPartyIndexes[gBattleScripting.battler])
                 break;
+            case B_TXT_TARGET_OF_REVIVE:
+	            toCpy = sText_FoePkmnPrefix;
+	            while (*toCpy != EOS)
+	            {
+		            dst[dstID] = *toCpy;
+			        dstID++;
+			        toCpy++;
+		        }
+		        GetMonData(&gEnemyParty[gBattleStruct->wildVictorySong], MON_DATA_NICKNAME, text);
+		        gBattleStruct->wildVictorySong = 0;
+		        StringGet_Nickname(text);
+                toCpy = text;
+		        break;
             case B_TXT_CURRENT_MOVE: // current move name
                 if (gBattleMsgDataPtr->currentMove >= MOVES_COUNT)
                     toCpy = sATypeMove_Table[gBattleStruct->stringMoveType];

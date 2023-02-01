@@ -1438,3 +1438,7 @@
 	.macro jumpifnotbattletype flags:req, jumpptr:req
 	jumpifword CMP_NO_COMMON_BITS, gBattleTypeFlags, \flags, \jumpptr
 	.endm
+
+	.macro usereviveonopponent
+	various 0, VARIOUS_USE_REVIVE_ON_OPPONENT
+	.endm

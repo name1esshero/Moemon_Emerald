@@ -105,6 +105,7 @@
 #define VARIOUS_PALACE_TRY_ESCAPE_STATUS        24
 #define VARIOUS_SET_TELEPORT_OUTCOME            25
 #define VARIOUS_PLAY_TRAINER_DEFEATED_MUSIC     26
+#define VARIOUS_USE_REVIVE_ON_OPPONENT          27
 
 // Cmd_manipulatedmg
 #define DMG_CHANGE_SIGN            0

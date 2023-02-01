@@ -1000,6 +1000,79 @@ Common_EventScript_LegendaryFlewAway::
 	release
 	end
 
+EventScript_DoWonderTrade::
+	lock
+	faceplayer
+	msgbox EventScript_WonderTrade_Text_Want_To_Trade, MSGBOX_YESNO
+	compare VAR_RESULT, NO
+	goto_if_eq EventScript_SelfTrade_DeclineTrade
+	compare VAR_RESULT, YES
+	goto_if_eq EventScript_DoWonderTrade1
+
+EventScript_DoWonderTrade1::
+	special ChoosePartyMon
+	waitstate
+	compare VAR_0x8004, PARTY_SIZE
+	goto_if_ge EventScript_End
+	copyvar VAR_0x8005, VAR_0x8004
+	special CreateWonderTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	msgbox EventScript_DoWonderTrade_Text_WannaDoAnotherWonderTrade, MSGBOX_YESNO
+	compare VAR_RESULT, YES
+	goto_if_eq EventScript_DoWonderTrade1
+	compare VAR_RESULT, NO
+	goto_if_eq EventScript_SelfTrade_DeclineTrade
+	release
+	end
+
+EventScript_End:
+	msgbox EventScript_SelfTrade_Text_YouDontWantToThatsOkay, MSGBOX_DEFAULT
+	release
+	end
+
+EventScript_DoWonderTrade_Text_WannaDoAnotherWonderTrade:
+	.string "Do you want to do\nanother Wonder Trade?$"
+
+EventScript_WonderTrade_Text_Want_To_Trade:
+	.string "Would you like to\nperform a Wonder Trade?$"
+
+EventScript_SelfTrade::
+	lock
+	faceplayer
+	msgbox EventScript_SelfTrade_Text_IllTradeIfYouWant, MSGBOX_YESNO
+	compare VAR_RESULT, NO
+	goto_if_eq EventScript_SelfTrade_DeclineTrade
+	special ChoosePartyMon
+	waitstate
+	compare VAR_0x8004, 255
+	goto_if_eq EventScript_SelfTrade_DeclineTrade
+	copyvar VAR_0x8005, VAR_0x8004
+	setvar VAR_0x8004, 6
+	special CreateInGameTradePokemon
+	special DoInGameTradeScene
+	waitstate
+	msgbox EventScript_SelfTrade_Text_ComeBack, MSGBOX_DEFAULT
+	release
+	end
+
+EventScript_SelfTrade_DeclineTrade::
+	msgbox EventScript_SelfTrade_Text_YouDontWantToThatsOkay, MSGBOX_DEFAULT
+	release
+	end
+
+EventScript_SelfTrade_Text_IllTradeIfYouWant:
+	.string "I will help you\n"
+	.string "trade a pokemon\p"
+	.string "with yourself!$"
+
+EventScript_SelfTrade_Text_ComeBack:
+	.string "Come back anytime.$"
+
+EventScript_SelfTrade_Text_YouDontWantToThatsOkay:
+	.string "You dont want to?\n"
+    .string "Okay come back anytime$"
+
 	.include "data/scripts/pc_transfer.inc"
 	.include "data/scripts/questionnaire.inc"
 	.include "data/scripts/abnormal_weather.inc"
