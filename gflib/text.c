@@ -1010,6 +1010,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
                 textPrinter->printerTemplate.currentChar++;
                 return RENDER_REPEAT;
             case EXT_CTRL_CODE_RESET_FONT:
+                subStruct->fontId = textPrinter->printerTemplate.fontId;
                 return RENDER_REPEAT;
             case EXT_CTRL_CODE_PAUSE:
                 textPrinter->delayCounter = *textPrinter->printerTemplate.currentChar;
@@ -1445,6 +1446,11 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
                 isJapanese = 0;
                 break;
             case EXT_CTRL_CODE_RESET_FONT:
+                if (letterSpacing == -1)
+                    localLetterSpacing = GetFontAttribute(fontId, FONTATTR_LETTER_SPACING);
+                else
+                    localLetterSpacing = letterSpacing;
+                break;
             case EXT_CTRL_CODE_PAUSE_UNTIL_PRESS:
             case EXT_CTRL_CODE_WAIT_SE:
             case EXT_CTRL_CODE_FILL_WINDOW:
