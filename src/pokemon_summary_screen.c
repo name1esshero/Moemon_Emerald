@@ -3365,6 +3365,23 @@ static void PrintRibbonCount(void)
     PrintTextOnWindow(AddWindowFromTemplateList(sPageSkillsTemplate, PSS_DATA_WINDOW_SKILLS_RIBBON_COUNT), text, x, 1, 0, 0);
 }
 
+// Based on https://www.pokecommunity.com/showpost.php?p=10024409&postcount=21
+static void BufferStat(u8 *dst, s8 natureMod, u32 stat, u32 strId, u32 n) {
+  static const u8 textNatureMinus[] = _("{COLOR_HIGHLIGHT_SHADOW}{BLUE}{TRANSPARENT}{07}"); // Blue
+  static const u8 textNaturePlus[] = _("{COLOR_HIGHLIGHT_SHADOW}{05}{TRANSPARENT}{06}"); // Red
+  static const u8 textNatureNone[] = _("{COLOR_HIGHLIGHT_SHADOW}{01}{TRANSPARENT}{DARK_GRAY}"); // Black
+  u8 *txtPtr;
+  if (natureMod == 0)
+    txtPtr = StringCopy(dst, textNatureNone);
+  else if (natureMod > 0)
+    txtPtr = StringCopy(dst, textNaturePlus);
+  else
+    txtPtr = StringCopy(dst, textNatureMinus);
+
+  ConvertIntToDecimalStringN(txtPtr, stat, STR_CONV_MODE_RIGHT_ALIGN, n);
+  DynamicPlaceholderTextUtil_SetPlaceholderPtr(strId, dst);
+}
+
 static void BufferLeftColumnStats(void)
 {
     u8 *currentHPString = Alloc(20);
@@ -4152,22 +4169,4 @@ static void KeepMoveSelectorVisible(u8 firstSpriteId)
         gSprites[spriteIds[i]].data[1] = 0;
         gSprites[spriteIds[i]].invisible = FALSE;
     }
-}
-
-static void BufferStat(u8 *dst, s8 natureMod, u32 stat, u32 strId, u32 n)
-{
-    static const u8 sTextNatureDown[] = _("{COLOR}{05}");
-    static const u8 sTextNatureUp[] = _("{COLOR}{08}");
-    static const u8 sTextNatureNeutral[] = _("{COLOR}{01}");
-    u8 *txtPtr;
-
-    if (natureMod == 0)
-        txtPtr = StringCopy(dst, sTextNatureNeutral);
-    else if (natureMod > 0)
-        txtPtr = StringCopy(dst, sTextNatureUp);
-    else
-        txtPtr = StringCopy(dst, sTextNatureDown);
-
-    ConvertIntToDecimalStringN(txtPtr, stat, STR_CONV_MODE_RIGHT_ALIGN, n);
-    DynamicPlaceholderTextUtil_SetPlaceholderPtr(strId, dst);
 }
