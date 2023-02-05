@@ -942,7 +942,7 @@ static bool8 ShouldUseItem(void)
         case AI_ITEM_REVIVE:
                 for(loop = 0; loop < PARTY_SIZE; loop++)
 			{
-				if(GetMonData(&party[loop], MON_DATA_HP) >> 0)
+				if(GetMonData(&party[loop], MON_DATA_HP) > 0)
 				{ 
 					shouldUse = FALSE;
 					break;

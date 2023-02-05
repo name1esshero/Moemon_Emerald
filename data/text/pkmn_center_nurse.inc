@@ -15,7 +15,8 @@ gText_RestoredPkmnToFullHealth::
 	.string "to full health.$"
 
 gText_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+	.string "If your POKéMON is injured\p"
+	.string "come back to us for healing.$"
 
 gText_WelcomeCutShort::
 	.string "Hello, and welcome to\n"
@@ -48,7 +49,8 @@ gText_ThankYouForWaiting::
 	.string "Thank you for waiting.$"
 
 gText_WeHopeToSeeYouAgain2::
-	.string "We hope to see you again!$"
+	.string "If your POKéMON is injured\p"
+	.string "come back to us for healing.$"
 
 gText_PkmnCenterChallenge_NoVisitsLeft:: @ tx_difficulty_challenge
     .string "Sorry, but you are playing with\n"

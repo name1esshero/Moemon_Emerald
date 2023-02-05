@@ -6591,7 +6591,7 @@ static void Cmd_various(void)
 			}
 		}
 		break;
-    }
+ }
 
     gBattlescriptCurrInstr += 3;
 }
