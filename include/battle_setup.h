@@ -72,5 +72,7 @@ u16 CountBattledRematchTeams(u16 trainerId);
 //tx_randomizer_and_challenges
 u8 NuzlockeIsCaptureBlockedBySpeciesClause(u16 species);
 void SetNuzlockeChecks(void);
+void DoStandardWildBattle_Debug(void);
+void BattleSetup_StartTrainerBattle_Debug(void);
 
 #endif // GUARD_BATTLE_SETUP_H

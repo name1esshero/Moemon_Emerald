@@ -8,6 +8,7 @@
 #include "bike.h"
 #include "coins.h"
 #include "data.h"
+#include "debug.h"
 #include "event_data.h"
 #include "event_object_lock.h"
 #include "event_object_movement.h"
@@ -944,6 +945,13 @@ void ItemUseOutOfBattle_EvolutionStone(u8 taskId)
 
 void ItemUseInBattle_PokeBall(u8 taskId)
 {
+    #if TX_DEBUG_SYSTEM_ENABLE == TRUE
+    if (FlagGet(FLAG_SYS_NO_CATCHING)){
+        static const u8 sText_BallsCannotBeUsed[] = _("Poké Balls cannot be used\nright now!\p");
+        DisplayItemMessage(taskId, 1, sText_BallsCannotBeUsed, CloseItemMessage);
+        return;
+    }
+    #endif
     if (NuzlockeIsCaptureBlocked) //tx_randomizer_and_challenges
         DisplayCannotUseItemMessage(taskId, FALSE, gText_NuzlockeCantThrowPokeBallRoute);
     else if (NuzlockeIsSpeciesClauseActive == 2) //already have THIS_mon
