@@ -1,6 +1,8 @@
 Common_EventScript_PkmnCenterNurse::
 	lock
 	faceplayer
+	specialvar VAR_RESULT, IsPokecenterChallengeActivated
+    goto_if_eq VAR_RESULT, TRUE, EventScript_PkmnCenterNurse_PkmnCenterChallenge_NoVisits
     setvar VAR_0x8004, 0
     specialvar VAR_RESULT, CountPlayerTrainerStars
     compare VAR_RESULT, 4
