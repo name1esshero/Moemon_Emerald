@@ -8780,6 +8780,9 @@ void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, 
         value = personality & 1;
         SetBoxMonData(boxMon, MON_DATA_ABILITY_NUM, &value);
     }
+    
+    value = HIDDEN_NATURE_NONE;
+    SetBoxMonData(boxMon, MON_DATA_HIDDEN_NATURE, &value);
 
     GiveBoxMonInitialMoveset(boxMon);
 }
@@ -9189,7 +9192,7 @@ static u16 GetDeoxysStat(struct Pokemon *mon, s32 statId)
     ivVal = GetMonData(mon, MON_DATA_HP_IV + statId, NULL);
     evVal = GetMonData(mon, MON_DATA_HP_EV + statId, NULL);
     statValue = ((sDeoxysBaseStats[statId] * 2 + ivVal + evVal / 4) * mon->level) / 100 + 5;
-    nature = GetNature(mon);
+    nature = GetNature(mon, TRUE);
     statValue = ModifyStatByNature(nature, statValue, (u8)statId);
     return statValue;
 }
@@ -9297,7 +9300,7 @@ static u16 CalculateBoxMonChecksum(struct BoxPokemon *boxMon)
 {                                                               \
     u8 baseStat = gSpeciesInfo[species].base;                   \
     s32 n = (((2 * baseStat + iv + ev / 4) * level) / 100) + 5; \
-    u8 nature = GetNature(mon);                                 \
+    u8 nature = GetNature(mon, TRUE);                           \
     n = ModifyStatByNature(nature, n, statIndex);               \
     SetMonData(mon, field, &n);                                 \
 }
@@ -9306,7 +9309,7 @@ static u16 CalculateBoxMonChecksum(struct BoxPokemon *boxMon)
 {                                                               \
     u16 baseStat[] = {100, 255, 500};                                         \
     s32 n = (((2 * baseStat[option] + iv + ev / 4) * level) / 100) + 5; \
-    u8 nature = GetNature(mon);                                 \
+    u8 nature = GetNature(mon, TRUE);                                 \
     n = ModifyStatByNature(nature, n, statIndex);               \
     SetMonData(mon, field, &n);                                 \
 }
@@ -10555,8 +10558,8 @@ u32 GetBoxMonData(struct BoxPokemon *boxMon, s32 field, u8 *data)
                 | (substruct3->worldRibbon << 26);
         }
         break;
-    case MON_DATA_NATURE:
-        return boxMon->personality % 25;
+    case MON_DATA_HIDDEN_NATURE:
+        retVal = substruct0->hiddenNature;
         break;
     default:
         break;
@@ -10607,7 +10610,7 @@ void SetMonData(struct Pokemon *mon, s32 field, const void *dataArg)
         break;
     case MON_DATA_SPECIES2:
         break;
-    case MON_DATA_NATURE: // Calculate stats after settings
+    case MON_DATA_HIDDEN_NATURE: // Calculate stats after settings
         SetBoxMonData(&mon->box, field, data);
         CalculateMonStats(mon);
         break;
@@ -10869,81 +10872,9 @@ void SetBoxMonData(struct BoxPokemon *boxMon, s32 field, const void *dataArg)
         substruct3->spDefenseIV = (ivs >> 25) & MAX_IV_MASK;
         break;
     }
-    case MON_DATA_NATURE:
-    {
-      u32 pid = boxMon->personality;
-      u32 otId = boxMon->otId;
-      s8 diff = (data[0] % 25) - (pid % 25); // difference between new nature and current nature, [-24,24]
-      bool8 preserveShiny = FALSE;
-      bool8 preserveLetter = FALSE;
-      u16 shinyValue = HIHALF(pid) ^ LOHALF(pid);
-      s32 tweak;
-      u32 pidTemp;
-      // See https://bulbapedia.bulbagarden.net/wiki/Personality_value#Nature
-      // Goal here is to preserve as much of the PID as possible
-      // To preserve gender & substruct order, we add/subtract multiples of 5376 that is 0 % 256, 0 % 24, 1 % 25
-      // i.e, to increase the nature by n % 25, we add n*5376 % 19200 (LCM of 24, 25, 256) to the pid
-      // Ability number is determined by parity and so adding multiples of 5376 preserves it
-      // TODO: For genderless pokemon, 576/600 can be used instead of 5376/19200
-      if (diff == 0) // No change
+    case MON_DATA_HIDDEN_NATURE:
+        SET8(substruct0->hiddenNature);
         break;
-      else if (diff < 0)
-        diff = 25+diff;
-      tweak = (diff*5376) % 19200;
-      pidTemp = pid + tweak;
-      // If the pokemon is shiny or if changing the PID would make it shiny, preserve its shiny value
-      if (IsShinyOtIdPersonality(otId, pid) || IsShinyOtIdPersonality(otId, pidTemp))
-        preserveShiny = TRUE;
-      if (substruct0->species == SPECIES_UNOWN) // Preserve Unown letter
-        preserveLetter = TRUE;
-      if (preserveShiny && preserveLetter) { // honestly though, how many shiny Unown are out there ?
-        while (pidTemp > pid) {
-          if ((HIHALF(pidTemp) ^ LOHALF(pidTemp) ^ shinyValue) < SHINY_ODDS)
-            if (GET_UNOWN_LETTER(pidTemp) == GET_UNOWN_LETTER(pid))
-              break;
-          pidTemp += 19200;
-        }
-      } else if (preserveShiny) {
-        while (pidTemp > pid) {
-          if ((HIHALF(pidTemp) ^ LOHALF(pidTemp) ^ shinyValue) < SHINY_ODDS)
-            break;
-          pidTemp += 19200;
-        }
-      } else if (preserveLetter) {
-        while (pidTemp > pid) {
-          if (GET_UNOWN_LETTER(pidTemp) == GET_UNOWN_LETTER(pid))
-            break;
-          pidTemp += 19200;
-        }
-      }
-      if (pidTemp < pid) { // overflow; search backwards
-        tweak -= 19200;
-        pidTemp = pid + tweak;
-        if (preserveShiny && preserveLetter) {
-          while (pidTemp < pid) {
-            if ((HIHALF(pidTemp) ^ LOHALF(pidTemp) ^ shinyValue) < SHINY_ODDS)
-              if (GET_UNOWN_LETTER(pidTemp) == GET_UNOWN_LETTER(pid))
-                break;
-            pidTemp -= 19200;
-          }
-        } else if (preserveShiny) {
-          while (pidTemp < pid) {
-            if ((HIHALF(pidTemp) ^ LOHALF(pidTemp) ^ shinyValue) < SHINY_ODDS)
-              break;
-            pidTemp -= 19200;
-          }
-        } else if (preserveLetter) {
-          while (pidTemp < pid) {
-            if (GET_UNOWN_LETTER(pidTemp) == GET_UNOWN_LETTER(pid))
-              break;
-            pidTemp -= 19200;
-          }
-        }
-      }
-      if (pid % 24 == pidTemp % 24 || pid % 256 == pidTemp % 256)
-        boxMon->personality = pidTemp;
-      break;
-    }
     default:
         break;
     }
@@ -12053,9 +11984,12 @@ u8 *UseStatIncreaseItem(u16 itemId)
     return gDisplayedStringBattle;
 }
 
-u8 GetNature(struct Pokemon *mon)
+u8 GetNature(struct Pokemon *mon, bool32 checkHidden)
 {
-    return GetMonData(mon, MON_DATA_PERSONALITY, 0) % NUM_NATURES;
+    if (!checkHidden || GetMonData(mon, MON_DATA_HIDDEN_NATURE, 0) == HIDDEN_NATURE_NONE)
+        return GetNatureFromPersonality(GetMonData(mon, MON_DATA_PERSONALITY, 0));
+    else
+        return GetMonData(mon, MON_DATA_HIDDEN_NATURE, 0);
 }
 
 u8 GetNatureFromPersonality(u32 personality)
@@ -13166,7 +13100,7 @@ bool8 IsMonSpriteNotFlipped(u16 species)
 
 s8 GetMonFlavorRelation(struct Pokemon *mon, u8 flavor)
 {
-    u8 nature = GetNature(mon);
+    u8 nature = GetNature(mon, FALSE);
     return gPokeblockFlavorCompatibilityTable[nature * FLAVOR_COUNT + flavor];
 }
 

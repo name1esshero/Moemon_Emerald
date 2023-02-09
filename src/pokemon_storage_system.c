@@ -40,6 +40,7 @@
 #include "constants/moves.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "constants/pokemon.h"
 #include "tx_randomizer_and_challenges.h"
 
 /*

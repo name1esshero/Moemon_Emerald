@@ -5,99 +5,6 @@
 #include "constants/species.h" //tx_randomizer_and_challenges
 
 // Property labels for Get(Box)MonData / Set(Box)MonData
-enum {
-    MON_DATA_PERSONALITY,
-    MON_DATA_OT_ID,
-    MON_DATA_NICKNAME,
-    MON_DATA_LANGUAGE,
-    MON_DATA_SANITY_IS_BAD_EGG,
-    MON_DATA_SANITY_HAS_SPECIES,
-    MON_DATA_SANITY_IS_EGG,
-    MON_DATA_OT_NAME,
-    MON_DATA_MARKINGS,
-    MON_DATA_CHECKSUM,
-    MON_DATA_ENCRYPT_SEPARATOR,
-    MON_DATA_SPECIES,
-    MON_DATA_HELD_ITEM,
-    MON_DATA_MOVE1,
-    MON_DATA_MOVE2,
-    MON_DATA_MOVE3,
-    MON_DATA_MOVE4,
-    MON_DATA_PP1,
-    MON_DATA_PP2,
-    MON_DATA_PP3,
-    MON_DATA_PP4,
-    MON_DATA_PP_BONUSES,
-    MON_DATA_COOL,
-    MON_DATA_BEAUTY,
-    MON_DATA_CUTE,
-    MON_DATA_EXP,
-    MON_DATA_HP_EV,
-    MON_DATA_ATK_EV,
-    MON_DATA_DEF_EV,
-    MON_DATA_SPEED_EV,
-    MON_DATA_SPATK_EV,
-    MON_DATA_SPDEF_EV,
-    MON_DATA_FRIENDSHIP,
-    MON_DATA_SMART,
-    MON_DATA_POKERUS,
-    MON_DATA_MET_LOCATION,
-    MON_DATA_MET_LEVEL,
-    MON_DATA_MET_GAME,
-    MON_DATA_POKEBALL,
-    MON_DATA_HP_IV,
-    MON_DATA_ATK_IV,
-    MON_DATA_DEF_IV,
-    MON_DATA_SPEED_IV,
-    MON_DATA_SPATK_IV,
-    MON_DATA_SPDEF_IV,
-    MON_DATA_IS_EGG,
-    MON_DATA_ABILITY_NUM,
-    MON_DATA_TOUGH,
-    MON_DATA_SHEEN,
-    MON_DATA_OT_GENDER,
-    MON_DATA_COOL_RIBBON,
-    MON_DATA_BEAUTY_RIBBON,
-    MON_DATA_CUTE_RIBBON,
-    MON_DATA_SMART_RIBBON,
-    MON_DATA_TOUGH_RIBBON,
-    MON_DATA_STATUS,
-    MON_DATA_LEVEL,
-    MON_DATA_HP,
-    MON_DATA_MAX_HP,
-    MON_DATA_ATK,
-    MON_DATA_DEF,
-    MON_DATA_SPEED,
-    MON_DATA_SPATK,
-    MON_DATA_SPDEF,
-    MON_DATA_MAIL,
-    MON_DATA_SPECIES2,
-    MON_DATA_IVS,
-    MON_DATA_CHAMPION_RIBBON,
-    MON_DATA_WINNING_RIBBON,
-    MON_DATA_VICTORY_RIBBON,
-    MON_DATA_ARTIST_RIBBON,
-    MON_DATA_EFFORT_RIBBON,
-    MON_DATA_MARINE_RIBBON,
-    MON_DATA_LAND_RIBBON,
-    MON_DATA_SKY_RIBBON,
-    MON_DATA_COUNTRY_RIBBON,
-    MON_DATA_NATIONAL_RIBBON,
-    MON_DATA_EARTH_RIBBON,
-    MON_DATA_WORLD_RIBBON,
-    MON_DATA_UNUSED_RIBBONS,
-    MON_DATA_EVENT_LEGAL,
-    MON_DATA_KNOWN_MOVES,
-    MON_DATA_RIBBON_COUNT,
-    MON_DATA_RIBBONS,
-    MON_DATA_ATK2,
-    MON_DATA_DEF2,
-    MON_DATA_SPEED2,
-    MON_DATA_SPATK2,
-    MON_DATA_SPDEF2,
-    MON_DATA_NUZLOCKE_RIBBON,
-    MON_DATA_NATURE,
-};
 
 struct PokemonSubstruct0
 {
@@ -106,7 +13,9 @@ struct PokemonSubstruct0
     u32 experience;
     u8 ppBonuses;
     u8 friendship;
-    u16 filler;
+    u8 hiddenNature:5;  // 25 natures
+    u8 free_sub0:3;
+    u8 free_sub0_b;
 };
 
 struct PokemonSubstruct1
@@ -470,7 +379,7 @@ bool8 PokemonUseItemEffects(struct Pokemon *mon, u16 item, u8 partyIndex, u8 mov
 bool8 HealStatusConditions(struct Pokemon *mon, u32 battlePartyId, u32 healMask, u8 battlerId);
 u8 GetItemEffectParamOffset(u16 itemId, u8 effectByte, u8 effectBit);
 u8 *UseStatIncreaseItem(u16 itemId);
-u8 GetNature(struct Pokemon *mon);
+u8 GetNature(struct Pokemon *mon, bool32 checkHidden);
 u8 GetNatureFromPersonality(u32 personality);
 u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem);
 u16 HoennPokedexNumToSpecies(u16 hoennNum);
