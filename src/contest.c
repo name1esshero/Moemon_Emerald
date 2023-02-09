@@ -2856,12 +2856,16 @@ void SetContestants(u8 contestType, u8 rank)
     u8 opponentsCount = 0;
     u8 opponents[100];
     bool8 allowPostgameContestants = FALSE;
+    bool8 allowMaleContestants = FALSE;
     const u8 * filter;
 
     TryPutPlayerLast();
 
     if (FlagGet(FLAG_SYS_GAME_CLEAR) && !(gLinkContestFlags & LINK_CONTEST_FLAG_IS_LINK))
         allowPostgameContestants = TRUE;
+
+    if (FlagGet(FLAG_MALE))
+        allowMaleContestants = TRUE;
 
     // Find all suitable opponents
     filter = gPostgameContestOpponentFilter;
@@ -2877,6 +2881,16 @@ void SetContestants(u8 contestType, u8 rank)
             else
             {
                 if (filter[i] == CONTEST_FILTER_ONLY_POSTGAME)
+                    continue;
+            }
+            if (allowMaleContestants == TRUE)
+            {
+                if (filter[i] == CONTEST_FILTER_MALE)
+                    continue;
+            }
+            else
+            {
+                if (filter[i] == CONTEST_FILTER_FEMALE)
                     continue;
             }
             if      (contestType == CONTEST_CATEGORY_COOL && gContestOpponents[i].aiPool_Cool)

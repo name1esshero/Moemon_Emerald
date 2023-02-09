@@ -1146,6 +1146,9 @@ struct SaveBlock1
         u8 tx_Challenges_TrainerScalingEVs:2;
         u8 tx_Nuzlocke_Deletion:1;
         u8 tx_Random_Starter:1;
+               u8 dexNavSearchLevels[NUM_SPECIES];
+               u8 dexNavChain;
+    // sizeof: 0x3D88
 };
 
 

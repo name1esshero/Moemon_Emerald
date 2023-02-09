@@ -96,4 +96,14 @@ void ShuffleListU16(u16 *list, u16 count, u32 seed)
         list[i] = arr;
     }
 }
+// NEW
+
+u16 RandRange(u16 min, u16 max)
+{    
+    if (min == max)
+        return min;
+    
+    max++;   // make inclusive
+    return (Random() % (max - min)) + min;
+}
 

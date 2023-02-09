@@ -17,6 +17,7 @@
 #include "data.h"
 #include "debug.h"
 #include "decompress.h"
+#include "dexnav.h"
 #include "dma3.h"
 #include "event_data.h"
 #include "evolution_scene.h"
@@ -313,11 +314,28 @@ const struct OamData gOamData_BattleSpritePlayerSide =
     .affineParam = 0,
 };
 
-// Unknown and unused data. Feel free to remove.
-static const u16 sUnused1[] = {0, 5, 0xfffe, 0};
-static const u16 *const sUnused1Ptr = sUnused1;
-static const u16 sUnused2[] = {0xfff0, 0, 0x0400, 0, 0, 0, 0x3c00, 0, 0x7ffe, 1, 0, 0};
-static const u16 *const sUnused2Ptr = sUnused2;
+static const union AnimCmd sAnim_Unused[] =
+{
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_JUMP(0),
+};
+
+static const union AnimCmd *const sAnims_Unused[] =
+{
+    sAnim_Unused,
+};
+
+static const union AffineAnimCmd sAffineAnim_Unused[] =
+{
+    AFFINEANIMCMD_FRAME(-0x10, 0x0, 0, 4),
+    AFFINEANIMCMD_FRAME(0x0, 0x0, 0, 0x3C),
+    AFFINEANIMCMD_JUMP(1),
+};
+
+static const union AffineAnimCmd *const sAffineAnims_Unused[] =
+{
+    sAffineAnim_Unused,
+};
 
 static const s8 sCenterToCornerVecXs[8] ={-32, -16, -16, -32, -32};
 
@@ -5547,6 +5565,11 @@ static void FreeResetData_ReturnToOvOrDoEvolutions(void)
 {
     if (!gPaletteFade.active)
     {
+        if (gDexnavBattle && (gBattleOutcome == B_OUTCOME_WON || gBattleOutcome == B_OUTCOME_CAUGHT))
+            IncrementDexNavChain();
+        else
+            gSaveBlock1Ptr->dexNavChain = 0;
+        
         ResetSpriteData();
         if (gLeveledUpInBattle == 0 || gBattleOutcome != B_OUTCOME_WON)
         {

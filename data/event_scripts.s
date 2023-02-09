@@ -1134,3 +1134,5 @@ EventScript_SelfTrade_Text_YouDontWantToThatsOkay:
 	.include "data/text/frontier_brain.inc"
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
+    .include "data/scripts/dexnav.inc"
+    
