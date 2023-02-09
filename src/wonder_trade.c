@@ -43,7 +43,6 @@ struct InGameTrade {
 // This is a list of items that were not used in vanilla.
 // Feel free to delete it and remove the check that uses it.
 static const u16 sInvalidItem[] = {
-    [ITEM_034] = 1,
     [ITEM_035] = 1,
     [ITEM_036] = 1,
     [ITEM_037] = 1,

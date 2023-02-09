@@ -62,6 +62,11 @@ static const u8 sPremierBallDesc[] = _(
     "in commemoration\n"
     "of some event.");
 
+static const u8 sThiefBallDesc[] = _(
+    "A  BALL that allows\n"
+    "the stealing of\n"
+    "others' POKéMON.");
+
 // Medicine
 static const u8 sPotionDesc[] = _(
     "Restores the HP of\n"

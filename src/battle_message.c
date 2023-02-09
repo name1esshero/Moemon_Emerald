@@ -461,6 +461,7 @@ static const u8 sText_WallyUsedItem[] = _("WALLY used\n{B_LAST_ITEM}!");
 static const u8 sText_Trainer1UsedItem[] = _("{B_TRAINER1_CLASS} {B_TRAINER1_NAME}\nused {B_LAST_ITEM}!");
 static const u8 sText_TrainerBlockedBall[] = _("The TRAINER blocked the BALL!");
 static const u8 sText_DontBeAThief[] = _("Don't be a thief!");
+static const u8 sText_CantWithThief[] = _("Thief balls don't work in\nthis kind of battle!");
 static const u8 sText_ItDodgedBall[] = _("It dodged the thrown BALL!\nThis POKéMON can't be caught!");
 static const u8 sText_YouMissedPkmn[] = _("You missed the POKéMON!");
 static const u8 sText_PkmnBrokeFree[] = _("Oh, no!\nThe POKéMON broke free!");
@@ -512,6 +513,7 @@ static const u8 sText_Trainer1WinText[];
 static const u8 sText_Trainer2WinText[];
 static const u8 sText_TwoInGameTrainersDefeated[];
 static const u8 sText_Trainer2LoseText[];
+static const u8 sText_GotchaPkmnCaughtNoBgm[];
 
 const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_START] =
 {
@@ -889,6 +891,8 @@ const u8 * const gBattleStringsTable[BATTLESTRINGS_COUNT - BATTLESTRINGS_TABLE_S
     [STRINGID_SPECIESCLAUSECAPTUREBLOCKED - BATTLESTRINGS_TABLE_START] = gText_NuzlockeCantThrowPokeBallSpeciesClause,
     [STRINGID_SAMESPECIESCAPTUREBLOCKED - BATTLESTRINGS_TABLE_START] = gText_NuzlockeCantThrowPokeBallAlreadyCaught,
     [STRINGID_PKMNSITEMREVIVED - BATTLESTRINGS_TABLE_START] = sText_PkmnsItemRevived,
+    [STRINGID_CANTWITHTHIEF - BATTLESTRINGS_TABLE_START] = sText_CantWithThief,
+    [STRINGID_GOTCHAPKMNCAUGHTNOBGM - BATTLESTRINGS_TABLE_START] = sText_GotchaPkmnCaughtNoBgm,
 };
 
 const u16 gMissStringIds[] =
@@ -1387,6 +1391,7 @@ static const u8 sText_GlintAppearsInEye[] = _("A glint appears in\n{B_SCR_ACTIVE
 static const u8 sText_PkmnGettingIntoPosition[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} is getting into\nposition!");
 static const u8 sText_PkmnBeganGrowlingDeeply[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} began growling deeply!");
 static const u8 sText_PkmnEagerForMore[] = _("{B_SCR_ACTIVE_NAME_WITH_PREFIX} is eager for more!");
+static const u8 sText_GotchaPkmnCaughtNoBgm[] = _("Gotcha! {B_TRAINER1_CLASS}\n{B_TRAINER1_NAME}'s {B_OPPONENT_MON1_NAME} was caught!{WAIT_SE}{RESUME_MUSIC}\p");
 
 const u16 gBattlePalaceFlavorTextTable[] =
 {

@@ -227,5 +227,7 @@ extern const u8 BattleScript_Safari_OneTypeChallengeCaptureBlocked[];
 extern const u8 BattleScript_Safari_NuzlockeCaptureBlocked[];
 extern const u8 BattleScript_Safari_SpeciesClauseCaptureBlocked[];
 extern const u8 BattleScript_Safari_SameSpeciesCaptureBlocked[];
+//thief ball
+extern u8 gUsingThiefBall;
 
 #endif // GUARD_BATTLE_SCRIPTS_H

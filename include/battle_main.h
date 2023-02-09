@@ -41,6 +41,21 @@ struct MultiPartnerMenuPokemon
 #define BOUNCE_MON          0x0
 #define BOUNCE_HEALTHBOX    0x1
 
+// Rival's Stolen Pokemon
+#define STOLE_STARTER      (1 << 0)
+#define STOLE_WINGULL      (1 << 1)
+#define STOLE_SLUGMA       (1 << 2)
+#define STOLE_LOTAD        (1 << 3)
+#define STOLE_TROPIUS      (1 << 4)
+#define STOLE_TORKOAL      (1 << 5)
+#define STOLE_LEGENDARY    (1 << 6)
+#define STOLE_RALTS        (1 << 7)
+#define STOLE_ALTARIA      (1 << 8)
+#define STOLE_DELCATTY     (1 << 9)
+#define STOLE_ROSELIA      (1 << 10)
+#define STOLE_MAGNETON     (1 << 11)
+#define STOLE_SLAKING      (1 << 12)
+
 void CB2_InitBattle(void);
 void BattleMainCB2(void);
 void CB2_QuitRecordedBattle(void);
@@ -77,6 +92,7 @@ void RunBattleScriptCommands_PopCallbacksStack(void);
 void RunBattleScriptCommands(void);
 bool8 TryRunFromBattle(u8 battlerId);
 void SpecialStatusesClear(void);
+u16 checkStolenPokemon(u16 trainerNum, u16 speciesType);
 
 extern struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE];
 

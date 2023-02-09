@@ -26,6 +26,7 @@ gBattlescriptsForBallThrow::
 	.4byte BattleScript_BallThrow        @ ITEM_TIMER_BALL
 	.4byte BattleScript_BallThrow        @ ITEM_LUXURY_BALL
 	.4byte BattleScript_BallThrow        @ ITEM_PREMIER_BALL
+	.4byte BattleScript_BallThrow        @ ITEM_THIEF_BALL
 
 	.align 2
 gBattlescriptsForUsingItem::
@@ -65,6 +66,7 @@ BattleScript_SafariBallThrow::
 BattleScript_SuccessBallThrow::
 	jumpifhalfword CMP_EQUAL, gLastUsedItem, ITEM_SAFARI_BALL, BattleScript_PrintCaughtMonInfo
 	incrementgamestat GAME_STAT_POKEMON_CAPTURES
+	jumpifbyte CMP_EQUAL, gUsingThiefBall, THIEF_BALL_CAUGHT, BattleScript_SuccessBallThrowEndThief
 BattleScript_PrintCaughtMonInfo::
 	printstring STRINGID_GOTCHAPKMNCAUGHT
 	trysetcaughtmondexflags BattleScript_TryNicknameCaughtMon
@@ -86,6 +88,11 @@ BattleScript_GiveCaughtMonEnd::
 BattleScript_SuccessBallThrowEnd::
 	setbyte gBattleOutcome, B_OUTCOME_CAUGHT
 	finishturn
+BattleScript_SuccessBallThrowEndThief::
+	printstring STRINGID_GOTCHAPKMNCAUGHTNOBGM
+	givecaughtmon
+	cleareffectsonfaint BS_TARGET
+	goto BattleScript_HandleFaintedMon
 
 BattleScript_WallyBallThrow::
 	printstring STRINGID_GOTCHAPKMNCAUGHT2
@@ -107,9 +114,16 @@ BattleScript_TrainerBallBlock::
 	waitmessage B_WAIT_TIME_LONG
 	printstring STRINGID_TRAINERBLOCKEDBALL
 	waitmessage B_WAIT_TIME_LONG
+	jumpifbyte CMP_EQUAL, gUsingThiefBall, THIEF_BALL_CANNOT_USE, BattleScript_TrainerBallBlockThiefBall
 	printstring STRINGID_DONTBEATHIEF
+	goto BattleScript_TrainerBallBlockEnd
+BattleScript_TrainerBallBlockThiefBall::
+	printstring STRINGID_CANTWITHTHIEF
+	setbyte gUsingThiefBall, THIEF_BALL_NOT_USING
+BattleScript_TrainerBallBlockEnd::
 	waitmessage B_WAIT_TIME_LONG
 	finishaction
+
 
 BattleScript_PlayerUsesItem::
 	moveendcase MOVEEND_MIRROR_MOVE
