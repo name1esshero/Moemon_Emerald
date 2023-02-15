@@ -299,10 +299,11 @@
 #define VAR_CONTEST_CATEGORY          0x8011
 #define VAR_MON_BOX_ID                0x8012
 #define VAR_MON_BOX_POS               0x8013
-#define VAR_UNUSED_0x8014             0x8014
+#define VAR_TEXT_COLOR                0x8014
 #define VAR_TRAINER_BATTLE_OPPONENT_A 0x8015 // Alias of gTrainerBattleOpponent_A
+#define VAR_PREV_TEXT_COLOR           0x8016
 
-#define SPECIAL_VARS_END              0x8015
+#define SPECIAL_VARS_END              0x8016
 
 // If an overworld trigger uses this pseudo-variable as the trigger check,
 // then the script will be run using RunScriptImmediately instead of in the

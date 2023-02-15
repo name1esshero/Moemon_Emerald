@@ -854,11 +854,7 @@ static bool8 ShouldUseItem(void)
             continue;
 
         if (item == ITEM_ENIGMA_BERRY)
-            #ifndef FREE_ENIGMA_BERRY
             itemEffects = gSaveBlock1Ptr->enigmaBerry.itemEffect;
-            #else
-            itemEffects = 0;
-            #endif
         else
             itemEffects = gItemEffectTable[item - ITEM_POTION];
 
@@ -941,19 +937,16 @@ static bool8 ShouldUseItem(void)
             break;
         case AI_ITEM_REVIVE:
                 for(loop = 0; loop < PARTY_SIZE; loop++)
-			{
-				if(GetMonData(&party[loop], MON_DATA_HP) > 0)
-				{ 
-					shouldUse = FALSE;
-					break;
-				}
-                if(GetMonData(&party[loop], MON_DATA_HP) == 0)
-				{ 
-					shouldUse = TRUE;
-					break;
-				} 
-			}
-			break;
+			    {
+				    if (GetMonData(&party[loop], MON_DATA_HP) == 0 &&
+                        GetMonData(&party[loop], MON_DATA_SPECIES2) != SPECIES_NONE &&
+                        GetMonData(&party[loop], MON_DATA_SPECIES2) != SPECIES_EGG)
+				    { 
+					        shouldUse = TRUE;
+					        break;
+				    } 
+			    }
+			    break;
         case AI_ITEM_NOT_RECOGNIZABLE:
             return FALSE;
         }
