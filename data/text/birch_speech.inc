@@ -7,9 +7,9 @@ gText_Birch_Welcome::
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "{COLOR BLUE}This is what we call a “POKéMON.”{COLOR DARK_GRAY}\p"
+	.string "{COLOR BLUE}This is what we call a “POKéMON.”\p"
 	.string "\n"
-	.string "$"
+	.string "{COLOR DARK_GRAY}$"
 
 gText_Birch_MainSpeech::
 	.string "{COLOR BLUE}This world is widely inhabited by\n"

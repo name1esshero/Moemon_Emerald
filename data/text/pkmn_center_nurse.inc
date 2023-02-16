@@ -1,32 +1,32 @@
 gText_WouldYouLikeToRestYourPkmn::
-	.string "Hello, and welcome to\n"
+	.string "{COLOR RED}Hello, and welcome to\n"
 	.string "the POKéMON CENTER.\p"
 	.string "We restore your tired POKéMON\n"
 	.string "to full health.\p"
-	.string "Would you like to rest your POKéMON?$"
+	.string "Would you like to rest your POKéMON?{COLOR DARK_GRAY}$"
 
 gText_IllTakeYourPkmn::
-	.string "Okay, I'll take your POKéMON\n"
-	.string "for a few seconds.$"
+	.string "{COLOR RED}Okay, I'll take your POKéMON\n"
+	.string "for a few seconds.{COLOR DARK_GRAY}$"
 
 gText_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\p"
+	.string "{COLOR RED}Thank you for waiting.\p"
 	.string "We've restored your POKéMON\n"
-	.string "to full health.$"
+	.string "to full health.{COLOR DARK_GRAY}$"
 
 gText_WeHopeToSeeYouAgain::
-	.string "If your POKéMON is injured\p"
-	.string "come back to us for healing.$"
+	.string "{COLOR RED}If your POKéMON is injured\p"
+	.string "come back to us for healing.{COLOR DARK_GRAY}$"
 
 gText_WelcomeCutShort::
-	.string "Hello, and welcome to\n"
+	.string "{COLOR RED}Hello, and welcome to\n"
 	.string "the POKéMON CENTER.\p"
 	.string "We restore your tired POKéMON\n"
 	.string "to full health.\p"
-	.string "Would you like to…$"
+	.string "Would you like to…{COLOR DARK_GRAY}$"
 
 gText_NoticesGoldCard::
-	.string "Th-that card…\n"
+	.string "{COLOR RED}Th-that card…\n"
 	.string "Could it be… The GOLD CARD?!\p"
 	.string "Oh, the gold color is brilliant!\n"
 	.string "The four stars seem to sparkle!\p"
@@ -35,24 +35,24 @@ gText_NoticesGoldCard::
 	.string "you're the first TRAINER I've ever\l"
 	.string "seen with a GOLD CARD!\p"
 	.string "Okay, {PLAYER}, please allow me\n"
-	.string "the honor of resting your POKéMON!$"
+	.string "the honor of resting your POKéMON!{COLOR DARK_GRAY}$"
 
 gText_YouWantTheUsual::
-	.string "I'm delighted to see you, {PLAYER}!\n"
-	.string "You want the usual, am I right?$"
+	.string "{COLOR RED}I'm delighted to see you, {PLAYER}!\n"
+	.string "You want the usual, am I right?{COLOR DARK_GRAY}$"
 
 gText_IllTakeYourPkmn2::
-	.string "Okay, I'll take your POKéMON\n"
-	.string "for a few seconds.$"
+	.string "{COLOR RED}Okay, I'll take your POKéMON\n"
+	.string "for a few seconds.{COLOR DARK_GRAY}$"
 
 gText_ThankYouForWaiting::
-	.string "Thank you for waiting.$"
+	.string "{COLOR RED}Thank you for waiting.{COLOR DARK_GRAY}$"
 
 gText_WeHopeToSeeYouAgain2::
-	.string "If your POKéMON is injured\p"
-	.string "come back to us for healing.$"
+	.string "{COLOR RED}If your POKéMON is injured\p"
+	.string "come back to us for healing.{COLOR DARK_GRAY}$"
 
 gText_PkmnCenterChallenge_NoVisitsLeft:: @ tx_difficulty_challenge
-    .string "Sorry, but you are playing with\n"
+    .string "{COLOR RED}Sorry, but you are playing with\n"
     .string "the POKéCENTER challenge!\p"
-    .string "Good luck!{PAUSE_UNTIL_PRESS}$"
+    .string "Good luck!{COLOR DARK_GRAY}{PAUSE_UNTIL_PRESS}$"
