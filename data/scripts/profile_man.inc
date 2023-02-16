@@ -92,17 +92,17 @@ ProfileMan_EventScript_Ret::
 	return
 
 ProfileMan_Text_CollectTrainerProfiles:
-	.string "Hello there, TRAINER!\n"
+	.string "{COLOR BLUE}Hello there, TRAINER!\n"
 	.string "You've got a wonderful smile, there.\p"
 	.string "I have a hobby--collecting the profiles\n"
-	.string "of POKéMON TRAINERS.$"
+	.string "of POKéMON TRAINERS.{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_MayISeeYourProfile:
-	.string "So, how about it?\n"
-	.string "May I see your profile?$"
+	.string "{COLOR BLUE}So, how about it?\n"
+	.string "May I see your profile?{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_EasyChatExplanation:
-	.string "You make your own profile by putting\n"
+	.string "{COLOR BLUE}You make your own profile by putting\n"
 	.string "together four words or phrases.\p"
 	.string "Here, I'll show you an example of a\n"
 	.string "profile using four pieces of text.\p"
@@ -118,49 +118,49 @@ ProfileMan_Text_EasyChatExplanation:
 	.string "pieces to display a list of choices.\p"
 	.string "Then, pick the choice you want.\p"
 	.string "Repeat for the remaining text choices,\n"
-	.string "and you'll have your very own profile.$"
+	.string "and you'll have your very own profile.{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_LetsSeeItThen:
-	.string "Yes! Thank you!\n"
-	.string "So, let's see it, then.$"
+	.string "{COLOR BLUE}Yes! Thank you!\n"
+	.string "So, let's see it, then.{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_ImagineYouWouldHaveWonderfulProfile:
-	.string "Oh, no, really?\p"
+	.string "{COLOR BLUE}Oh, no, really?\p"
 	.string "I imagine someone like you would have\n"
-	.string "a wonderful profile…$"
+	.string "a wonderful profile…{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_NotIntoItRightNow:
-	.string "Oh? You're not into it right now?\p"
-	.string "Well, anytime is good by me!$"
+	.string "{COLOR BLUE}Oh? You're not into it right now?\p"
+	.string "Well, anytime is good by me!{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_YouHaveWonderfulSmile:
-	.string "Hello there, TRAINER!\n"
-	.string "You've got a wonderful smile.$"
+	.string "{COLOR BLUE}Hello there, TRAINER!\n"
+	.string "You've got a wonderful smile.{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_MayISeeYourNewProfile:
-	.string "May I see your new profile?$"
+	.string "{COLOR BLUE}May I see your new profile?{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_EvenBetterThanLastProfile:
-	.string "Yes! Thank you!\p"
+	.string "{COLOR BLUE}Yes! Thank you!\p"
 	.string "I hope it's even better than the profile\n"
-	.string "you showed me before.$"
+	.string "you showed me before.{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_LikeProfileWayItIs:
-	.string "Oh, you like your profile the way it is.\p"
+	.string "{COLOR BLUE}Oh, you like your profile the way it is.\p"
 	.string "I don't blame you--it's a wonderful\n"
-	.string "profile the way it is now.$"
+	.string "profile the way it is now.{COLOR DARK_GRAY}$"
 
 ProfileMan_Text_FantasticProfile:
-	.string "F-fantastic!\p"
+	.string "{COLOR BLUE}F-fantastic!\p"
 	.string "Your profile, it's wonderful!\n"
 	.string "It really says what you're about.\p"
 	.string "Why, anyone hearing this profile would\n"
 	.string "be captivated by you!\p"
-	.string "Thank you!$"
+	.string "Thank you!{COLOR DARK_GRAY}$"
 
 @ Unused
 ProfileMan_Text_YouKnowSecretSaying:
-	.string "Oh?\n"
+	.string "{COLOR BLUE}Oh?\n"
 	.string "You know the secret saying!\p"
 	.string "That means you're now a fellow member\n"
-	.string "of the MYSTERY EVENT CLUB!$"
+	.string "of the MYSTERY EVENT CLUB!{COLOR DARK_GRAY}$"

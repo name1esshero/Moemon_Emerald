@@ -68,7 +68,7 @@ PetalburgCity_WallysHouse_EventScript_ReceivedHM03Surf::
 	end
 
 PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
-	.string "You're…\n"
+	.string "{COLOR BLUE}You're…\n"
 	.string "Ah, you must be {PLAYER}{KUN}, right?\p"
 	.string "Thank you for playing with WALLY a\n"
 	.string "little while ago.\p"
@@ -81,13 +81,13 @@ PetalburgCity_WallysHouse_Text_ThanksForPlayingWithWally:
 	.string "What's that? Where's WALLY?\n"
 	.string "He's already left, our WALLY.\p"
 	.string "I wonder where he could have\n"
-	.string "gotten by now?$"
+	.string "gotten by now?{COLOR DARK_GRAY}$"
 
 PetalburgCity_WallysHouse_Text_WonderHowWallyIsDoing:
 	.string "I wonder how our WALLY is doing?$"
 
 PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
-	.string "{PLAYER}{KUN}! Please excuse us for\n"
+	.string "{COLOR BLUE}{PLAYER}{KUN}! Please excuse us for\n"
 	.string "dragging you here this way.\p"
 	.string "But our WALLY's become very healthy\n"
 	.string "since he went to VERDANTURF TOWN.\p"
@@ -101,11 +101,11 @@ PetalburgCity_WallysHouse_Text_PleaseExcuseUs:
 	.string "Happy that he's gained such a great\n"
 	.string "friend as you.\p"
 	.string "This isn't a bribe or anything, but\n"
-	.string "I'd really like you to have this.$"
+	.string "I'd really like you to have this.{COLOR DARK_GRAY}$"
 
 PetalburgCity_WallysHouse_Text_SurfGoAllSortsOfPlaces:
-	.string "If your POKéMON can SURF, you'll be\n"
-	.string "able to go to all sorts of places.$"
+	.string "{COLOR BLUE}If your POKéMON can SURF, you'll be\n"
+	.string "able to go to all sorts of places.{COLOR DARK_GRAY}$"
 
 PetalburgCity_WallysHouse_Text_WallyIsComingHomeSoon:
 	.string "WALLY's coming home soon.\n"
@@ -120,18 +120,18 @@ PetalburgCity_WallysHouse_Text_YouMetWallyInEverGrandeCity:
 	.string "that all by himself.$"
 
 PetalburgCity_WallysHouse_Text_WallyWasReallyHappy:
-	.string "WALLY was really happy when he told\n"
+	.string "{COLOR RED}WALLY was really happy when he told\n"
 	.string "us that he caught a POKéMON.\p"
 	.string "It's been ages since I've seen him\n"
-	.string "smile like that.$"
+	.string "smile like that.{COLOR DARK_GRAY}$"
 
 PetalburgCity_WallysHouse_Text_WallyLeftWithoutTelling:
-	.string "I want you to keep this a secret\n"
+	.string "{COLOR RED}I want you to keep this a secret\n"
 	.string "from my husband…\p"
 	.string "But our WALLY left VERDANTURF TOWN\n"
 	.string "without telling anyone.\p"
 	.string "You know, WALLY is frail, but\n"
 	.string "he's surprisingly strong-willed.\p"
 	.string "I'm sure that he'll come back safe\n"
-	.string "and sound one day!$"
+	.string "and sound one day!{COLOR DARK_GRAY}$"
 

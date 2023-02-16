@@ -1,73 +1,73 @@
 Route102_Text_CalvinIntro:
-	.string "If you have POKéMON with you, then\n"
+	.string "{COLOR BLUE}If you have POKéMON with you, then\n"
 	.string "you're an official POKéMON TRAINER!\l"
-	.string "You can't say no to my challenge!$"
+	.string "You can't say no to my challenge!{COLOR DARK_GRAY}$"
 
 Route102_Text_CalvinDefeated:
 	.string "Arrgh, I lost…\n"
 	.string "I should have trained mine more…$"
 
 Route102_Text_CalvinPostBattle:
-	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "{COLOR BLUE}Listen, you. If you're strong,\n"
+	.string "you should have told me before!{COLOR DARK_GRAY}$"
 
 Route102_Text_CalvinRegister:
-	.string "I've been working hard at this since\n"
+	.string "{COLOR BLUE}I've been working hard at this since\n"
 	.string "I saw you before.\p"
 	.string "I'd like to battle you again, so can\n"
-	.string "you register me in your POKéNAV?$"
+	.string "you register me in your POKéNAV?{COLOR DARK_GRAY}$"
 
 Route102_Text_CalvinRegisterShort:
-	.string "I'd like to battle you again, so can\n"
-	.string "you register me in your POKéNAV?$"
+	.string "{COLOR BLUE}I'd like to battle you again, so can\n"
+	.string "you register me in your POKéNAV?{COLOR DARK_GRAY}$"
 
 Route102_Text_CalvinRematchIntro:
-	.string "Ever since I lost to you, I desperately\n"
+	.string "{COLOR BLUE}Ever since I lost to you, I desperately\n"
 	.string "trained my POKéMON.\l"
-	.string "You can't say no to my challenge!$"
+	.string "You can't say no to my challenge!{COLOR DARK_GRAY}$"
 
 Route102_Text_CalvinRematchDefeated:
 	.string "Arrgh, I lost…\n"
 	.string "Is my training method not right?$"
 
 Route102_Text_CalvinRematchPostBattle:
-	.string "If you're going to get stronger,\n"
-	.string "I'll get stronger, too.$"
+	.string "{COLOR BLUE}If you're going to get stronger,\n"
+	.string "I'll get stronger, too.{COLOR DARK_GRAY}$"
 
 Route102_Text_AllenIntro:
-	.string "Did you just become a TRAINER?\n"
-	.string "We're both beginners!$"
+	.string "{COLOR BLUE}Did you just become a TRAINER?\n"
+	.string "We're both beginners!{COLOR DARK_GRAY}$"
 
 Route102_Text_AllenDefeated:
 	.string "I called you because I thought\n"
 	.string "I could beat you…$"
 
 Route102_Text_AllenPostBattle:
-	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+	.string "{COLOR BLUE}I haven't won once yet…\n"
+	.string "I wish I would win soon…{COLOR DARK_GRAY}$"
 
 Route102_Text_RickIntro:
-	.string "Hahah! Our eyes met!\n"
-	.string "I'll take you on with my BUG POKéMON!$"
+	.string "{COLOR BLUE}Hahah! Our eyes met!\n"
+	.string "I'll take you on with my BUG POKéMON!{COLOR DARK_GRAY}$"
 
 Route102_Text_RickDefeated:
 	.string "Ow! Down and out!$"
 
 Route102_Text_RickPostBattle:
-	.string "If you lock eyes with a TRAINER,\n"
-	.string "you have to challenge! It's a rule!$"
+	.string "{COLOR BLUE}If you lock eyes with a TRAINER,\n"
+	.string "you have to challenge! It's a rule!{COLOR DARK_GRAY}$"
 
 Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
+	.string "{COLOR RED}I'm going to keep winning and aim\n"
 	.string "to be the best TRAINER.\p"
-	.string "Help me further my career!$"
+	.string "Help me further my career!{COLOR DARK_GRAY}$"
 
 Route102_Text_TianaDefeated:
 	.string "I ended up furthering your career…$"
 
 Route102_Text_TianaPostBattle:
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more POKéMON.$"
+	.string "{COLOR RED}To keep winning my way up, I see that\n"
+	.string "I have to catch more POKéMON.{COLOR DARK_GRAY}$"
 
 Route103_Text_DaisyIntro:
 	.string "Did you feel the tug of our\n"
