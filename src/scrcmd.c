@@ -2396,10 +2396,3 @@ bool8 ScrCmd_hideitemdesc(struct ScriptContext *ctx)
     HideHeaderBox();
     return FALSE;
 }
-
-bool8 ScrCmd_textcolor(struct ScriptContext * ctx)
- {
-     gSpecialVar_PrevTextColor = gSpecialVar_TextColor;
-     gSpecialVar_TextColor = ScriptReadByte(ctx);
-     return FALSE;
- }
