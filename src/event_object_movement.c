@@ -485,6 +485,11 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_CASTFORM_SNOWY          0x1127
 #define OBJ_EVENT_PAL_TAG_RAYQUAZA                0x1128
 #define OBJ_EVENT_PAL_TAG_WINGULL                 0x1129
+#define OBJ_EVENT_PAL_TAG_AZURILL                 0x112A
+#define OBJ_EVENT_PAL_TAG_PIKACHU                 0x112B
+#define OBJ_EVENT_PAL_TAG_KECLEON                 0x112C
+#define OBJ_EVENT_PAL_TAG_SKITTY                  0x112D
+#define OBJ_EVENT_PAL_TAG_DUSCLOPS                0x112E
 #define OBJ_EVENT_PAL_TAG_LIGHT                   0x8001
 #define OBJ_EVENT_PAL_TAG_LIGHT_2                 0x8002
 #define OBJ_EVENT_PAL_TAG_EMOTES                  0x8003
@@ -541,6 +546,11 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_CastformSnowy, OBJ_EVENT_PAL_TAG_CASTFORM_SNOWY},
     {gObjectEventPal_Rayquaza, OBJ_EVENT_PAL_TAG_RAYQUAZA},
     {gObjectEventPal_Wingull, OBJ_EVENT_PAL_TAG_WINGULL},
+    {gObjectEventPal_Azurill, OBJ_EVENT_PAL_TAG_AZURILL},
+    {gObjectEventPal_Pikachu, OBJ_EVENT_PAL_TAG_PIKACHU},
+    {gObjectEventPal_Kecleon, OBJ_EVENT_PAL_TAG_KECLEON},
+    {gObjectEventPal_Skitty, OBJ_EVENT_PAL_TAG_SKITTY},
+    {gObjectEventPal_Dusclops, OBJ_EVENT_PAL_TAG_DUSCLOPS},
     {gObjectEventPaletteLight, OBJ_EVENT_PAL_TAG_LIGHT},
     {gObjectEventPaletteLight2, OBJ_EVENT_PAL_TAG_LIGHT_2},
     {gObjectEventPaletteEmotes, OBJ_EVENT_PAL_TAG_EMOTES},
