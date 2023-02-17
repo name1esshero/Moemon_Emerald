@@ -36,6 +36,7 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Feed Any Number Of PokeBlocks**](https://www.pokecommunity.com/showpost.php?p=10364627) by Robinlukke
 * [**Adding The Fairy Type**](https://www.pokecommunity.com/showpost.php?p=10325868) by Lunos
 * [**Adding The Teachy TV**](https://github.com/Jaizu/rhh-public/commit/30c515ff50d95ed6d190ae1dcc219e8598786973) by Jaizu
+* [**Not Showing Dex Entries Till Getting Pokedex**](https://github.com/pret/pokeemerald/wiki/Not-showing-dex-entries-until-getting-the-Pokédex) by Jaizu
 * [**Randomizer, Nuzlocke, And Challenges**](https://github.com/TheXaman/pokeemerald/tree/tx_randomizer_and_challenges) by TheXaman
 * [**Better Options Menu**](https://github.com/TheXaman/pokeemerald/tree/tx_optionsPlus) by TheXaman
 * [**Speedy Nurse Joy**](https://github.com/pret/pokeemerald/wiki/Speedy-Nurse-Joy) by TheXaman

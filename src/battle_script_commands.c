@@ -10024,11 +10024,11 @@ static void Cmd_handleballthrow(void)
             case ITEM_PREMIER_BALL:
                 ballMultiplier = 10;
                 break;
-            case ITEM_THIEF_BALL:  // If used on trainer, it's 2.5x; if used on a wild Pokemon, it's 1x
+            case ITEM_THIEF_BALL:  // If used on trainer, it's 2x; if used on a wild Pokemon, it's 1x
                 if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-                    ballMultiplier = 25;
+                    ballMultiplier = 800;
                 else
-                    ballMultiplier = 10;
+                    ballMultiplier = 400;
                 break;
             }
         }
