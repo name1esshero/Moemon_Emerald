@@ -1854,3 +1854,6 @@ const u8 gText_NuzlockeCantThrowPokeBallSpeciesClause[]     = _("You have alread
 const u8 gText_NuzlockeCantThrowPokeBallAlreadyCaught[]     = _("You have already caught this POKéMON!{PAUSE_UNTIL_PRESS}");
 const u8 gText_OneTypeChallengeCantThrowPokeBall[]          = _("One Type Challenge active, capture blocked!{PAUSE_UNTIL_PRESS}");
 const u8 gText_BattleRules_NoItems_Player[]                 = _("Competitive rules!\nNo items in battle!{PAUSE_UNTIL_PRESS}");
+
+//Teachy_TV
+#include "data/text/teachy_tv.h"

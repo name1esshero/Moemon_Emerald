@@ -999,48 +999,48 @@ Route104_EventScript_Darian::
 	end
 
 Route104_Text_BrineyLivesInSeasideCottage:
-	.string "That seaside cottage is where\n"
+	.string "{COLOR RED}That seaside cottage is where\n"
 	.string "MR. BRINEY lives.\p"
 	.string "He was once a mighty sailor who never\n"
-	.string "feared the sea, however stormy.$"
+	.string "feared the sea, however stormy.{COLOR DARK_GRAY}$"
 
 Route104_Text_WhatsItLikeAtBottomOfSea:
-	.string "The sea, huh?\p"
+	.string "{COLOR BLUE}The sea, huh?\p"
 	.string "I wonder what it's like at the bottom\n"
-	.string "of the sea?$"
+	.string "of the sea?{COLOR DARK_GRAY}$"
 
 Route104_Text_ThrowBallAtWeakenedPokemon:
-	.string "If you're going to throw a POKé BALL,\n"
+	.string "{COLOR BLUE}If you're going to throw a POKé BALL,\n"
 	.string "weaken the wild POKéMON first.\p"
 	.string "It will be easier to catch if it's been\n"
-	.string "poisoned, burned, or lulled to sleep.$"
+	.string "poisoned, burned, or lulled to sleep.{COLOR DARK_GRAY}$"
 
 Route104_Text_OnlyThrowBallAtWildPokemon:
-	.string "You're a thief if you try to steal\n"
+	.string "{COLOR RED}You're a thief if you try to steal\n"
 	.string "someone else's POKéMON.\p"
 	.string "You should throw POKé BALLS only at\n"
-	.string "wild POKéMON.$"
+	.string "wild POKéMON.{COLOR DARK_GRAY}$"
 
 Route104_Text_ImNotATrainer:
-	.string "Oh, no, I'm not a TRAINER.\p"
+	.string "{COLOR RED}Oh, no, I'm not a TRAINER.\p"
 	.string "But that's right, if TRAINERS lock eyes,\n"
 	.string "it's a challenge to battle.\p"
 	.string "If you don't want to battle, stay out\n"
-	.string "of their sight.$"
+	.string "of their sight.{COLOR DARK_GRAY}$"
 
 Route104_Text_LikeFillingMouthWithSeedsTakeThis:
-	.string "I like filling my mouth with seeds,\n"
+	.string "{COLOR BLUE}I like filling my mouth with seeds,\n"
 	.string "then spitting them out fast!\p"
 	.string "You can have this, so you try it out!\p"
 	.string "Use it on a POKéMON, and it will learn\n"
-	.string "a move for firing seeds rapidly.$"
+	.string "a move for firing seeds rapidly.{COLOR DARK_GRAY}$"
 
 Route104_Text_TMsAreOneTimeUse:
-	.string "A word of advice!\p"
+	.string "{COLOR BLUE}A word of advice!\p"
 	.string "A TM, TECHNICAL MACHINE, is good only\n"
 	.string "for one-time use.\p"
 	.string "Once you use it, it's gone.\n"
-	.string "Think twice before using it!$"
+	.string "Think twice before using it!{COLOR DARK_GRAY}$"
 
 Route104_Text_DontNeedThisTakeIt:
 	.string "This FLOWER SHOP started selling\n"
@@ -1082,91 +1082,91 @@ Route104_Text_TrainerTipsDoubleBattles:
 	.string "Watch how POKéMON are lined up.$"
 
 Route104_Text_MayWeShouldRegister:
-	.string "MAY: Oh, hi, {PLAYER}{KUN}!\p"
+	.string "{COLOR RED}MAY: Oh, hi, {PLAYER}{KUN}!\p"
 	.string "DEVON upgraded your POKéNAV with\n"
 	.string "the MATCH CALL system, huh?\p"
 	.string "We should register each other so we\n"
-	.string "can get in contact anytime.$"
+	.string "can get in contact anytime.{COLOR DARK_GRAY}$"
 
 Route104_Text_RegisteredMay:
 	.string "{PLAYER} registered MAY\n"
 	.string "in the POKéNAV.$"
 
 Route104_Text_MayHowsYourPokedex:
-	.string "MAY: Oh, by the way, {PLAYER}{KUN},\n"
-	.string "how's your POKéDEX coming along?$"
+	.string "{COLOR RED}MAY: Oh, by the way, {PLAYER}{KUN},\n"
+	.string "how's your POKéDEX coming along?{COLOR DARK_GRAY}$"
 
 Route104_Text_MayMinesDecentLetsBattle:
-	.string "Mine's looking pretty decent.\n"
+	.string "{COLOR RED}Mine's looking pretty decent.\n"
 	.string "So…\l"
-	.string "How about a little battle?$"
+	.string "How about a little battle?{COLOR DARK_GRAY}$"
 
 Route104_Text_MayHaventRaisedPokemon:
-	.string "MAY: Oh, what's the matter?\p"
+	.string "{COLOR RED}MAY: Oh, what's the matter?\p"
 	.string "Haven't you caught or raised your\n"
 	.string "POKéMON very much?\p"
-	.string "That's not very good for a TRAINER!$"
+	.string "That's not very good for a TRAINER!{COLOR DARK_GRAY}$"
 
 Route104_Text_MayLetsBattle:
-	.string "MAY: So, what do you think?\n"
-	.string "How about a little battle here?$"
+	.string "{COLOR RED}MAY: So, what do you think?\n"
+	.string "How about a little battle here?{COLOR DARK_GRAY}$"
 
 Route104_Text_MayIntro:
-	.string "MAY: You just became a TRAINER,\n"
-	.string "{PLAYER}{KUN}. I'm not going to lose!$"
+	.string "{COLOR RED}MAY: You just became a TRAINER,\n"
+	.string "{PLAYER}{KUN}. I'm not going to lose!{COLOR DARK_GRAY}$"
 
 Route104_Text_MayDefeat:
 	.string "Yikes!\n"
 	.string "You're better than I expected!$"
 
 Route104_Text_MayPostBattle:
-	.string "MAY: I can tell you've gotten pretty\n"
+	.string "{COLOR RED}MAY: I can tell you've gotten pretty\n"
 	.string "good with the way you handle POKéMON.\p"
 	.string "But instead of only making them\n"
 	.string "battle, you should be like MR. BRINEY.\p"
 	.string "It's important to become friends with\n"
-	.string "POKéMON, too.$"
+	.string "POKéMON, too.{COLOR DARK_GRAY}$"
 
 Route104_Text_BrendanWeShouldRegister:
-	.string "BRENDAN: Oh, hey, {PLAYER}!\p"
+	.string "{COLOR BLUE}BRENDAN: Oh, hey, {PLAYER}!\p"
 	.string "Cool, you had DEVON install the MATCH\n"
 	.string "CALL system on your POKéNAV!\p"
 	.string "Let's register each other in our\n"
-	.string "POKéNAVS so we can keep in touch.$"
+	.string "POKéNAVS so we can keep in touch.{COLOR DARK_GRAY}$"
 
 Route104_Text_RegisteredBrendan:
 	.string "{PLAYER} registered BRENDAN\n"
 	.string "in the POKéNAV.$"
 
 Route104_Text_BrendanHowsYourPokedex:
-	.string "BRENDAN: {PLAYER}, how's your POKéDEX?\n"
-	.string "Have you filled in any pages yet?$"
+	.string "{COLOR BLUE}BRENDAN: {PLAYER}, how's your POKéDEX?\n"
+	.string "Have you filled in any pages yet?{COLOR DARK_GRAY}$"
 
 Route104_Text_BrendanDoingGreatLetsBattle:
-	.string "Me, I'm doing great!\p"
+	.string "{COLOR BLUE}Me, I'm doing great!\p"
 	.string "Want to check out how good I am with\n"
-	.string "a battle?$"
+	.string "a battle?{COLOR DARK_GRAY}$"
 
 Route104_Text_BrendanNoConfidence:
-	.string "BRENDAN: What's the matter? Don't have\n"
-	.string "any confidence in your POKéMON?$"
+	.string "{COLOR BLUE}BRENDAN: What's the matter? Don't have\n"
+	.string "any confidence in your POKéMON?{COLOR DARK_GRAY}$"
 
 Route104_Text_BrendanLetsBattle:
-	.string "BRENDAN: What's up?\n"
-	.string "Want to have a battle with me?$"
+	.string "{COLOR BLUE}BRENDAN: What's up?\n"
+	.string "Want to have a battle with me?{COLOR DARK_GRAY}$"
 
 Route104_Text_BrendanIntro:
-	.string "BRENDAN: I know you just became\n"
-	.string "a TRAINER, but I won't go easy!$"
+	.string "{COLOR BLUE}BRENDAN: I know you just became\n"
+	.string "a TRAINER, but I won't go easy!{COLOR DARK_GRAY}$"
 
 Route104_Text_BrendanDefeat:
 	.string "Hmm…\n"
 	.string "You're pretty good.$"
 
 Route104_Text_BrendanPostBattle:
-	.string "BRENDAN: You've gotten pretty decent\n"
+	.string "{COLOR BLUE}BRENDAN: You've gotten pretty decent\n"
 	.string "at handling POKéMON.\p"
 	.string "But, you know, you shouldn't just be\n"
 	.string "making POKéMON battle.\p"
 	.string "Like MR. BRINEY, it's important to\n"
-	.string "become friends with your POKéMON.$"
+	.string "become friends with your POKéMON.{COLOR DARK_GRAY}$"

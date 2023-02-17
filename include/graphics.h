@@ -5082,4 +5082,10 @@ extern const u8 gMailTilemap_Retro[];
 extern const u8 gMonMarkingsMenu_Gfx[];
 extern const u16 gMonMarkingsMenu_Pal[];
 
+// Teachy TV
+extern const u8 gTeachyTv_Gfx[];
+extern const u32 gTeachyTvScreen_Tilemap[];
+extern const u32 gTeachyTvTitle_Tilemap[];
+extern const u32 gTeachyTv_Pal[];
+
 #endif //GUARD_GRAPHICS_H

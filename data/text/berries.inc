@@ -1,22 +1,22 @@
 PetalburgCity_Gym_Text_GiveEnigmaBerry:
-	.string "DAD: Hi, {PLAYER}!\p"
+	.string "{COLOR BLUE}DAD: Hi, {PLAYER}!\p"
 	.string "I just received a very rare BERRY.\n"
-	.string "I'd like you to have it.$"
+	.string "I'd like you to have it.{COLOR DARK_GRAY}$"
 
 Route104_Text_PlantBerriesInSoilTakeThis:
-	.string "If you see BERRIES growing in loamy\n"
+	.string "{COLOR RED}If you see BERRIES growing in loamy\n"
 	.string "soil, feel free to take them.\p"
 	.string "But make sure you plant a BERRY in the\n"
 	.string "same spot. That's common courtesy.\p"
-	.string "Here, I'll share this with you.$"
+	.string "Here, I'll share this with you.{COLOR DARK_GRAY}$"
 
 Route104_Text_TrainersOftenMakeMonHoldBerries:
-	.string "The way you look, you must be a\n"
+	.string "{COLOR RED}The way you look, you must be a\n"
 	.string "TRAINER, no?\p"
 	.string "TRAINERS often make POKéMON hold\n"
 	.string "BERRIES.\p"
 	.string "It's up to you whether to grow BERRIES\n"
-	.string "or use them.$"
+	.string "or use them.{COLOR DARK_GRAY}$"
 
 Route111_Text_WateredPlantsEveryDayTakeBerry:
 	.string "I watered the plants every day.\n"
@@ -135,23 +135,23 @@ Route123_BerryMastersHouse_Text_Ah:
 	.string "Ah…$"
 
 Route104_PrettyPetalFlowerShop_Text_ThisIsPrettyPetalFlowerShop:
-	.string "Hello!\p"
+	.string "{COLOR RED}Hello!\p"
 	.string "This is the PRETTY PETAL flower shop.\n"
-	.string "Spreading flowers all over the world!$"
+	.string "Spreading flowers all over the world!{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_LearnAboutBerries:
-	.string "{PLAYER}{KUN}, would you like to learn about\n"
-	.string "BERRIES?$"
+	.string "{COLOR RED}{PLAYER}{KUN}, would you like to learn about\n"
+	.string "BERRIES?{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries:
 	.string "Your name is?\p"
 	.string "{PLAYER}{KUN}.\n"
 	.string "That's a nice name.\p"
 	.string "{PLAYER}{KUN}, would you like to learn about\n"
-	.string "BERRIES?$"
+	.string "BERRIES?{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
-	.string "BERRIES grow on trees that thrive\n"
+	.string "{COLOR RED}BERRIES grow on trees that thrive\n"
 	.string "only in soft, loamy soil.\p"
 	.string "If you take some BERRIES, be sure to\n"
 	.string "plant one in the loamy soil again.\p"
@@ -162,42 +162,42 @@ Route104_PrettyPetalFlowerShop_Text_BerriesExplanation:
 	.string "filled with beautiful flowers.\l"
 	.string "That's my dream.\p"
 	.string "Please help me, {PLAYER}{KUN}. Plant BERRIES\n"
-	.string "and bring more flowers into the world.$"
+	.string "and bring more flowers into the world.{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_FlowersBringHappiness:
-	.string "Flowers bring so much happiness to\n"
-	.string "people, don't they?$"
+	.string "{COLOR RED}Flowers bring so much happiness to\n"
+	.string "people, don't they?{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis:
-	.string "Hello!\p"
+	.string "{COLOR RED}Hello!\p"
 	.string "The more attention you give to flowers,\n"
 	.string "the more beautifully they bloom.\p"
 	.string "You'll like tending flowers. I'm sure\n"
-	.string "of it. You can have this.$"
+	.string "of it. You can have this.{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation:
-	.string "While BERRY plants are growing,\n"
+	.string "{COLOR RED}While BERRY plants are growing,\n"
 	.string "water them with the WAILMER PAIL.\p"
 	.string "Oh, another thing.\p"
 	.string "If you don't pick BERRIES for a while,\n"
 	.string "they'll drop off onto the ground.\l"
 	.string "But they'll sprout again.\p"
 	.string "Isn't that awesome?\n"
-	.string "It's like they have the will to live.$"
+	.string "It's like they have the will to live.{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_ImGrowingFlowers:
-	.string "I'm trying to be like my big sisters.\n"
+	.string "{COLOR RED}I'm trying to be like my big sisters.\n"
 	.string "I'm growing flowers, too!\p"
 	.string "Here you go!\n"
-	.string "It's for you!$"
+	.string "It's for you!{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_MachineMixesBerries:
-	.string "You can plant a BERRY and grow it big,\n"
+	.string "{COLOR RED}You can plant a BERRY and grow it big,\n"
 	.string "or you can make a POKéMON hold it.\p"
 	.string "But now they have a machine that mixes\n"
 	.string "up different BERRIES and makes candies\l"
 	.string "for POKéMON.\p"
-	.string "I want some candy, too.$"
+	.string "I want some candy, too.{COLOR DARK_GRAY}$"
 
 SootopolisCity_Text_NameIsKiriHaveOneOfThese:
 	.string "Hi, what's your name?\p"

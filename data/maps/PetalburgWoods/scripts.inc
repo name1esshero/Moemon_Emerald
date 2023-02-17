@@ -319,142 +319,142 @@ PetalburgWoods_EventScript_JamesRematch::
 	end
 
 PetalburgWoods_Text_NotAOneToBeFound:
-	.string "Hmmm…\n"
-	.string "Not a one to be found…$"
+	.string "{COLOR BLUE}Hmmm…\n"
+	.string "Not a one to be found…{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_HaveYouSeenShroomish:
-	.string "Hello, have you seen any POKéMON\n"
+	.string "{COLOR BLUE}Hello, have you seen any POKéMON\n"
 	.string "called SHROOMISH around here?\p"
-	.string "I really love that POKéMON.$"
+	.string "I really love that POKéMON.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_IWasGoingToAmbushYou:
-	.string "I was going to ambush you, but you\n"
+	.string "{COLOR BLUE}I was going to ambush you, but you\n"
 	.string "had to dawdle in PETALBURG WOODS\l"
 	.string "forever, didn't you?\p"
-	.string "I got sick of waiting, so here I am!$"
+	.string "I got sick of waiting, so here I am!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_HandOverThosePapers:
-	.string "You! DEVON RESEARCHER!\p"
-	.string "Hand over those papers!$"
+	.string "{COLOR BLUE}You! DEVON RESEARCHER!\p"
+	.string "Hand over those papers!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_YouHaveToHelpMe:
-	.string "Aiyeeeh!\p"
+	.string "{COLOR BLUE}Aiyeeeh!\p"
 	.string "You're a POKéMON TRAINER, aren't you?\n"
-	.string "You've got to help me, please!$"
+	.string "You've got to help me, please!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_NoOneCrossesTeamAqua:
-	.string "Hunh? What do you think you're doing?\n"
+	.string "{COLOR BLUE}Hunh? What do you think you're doing?\n"
 	.string "What, you're going to protect him?\p"
 	.string "No one who crosses TEAM AQUA\n"
 	.string "gets any mercy, not even a kid!\p"
-	.string "Come on and battle me!$"
+	.string "Come on and battle me!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_YoureKiddingMe:
 	.string "You're kidding me! You're tough!$"
 
 PetalburgWoods_Text_YouveGotSomeNerve:
-	.string "Grrr… You've got some nerve\n"
+	.string "{COLOR BLUE}Grrr… You've got some nerve\n"
 	.string "meddling with TEAM AQUA!\l"
 	.string "Come on and battle me again!\p"
 	.string "I wish I could say that, but I'm out of\n"
 	.string "POKéMON…\p"
 	.string "And, hey, we of TEAM AQUA are also\n"
 	.string "after something in RUSTBORO.\p"
-	.string "I'll let you go today!$"
+	.string "I'll let you go today!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_ThatWasAwfullyClose:
-	.string "Whew…\n"
+	.string "{COLOR BLUE}Whew…\n"
 	.string "That was awfully close!\p"
 	.string "Thanks to you, he didn't rob me of\n"
 	.string "these important papers.\p"
 	.string "I know, I'll give you a GREAT BALL as\n"
-	.string "my thanks!$"
+	.string "my thanks!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_TeamAquaAfterSomethingInRustboro:
-	.string "Didn't that TEAM AQUA thug say\n"
+	.string "{COLOR BLUE}Didn't that TEAM AQUA thug say\n"
 	.string "they were after something in\l"
-	.string "RUSTBORO, too?$"
+	.string "RUSTBORO, too?{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_ICantBeWastingTime:
-	.string "Uh-oh! It's a crisis!\n"
-	.string "I can't be wasting time!$"
+	.string "{COLOR BLUE}Uh-oh! It's a crisis!\n"
+	.string "I can't be wasting time!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_YoureLoadedWithItems:
-	.string "You're loaded with items.\n"
-	.string "I can't give you this GREAT BALL.$"
+	.string "{COLOR BLUE}You're loaded with items.\n"
+	.string "I can't give you this GREAT BALL.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_GoBugPokemonTeam:
-	.string "I caught a whole bunch of POKéMON!\p"
+	.string "{COLOR BLUE}I caught a whole bunch of POKéMON!\p"
 	.string "Go, go, go!\n"
-	.string "My BUG POKéMON team!$"
+	.string "My BUG POKéMON team!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_ICouldntWin:
 	.string "I have all these POKéMON,\n"
 	.string "but I couldn't win…$"
 
 PetalburgWoods_Text_ImOutOfPokeBalls:
-	.string "I caught a bunch of POKéMON.\n"
-	.string "Now I'm out of POKé BALLS.$"
+	.string "{COLOR BLUE}I caught a bunch of POKéMON.\n"
+	.string "Now I'm out of POKé BALLS.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_InstantlyPopularWithBugPokemon:
-	.string "If you take BUG POKéMON to school,\n"
-	.string "you get to be instantly popular!$"
+	.string "{COLOR BLUE}If you take BUG POKéMON to school,\n"
+	.string "you get to be instantly popular!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_CantBePopularIfILose:
 	.string "I can't be popular if I lose.$"
 
 PetalburgWoods_Text_PeopleRespectYou:
-	.string "If you have a big BUG POKéMON,\n"
-	.string "people respect you for it.$"
+	.string "{COLOR BLUE}If you have a big BUG POKéMON,\n"
+	.string "people respect you for it.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_IWantRematch1:
-	.string "I want a rematch when my BUG\n"
+	.string "{COLOR BLUE}I want a rematch when my BUG\n"
 	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "I'm registering you in my POKéNAV!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_IWantRematch2:
-	.string "I want a rematch when my BUG \n"
+	.string "{COLOR BLUE}I want a rematch when my BUG \n"
 	.string "POKéMON grow up!\p"
-	.string "I'm registering you in my POKéNAV!$"
+	.string "I'm registering you in my POKéNAV!{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_MyPokemonHaveGrown:
-	.string "My BUG POKéMON have grown.\n"
-	.string "I'll be popular again.$"
+	.string "{COLOR BLUE}My BUG POKéMON have grown.\n"
+	.string "I'll be popular again.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_CantBePopularIfLose:
 	.string "I can't be popular if I lose.$"
 
 PetalburgWoods_Text_IveBeenTrainingHard:
-	.string "You get to be popular if you have\n"
+	.string "{COLOR BLUE}You get to be popular if you have\n"
 	.string "strong POKéMON, right?\l"
-	.string "So, I've been training hard.$"
+	.string "So, I've been training hard.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_StayOutOfTallGrass:
-	.string "Yo, there!\n"
+	.string "{COLOR BLUE}Yo, there!\n"
 	.string "Your POKéMON doing okay?\p"
 	.string "If your POKéMON are weak and you want\n"
 	.string "to avoid battles, you should stay out\l"
-	.string "of tall grass.$"
+	.string "of tall grass.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_HiddenItemsExplanation:
-	.string "Sometimes, there are things on the\n"
+	.string "{COLOR BLUE}Sometimes, there are things on the\n"
 	.string "ground even if you can't see them.\p"
 	.string "That's why I always check where I'm\n"
-	.string "walking.$"
+	.string "walking.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_TryUsingThisItem:
-	.string "Oh, neat!\n"
+	.string "{COLOR RED}Oh, neat!\n"
 	.string "That's the BADGE from RUSTBORO GYM!\p"
 	.string "You must be a TRAINER.\n"
-	.string "You should try using this item.$"
+	.string "You should try using this item.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_MiracleSeedExplanation:
-	.string "It's a MIRACLE SEED.\n"
+	.string "{COLOR RED}It's a MIRACLE SEED.\n"
 	.string "If a POKéMON holds that item, its\l"
 	.string "GRASS-type moves become stronger.\p"
 	.string "Besides MIRACLE SEED, I think there are\n"
 	.string "other convenient items for POKéMON\l"
-	.string "to hold.$"
+	.string "to hold.{COLOR DARK_GRAY}$"
 
 PetalburgWoods_Text_TrainerTipsExperience:
 	.string "TRAINER TIPS\p"

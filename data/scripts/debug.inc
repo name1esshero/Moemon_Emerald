@@ -43,7 +43,10 @@ Debug_CheatStart::
 	end
 
 Debug_Script_1::
-	end
+	fadescreen FADE_TO_BLACK
+	callnative Task_InitTeachyTvFromField
+	waitstate
+	fadescreen FADE_FROM_BLACK
 
 Debug_Script_2::
 	end

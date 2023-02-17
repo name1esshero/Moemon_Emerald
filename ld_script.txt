@@ -346,6 +346,7 @@ SECTIONS {
         src/tx_randomizer_and_challenges.o(.text);
         src/wonder_trade.o(.text);
 		src/dexnav.o(.text);
+        src/teachy_tv.o(.text);
     } =0
 
     script_data :
@@ -715,6 +716,7 @@ SECTIONS {
         src/tx_randomizer_and_challenges.o(.rodata);
         src/wonder_trade.o(.rodata);
 		src/dexnav.o(.rodata);
+        src/teachy_tv.o(.rodata);
     } =0
 
     song_data :
