@@ -770,6 +770,7 @@ const u32 gObjectEventPic_Deoxys[] = INCBIN_U32("graphics/object_events/pics/pok
 
 const u32 gObjectEventPic_DeoxysOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/deoxys_old.4bpp");
 const u32 gObjectEventPic_MewOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/mew_old.4bpp");
+const u16 gObjectEventPal_Mew[] = INCBIN_U16("graphics/object_events/palettes/mew.gbapal");
 const u32 gObjectEventPic_DusclopsOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/dusclops_old.4bpp");
 const u16 gObjectEventPal_Dusclops[] = INCBIN_U16("graphics/object_events/palettes/dusclops.gbapal");
 const u32 gObjectEventPic_KirliaOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/kirlia_old.4bpp");

@@ -1,33 +1,5 @@
 # Pokémon Emerald
 
-This is a fork of the [matching decompilation](https://github.com/pret/pokeemerald) at [PRET](https://github.com/pret).
-
-This fork tries to maintain vanilla compatibility whenever possible. It doesn't increase the size of any save data structure or the object event structure.
-
-There are several branches, each with one main feature:
-
-**followers** branch:
-* [HGSS-style pokémon followers](https://bulbapedia.bulbagarden.net/wiki/Walking_Pok%C3%A9mon#Pok.C3.A9mon_HeartGold_and_SoulSilver) for all 386 pokémon, including emotes, the 28 Unown forms and a majority of follower messages.
-* Dynamic overworld palettes & reflections compatible with vanilla berry trees.
-* Function to change a pokemon's nature while preserving most properties of its PID.
-* Function to detect newer emulators/new GBA hardware.
-
-**icons** branch:
-* Everything from the **followers** branch.
-* All pokemon icons updated to Gen 6, based on [this repo](https://github.com/msikma/pokesprite/tree/master/icons/pokemon/regular)
-* This includes compatibility with the PC, trade, contests, mail, Battle Dome. Examples:
-![PC](https://i.imgur.com/wzwJfd1.png)
-![Party](https://i.imgur.com/8hbE88t.png)
-![Contest](https://i.imgur.com/S9mCEFL.png)
-* Icons share palettes with front sprites, meaning that shiny pokemon will also have shiny icons!
-
-**lighting** branch:
-* Everything from the **followers** branch.
-* Day/night shading compatible with weather.
-* GSC-style window lights.
-* WIP interframe-blended lamp lights at night, i.e in Rustboro.
-* HGSS-style alpha-blended shadows for object events.
-
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
 ## See also
@@ -50,3 +22,23 @@ Other disassembly and/or decompilation projects:
 ## Contacts
 
 You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web.libera.chat/?#pret).
+
+# Credits
+
+## Coding
+* [**Common_EventScript_FindItem**](https://github.com/pret/pokeemerald/wiki/Set-Up-Item-Balls-on-a-Map-Without-Needing-New-Scripts) by Deokishisu
+* [**Item Descriptions On First Obtain**](https://www.pokecommunity.com/showpost.php?p=10126502&postcount=46) by Ghoulslash
+* [**DexNav With Detector Mode**](https://www.pokecommunity.com/showthread.php?t=440571) by Ghoulslash
+* [**Nature Mints**](https://github.com/ghoulslash/pokeemerald/tree/nature_mints) by Ghoulslash
+* [**Pokecenters Disregard Eggs**](https://github.com/pret/pokeemerald/wiki/Pokecenters-Disregard-Eggs) by Ghoulslash
+* [**Day/Night System**](https://github.com/aarant/pokeemerald/tree/lighting) by Aarant
+* [**Enemy Trainers Use Revival Items**](https://www.pokecommunity.com/showthread.php?t=453908) by WiserVisor
+* [**Feed Any Number Of PokeBlocks**](https://www.pokecommunity.com/showpost.php?p=10364627) by Robinlukke
+* [**Adding The Fairy Type**](https://www.pokecommunity.com/showpost.php?p=10325868) by Lunos
+* [**Adding The Teachy TV**](https://github.com/Jaizu/rhh-public/commit/30c515ff50d95ed6d190ae1dcc219e8598786973) by Jaizu
+* [**Randomizer, Nuzlocke, And Challenges**](https://github.com/TheXaman/pokeemerald/tree/tx_randomizer_and_challenges) by TheXaman
+* [**Better Options Menu**](https://github.com/TheXaman/pokeemerald/tree/tx_optionsPlus) by TheXaman
+* [**Speedy Nurse Joy**](https://github.com/pret/pokeemerald/wiki/Speedy-Nurse-Joy) by TheXaman
+* [**Thief Ball**](https://github.com/pret/pokeemerald/wiki/Add-Thief-Ball) by Devolov (edits by missiri)
+
+## Graphics

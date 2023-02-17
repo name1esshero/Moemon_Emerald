@@ -77,5 +77,6 @@ void PurgeMonOrBoxMon(u8 boxId, u8 position);
 u16 GetFirstBoxPokemon(void);
 void MoveFirstBoxPokemon(void);
 void EnterPokeStorage(u8 boxOption);
+u8 CountPartyNonEggMons(void);
 
 #endif // GUARD_POKEMON_STORAGE_SYSTEM_H
