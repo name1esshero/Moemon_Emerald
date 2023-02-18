@@ -1617,6 +1617,18 @@ static const struct SpriteFrameImage sPicTable_LatiasLatios[] = {
     overworld_frame(gObjectEventPic_LatiasLatios, 4, 4, 2),
 };
 
+static const struct SpriteFrameImage sPicTable_LatiasLatios2[] = {
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 0),
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 1),
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 2),
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 1),
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 2),
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 1),
+    overworld_frame(gObjectEventPic_LatiasLatios2, 4, 4, 2),
+};
+
 static const struct SpriteFrameImage sPicTable_GameboyKid[] = {
     overworld_frame(gObjectEventPic_GameboyKid, 2, 4, 0),
     overworld_frame(gObjectEventPic_GameboyKid, 2, 4, 1),
