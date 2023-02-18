@@ -244,49 +244,49 @@ RustboroCity_PokemonSchool_Text_ExplainFreeze:
 	.string "Thaw it out using an ICE HEAL.$"
 
 RustboroCity_PokemonSchool_Text_StudentsWhoDontStudyGetQuickClaw:
-	.string "Students who don't study get a little\n"
+	.string "{COLOR BLUE}Students who don't study get a little\n"
 	.string "taste of my QUICK CLAW.\p"
 	.string "Whether or not you are a good student \n"
 	.string "will be evident from the way you use\l"
-	.string "this item.$"
+	.string "this item.{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_ExplainQuickClaw:
-	.string "A POKéMON holding the QUICK CLAW will\n"
+	.string "{COLOR BLUE}A POKéMON holding the QUICK CLAW will\n"
 	.string "occasionally speed up and get to move\l"
 	.string "before its opponent.\p"
 	.string "There are many other items that are\n"
 	.string "meant to be held by POKéMON.\p"
 	.string "Just those alone will give you many\n"
-	.string "topics to study!$"
+	.string "topics to study!{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_TradingRightNow:
-	.string "I'm trading POKéMON with my friend\n"
-	.string "right now.$"
+	.string "{COLOR BLUE}I'm trading POKéMON with my friend\n"
+	.string "right now.{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot:
-	.string "I always wanted a SEEDOT, and\n"
-	.string "I'm finally getting one!$"
+	.string "{COLOR BLUE}I always wanted a SEEDOT, and\n"
+	.string "I'm finally getting one!{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems:
-	.string "POKéMON can hold items, but they\n"
+	.string "{COLOR BLUE}POKéMON can hold items, but they\n"
 	.string "don't know what to do with man-made\l"
-	.string "items like POTION and ANTIDOTE.$"
+	.string "items like POTION and ANTIDOTE.{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_ConfusedPokemonAttacksItself:
-	.string "You know how some POKéMON moves can\n"
+	.string "{COLOR RED}You know how some POKéMON moves can\n"
 	.string "confuse a POKéMON?\p"
 	.string "A confused POKéMON will sometimes\n"
 	.string "attack itself without meaning to.\p"
 	.string "But once it leaves battle, it will\n"
-	.string "return to normal.$"
+	.string "return to normal.{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_PokemonHealItselfWithBerry:
-	.string "A POKéMON holding a BERRY will heal\n"
+	.string "{COLOR BLUE}A POKéMON holding a BERRY will heal\n"
 	.string "itself…\p"
 	.string "There are many kinds of items that\n"
 	.string "POKéMON can hold…\p"
 	.string "Boy, it sure is hard taking notes\n"
-	.string "down…$"
+	.string "down…{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_StudentsNotes:
 	.string "It's this student's notebook…\p"
@@ -302,7 +302,7 @@ RustboroCity_PokemonSchool_Text_StudentsNotes:
 	.string "challengers in POKéMON GYMS.$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
-	.string "Hello? Didn't we meet before?\n"
+	.string "{COLOR BLUE}Hello? Didn't we meet before?\n"
 	.string "I think back in PETALBURG CITY.\p"
 	.string "Let me introduce myself.\n"
 	.string "My name's SCOTT.\p"
@@ -315,24 +315,24 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyCut:
 	.string "The first thing you should do is to\n"
 	.string "have a POKéMON learn the move CUT.\p"
 	.string "If I remember correctly, someone in\n"
-	.string "this town has CUT.$"
+	.string "this town has CUT.{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_StudentTalentLevelUnknown:
-	.string "SCOTT: Hmm…\p"
+	.string "{COLOR BLUE}SCOTT: Hmm…\p"
 	.string "The talent levels of the students here\n"
-	.string "are unknown. The potential's there.$"
+	.string "are unknown. The potential's there.{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_ScottStoneBadge:
-	.string "SCOTT: Oh, what's that?\p"
+	.string "{COLOR BLUE}SCOTT: Oh, what's that?\p"
 	.string "It's a STONE BADGE, isn't it?\n"
 	.string "That's pretty impressive, I'd say.\p"
 	.string "But, you know, I would've loved to see\n"
 	.string "you in battle.\p"
 	.string "It's hard to tell what you're like as\n"
-	.string "a TRAINER from a LEAGUE BADGE.$"
+	.string "a TRAINER from a LEAGUE BADGE.{COLOR DARK_GRAY}$"
 
 RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
-	.string "Hello? Didn't we meet before?\n"
+	.string "{COLOR BLUE}Hello? Didn't we meet before?\n"
 	.string "I think back in PETALBURG CITY.\p"
 	.string "Let me introduce myself.\n"
 	.string "My name's SCOTT.\p"
@@ -347,5 +347,5 @@ RustboroCity_PokemonSchool_Text_ScottMetAlreadyStoneBadge:
 	.string "But, you know, I would've loved to see\n"
 	.string "you in battle.\p"
 	.string "It's hard to tell what you're like as\n"
-	.string "a TRAINER from a LEAGUE BADGE.$"
+	.string "a TRAINER from a LEAGUE BADGE.{COLOR DARK_GRAY}$"
 

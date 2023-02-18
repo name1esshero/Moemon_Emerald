@@ -79,16 +79,16 @@ RustboroCity_Flat1_2F_EventScript_PokeDoll::
 	end
 
 RustboroCity_Flat1_2F_Text_ComingUpWithMealsIsHard:
-	.string "Oh, it's so hard every day…\p"
+	.string "{COLOR RED}Oh, it's so hard every day…\p"
 	.string "What's hard?\n"
 	.string "You need to ask?\p"
 	.string "It's trying to figure out what to\n"
 	.string "make for meals every day.\p"
 	.string "It really isn't easy coming up with\n"
-	.string "meals every day.$"
+	.string "meals every day.{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
-	.string "Oh, hello!\n"
+	.string "{COLOR BLUE}Oh, hello!\n"
 	.string "Welcome to the PEPPER household.\p"
 	.string "I have a question for you.\n"
 	.string "Have you ever baby-sat?\p"
@@ -99,65 +99,65 @@ RustboroCity_Flat1_2F_Text_HelloDoYouKnowFunnyPhrase:
 	.string "I think she'd laugh for me if I told\n"
 	.string "her something funny.\p"
 	.string "Do you know of a funny word or\n"
-	.string "phrase you can tell me?$"
+	.string "phrase you can tell me?{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_BeenSayingXDoYouKnowBetterPhrase:
-	.string "I've been saying “{STR_VAR_1}”\n"
+	.string "{COLOR BLUE}I've been saying “{STR_VAR_1}”\n"
 	.string "to amuse her lately.\p"
 	.string "Do you know of a better word or\n"
-	.string "a phrase that might work?$"
+	.string "a phrase that might work?{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_WonderfulLetsHearSuggestion:
-	.string "Oh, that's wonderful.\n"
-	.string "So, let's hear it, your suggestion.$"
+	.string "{COLOR BLUE}Oh, that's wonderful.\n"
+	.string "So, let's hear it, your suggestion.{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_OhIsThatRight:
-	.string "Oh, is that right?\p"
+	.string "{COLOR BLUE}Oh, is that right?\p"
 	.string "Well, if you come up with a good\n"
-	.string "suggestion, I'm all ears.$"
+	.string "suggestion, I'm all ears.{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_LetsGiveItATry2:
-	.string "Ah, I see.\n"
-	.string "Well, let's give it a try, shall we?$"
+	.string "{COLOR BLUE}Ah, I see.\n"
+	.string "Well, let's give it a try, shall we?{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_OhShesLaughing:
-	.string "{STR_VAR_1}.\n"
+	.string "{COLOR BLUE}{STR_VAR_1}.\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Oh, yes! She's laughing!\n"
-	.string "Oh, I am as delighted as she!$"
+	.string "Oh, I am as delighted as she!{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_LetsGiveItATry:
-	.string "Ah, I see.\n"
-	.string "Well, let's give it a try, shall we?$"
+	.string "{COLOR BLUE}Ah, I see.\n"
+	.string "Well, let's give it a try, shall we?{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll:
-	.string "{STR_VAR_1}.\n"
+	.string "{COLOR BLUE}{STR_VAR_1}.\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Hmmm… She's not smiling at all.\n"
-	.string "Maybe WALDA is one serious child…$"
+	.string "Maybe WALDA is one serious child…{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_ThinkOfMyOwnPhrase:
-	.string "Oh, so you don't know any good words.\n"
+	.string "{COLOR BLUE}Oh, so you don't know any good words.\n"
 	.string "I'd better think for myself, then.\p"
 	.string "Hmm…\n"
 	.string "How about “{STR_VAR_1}”?\l"
-	.string "Let's see if that will work.$"
+	.string "Let's see if that will work.{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_ShesNotSmilingAtAll2:
-	.string "{STR_VAR_1}.\n"
+	.string "{COLOR BLUE}{STR_VAR_1}.\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Hmmm… She's not smiling at all.\n"
-	.string "Maybe WALDA is one serious child…$"
+	.string "Maybe WALDA is one serious child…{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_OhYouDontKnowAny:
-	.string "Oh, so you don't know any good words.\n"
+	.string "{COLOR BLUE}Oh, so you don't know any good words.\n"
 	.string "I guess I'll try to amuse her with\l"
 	.string "the saying I used before.\p"
 	.string "Anyways, if you have a good suggestion,\n"
-	.string "don't hesitate in telling me, okay?$"
+	.string "don't hesitate in telling me, okay?{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
-	.string "Thank you!\p"
+	.string "{COLOR BLUE}Thank you!\p"
 	.string "Thanks to you, my darling WALDA\n"
 	.string "laughed for me!\p"
 	.string "Actually, I may not look all that\n"
@@ -171,7 +171,7 @@ RustboroCity_Flat1_2F_Text_ThankYouIllGiveYouWallpaper:
 	.string "In the wallpaper pattern menu,\n"
 	.string "select “FRIENDS.”\p"
 	.string "That will give you access to the new\n"
-	.string "wallpaper patterns.$"
+	.string "wallpaper patterns.{COLOR DARK_GRAY}$"
 
 RustboroCity_Flat1_2F_Text_ItsAPokemonPlushDoll:
 	.string "It's a POKéMON plush DOLL!$"

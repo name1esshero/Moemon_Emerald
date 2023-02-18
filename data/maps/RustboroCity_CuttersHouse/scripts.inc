@@ -22,7 +22,7 @@ RustboroCity_CuttersHouse_EventScript_Lass::
 	end
 
 RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
-	.string "That determined expression…\n"
+	.string "{COLOR BLUE}That determined expression…\n"
 	.string "That limber way you move…\l"
 	.string "And your well-trained POKéMON…\p"
 	.string "You're obviously a skilled TRAINER!\p"
@@ -31,10 +31,10 @@ RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
 	.string "I'm sure that you can put this\n"
 	.string "HIDDEN MACHINE to good use.\p"
 	.string "No need to be modest or shy.\n"
-	.string "Go on, take it!$"
+	.string "Go on, take it!{COLOR DARK_GRAY}$"
 
 RustboroCity_CuttersHouse_Text_ExplainCut:
-	.string "That HIDDEN MACHINE, or HM for\n"
+	.string "{COLOR BLUE}That HIDDEN MACHINE, or HM for\n"
 	.string "short, is CUT.\p"
 	.string "An HM move is one that can be used\n"
 	.string "by POKéMON outside of battle.\p"
@@ -42,11 +42,11 @@ RustboroCity_CuttersHouse_Text_ExplainCut:
 	.string "chop down thin trees if the TRAINER\l"
 	.string "has earned the STONE BADGE.\p"
 	.string "And, unlike a TM, an HM can be used\n"
-	.string "more than once.$"
+	.string "more than once.{COLOR DARK_GRAY}$"
 
 RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees:
-	.string "When they were expanding the city of\n"
+	.string "{COLOR RED}When they were expanding the city of\n"
 	.string "RUSTBORO, my dad helped out.\p"
 	.string "He made his POKéMON use CUT to clear\n"
-	.string "the land of trees.$"
+	.string "the land of trees.{COLOR DARK_GRAY}$"
 

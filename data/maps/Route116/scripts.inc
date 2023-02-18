@@ -352,19 +352,19 @@ Route116_EventScript_Johnson::
 	end
 
 Route116_Text_ScoundrelMadeOffWithPeeko:
-	.string "Ohhh, what am I to do?\p"
+	.string "{COLOR BLUE}Ohhh, what am I to do?\p"
 	.string "We were on our walk, PEEKO and I, when\n"
 	.string "we were jumped by an odd thug…\p"
 	.string "The scoundrel made off with my\n"
 	.string "darling PEEKO!\p"
-	.string "Wrrrooooooaaaar! PEEKO!$"
+	.string "Wrrrooooooaaaar! PEEKO!{COLOR DARK_GRAY}$"
 
 Route116_Text_WantToDigTunnel:
-	.string "Nnn… Roar!\p"
-	.string "I want to dig that tunnel!$"
+	.string "{COLOR BLUE}Nnn… Roar!\p"
+	.string "I want to dig that tunnel!{COLOR DARK_GRAY}$"
 
 Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
-	.string "Nnn… Roar!\n"
+	.string "{COLOR BLUE}Nnn… Roar!\n"
 	.string "What's going on?\p"
 	.string "I was digging the tunnel without any\n"
 	.string "tools when some goon ordered me out!\p"
@@ -375,15 +375,15 @@ Route116_Text_DiggingTunnelWhenGoonOrderedMeOut:
 	.string "equipment for tunneling…\p"
 	.string "I'm worried that the goon will do\n"
 	.string "something stupid and startle the\l"
-	.string "POKéMON into an uproar.$"
+	.string "POKéMON into an uproar.{COLOR DARK_GRAY}$"
 
 Route116_Text_GoonHightailedItOutOfTunnel:
-	.string "Nnn… Roar!\p"
+	.string "{COLOR BLUE}Nnn… Roar!\p"
 	.string "That goofy goon hightailed it out of\n"
-	.string "the tunnel! I can go back to digging!$"
+	.string "the tunnel! I can go back to digging!{COLOR DARK_GRAY}$"
 
 Route116_Text_ThankYouTokenOfAppreciation:
-	.string "Oh! It's you!\p"
+	.string "{COLOR BLUE}Oh! It's you!\p"
 	.string "You're that person who not only helped\n"
 	.string "me in PETALBURG WOODS, but also got\l"
 	.string "back my stolen package and then even\l"
@@ -399,48 +399,48 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "Recently, our company developed\n"
 	.string "a new kind of POKé BALL.\p"
 	.string "As a token of our appreciation, this\n"
-	.string "is our gift to our wonderful TRAINER!$"
+	.string "is our gift to our wonderful TRAINER!{COLOR DARK_GRAY}$"
 
 Route116_Text_NewBallAvailableAtMart:
-	.string "Our new POKé BALL will be available\n"
+	.string "{COLOR BLUE}Our new POKé BALL will be available\n"
 	.string "at the POKéMON MART in RUSTBORO.\p"
 	.string "Please do try it out!\n"
-	.string "Thank you and bye-bye!$"
+	.string "Thank you and bye-bye!{COLOR DARK_GRAY}$"
 
 Route116_Text_BagIsJamPacked:
-	.string "Your BAG is jam-packed.\n"
-	.string "I can't give you this REPEAT BALL.$"
+	.string "{COLOR BLUE}Your BAG is jam-packed.\n"
+	.string "I can't give you this REPEAT BALL.{COLOR DARK_GRAY}$"
 
 Route116_Text_TokenOfAppreciation:
-	.string "As a token of our appreciation for\n"
+	.string "{COLOR BLUE}As a token of our appreciation for\n"
 	.string "your delivering our package, I have\l"
 	.string "a gift of a new kind of POKé BALL\l"
-	.string "for our most wonderful TRAINER!$"
+	.string "for our most wonderful TRAINER!{COLOR DARK_GRAY}$"
 
 Route116_Text_CanYouHelpMeFindGlasses:
-	.string "I dropped my glasses…\n"
-	.string "Can you help me find them?$"
+	.string "{COLOR BLUE}I dropped my glasses…\n"
+	.string "Can you help me find them?{COLOR DARK_GRAY}$"
 
 Route116_Text_MayISeeThoseGlasses:
-	.string "Those glasses!\n"
-	.string "May I see them for a second?$"
+	.string "{COLOR BLUE}Those glasses!\n"
+	.string "May I see them for a second?{COLOR DARK_GRAY}$"
 
 Route116_Text_NotWhatImLookingForMaybeTheyArentHere:
-	.string "Hmm…\n"
+	.string "{COLOR BLUE}Hmm…\n"
 	.string "These are BLACKGLASSES.\l"
 	.string "They're not what I'm looking for…\p"
 	.string "Maybe my glasses aren't around\n"
-	.string "here…$"
+	.string "here…{COLOR DARK_GRAY}$"
 
 Route116_Text_CantFindGlassesNotHere:
-	.string "Hmm…\n"
+	.string "{COLOR BLUE}Hmm…\n"
 	.string "I can't find my glasses anywhere…\l"
-	.string "Maybe they're not around here…$"
+	.string "Maybe they're not around here…{COLOR DARK_GRAY}$"
 
 Route116_Text_NotWhatImLookingFor:
-	.string "Hmm…\n"
+	.string "{COLOR BLUE}Hmm…\n"
 	.string "These are BLACKGLASSES.\l"
-	.string "They're not what I'm looking for…$"
+	.string "They're not what I'm looking for…{COLOR DARK_GRAY}$"
 
 Route116_Text_RouteSignRustboro:
 	.string "ROUTE 116\n"
