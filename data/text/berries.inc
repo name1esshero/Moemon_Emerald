@@ -144,7 +144,7 @@ Route104_PrettyPetalFlowerShop_Text_LearnAboutBerries:
 	.string "BERRIES?{COLOR DARK_GRAY}$"
 
 Route104_PrettyPetalFlowerShop_Text_IntroLearnAboutBerries:
-	.string "Your name is?\p"
+	.string "{COLOR RED}Your name is?\p"
 	.string "{PLAYER}{KUN}.\n"
 	.string "That's a nice name.\p"
 	.string "{PLAYER}{KUN}, would you like to learn about\n"
