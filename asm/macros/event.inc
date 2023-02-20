@@ -1965,3 +1965,9 @@
 	setvar VAR_0x8006, \item
 	special CreateEventLegalEnemyMon
 	.endm
+
+	  @ Checks to see if the player has a Pokemon in their party. Result returns to VAR_RESULT
+    .macro checkpartymon species:req
+    .byte 0xe6
+    .2byte \species
+    .endm
