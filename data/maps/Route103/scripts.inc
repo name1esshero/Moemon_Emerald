@@ -345,9 +345,9 @@ Route103_Text_ShouldHaveBroughtPotion:
 	.string "I should have brought a POTION…{COLOR DARK_GRAY}$"
 
 Route103_Text_ShortcutToOldale:
-	.string "If you cross the sea from here,\n"
+	.string "{COLOR BLUE}If you cross the sea from here,\n"
 	.string "it'll be a shortcut to OLDALE TOWN.\p"
-	.string "Fufufu, that's useful, isn't it?$"
+	.string "Fufufu, that's useful, isn't it?{COLOR DARK_GRAY}$"
 
 Route103_Text_RouteSign:
 	.string "ROUTE 103\n"

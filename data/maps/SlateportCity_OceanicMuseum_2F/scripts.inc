@@ -274,55 +274,55 @@ SlateportCity_OceanicMuseum_2F_EventScript_MuseumPatron3::
 	end
 
 SlateportCity_OceanicMuseum_2F_Text_ThankYouForTheParts:
-	.string "Yes? If you're looking for STERN,\n"
+	.string "{COLOR BLUE}Yes? If you're looking for STERN,\n"
 	.string "that would be me.\p"
 	.string "Ah! Those must be the parts I ordered\n"
 	.string "from MR. STONE of DEVON.\p"
 	.string "Thank you! That's great!\n"
-	.string "We can prepare for our expedition now.$"
+	.string "We can prepare for our expedition now.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_WellTakeThoseParts:
-	.string "Hehehe, hold it!\n"
-	.string "We'll take those parts!$"
+	.string "{COLOR BLUE}Hehehe, hold it!\n"
+	.string "We'll take those parts!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternWhoAreYou:
-	.string "CAPT. STERN: Wh-what?\n"
-	.string "Who are you people?$"
+	.string "{COLOR BLUE}CAPT. STERN: Wh-what?\n"
+	.string "Who are you people?{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_WereTeamAqua:
-	.string "We're TEAM AQUA!\p"
+	.string "{COLOR BLUE}We're TEAM AQUA!\p"
 	.string "Our BOSS wants those parts!\n"
-	.string "Shut your yap and fork them over!$"
+	.string "Shut your yap and fork them over!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt1Defeat:
 	.string "Awaaaah!\n"
 	.string "A kid beat me!$"
 
 SlateportCity_OceanicMuseum_2F_Text_BossGoingToBeFurious:
-	.string "Oh, man, what a disaster…\n"
-	.string "The BOSS is going to be furious…$"
+	.string "{COLOR BLUE}Oh, man, what a disaster…\n"
+	.string "The BOSS is going to be furious…{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_LetMeTakeCareOfThis:
-	.string "Humph, sniveling wimp!\n"
-	.string "Let me take care of this!$"
+	.string "{COLOR BLUE}Humph, sniveling wimp!\n"
+	.string "Let me take care of this!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_Grunt2Defeat:
 	.string "What?!\n"
 	.string "I lost, too!$"
 
 SlateportCity_OceanicMuseum_2F_Text_MeddlingKid:
-	.string "Now what? If we don't get the parts,\n"
+	.string "{COLOR BLUE}Now what? If we don't get the parts,\n"
 	.string "we're in for it!\p"
 	.string "Arrgh, I didn't count on being meddled\n"
-	.string "with by some meddling kid!$"
+	.string "with by some meddling kid!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_CameToSeeWhatsTakingSoLong:
-	.string "I came to see what was taking so\n"
+	.string "{COLOR BLUE}I came to see what was taking so\n"
 	.string "long to snatch some parts, and you\l"
-	.string "simps are held up by a mere child?$"
+	.string "simps are held up by a mere child?{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
-	.string "We are TEAM AQUA,\n"
+	.string "{COLOR BLUE}We are TEAM AQUA,\n"
 	.string "and we love the sea!\p"
 	.string "And I am TEAM AQUA's leader,\n"
 	.string "ARCHIE!\p"
@@ -346,38 +346,38 @@ SlateportCity_OceanicMuseum_2F_Text_ArchieWarning:
 	.string "interfering with our plans again.\p"
 	.string "The consequences will cost you\n"
 	.string "dearly!\p"
-	.string "And don't you forget it!$"
+	.string "And don't you forget it!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternThankYouForSavingUs:
-	.string "CAPT. STERN: You're…\n"
+	.string "{COLOR BLUE}CAPT. STERN: You're…\n"
 	.string "Ah, okay, you're {PLAYER}{KUN}…\p"
 	.string "Anyway, that was a tense situation!\n"
 	.string "Thank you for saving us!\p"
 	.string "Oh, yes, I almost forgot that you\n"
-	.string "even brought the parts from DEVON!$"
+	.string "even brought the parts from DEVON!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_SternIveGotToGo:
-	.string "CAPT. STERN: Whoops!\n"
+	.string "{COLOR BLUE}CAPT. STERN: Whoops!\n"
 	.string "There's no time to lose!\p"
 	.string "We have to set out on our ocean-floor\n"
 	.string "expedition really soon.\p"
 	.string "Thanks again, but now I've got\n"
 	.string "to go!\p"
 	.string "Feel free to wander around and check\n"
-	.string "out our facilities, though.$"
+	.string "out our facilities, though.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_RemindsMeOfAbandonedShip:
-	.string "I saw a model of a ship here.\p"
+	.string "{COLOR BLUE}I saw a model of a ship here.\p"
 	.string "It reminded me of the ABANDONED SHIP\n"
-	.string "near DEWFORD TOWN…$"
+	.string "near DEWFORD TOWN…{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_DontRunInMuseum:
-	.string "Don't you dare run around inside\n"
-	.string "the MUSEUM!$"
+	.string "{COLOR RED}Don't you dare run around inside\n"
+	.string "the MUSEUM!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_WantToRideSubmarine:
-	.string "Wow, the submarine's awesome!\n"
-	.string "I want to go for a ride!$"
+	.string "{COLOR BLUE}Wow, the submarine's awesome!\n"
+	.string "I want to go for a ride!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_2F_Text_WaterQualitySample1:
 	.string "“WATER QUALITY SAMPLE 1,” the\n"

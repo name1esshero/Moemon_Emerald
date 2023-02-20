@@ -428,211 +428,211 @@ Route104_Text_DarianPostBattle:
 	.string "to your name, do you?{COLOR DARK_GRAY}$"
 
 Route105_Text_FosterIntro:
-	.string "There's supposed to be a mystical\n"
+	.string "{COLOR BLUE}There's supposed to be a mystical\n"
 	.string "rock around here.\l"
-	.string "Do you know anything about it?$"
+	.string "Do you know anything about it?{COLOR DARK_GRAY}$"
 
 Route105_Text_FosterDefeated:
 	.string "I was thinking too much about that\n"
 	.string "rock, while my POKéMON remained weak…$"
 
 Route105_Text_FosterPostBattle:
-	.string "I can spend hours and hours staring\n"
-	.string "at a nice rock without growing bored.$"
+	.string "{COLOR BLUE}I can spend hours and hours staring\n"
+	.string "at a nice rock without growing bored.{COLOR DARK_GRAY}$"
 
 Route105_Text_LuisIntro:
-	.string "Whew! I was worried that a kid was\n"
+	.string "{COLOR BLUE}Whew! I was worried that a kid was\n"
 	.string "drowning when I saw you.\p"
 	.string "You seem to be okay, so what do you\n"
-	.string "say to a battle?$"
+	.string "say to a battle?{COLOR DARK_GRAY}$"
 
 Route105_Text_LuisDefeated:
 	.string "Glub… Glub…$"
 
 Route105_Text_LuisPostBattle:
-	.string "If you are drowning, the signal is to\n"
-	.string "wave one arm toward the beach.$"
+	.string "{COLOR BLUE}If you are drowning, the signal is to\n"
+	.string "wave one arm toward the beach.{COLOR DARK_GRAY}$"
 
 Route105_Text_DominikIntro:
-	.string "Swimming the deep blue sea…\n"
-	.string "It feels the greatest!$"
+	.string "{COLOR BLUE}Swimming the deep blue sea…\n"
+	.string "It feels the greatest!{COLOR DARK_GRAY}$"
 
 Route105_Text_DominikDefeated:
 	.string "I lost…\n"
 	.string "Now I'm feeling blue…$"
 
 Route105_Text_DominikPostBattle:
-	.string "Why is the sea blue?\p"
+	.string "{COLOR BLUE}Why is the sea blue?\p"
 	.string "I learned about that at the MUSEUM in\n"
-	.string "SLATEPORT, but I forgot.$"
+	.string "SLATEPORT, but I forgot.{COLOR DARK_GRAY}$"
 
 Route105_Text_BeverlyIntro:
-	.string "My body feels lighter in the water.\n"
-	.string "It's as if I've gotten slimmer!$"
+	.string "{COLOR RED}My body feels lighter in the water.\n"
+	.string "It's as if I've gotten slimmer!{COLOR DARK_GRAY}$"
 
 Route105_Text_BeverlyDefeated:
 	.string "I'm floating…$"
 
 Route105_Text_PostBattle:
-	.string "Your body weight is reduced to just\n"
+	.string "{COLOR RED}Your body weight is reduced to just\n"
 	.string "one tenth in the water.\p"
 	.string "That would make me…\n"
-	.string "Whoops! I'm not telling you my weight!$"
+	.string "Whoops! I'm not telling you my weight!{COLOR DARK_GRAY}$"
 
 Route105_Text_ImaniIntro:
-	.string "The blue, blue sky…\n"
+	.string "{COLOR RED}The blue, blue sky…\n"
 	.string "The vast sea…\l"
-	.string "It's so peaceful…$"
+	.string "It's so peaceful…{COLOR DARK_GRAY}$"
 
 Route105_Text_ImaniDefeated:
 	.string "I lost while I was lounging!$"
 
 Route105_Text_ImaniPostBattle:
-	.string "I want to be told I'm relaxing to be\n"
-	.string "with. Giggle.$"
+	.string "{COLOR RED}I want to be told I'm relaxing to be\n"
+	.string "with. Giggle.{COLOR DARK_GRAY}$"
 
 Route105_Text_AndresIntro:
-	.string "I'm convinced that the sea keeps\n"
-	.string "secrets from us.$"
+	.string "{COLOR BLUE}I'm convinced that the sea keeps\n"
+	.string "secrets from us.{COLOR DARK_GRAY}$"
 
 Route105_Text_AndresDefeated:
 	.string "Yes…\n"
 	.string "I am no good at battling…$"
 
 Route105_Text_AndresPostBattle:
-	.string "I'm sure there are many secrets to be\n"
+	.string "{COLOR BLUE}I'm sure there are many secrets to be\n"
 	.string "discovered in the world's seas.\p"
-	.string "I mean to find them all!$"
+	.string "I mean to find them all!{COLOR DARK_GRAY}$"
 
 Route105_Text_AndresRegister:
-	.string "Huh? I'm so weak, but you're willing\n"
-	.string "to register me in your POKéNAV?$"
+	.string "{COLOR BLUE}Huh? I'm so weak, but you're willing\n"
+	.string "to register me in your POKéNAV?{COLOR DARK_GRAY}$"
 
 Route105_Text_AndresRematchIntro:
-	.string "I've told you that I'm weak…\n"
-	.string "Are you sure you want to do this?$"
+	.string "{COLOR BLUE}I've told you that I'm weak…\n"
+	.string "Are you sure you want to do this?{COLOR DARK_GRAY}$"
 
 Route105_Text_AndresRematchDefeated:
 	.string "Yes…\n"
 	.string "I didn't think I could win.$"
 
 Route105_Text_AndresRematchPostBattle:
-	.string "I may be weak at battling, but my\n"
+	.string "{COLOR BLUE}I may be weak at battling, but my\n"
 	.string "drive to explore can't be bested.\p"
 	.string "I will travel the seas all around\n"
-	.string "the world!$"
+	.string "the world!{COLOR DARK_GRAY}$"
 
 Route105_Text_JosueIntro:
-	.string "I'm exhausted from swimming.\n"
+	.string "{COLOR BLUE}I'm exhausted from swimming.\n"
 	.string "I'm just not used to it.\p"
-	.string "I need a battle for a change of pace!$"
+	.string "I need a battle for a change of pace!{COLOR DARK_GRAY}$"
 
 Route105_Text_JosueDefeated:
 	.string "I lost because I battled at sea.$"
 
 Route105_Text_JosuePostBattle:
-	.string "Yeah, for me, the sky is a much better\n"
-	.string "match than the sea.$"
+	.string "{COLOR BLUE}Yeah, for me, the sky is a much better\n"
+	.string "match than the sea.{COLOR DARK_GRAY}$"
 
 Route106_Text_ElliotIntro:
-	.string "Which do you prefer, fishing in the\n"
-	.string "sea or a stream?$"
+	.string "{COLOR BLUE}Which do you prefer, fishing in the\n"
+	.string "sea or a stream?{COLOR DARK_GRAY}$"
 
 Route106_Text_ElliotDefeated:
 	.string "Like in deep-sea fishing, I lost\n"
 	.string "spectacularly!$"
 
 Route106_Text_ElliotPostBattle:
-	.string "Fishing is the greatest whether it's\n"
+	.string "{COLOR BLUE}Fishing is the greatest whether it's\n"
 	.string "in the sea or a stream.\l"
-	.string "You agree with me, right?$"
+	.string "You agree with me, right?{COLOR DARK_GRAY}$"
 
 Route106_Text_ElliotRegister:
-	.string "Fishing's great, but so is battling.\n"
-	.string "If you don't mind, can we meet again?$"
+	.string "{COLOR BLUE}Fishing's great, but so is battling.\n"
+	.string "If you don't mind, can we meet again?{COLOR DARK_GRAY}$"
 
 Route106_Text_ElliotRematchIntro:
-	.string "I caught a bunch of POKéMON fishing.\n"
-	.string "I'll show you an impressive battle!$"
+	.string "{COLOR BLUE}I caught a bunch of POKéMON fishing.\n"
+	.string "I'll show you an impressive battle!{COLOR DARK_GRAY}$"
 
 Route106_Text_ElliotRematchDefeated:
 	.string "I lost again spectacularly!$"
 
 Route106_Text_ElliotRematchPostBattle:
-	.string "Win or lose, POKéMON are the greatest!\n"
-	.string "You agree with me, right?$"
+	.string "{COLOR BLUE}Win or lose, POKéMON are the greatest!\n"
+	.string "You agree with me, right?{COLOR DARK_GRAY}$"
 
 Route106_Text_NedIntro:
-	.string "What do people do if they need to go\n"
+	.string "{COLOR BLUE}What do people do if they need to go\n"
 	.string "to a washroom?\p"
 	.string "What if my ROD hooks a big one while\n"
-	.string "I'm in the washroom? I just can't go…$"
+	.string "I'm in the washroom? I just can't go…{COLOR DARK_GRAY}$"
 
 Route106_Text_NedDefeated:
 	.string "I lost because I'm trying to not go\n"
 	.string "to the washroom…$"
 
 Route106_Text_NedPostBattle:
-	.string "Oh, no! I've got this feeling I'll hook\n"
-	.string "a big one!$"
+	.string "{COLOR BLUE}Oh, no! I've got this feeling I'll hook\n"
+	.string "a big one!{COLOR DARK_GRAY}$"
 
 Route106_Text_DouglasIntro:
-	.string "Hahahah! I'm a lousy runner, but in\n"
-	.string "the water you can't catch me!$"
+	.string "{COLOR BLUE}Hahahah! I'm a lousy runner, but in\n"
+	.string "the water you can't catch me!{COLOR DARK_GRAY}$"
 
 Route106_Text_DouglasDefeated:
 	.string "I give up!$"
 
 Route106_Text_DouglasPostBattle:
-	.string "I wouldn't lose in a swim race…$"
+	.string "{COLOR BLUE}I wouldn't lose in a swim race…{COLOR DARK_GRAY}$"
 
 Route106_Text_KylaIntro:
-	.string "The sea is my backyard. I'm not going\n"
-	.string "to take it easy because you're a kid!$"
+	.string "{COLOR RED}The sea is my backyard. I'm not going\n"
+	.string "to take it easy because you're a kid!{COLOR DARK_GRAY}$"
 
 Route106_Text_KylaDefeated:
 	.string "Did you take it easy on me by any\n"
 	.string "chance?$"
 
 Route106_Text_KylaPostBattle:
-	.string "Drifting along with the waves…\n"
-	.string "I love it! Why don't you give it a try?$"
+	.string "{COLOR RED}Drifting along with the waves…\n"
+	.string "I love it! Why don't you give it a try?{COLOR DARK_GRAY}$"
 
 Route107_Text_DarrinIntro:
-	.string "Yawn…\p"
+	.string "{COLOR BLUE}Yawn…\p"
 	.string "I must have drifted off to sleep while\n"
-	.string "I was drifting in the waves.$"
+	.string "I was drifting in the waves.{COLOR DARK_GRAY}$"
 
 Route107_Text_DarrinDefeated:
 	.string "Ahaha, I lost…\n"
 	.string "I'll take a snooze, I think…$"
 
 Route107_Text_DarrinPostBattle:
-	.string "Floating and being rocked by\n"
+	.string "{COLOR BLUE}Floating and being rocked by\n"
 	.string "the waves--it's like sleeping in\l"
-	.string "a plush, comfy bed.$"
+	.string "a plush, comfy bed.{COLOR DARK_GRAY}$"
 
 Route107_Text_TonyIntro:
-	.string "The sea is like my backyard.\n"
-	.string "Let's battle!$"
+	.string "{COLOR BLUE}The sea is like my backyard.\n"
+	.string "Let's battle!{COLOR DARK_GRAY}$"
 
 Route107_Text_TonyDefeated:
 	.string "I lost on my home field…\n"
 	.string "I'm in shock!$"
 
 Route107_Text_TonyPostBattle:
-	.string "I swim the seas with a heart full of\n"
+	.string "{COLOR BLUE}I swim the seas with a heart full of\n"
 	.string "dreams…\p"
 	.string "It's a song!\n"
-	.string "Anyways, I'm swimming some more.$"
+	.string "Anyways, I'm swimming some more.{COLOR DARK_GRAY}$"
 
 Route107_Text_TonyRegister:
-	.string "You've shocked me to the bone!\n"
-	.string "Well, so you won't forget me…$"
+	.string "{COLOR BLUE}You've shocked me to the bone!\n"
+	.string "Well, so you won't forget me…{COLOR DARK_GRAY}$"
 
 Route107_Text_TonyRematchIntro:
-	.string "Swimming in the big, wide sea,\n"
-	.string "my POKéMON has grown stronger!$"
+	.string "{COLOR BLUE}Swimming in the big, wide sea,\n"
+	.string "my POKéMON has grown stronger!{COLOR DARK_GRAY}$"
 
 Route107_Text_TonyRematchDefeated:
 	.string "What a shock!\p"
@@ -640,597 +640,597 @@ Route107_Text_TonyRematchDefeated:
 	.string "I stayed weak as a TRAINER!$"
 
 Route107_Text_TonyRematchPostBattle:
-	.string "What you learn in battle makes you\n"
+	.string "{COLOR BLUE}What you learn in battle makes you\n"
 	.string "a stronger TRAINER.\l"
-	.string "The waves taught me that.$"
+	.string "The waves taught me that.{COLOR DARK_GRAY}$"
 
 Route107_Text_DeniseIntro:
-	.string "Do you know a little town called\n"
-	.string "DEWFORD?$"
+	.string "{COLOR RED}Do you know a little town called\n"
+	.string "DEWFORD?{COLOR DARK_GRAY}$"
 
 Route107_Text_DeniseDefeated:
 	.string "I hate this!$"
 
 Route107_Text_DenisePostBattle:
-	.string "A weird saying is getting really\n"
-	.string "trendy at DEWFORD HALL.$"
+	.string "{COLOR RED}A weird saying is getting really\n"
+	.string "trendy at DEWFORD HALL.{COLOR DARK_GRAY}$"
 
 Route107_Text_BethIntro:
-	.string "Did you want to battle me?\n"
-	.string "Sure, I'll go with you!$"
+	.string "{COLOR RED}Did you want to battle me?\n"
+	.string "Sure, I'll go with you!{COLOR DARK_GRAY}$"
 
 Route107_Text_BethDefeated:
 	.string "I wasn't good enough for you.$"
 
 Route107_Text_BethPostBattle:
-	.string "I think you're going to keep getting\n"
-	.string "better. I'll go for it, too!$"
+	.string "{COLOR RED}I think you're going to keep getting\n"
+	.string "better. I'll go for it, too!{COLOR DARK_GRAY}$"
 
 Route107_Text_LisaIntro:
-	.string "LISA: We challenge you as a sister\n"
-	.string "and brother!$"
+	.string "{COLOR RED}LISA: We challenge you as a sister\n"
+	.string "and brother!{COLOR DARK_GRAY}$"
 
 Route107_Text_LisaDefeated:
 	.string "LISA: Awesome.\n"
 	.string "You're in a different class of tough.$"
 
 Route107_Text_LisaPostBattle:
-	.string "LISA: Do you have any friends who\n"
-	.string "would go to the beach with you?$"
+	.string "{COLOR RED}LISA: Do you have any friends who\n"
+	.string "would go to the beach with you?{COLOR DARK_GRAY}$"
 
 Route107_Text_LisaNotEnoughPokemon:
-	.string "LISA: If you want to battle with us,\n"
-	.string "bring more POKéMON.$"
+	.string "{COLOR RED}LISA: If you want to battle with us,\n"
+	.string "bring more POKéMON.{COLOR DARK_GRAY}$"
 
 Route107_Text_RayIntro:
-	.string "RAY: We always battle POKéMON,\n"
+	.string "{COLOR BLUE}RAY: We always battle POKéMON,\n"
 	.string "me and my sister.\p"
 	.string "I always lose, but we can beat you\n"
-	.string "2-on-2!$"
+	.string "2-on-2!{COLOR DARK_GRAY}$"
 
 Route107_Text_RayDefeated:
 	.string "RAY: Wowee, you're at a higher level\n"
 	.string "than us!$"
 
 Route107_Text_RayPostBattle:
-	.string "RAY: My sister gave me my POKéMON.\n"
+	.string "{COLOR BLUE}RAY: My sister gave me my POKéMON.\n"
 	.string "I raised it, and now it's my important\l"
-	.string "partner!$"
+	.string "partner!{COLOR DARK_GRAY}$"
 
 Route107_Text_RayNotEnoughPokemon:
-	.string "RAY: If you want to battle us,\n"
-	.string "go bring some more POKéMON!$"
+	.string "{COLOR BLUE}RAY: If you want to battle us,\n"
+	.string "go bring some more POKéMON!{COLOR DARK_GRAY}$"
 
 Route107_Text_CamronIntro:
-	.string "I'm in the middle of a triathlon,\n"
-	.string "but I'm nowhere near tired!$"
+	.string "{COLOR BLUE}I'm in the middle of a triathlon,\n"
+	.string "but I'm nowhere near tired!{COLOR DARK_GRAY}$"
 
 Route107_Text_CamronDefeated:
 	.string "That exhausted me…$"
 
 Route107_Text_CamronPostBattle:
-	.string "I still have swimming and running left\n"
+	.string "{COLOR BLUE}I still have swimming and running left\n"
 	.string "to do after this.\p"
-	.string "Am I going to be okay?$"
+	.string "Am I going to be okay?{COLOR DARK_GRAY}$"
 
 Route108_Text_JeromeIntro:
-	.string "My dream is to swim the world's seven\n"
-	.string "seas!$"
+	.string "{COLOR BLUE}My dream is to swim the world's seven\n"
+	.string "seas!{COLOR DARK_GRAY}$"
 
 Route108_Text_JeromeDefeated:
 	.string "I won't be able to swim the seven seas\n"
 	.string "like this…$"
 
 Route108_Text_JeromePostBattle:
-	.string "Playing with marine POKéMON is one of\n"
-	.string "the pleasures of swimming!$"
+	.string "{COLOR BLUE}Playing with marine POKéMON is one of\n"
+	.string "the pleasures of swimming!{COLOR DARK_GRAY}$"
 
 Route108_Text_MatthewIntro:
-	.string "Ahoy, there! Are you going out to\n"
-	.string "the ABANDONED SHIP, too?$"
+	.string "{COLOR BLUE}Ahoy, there! Are you going out to\n"
+	.string "the ABANDONED SHIP, too?{COLOR DARK_GRAY}$"
 
 Route108_Text_MatthewDefeated:
 	.string "I'm sinking!\n"
 	.string "Glub… Glub…$"
 
 Route108_Text_MatthewPostBattle:
-	.string "Some people even go inside that\n"
-	.string "ABANDONED SHIP.$"
+	.string "{COLOR BLUE}Some people even go inside that\n"
+	.string "ABANDONED SHIP.{COLOR DARK_GRAY}$"
 
 Route108_Text_TaraIntro:
-	.string "My liar of a boyfriend told me that\n"
-	.string "I look great in a bikini…$"
+	.string "{COLOR RED}My liar of a boyfriend told me that\n"
+	.string "I look great in a bikini…{COLOR DARK_GRAY}$"
 
 Route108_Text_TaraDefeated:
 	.string "Oh, boo!$"
 
 Route108_Text_TaraPostBattle:
-	.string "Even if it's a lie, I love being told\n"
+	.string "{COLOR RED}Even if it's a lie, I love being told\n"
 	.string "I look great…\l"
-	.string "We girls are so complex…$"
+	.string "We girls are so complex…{COLOR DARK_GRAY}$"
 
 Route108_Text_MissyIntro:
-	.string "I love the sea!\n"
-	.string "I forget all my worries when I swim!$"
+	.string "{COLOR RED}I love the sea!\n"
+	.string "I forget all my worries when I swim!{COLOR DARK_GRAY}$"
 
 Route108_Text_MissyDefeated:
 	.string "When I lose a battle, I get all\n"
 	.string "stressed out!$"
 
 Route108_Text_MissyPostBattle:
-	.string "Work off your stress by swimming!\n"
-	.string "It's so healthy!$"
+	.string "{COLOR RED}Work off your stress by swimming!\n"
+	.string "It's so healthy!{COLOR DARK_GRAY}$"
 
 Route108_Text_CoryIntro:
-	.string "I love WATER-type POKéMON.\n"
-	.string "I love other POKéMON, too!$"
+	.string "{COLOR BLUE}I love WATER-type POKéMON.\n"
+	.string "I love other POKéMON, too!{COLOR DARK_GRAY}$"
 
 Route108_Text_CoryDefeated:
 	.string "Waaah! I lost!\n"
 	.string "Waaah! Waaah!$"
 
 Route108_Text_CoryPostBattle:
-	.string "Shouting is good for me!\n"
-	.string "It uplifts me!$"
+	.string "{COLOR BLUE}Shouting is good for me!\n"
+	.string "It uplifts me!{COLOR DARK_GRAY}$"
 
 Route108_Text_CoryRegister:
-	.string "I love tough TRAINERS, too!\n"
-	.string "Register me in your POKéNAV!$"
+	.string "{COLOR BLUE}I love tough TRAINERS, too!\n"
+	.string "Register me in your POKéNAV!{COLOR DARK_GRAY}$"
 
 Route108_Text_CoryRematchIntro:
-	.string "Win or lose, I love battling at sea!$"
+	.string "{COLOR BLUE}Win or lose, I love battling at sea!{COLOR DARK_GRAY}$"
 
 Route108_Text_CoryRematchDefeated:
 	.string "Waaah! I lost again!\n"
 	.string "Waaah! Waaah!$"
 
 Route108_Text_CoryRematchPostBattle:
-	.string "If you're faced with a challenge,\n"
-	.string "try shouting at the sea!$"
+	.string "{COLOR BLUE}If you're faced with a challenge,\n"
+	.string "try shouting at the sea!{COLOR DARK_GRAY}$"
 
 Route108_Text_CarolinaIntro:
-	.string "I take huge pride in my POKéMON.\n"
-	.string "We'll show you one speedy battle!$"
+	.string "{COLOR RED}I take huge pride in my POKéMON.\n"
+	.string "We'll show you one speedy battle!{COLOR DARK_GRAY}$"
 
 Route108_Text_CarolinaDefeated:
 	.string "That wasn't cute at all.$"
 
 Route108_Text_CarolinaPostBattle:
-	.string "Since I'm at sea like this, I wouldn't\n"
-	.string "mind putting on a pink, frilly swimsuit…$"
+	.string "{COLOR RED}Since I'm at sea like this, I wouldn't\n"
+	.string "mind putting on a pink, frilly swimsuit…{COLOR DARK_GRAY}$"
 
 Route109_Text_DavidIntro:
-	.string "Hiyah! Look at my chiseled abs!\n"
-	.string "This is what you call “cut”!$"
+	.string "{COLOR BLUE}Hiyah! Look at my chiseled abs!\n"
+	.string "This is what you call “cut”!{COLOR DARK_GRAY}$"
 
 Route109_Text_DavidDefeated:
 	.string "Aiyah!\n"
 	.string "Flubbed out!$"
 
 Route109_Text_DavidPostBattle:
-	.string "Hiyah!\p"
+	.string "{COLOR BLUE}Hiyah!\p"
 	.string "My sculpted abs have nothing to do\n"
-	.string "with POKéMON battles!$"
+	.string "with POKéMON battles!{COLOR DARK_GRAY}$"
 
 Route109_Text_AliceIntro:
-	.string "Are you properly protected against\n"
-	.string "the sun?$"
+	.string "{COLOR RED}Are you properly protected against\n"
+	.string "the sun?{COLOR DARK_GRAY}$"
 
 Route109_Text_AliceDefeated:
 	.string "Ouch, ouch, ouch!$"
 
 Route109_Text_AlicePostBattle:
-	.string "Cheeks are the most prone to burning!$"
+	.string "{COLOR RED}Cheeks are the most prone to burning!{COLOR DARK_GRAY}$"
 
 Route109_Text_HueyIntro:
-	.string "I've laid anchor in ports around\n"
-	.string "the world, but SLATEPORT's the best.$"
+	.string "{COLOR BLUE}I've laid anchor in ports around\n"
+	.string "the world, but SLATEPORT's the best.{COLOR DARK_GRAY}$"
 
 Route109_Text_HueyDefeated:
 	.string "You're the best!$"
 
 Route109_Text_HueyPostBattle:
-	.string "In the best port was the best\n"
-	.string "TRAINER…$"
+	.string "{COLOR BLUE}In the best port was the best\n"
+	.string "TRAINER…{COLOR DARK_GRAY}$"
 
 Route109_Text_EdmondIntro:
-	.string "Urrrrppp…\n"
-	.string "Battle? With me?$"
+	.string "{COLOR BLUE}Urrrrppp…\n"
+	.string "Battle? With me?{COLOR DARK_GRAY}$"
 
 Route109_Text_EdmondDefeated:
 	.string "Urp… Ooooooohhhhhh…\n"
 	.string "Urrrrpppp…$"
 
 Route109_Text_EdmondPostBattle:
-	.string "I'm usually stronger than this!\n"
+	.string "{COLOR BLUE}I'm usually stronger than this!\n"
 	.string "I'm just seasick as a dog!\p"
-	.string "I'm a SAILOR, but…$"
+	.string "I'm a SAILOR, but…{COLOR DARK_GRAY}$"
 
 Route109_Text_RickyIntro:
-	.string "I'm thirsty… I could go for a SODA POP\n"
-	.string "at the SEASHORE HOUSE…$"
+	.string "{COLOR BLUE}I'm thirsty… I could go for a SODA POP\n"
+	.string "at the SEASHORE HOUSE…{COLOR DARK_GRAY}$"
 
 Route109_Text_RickyDefeated:
 	.string "Groan…$"
 
 Route109_Text_RickyPostBattle:
-	.string "I'm getting famished… My inner tube\n"
-	.string "looks like a giant doughnut…$"
+	.string "{COLOR BLUE}I'm getting famished… My inner tube\n"
+	.string "looks like a giant doughnut…{COLOR DARK_GRAY}$"
 
 Route109_Text_RickyRegister:
-	.string "Will you have another match with me\n"
-	.string "when I'm not all thirsty?$"
+	.string "{COLOR BLUE}Will you have another match with me\n"
+	.string "when I'm not all thirsty?{COLOR DARK_GRAY}$"
 
 Route109_Text_RickyRematchIntro:
-	.string "I'm hungry, but I've got enough pep in\n"
-	.string "me for a battle!$"
+	.string "{COLOR BLUE}I'm hungry, but I've got enough pep in\n"
+	.string "me for a battle!{COLOR DARK_GRAY}$"
 
 Route109_Text_RickyRematchDefeated:
 	.string "I lost…\n"
 	.string "It's because I'm hungry…$"
 
 Route109_Text_RickyRematchPostBattle:
-	.string "When you eat on a beach, everything\n"
-	.string "seems to taste a little better.$"
+	.string "{COLOR BLUE}When you eat on a beach, everything\n"
+	.string "seems to taste a little better.{COLOR DARK_GRAY}$"
 
 Route109_Text_LolaIntro:
-	.string "Doesn't a beach umbrella look like\n"
-	.string "a giant flower?$"
+	.string "{COLOR RED}Doesn't a beach umbrella look like\n"
+	.string "a giant flower?{COLOR DARK_GRAY}$"
 
 Route109_Text_LolaDefeated:
 	.string "Mommy!$"
 
 Route109_Text_LolaPostBattle:
-	.string "If you look at the beach from the sky,\n"
-	.string "it looks like a big flower garden!$"
+	.string "{COLOR RED}If you look at the beach from the sky,\n"
+	.string "it looks like a big flower garden!{COLOR DARK_GRAY}$"
 
 Route109_Text_LolaRegister:
-	.string "Me?\n"
-	.string "I'm here every day!$"
+	.string "{COLOR RED}Me?\n"
+	.string "I'm here every day!{COLOR DARK_GRAY}$"
 
 Route109_Text_LolaRematchIntro:
-	.string "I'm not losing to you again!\n"
-	.string "That's why I have my inner tube!$"
+	.string "{COLOR RED}I'm not losing to you again!\n"
+	.string "That's why I have my inner tube!{COLOR DARK_GRAY}$"
 
 Route109_Text_LolaRematchDefeated:
 	.string "Mommy!$"
 
 Route109_Text_LolaRematchPostBattle:
-	.string "If I have an inner tube, me and my\n"
-	.string "POKéMON's cuteness goes way up!$"
+	.string "{COLOR RED}If I have an inner tube, me and my\n"
+	.string "POKéMON's cuteness goes way up!{COLOR DARK_GRAY}$"
 
 Route109_Text_AustinaIntro:
-	.string "I can't swim without my inner tube,\n"
-	.string "but I won't lose at POKéMON!$"
+	.string "{COLOR RED}I can't swim without my inner tube,\n"
+	.string "but I won't lose at POKéMON!{COLOR DARK_GRAY}$"
 
 Route109_Text_AustinaDefeated:
 	.string "Did I lose because I have an inner\n"
 	.string "tube?$"
 
 Route109_Text_AustinaPostBattle:
-	.string "My inner tube is a fashion item.\n"
-	.string "I can't be seen without it.$"
+	.string "{COLOR RED}My inner tube is a fashion item.\n"
+	.string "I can't be seen without it.{COLOR DARK_GRAY}$"
 
 Route109_Text_GwenIntro:
-	.string "Hi, big TRAINER.\n"
-	.string "Will you battle with me?$"
+	.string "{COLOR RED}Hi, big TRAINER.\n"
+	.string "Will you battle with me?{COLOR DARK_GRAY}$"
 
 Route109_Text_GwenDefeated:
 	.string "Oh, you're strong.$"
 
 Route109_Text_GwenPostBattle:
-	.string "How did you get to be so strong?$"
+	.string "{COLOR RED}How did you get to be so strong?{COLOR DARK_GRAY}$"
 
 Route109_Text_CarterIntro:
-	.string "Wahahah! This dude's going to catch\n"
-	.string "himself a big one!$"
+	.string "{COLOR BLUE}Wahahah! This dude's going to catch\n"
+	.string "himself a big one!{COLOR DARK_GRAY}$"
 
 Route109_Text_CarterDefeated:
 	.string "This dude just lost one…$"
 
 Route109_Text_CarterPostBattle:
-	.string "This dude thinks you're a big one.\n"
-	.string "No, you're a big-one-to-be!$"
+	.string "{COLOR BLUE}This dude thinks you're a big one.\n"
+	.string "No, you're a big-one-to-be!{COLOR DARK_GRAY}$"
 
 Route109_Text_PaulIntro:
-	.string "PAUL: Well, this is a mood-breaker.\p"
+	.string "{COLOR BLUE}PAUL: Well, this is a mood-breaker.\p"
 	.string "I wish you wouldn't disturb our\n"
-	.string "precious time together.$"
+	.string "precious time together.{COLOR DARK_GRAY}$"
 
 Route109_Text_PaulDefeated:
 	.string "PAUL: Well, I give up.$"
 
 Route109_Text_PaulPostBattle:
-	.string "PAUL: Well, don't tell anyone that\n"
+	.string "{COLOR BLUE}PAUL: Well, don't tell anyone that\n"
 	.string "we're here.\l"
-	.string "This is just our private world of two!$"
+	.string "This is just our private world of two!{COLOR DARK_GRAY}$"
 
 Route109_Text_PaulNotEnoughPokemon:
-	.string "PAUL: We're totally, deeply in love.\n"
+	.string "{COLOR BLUE}PAUL: We're totally, deeply in love.\n"
 	.string "That's why we make our POKéMON battle\l"
-	.string "together.$"
+	.string "together.{COLOR DARK_GRAY}$"
 
 Route109_Text_MelIntro:
-	.string "MEL: We're, like, totally in love.\n"
-	.string "Our romance is heating up all of HOENN!$"
+	.string "{COLOR RED}MEL: We're, like, totally in love.\n"
+	.string "Our romance is heating up all of HOENN!{COLOR DARK_GRAY}$"
 
 Route109_Text_MelDefeated:
 	.string "MEL: We lost, and it's my fault!\n"
 	.string "PAUL will hate me!$"
 
 Route109_Text_MelPostBattle:
-	.string "MEL: Um, PAUL, are you angry with me?\n"
-	.string "Please don't be angry.$"
+	.string "{COLOR RED}MEL: Um, PAUL, are you angry with me?\n"
+	.string "Please don't be angry.{COLOR DARK_GRAY}$"
 
 Route109_Text_MelNotEnoughPokemon:
-	.string "MEL: We're, like, deeply and truly in love.\n"
+	.string "{COLOR RED}MEL: We're, like, deeply and truly in love.\n"
 	.string "That's why we make our POKéMON\l"
-	.string "battle together.$"
+	.string "battle together.{COLOR DARK_GRAY}$"
 
 Route109_Text_ChandlerIntro:
-	.string "Tadaah! See?\n"
-	.string "My inner tube's round!$"
+	.string "{COLOR BLUE}Tadaah! See?\n"
+	.string "My inner tube's round!{COLOR DARK_GRAY}$"
 
 Route109_Text_ChandlerDefeated:
 	.string "Oh, oh!\n"
 	.string "Too bad!$"
 
 Route109_Text_ChandlerPostBattle:
-	.string "After I showed you my round inner\n"
-	.string "tube, too…$"
+	.string "{COLOR BLUE}After I showed you my round inner\n"
+	.string "tube, too…{COLOR DARK_GRAY}$"
 
 Route109_Text_HaileyIntro:
-	.string "I can't swim, so I'm pretending\n"
-	.string "to swim.$"
+	.string "{COLOR RED}I can't swim, so I'm pretending\n"
+	.string "to swim.{COLOR DARK_GRAY}$"
 
 Route109_Text_HaileyDefeated:
 	.string "I thought so!\n"
 	.string "I didn't think we could win.$"
 
 Route109_Text_HaileyPostBattle:
-	.string "When I learn how to swim, I think\n"
-	.string "my POKéMON will become tougher.$"
+	.string "{COLOR RED}When I learn how to swim, I think\n"
+	.string "my POKéMON will become tougher.{COLOR DARK_GRAY}$"
 
 Route109_Text_ElijahIntro:
-	.string "For a guy as macho as me, this kind\n"
-	.string "of POKéMON is the perfect match!$"
+	.string "{COLOR BLUE}For a guy as macho as me, this kind\n"
+	.string "of POKéMON is the perfect match!{COLOR DARK_GRAY}$"
 
 Route109_Text_ElijahDefeated:
 	.string "I'm cool even in defeat, hey?$"
 
 Route109_Text_ElijahPostBattle:
-	.string "For a guy as macho as me, a port\n"
+	.string "{COLOR BLUE}For a guy as macho as me, a port\n"
 	.string "is the perfect setting!\p"
-	.string "I guess I'll head for SLATEPORT.$"
+	.string "I guess I'll head for SLATEPORT.{COLOR DARK_GRAY}$"
 
 Route110_Text_JacobIntro:
-	.string "Whoa! Watch it!\n"
-	.string "I guess you're not used to BIKE racing.$"
+	.string "{COLOR BLUE}Whoa! Watch it!\n"
+	.string "I guess you're not used to BIKE racing.{COLOR DARK_GRAY}$"
 
 Route110_Text_JacobDefeated:
 	.string "Whoa!\n"
 	.string "My brakes failed!$"
 
 Route110_Text_JacobPostBattle:
-	.string "Flat tires and brake problems can\n"
+	.string "{COLOR BLUE}Flat tires and brake problems can\n"
 	.string "cause serious injury!\l"
-	.string "Inspect your BIKE for problems!$"
+	.string "Inspect your BIKE for problems!{COLOR DARK_GRAY}$"
 
 Route110_Text_AnthonyIntro:
-	.string "Yo, you!\n"
-	.string "Can you keep up with my speed?$"
+	.string "{COLOR BLUE}Yo, you!\n"
+	.string "Can you keep up with my speed?{COLOR DARK_GRAY}$"
 
 Route110_Text_AnthonyDefeated:
 	.string "Crash and burn!$"
 
 Route110_Text_AnthonyPostBattle:
-	.string "Speed alone won't let me win at POKéMON.\n"
-	.string "I need to reconsider this…$"
+	.string "{COLOR BLUE}Speed alone won't let me win at POKéMON.\n"
+	.string "I need to reconsider this…{COLOR DARK_GRAY}$"
 
 Route110_Text_BenjaminIntro:
-	.string "Don't panic if your BIKE's going fast!$"
+	.string "{COLOR BLUE}Don't panic if your BIKE's going fast!{COLOR DARK_GRAY}$"
 
 Route110_Text_BenjaminDefeated:
 	.string "I shouldn't panic during POKéMON\n"
 	.string "battles…$"
 
 Route110_Text_BenjaminPostBattle:
-	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "{COLOR BLUE}There's no need to panic or stress.\n"
+	.string "Take it easy. There's plenty of time.{COLOR DARK_GRAY}$"
 
 Route110_Text_BenjaminRegister:
-	.string "I'll keep chugging on without stressing.\n"
-	.string "Give me a shout if you're up to it.$"
+	.string "{COLOR BLUE}I'll keep chugging on without stressing.\n"
+	.string "Give me a shout if you're up to it.{COLOR DARK_GRAY}$"
 
 Route110_Text_BenjaminRematchIntro:
-	.string "Aren't you going a little too fast?\n"
-	.string "Take it easy and let's battle.$"
+	.string "{COLOR BLUE}Aren't you going a little too fast?\n"
+	.string "Take it easy and let's battle.{COLOR DARK_GRAY}$"
 
 Route110_Text_BenjaminRematchDefeated:
 	.string "I didn't panic, but I still lost…$"
 
 Route110_Text_BenjaminRematchPostBattle:
-	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "{COLOR BLUE}There's no need to panic or stress.\n"
+	.string "Take it easy. There's plenty of time.{COLOR DARK_GRAY}$"
 
 Route110_Text_AbigailIntro:
-	.string "The triathlon is hard in the extreme.\p"
+	.string "{COLOR RED}The triathlon is hard in the extreme.\p"
 	.string "You have to complete the three events\n"
-	.string "of swimming, cycling, and running.$"
+	.string "of swimming, cycling, and running.{COLOR DARK_GRAY}$"
 
 Route110_Text_AbigailDefeated:
 	.string "POKéMON battles are hard, too!$"
 
 Route110_Text_AbigailPostBattle:
-	.string "I'm exhausted, so I need a break.\n"
-	.string "It's important to get proper rest.$"
+	.string "{COLOR RED}I'm exhausted, so I need a break.\n"
+	.string "It's important to get proper rest.{COLOR DARK_GRAY}$"
 
 Route110_Text_AbigailRegister:
-	.string "You know, I like you!\n"
-	.string "Let's have a rematch on CYCLING ROAD.$"
+	.string "{COLOR RED}You know, I like you!\n"
+	.string "Let's have a rematch on CYCLING ROAD.{COLOR DARK_GRAY}$"
 
 Route110_Text_AbigailRematchIntro:
-	.string "Isn't it neat to hold a battle while\n"
-	.string "cycling?$"
+	.string "{COLOR RED}Isn't it neat to hold a battle while\n"
+	.string "cycling?{COLOR DARK_GRAY}$"
 
 Route110_Text_AbigailRematchDefeated:
 	.string "Wow…\n"
 	.string "How could you be so strong?$"
 
 Route110_Text_AbigailRematchPostBattle:
-	.string "Were you going after a record?\p"
-	.string "I'm sorry if I held you up!$"
+	.string "{COLOR RED}Were you going after a record?\p"
+	.string "I'm sorry if I held you up!{COLOR DARK_GRAY}$"
 
 Route110_Text_JasmineIntro:
-	.string "I've been riding without stopping.\n"
-	.string "My thighs are like rocks!$"
+	.string "{COLOR RED}I've been riding without stopping.\n"
+	.string "My thighs are like rocks!{COLOR DARK_GRAY}$"
 
 Route110_Text_JasmineDefeated:
 	.string "I'm worried about muscle cramps…$"
 
 Route110_Text_JasminePostBattle:
-	.string "Oh, you have some GYM BADGES?\n"
-	.string "No wonder you're so strong!$"
+	.string "{COLOR RED}Oh, you have some GYM BADGES?\n"
+	.string "No wonder you're so strong!{COLOR DARK_GRAY}$"
 
 Route110_Text_EdwardIntro:
-	.string "I have foreseen your intentions!\n"
-	.string "I cannot possibly lose!$"
+	.string "{COLOR BLUE}I have foreseen your intentions!\n"
+	.string "I cannot possibly lose!{COLOR DARK_GRAY}$"
 
 Route110_Text_EdwardDefeated:
 	.string "I failed to prophesize my own demise!$"
 
 Route110_Text_EdwardPostBattle:
-	.string "I see your future…\p"
+	.string "{COLOR BLUE}I see your future…\p"
 	.string "Hmm…\n"
-	.string "I see a shining light…$"
+	.string "I see a shining light…{COLOR DARK_GRAY}$"
 
 Route110_Text_JaclynIntro:
-	.string "Ahahahaha!\n"
-	.string "I'll dazzle you with my wonders!$"
+	.string "{COLOR RED}Ahahahaha!\n"
+	.string "I'll dazzle you with my wonders!{COLOR DARK_GRAY}$"
 
 Route110_Text_JaclynDefeated:
 	.string "I wondrously lost!$"
 
 Route110_Text_JaclynPostBattle:
-	.string "You managed to win only because it was\n"
+	.string "{COLOR RED}You managed to win only because it was\n"
 	.string "a wonder! Yes, a wonder!\l"
-	.string "Don't think you can win all the time!$"
+	.string "Don't think you can win all the time!{COLOR DARK_GRAY}$"
 
 Route110_Text_EdwinIntro:
-	.string "Could I see your POKéMON?\n"
-	.string "Just one look, please?$"
+	.string "{COLOR BLUE}Could I see your POKéMON?\n"
+	.string "Just one look, please?{COLOR DARK_GRAY}$"
 
 Route110_Text_EdwinDefeated:
 	.string "I wanted to complete\n"
 	.string "my collection…$"
 
 Route110_Text_EdwinPostBattle:
-	.string "When I see a POKéMON that I don't know,\n"
-	.string "my passion as a collector is ignited!$"
+	.string "{COLOR BLUE}When I see a POKéMON that I don't know,\n"
+	.string "my passion as a collector is ignited!{COLOR DARK_GRAY}$"
 
 Route110_Text_EdwinRegister:
-	.string "I like collecting MATCH CALL\n"
-	.string "registrations, too…$"
+	.string "{COLOR BLUE}I like collecting MATCH CALL\n"
+	.string "registrations, too…{COLOR DARK_GRAY}$"
 
 Route110_Text_EdwinRematchIntro:
-	.string "Hi, have you caught any new POKéMON?\p"
+	.string "{COLOR BLUE}Hi, have you caught any new POKéMON?\p"
 	.string "Could I see your POKéMON?\n"
-	.string "Just one look, please?$"
+	.string "Just one look, please?{COLOR DARK_GRAY}$"
 
 Route110_Text_EdwinRematchDefeated:
 	.string "Your POKéMON…\n"
 	.string "I envy you.$"
 
 Route110_Text_EdwinRematchPostBattle:
-	.string "Oh, I long to make all rare POKéMON\n"
-	.string "mine!$"
+	.string "{COLOR BLUE}Oh, I long to make all rare POKéMON\n"
+	.string "mine!{COLOR DARK_GRAY}$"
 
 Route110_Text_DaleIntro:
-	.string "Hey!\n"
-	.string "Don't sneak up behind me like that!$"
+	.string "{COLOR BLUE}Hey!\n"
+	.string "Don't sneak up behind me like that!{COLOR DARK_GRAY}$"
 
 Route110_Text_DaleDefeated:
 	.string "I lost!\n"
 	.string "Drat!$"
 
 Route110_Text_DalePostBattle:
-	.string "Fishing is all about concentration.\n"
-	.string "You have to focus on the floater.$"
+	.string "{COLOR BLUE}Fishing is all about concentration.\n"
+	.string "You have to focus on the floater.{COLOR DARK_GRAY}$"
 
 Route110_Text_IsabelIntro:
-	.string "Ahahaha! I would go anywhere to show\n"
-	.string "off my delightful POKéMON.$"
+	.string "{COLOR RED}Ahahaha! I would go anywhere to show\n"
+	.string "off my delightful POKéMON.{COLOR DARK_GRAY}$"
 
 Route110_Text_IsabelDefeated:
 	.string "Oh, dear, this won't do.$"
 
 Route110_Text_IsabelPostBattle:
-	.string "Rather than battling, perhaps I should\n"
-	.string "show off my POKéMON at the FAN CLUB.$"
+	.string "{COLOR RED}Rather than battling, perhaps I should\n"
+	.string "show off my POKéMON at the FAN CLUB.{COLOR DARK_GRAY}$"
 
 Route110_Text_IsabelRegister:
-	.string "That wasn't close to what I could\n"
+	.string "{COLOR RED}That wasn't close to what I could\n"
 	.string "do to show off my POKéMON.\p"
 	.string "I'll have you as my captive audience\n"
-	.string "as often as possible!$"
+	.string "as often as possible!{COLOR DARK_GRAY}$"
 
 Route110_Text_IsabelRematchIntro:
-	.string "Ahahahaha! I would be happy to show\n"
-	.string "off my POKéMON as often as you like!$"
+	.string "{COLOR RED}Ahahahaha! I would be happy to show\n"
+	.string "off my POKéMON as often as you like!{COLOR DARK_GRAY}$"
 
 Route110_Text_IsabelRematchDefeated:
 	.string "Oh, dear, this won't do.$"
 
 Route110_Text_IsabelRematchPostBattle:
-	.string "I don't think that I could ever stop\n"
+	.string "{COLOR RED}I don't think that I could ever stop\n"
 	.string "from showing off my POKéMON.\p"
-	.string "But I like to battle, too!$"
+	.string "But I like to battle, too!{COLOR DARK_GRAY}$"
 
 Route110_Text_TimmyIntro:
-	.string "I found some cool POKéMON in the grass\n"
-	.string "around here!$"
+	.string "{COLOR BLUE}I found some cool POKéMON in the grass\n"
+	.string "around here!{COLOR DARK_GRAY}$"
 
 Route110_Text_TimmyDefeated:
 	.string "Being cool isn't enough to win…$"
 
 Route110_Text_TimmyPostBattle:
-	.string "It's hard to battle with POKéMON you\n"
-	.string "just caught.$"
+	.string "{COLOR BLUE}It's hard to battle with POKéMON you\n"
+	.string "just caught.{COLOR DARK_GRAY}$"
 
 Route110_Text_AlyssaIntro:
-	.string "I fell off CYCLING ROAD…\p"
+	.string "{COLOR RED}I fell off CYCLING ROAD…\p"
 	.string "I'll get over my embarrassment by\n"
-	.string "battling with you!$"
+	.string "battling with you!{COLOR DARK_GRAY}$"
 
 Route110_Text_AlyssaDefeated:
 	.string "Oops!\n"
 	.string "I ended up losing!$"
 
 Route110_Text_AlyssaPostBattle:
-	.string "Falling… Losing…\n"
-	.string "This is so humiliating for me!$"
+	.string "{COLOR RED}Falling… Losing…\n"
+	.string "This is so humiliating for me!{COLOR DARK_GRAY}$"
 
 Route110_Text_JosephIntro:
-	.string "Okay! Full-throttle time! If you can't\n"
-	.string "groove, you get left behind!$"
+	.string "{COLOR BLUE}Okay! Full-throttle time! If you can't\n"
+	.string "groove, you get left behind!{COLOR DARK_GRAY}$"
 
 Route110_Text_JosephDefeated:
 	.string "You got into the groove all right…$"
 
 Route110_Text_JosephPostBattle:
-	.string "This isn't going to bring me down!\n"
-	.string "Losing has made me a better man!$"
+	.string "{COLOR BLUE}This isn't going to bring me down!\n"
+	.string "Losing has made me a better man!{COLOR DARK_GRAY}$"
 
 Route110_Text_KalebIntro:
-	.string "When cute POKéMON help each other…\n"
-	.string "You won't see a more adorable sight!$"
+	.string "{COLOR BLUE}When cute POKéMON help each other…\n"
+	.string "You won't see a more adorable sight!{COLOR DARK_GRAY}$"
 
 Route110_Text_KalebDefeated:
 	.string "Have you no compassion or pity?$"
 
 Route110_Text_KalebPostBattle:
-	.string "Okay, okay, you've done the best you\n"
-	.string "could, my pretties.$"
+	.string "{COLOR BLUE}Okay, okay, you've done the best you\n"
+	.string "could, my pretties.{COLOR DARK_GRAY}$"
 
 Route111_Text_DrewIntro:
 	.string "Oh, hey! Those GO-GOGGLES suit you.\n"

@@ -54,22 +54,22 @@ AbandonedShip_Corridors_B1F_EventScript_Duncan::
 	end
 
 AbandonedShip_Corridors_B1F_Text_DuncanIntro:
-	.string "When we go out to sea, we SAILORS\n"
+	.string "{COLOR BLUE}When we go out to sea, we SAILORS\n"
 	.string "always bring our POKéMON.\l"
-	.string "How about a quick battle?$"
+	.string "How about a quick battle?{COLOR DARK_GRAY}$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanDefeat:
 	.string "Whoops, I'm sunk!$"
 
 AbandonedShip_Corridors_B1F_Text_DuncanPostBattle:
-	.string "The ship's bottom has sunk into the\n"
+	.string "{COLOR BLUE}The ship's bottom has sunk into the\n"
 	.string "depths.\p"
 	.string "If a POKéMON knew how to go underwater,\n"
-	.string "we might make some progress…$"
+	.string "we might make some progress…{COLOR DARK_GRAY}$"
 
 AbandonedShip_Corridors_B1F_Text_YayItsAShip:
-	.string "Yay!\n"
-	.string "It's a ship!$"
+	.string "{COLOR BLUE}Yay!\n"
+	.string "It's a ship!{COLOR DARK_GRAY}$"
 
 AbandonedShip_Corridors_B1F_Text_DoorIsLocked:
 	.string "The door is locked.\p"

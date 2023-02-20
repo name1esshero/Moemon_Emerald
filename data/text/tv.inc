@@ -270,7 +270,7 @@ BravoTrainerBattleTower_Text_Outro::
 	.string "Until next time, see you!$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
-	.string "Wow!\p"
+	.string "{COLOR RED}Wow!\p"
 	.string "It's plain to see that you lavish your\n"
 	.string "love on your {STR_VAR_1}.\p"
 	.string "Okay, it's named {STR_VAR_2}.\p"
@@ -278,39 +278,39 @@ SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
 	.string "I'm a TV reporter, and I'm running\n"
 	.string "a survey on POKéMON.\p"
 	.string "Would you be willing to answer a few\n"
-	.string "simple questions for me?$"
+	.string "simple questions for me?{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_HereGoesQuickAnswers:
-	.string "Great! Thank you!\p"
+	.string "{COLOR RED}Great! Thank you!\p"
 	.string "Okay, here goes.\n"
-	.string "I just need quick answers, okay?$"
+	.string "I just need quick answers, okay?{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_DescribeFeelingsFirstMetMon:
-	.string "When you first met {STR_VAR_1},\n"
+	.string "{COLOR RED}When you first met {STR_VAR_1},\n"
 	.string "what did you feel?\p"
 	.string "How would you describe your feelings\n"
-	.string "at the time?$"
+	.string "at the time?{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_LikenMonToSomethingYouLike:
-	.string "Your {STR_VAR_1} is cared for lovingly.\p"
+	.string "{COLOR RED}Your {STR_VAR_1} is cared for lovingly.\p"
 	.string "If you were to liken it to something\n"
-	.string "that you like, what would it be?$"
+	.string "that you like, what would it be?{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_WhatAttractedYouAboutMon:
-	.string "This question also relates to your\n"
+	.string "{COLOR RED}This question also relates to your\n"
 	.string "beloved {STR_VAR_1}.\p"
 	.string "What was it about {STR_VAR_1} that\n"
-	.string "attracted you?$"
+	.string "attracted you?{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou:
-	.string "Okay, that makes sense.\p"
+	.string "{COLOR RED}Okay, that makes sense.\p"
 	.string "The next question might be a little\n"
 	.string "on the tough side.\p"
 	.string "Here goes…\p"
-	.string "What do POKéMON mean to you?$"
+	.string "What do POKéMON mean to you?{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview:
-	.string "I see!\p"
+	.string "{COLOR RED}I see!\p"
 	.string "Hmhm…\p"
 	.string "Okay!\n"
 	.string "Thanks for helping me out.\p"
@@ -319,34 +319,34 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview:
 	.string "It's possible that our interview will\n"
 	.string "end up on TV. Tune in and check!\p"
 	.string "Okay, that's all.\n"
-	.string "Bye-bye!$"
+	.string "Bye-bye!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_HereIfYouGetUrgeToTellMe:
-	.string "Oh, okay…\p"
+	.string "{COLOR RED}Oh, okay…\p"
 	.string "Well, if you get the urge to tell me\n"
-	.string "about POKéMON, I'll be here!$"
+	.string "about POKéMON, I'll be here!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_EnjoyDoingInterviews:
-	.string "I enjoy this job--you get to learn\n"
-	.string "about POKéMON by doing interviews.$"
+	.string "{COLOR RED}I enjoy this job--you get to learn\n"
+	.string "about POKéMON by doing interviews.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequest:
-	.string "Hi, you seem to be very close to your\n"
+	.string "{COLOR RED}Hi, you seem to be very close to your\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Do you know what?\n"
 	.string "I'm a TV reporter.\p"
 	.string "I travel around interviewing people\n"
 	.string "about POKéMON.\p"
 	.string "I'm wondering if you'd be willing to tell\n"
-	.string "me a little about your {STR_VAR_1}?$"
+	.string "me a little about your {STR_VAR_1}?{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_TellMeAnythingAboutYourMon:
-	.string "Wow, thank you!\p"
+	.string "{COLOR RED}Wow, thank you!\p"
 	.string "Okay, then, please tell me anything\n"
-	.string "you'd like about your {STR_VAR_1}.$"
+	.string "you'd like about your {STR_VAR_1}.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2:
-	.string "Wow…\n"
+	.string "{COLOR RED}Wow…\n"
 	.string "That's an interesting account.\p"
 	.string "You really are tight with {STR_VAR_1},\n"
 	.string "aren't you?\p"
@@ -356,7 +356,7 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2:
 	.string "an entertaining show.\l"
 	.string "Keep your eyes out for it.\p"
 	.string "Okay, that's all.\n"
-	.string "Bye-bye!$"
+	.string "Bye-bye!{COLOR DARK_GRAY}$"
 
 gTVFanClubOpinionsText00::
 	.string "WE ARE THE POKéMON FAN CLUB!\p"

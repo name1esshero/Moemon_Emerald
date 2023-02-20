@@ -225,87 +225,87 @@ SlateportCity_OceanicMuseum_1F_Movement_FamiliarGruntExitNorth:
 	step_end
 
 SlateportCity_OceanicMuseum_1F_Text_WouldYouLikeToEnter:
-	.string "Welcome to the OCEANIC MUSEUM.\p"
+	.string "{COLOR RED}Welcome to the OCEANIC MUSEUM.\p"
 	.string "The entrance fee is ¥50.\n"
-	.string "Would you like to enter?$"
+	.string "Would you like to enter?{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_PleaseEnjoyYourself:
-	.string "Please enjoy yourself.$"
+	.string "{COLOR RED}Please enjoy yourself.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_NotEnoughMoney:
-	.string "Oh? I'm sorry, but you don't seem to\n"
-	.string "have enough money.$"
+	.string "{COLOR RED}Oh? I'm sorry, but you don't seem to\n"
+	.string "have enough money.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_CatchUpWithYourGroup:
-	.string "Oh? You're with that group that\n"
+	.string "{COLOR RED}Oh? You're with that group that\n"
 	.string "went in earlier?\p"
 	.string "You're the only one who's late.\n"
-	.string "You'd better go catch up to them!$"
+	.string "You'd better go catch up to them!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_AquaExistForGoodOfAll:
-	.string "We, TEAM AQUA, exist for the good\n"
-	.string "of all!$"
+	.string "{COLOR BLUE}We, TEAM AQUA, exist for the good\n"
+	.string "of all!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_OurBossIsntHere:
-	.string "We were told to assemble here,\n"
+	.string "{COLOR BLUE}We were told to assemble here,\n"
 	.string "so we did, but…\p"
-	.string "Our BOSS, the linchpin, isn't here.$"
+	.string "Our BOSS, the linchpin, isn't here.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_WouldStuffHereMakeMeRich:
-	.string "If I ripped off the stuff here,\n"
-	.string "would it make me rich?$"
+	.string "{COLOR BLUE}If I ripped off the stuff here,\n"
+	.string "would it make me rich?{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_CanLearnForNefariousDeeds:
-	.string "What I learn here, I can put to use on\n"
-	.string "nefarious deeds…$"
+	.string "{COLOR BLUE}What I learn here, I can put to use on\n"
+	.string "nefarious deeds…{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_RustboroBungled:
-	.string "If our goons didn't bungle things\n"
-	.string "in RUSTBORO, we wouldn't be here!$"
+	.string "{COLOR BLUE}If our goons didn't bungle things\n"
+	.string "in RUSTBORO, we wouldn't be here!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_DidntHaveMoney:
-	.string "I didn't have ¥50, so it took a long\n"
-	.string "time getting by the receptionist.$"
+	.string "{COLOR BLUE}I didn't have ¥50, so it took a long\n"
+	.string "time getting by the receptionist.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_LearnAboutSeaForBattling:
-	.string "I want to learn about the sea and\n"
-	.string "use that knowledge for battling.$"
+	.string "{COLOR RED}I want to learn about the sea and\n"
+	.string "use that knowledge for battling.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_SternIsRoleModel:
-	.string "I get all giddy and gooey when\n"
+	.string "{COLOR BLUE}I get all giddy and gooey when\n"
 	.string "I see the sea!\p"
 	.string "For me, CAPT. STERN is the number\n"
-	.string "one role model!$"
+	.string "one role model!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_MustBePokemonWeDontKnow:
-	.string "The sea is vast without end, and\n"
+	.string "{COLOR BLUE}The sea is vast without end, and\n"
 	.string "infinitely deep…\p"
 	.string "There must be many POKéMON that\n"
-	.string "we don't know about.$"
+	.string "we don't know about.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_WantSeaPokemon:
-	.string "I want a sea POKéMON.\p"
+	.string "{COLOR RED}I want a sea POKéMON.\p"
 	.string "I think it would feel cool and nice\n"
-	.string "to hug.$"
+	.string "to hug.{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_RememberMeTakeThis:
-	.string "Aiyeeeh!\n"
+	.string "{COLOR BLUE}Aiyeeeh!\n"
 	.string "What are you doing here?\p"
 	.string "Me? I'm the TEAM AQUA member\n"
 	.string "you thumped before, remember?\l"
 	.string "Back in RUSTURF TUNNEL?\p"
 	.string "Here, take this!\n"
-	.string "You have to forgive me!$"
+	.string "You have to forgive me!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_HopeINeverSeeYouAgain:
-	.string "That TM, it suits you more than it\n"
+	.string "{COLOR BLUE}That TM, it suits you more than it\n"
 	.string "does me.\p"
 	.string "Hope I never see you again!\n"
-	.string "Wahahaha!$"
+	.string "Wahahaha!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_YouHaveToTakeThis:
-	.string "Awww, come on!\n"
-	.string "You have to take this and let me go!$"
+	.string "{COLOR BLUE}Awww, come on!\n"
+	.string "You have to take this and let me go!{COLOR DARK_GRAY}$"
 
 SlateportCity_OceanicMuseum_1F_Text_WhirlpoolExperiment:
 	.string "A blue fluid is spiraling inside\n"

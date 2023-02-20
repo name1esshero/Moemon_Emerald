@@ -909,120 +909,120 @@ Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
 	.string "The lock clicked open!$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
-	.string "CLICKETY-CLACK…\n"
+	.string "{COLOR GREEN}CLICKETY-CLACK…\n"
 	.string "MECHADOLL 1 AM I!\p"
 	.string "IF YOU ANSWER QUIZZES CORRECTLY,\n"
 	.string "THEN YOU WILL GO TO MECHADOLL 5.\l"
-	.string "THEN YOU CAN OBTAIN THE SECRET CODE.$"
+	.string "THEN YOU CAN OBTAIN THE SECRET CODE.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
-	.string "MECHADOLL 1 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 1 QUIZ.\p"
 	.string "One of these POKéMON is not found\n"
-	.string "on ROUTE 110. Which one is it?$"
+	.string "on ROUTE 110. Which one is it?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
-	.string "MECHADOLL 1 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 1 QUIZ.\p"
 	.string "One of these POKéMON is not of the\n"
-	.string "WATER type. Which one is it?$"
+	.string "WATER type. Which one is it?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
-	.string "MECHADOLL 1 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 1 QUIZ.\p"
 	.string "One of these POKéMON does not use\n"
-	.string "LEECH LIFE. Which one is it?$"
+	.string "LEECH LIFE. Which one is it?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
-	.string "CONGRATULATIONS. CORRECT YOU ARE.\n"
-	.string "GO THROUGH. PLEASE.$"
+	.string "{COLOR GREEN}CONGRATULATIONS. CORRECT YOU ARE.\n"
+	.string "GO THROUGH. PLEASE.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError:
-	.string "BZZZT. DISAPPOINTMENT.\n"
-	.string "ERROR.$"
+	.string "{COLOR GREEN}BZZZT. DISAPPOINTMENT.\n"
+	.string "ERROR.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha:
-	.string "WAHAHAHAHA! WAHAHAHAHA!\n"
-	.string "CLICKETY-CLACK!$"
+	.string "{COLOR GREEN}WAHAHAHAHA! WAHAHAHAHA!\n"
+	.string "CLICKETY-CLACK!{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
-	.string "YOUR NEXT CHALLENGE WE WAIT FOR.$"
+	.string "{COLOR GREEN}YOUR NEXT CHALLENGE WE WAIT FOR.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
-	.string "CLICKETY-CLACK…\n"
+	.string "{COLOR GREEN}CLICKETY-CLACK…\n"
 	.string "MECHADOLL 2 AM I!\p"
 	.string "MECHADOLL 1'S QUIZ DIFFICULTY LEVEL\n"
-	.string "IS SET TOO LOW.$"
+	.string "IS SET TOO LOW.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
-	.string "MECHADOLL 2 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 2 QUIZ.\p"
 	.string "Which of these POKéMON did WALLY\n"
-	.string "borrow from your father?$"
+	.string "borrow from your father?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
-	.string "MECHADOLL 2 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 2 QUIZ.\p"
 	.string "Which of these POKéMON was chasing\n"
-	.string "PROF. BIRCH?$"
+	.string "PROF. BIRCH?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
-	.string "MECHADOLL 2 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 2 QUIZ.\p"
 	.string "Which of these POKéMON did TEAM AQUA\n"
-	.string "use in PETALBURG FOREST?$"
+	.string "use in PETALBURG FOREST?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
-	.string "CLICKETY-CLACK…\n"
+	.string "{COLOR GREEN}CLICKETY-CLACK…\n"
 	.string "MECHADOLL 3 AM I!\p"
-	.string "MATTERS OF MONEY ARE MY SOLE FOCUS.$"
+	.string "MATTERS OF MONEY ARE MY SOLE FOCUS.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
-	.string "MECHADOLL 3 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 3 QUIZ.\p"
 	.string "Which costs more?\n"
-	.string "Three HARBOR MAILS or one BURN HEAL?$"
+	.string "Three HARBOR MAILS or one BURN HEAL?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
-	.string "MECHADOLL 3 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 3 QUIZ.\p"
 	.string "Sell one GREAT BALL and buy\n"
-	.string "one POTION. How much money remains?$"
+	.string "one POTION. How much money remains?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
-	.string "MECHADOLL 3 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 3 QUIZ.\p"
 	.string "Do one REPEL and SODA POP cost\n"
-	.string "more than one SUPER POTION?$"
+	.string "more than one SUPER POTION?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
-	.string "CLICKETY-CLACK…\n"
+	.string "{COLOR GREEN}CLICKETY-CLACK…\n"
 	.string "MECHADOLL 4 THAT IS ME!\p"
-	.string "MY QUIZ IS AN OBJECT OF BEAUTY.$"
+	.string "MY QUIZ IS AN OBJECT OF BEAUTY.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
-	.string "MECHADOLL 4 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 4 QUIZ.\p"
 	.string "In SEASHORE HOUSE, were there more men\n"
-	.string "or women?$"
+	.string "or women?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
-	.string "MECHADOLL 4 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 4 QUIZ.\p"
 	.string "In LAVARIDGE TOWN, were there more\n"
-	.string "elderly men or elderly women?$"
+	.string "elderly men or elderly women?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
-	.string "MECHADOLL 4 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 4 QUIZ.\p"
 	.string "In the TRAINER'S SCHOOL, how many\n"
-	.string "girl students were there?$"
+	.string "girl students were there?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
-	.string "CLICKETY-CLACK…\n"
+	.string "{COLOR GREEN}CLICKETY-CLACK…\n"
 	.string "MECHADOLL 5 AM I!\p"
 	.string "THE MASTER'S BEST AND PROUDEST\n"
-	.string "ACHIEVEMENT AM I.$"
+	.string "ACHIEVEMENT AM I.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
-	.string "MECHADOLL 5 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 5 QUIZ.\p"
 	.string "In SLATEPORT's POKéMON FAN CLUB,\n"
-	.string "how many POKéMON were there?$"
+	.string "how many POKéMON were there?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
-	.string "MECHADOLL 5 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 5 QUIZ.\p"
 	.string "In FORTREE CITY, how many\n"
-	.string "tree houses were there?$"
+	.string "tree houses were there?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
-	.string "MECHADOLL 5 QUIZ.\p"
+	.string "{COLOR GREEN}MECHADOLL 5 QUIZ.\p"
 	.string "On the CYCLING ROAD, how many\n"
-	.string "TRIATHLETES were there?$"
+	.string "TRIATHLETES were there?{COLOR DARK_GRAY}$"

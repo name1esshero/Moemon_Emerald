@@ -107,35 +107,35 @@ Route110_TrickHousePuzzle2_Text_WroteSecretCodeLockOpened:
 	.string "The lock clicked open!$"
 
 Route110_TrickHousePuzzle2_Text_TedIntro:
-	.string "Which switch closes which hole?$"
+	.string "{COLOR BLUE}Which switch closes which hole?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle2_Text_TedDefeat:
 	.string "After that battle, I'm even more\n"
 	.string "confused!$"
 
 Route110_TrickHousePuzzle2_Text_TedPostBattle:
-	.string "Can I get you to push all the buttons\n"
-	.string "for me?$"
+	.string "{COLOR BLUE}Can I get you to push all the buttons\n"
+	.string "for me?{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle2_Text_PaulIntro:
-	.string "Oh! You're on your second TRICK HOUSE\n"
-	.string "challenge!$"
+	.string "{COLOR BLUE}Oh! You're on your second TRICK HOUSE\n"
+	.string "challenge!{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle2_Text_PaulDefeat:
 	.string "You're good at battling too?$"
 
 Route110_TrickHousePuzzle2_Text_PaulPostBattle:
-	.string "The TRICK MASTER rigged all the tricks\n"
-	.string "in this house all by himself.$"
+	.string "{COLOR BLUE}The TRICK MASTER rigged all the tricks\n"
+	.string "in this house all by himself.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaIntro:
-	.string "I want to make my own GYM one day.\n"
-	.string "So, I'm studying how to set traps.$"
+	.string "{COLOR RED}I want to make my own GYM one day.\n"
+	.string "So, I'm studying how to set traps.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaDefeat:
 	.string "I didn't study battling enough!$"
 
 Route110_TrickHousePuzzle2_Text_GeorgiaPostBattle:
-	.string "You're strong, aren't you?\n"
-	.string "Maybe even enough to be a GYM LEADER!$"
+	.string "{COLOR RED}You're strong, aren't you?\n"
+	.string "Maybe even enough to be a GYM LEADER!{COLOR DARK_GRAY}$"
 

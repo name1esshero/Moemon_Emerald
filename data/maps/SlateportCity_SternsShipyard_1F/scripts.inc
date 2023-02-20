@@ -65,15 +65,15 @@ SlateportCity_SternsShipyard_1F_EventScript_Briney::
 	end
 
 SlateportCity_SternsShipyard_1F_Text_CantMakeHeadsOrTails:
-	.string "Umm… If this goes here, and that\n"
+	.string "{COLOR BLUE}Umm… If this goes here, and that\n"
 	.string "goes over there…\p"
 	.string "Then where does this thing go?\n"
 	.string "And what about that doohickey?\p"
 	.string "Aaargh! I can't make heads or tails\n"
-	.string "of this!$"
+	.string "of this!{COLOR DARK_GRAY}$"
 
 SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern:
-	.string "Hm?\n"
+	.string "{COLOR BLUE}Hm?\n"
 	.string "Hi, I'm DOCK.\p"
 	.string "CAPT. STERN commissioned me to\n"
 	.string "design a ferry.\p"
@@ -84,38 +84,38 @@ SlateportCity_SternsShipyard_1F_Text_MeetDockDeliverToStern:
 	.string "CAPT. STERN went off somewhere.\n"
 	.string "He said he had some work to do.\p"
 	.string "Could I get you to go find CAPT.\n"
-	.string "STERN and deliver that to him?$"
+	.string "STERN and deliver that to him?{COLOR DARK_GRAY}$"
 
 SlateportCity_SternsShipyard_1F_Text_CouldYouFindStern:
-	.string "DOCK: Where could CAPT. STERN have\n"
+	.string "{COLOR BLUE}DOCK: Where could CAPT. STERN have\n"
 	.string "gone off to?\p"
 	.string "Could you go find CAPT. STERN and\n"
-	.string "deliver that parcel to him?$"
+	.string "deliver that parcel to him?{COLOR DARK_GRAY}$"
 
 SlateportCity_SternsShipyard_1F_Text_CouldUseAdviceFromVeteran:
-	.string "DOCK: Shipbuilding is an art.\p"
+	.string "{COLOR BLUE}DOCK: Shipbuilding is an art.\p"
 	.string "A lot of things can't be figured out\n"
 	.string "just by calculating.\p"
 	.string "I really could use advice from a veteran\n"
-	.string "who knows the seas…$"
+	.string "who knows the seas…{COLOR DARK_GRAY}$"
 
 SlateportCity_SternsShipyard_1F_Text_BrineyJoinedUs:
-	.string "DOCK: Hi! MR. BRINEY's joined us to\n"
+	.string "{COLOR BLUE}DOCK: Hi! MR. BRINEY's joined us to\n"
 	.string "lend us his help.\p"
 	.string "Thanks to the veteran sailor, the\n"
-	.string "ferry is steadily coming together.$"
+	.string "ferry is steadily coming together.{COLOR DARK_GRAY}$"
 
 SlateportCity_SternsShipyard_1F_Text_FerryIsReady:
-	.string "DOCK: The ferry is finally ready!\p"
+	.string "{COLOR BLUE}DOCK: The ferry is finally ready!\p"
 	.string "The new S.S. TIDAL is truly a marvel\n"
 	.string "of technology!\p"
 	.string "But, I get the feeling that we can\n"
 	.string "make something even better.\p"
 	.string "You know, there's never an end to\n"
-	.string "technology's march.$"
+	.string "technology's march.{COLOR DARK_GRAY}$"
 
 SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock:
-	.string "MR. BRINEY: Ah, {PLAYER}{KUN}!\n"
+	.string "{COLOR BLUE}MR. BRINEY: Ah, {PLAYER}{KUN}!\n"
 	.string "It's been too long!\p"
 	.string "Aye, since I met you, this old sea dog's\n"
 	.string "been feeling frisky!\p"
@@ -127,17 +127,17 @@ SlateportCity_SternsShipyard_1F_Text_DecidedToHelpDock:
 	.string "something special.\p"
 	.string "With his knack for technology and\n"
 	.string "my experience, I'm sure that we can\l"
-	.string "build one great ship, aye!$"
+	.string "build one great ship, aye!{COLOR DARK_GRAY}$"
 
 SlateportCity_SternsShipyard_1F_Text_SeaIsLikeLivingThing:
-	.string "The seasons, the weather, where\n"
+	.string "{COLOR BLUE}The seasons, the weather, where\n"
 	.string "the moon sits in the sky…\p"
 	.string "These and other conditions make\n"
 	.string "the sea change its expression.\p"
 	.string "That's right!\n"
-	.string "The sea is like a living thing!$"
+	.string "The sea is like a living thing!{COLOR DARK_GRAY}$"
 
 SlateportCity_SternsShipyard_1F_Text_GetSeasickEasily:
-	.string "I get seasick real easily.\n"
-	.string "So I get to help out here instead.$"
+	.string "{COLOR BLUE}I get seasick real easily.\n"
+	.string "So I get to help out here instead.{COLOR DARK_GRAY}$"
 

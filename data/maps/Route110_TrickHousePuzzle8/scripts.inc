@@ -35,37 +35,37 @@ Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
 	.string "The lock clicked open!$"
 
 Route110_TrickHousePuzzle8_Text_VincentIntro:
-	.string "Not many TRAINERS have made it\n"
-	.string "this far.$"
+	.string "{COLOR BLUE}Not many TRAINERS have made it\n"
+	.string "this far.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
 	.string "That must mean you're tough, too…$"
 
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
-	.string "You've beaten the POKéMON LEAGUE\n"
-	.string "CHAMPION? That's too much!$"
+	.string "{COLOR BLUE}You've beaten the POKéMON LEAGUE\n"
+	.string "CHAMPION? That's too much!{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
-	.string "Consider yourself lucky to be\n"
-	.string "battling me!$"
+	.string "{COLOR RED}Consider yourself lucky to be\n"
+	.string "battling me!{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle8_Text_KeiraDefeat:
 	.string "This isn't right!\n"
 	.string "I can't lose!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
-	.string "It's a miracle that you beat me.\n"
-	.string "You can brag about it.$"
+	.string "{COLOR RED}It's a miracle that you beat me.\n"
+	.string "You can brag about it.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle8_Text_LeroyIntro:
-	.string "You've been slugging through the TRICK\n"
-	.string "HOUSE challenge, too.$"
+	.string "{COLOR BLUE}You've been slugging through the TRICK\n"
+	.string "HOUSE challenge, too.{COLOR DARK_GRAY}$"
 
 Route110_TrickHousePuzzle8_Text_LeroyDefeat:
 	.string "I see…\n"
 	.string "You possess an extraordinary style.$"
 
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
-	.string "Seeing someone like you should please\n"
-	.string "the TRICK MASTER.$"
+	.string "{COLOR BLUE}Seeing someone like you should please\n"
+	.string "the TRICK MASTER.{COLOR DARK_GRAY}$"
 

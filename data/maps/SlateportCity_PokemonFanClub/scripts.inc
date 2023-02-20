@@ -253,7 +253,7 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill::
 	end
 
 SlateportCity_PokemonFanClub_Text_MeetChairman:
-	.string "Er-hem! I am the CHAIRMAN of the\n"
+	.string "{COLOR BLUE}Er-hem! I am the CHAIRMAN of the\n"
 	.string "POKéMON FAN CLUB!\p"
 	.string "Being the CHAIRMAN, I am naturally\n"
 	.string "the most important!\p"
@@ -267,15 +267,15 @@ SlateportCity_PokemonFanClub_Text_MeetChairman:
 	.string "so I cannot participate often enough.\p"
 	.string "That is why we gather here to show\n"
 	.string "off our POKéMON, and have others\l"
-	.string "show us theirs.$"
+	.string "show us theirs.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_LikeToSeeEnteredContestPokemon:
-	.string "The POKéMON of a TRAINER who has\n"
+	.string "{COLOR BLUE}The POKéMON of a TRAINER who has\n"
 	.string "entered a POKéMON CONTEST…\l"
-	.string "That, I would like to see.$"
+	.string "That, I would like to see.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
-	.string "Er-hem! I see you've participated in\n"
+	.string "{COLOR BLUE}Er-hem! I see you've participated in\n"
 	.string "a POKéMON CONTEST!\p"
 	.string "Please! Allow me to examine how you\n"
 	.string "have raised your POKéMON.\p"
@@ -290,104 +290,104 @@ SlateportCity_PokemonFanClub_Text_AllowMeToExamineYourPokemon:
 	.string "Oh! I do beg your pardon!\n"
 	.string "Forgive me for prattling on so!\p"
 	.string "Please! Allow me to examine how much\n"
-	.string "your POKéMON has grown!$"
+	.string "your POKéMON has grown!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_HowIsYourPokemonGrowing:
-	.string "How is your POKéMON growing?\n"
-	.string "Allow me to examine it.$"
+	.string "{COLOR BLUE}How is your POKéMON growing?\n"
+	.string "Allow me to examine it.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_HmHmISee:
-	.string "Hm, hm…\n"
-	.string "I see…$"
+	.string "{COLOR BLUE}Hm, hm…\n"
+	.string "I see…{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_GiveMonMorePokeblocks:
-	.string "Hmmm… It's not bad, but it's not\n"
+	.string "{COLOR BLUE}Hmmm… It's not bad, but it's not\n"
 	.string "good, either…\p"
 	.string "You, the TRAINER, must put more\n"
 	.string "effort into raising this POKéMON!\p"
 	.string "For instance, may I suggest that\n"
-	.string "you give it more {POKEBLOCK}S?$"
+	.string "you give it more {POKEBLOCK}S?{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_NoSpaceForReward:
-	.string "Oh, my…\p"
+	.string "{COLOR BLUE}Oh, my…\p"
 	.string "Your POKéMON is growing quite well,\n"
 	.string "so you deserve a reward.\p"
 	.string "Unfortunately, you have no space for\n"
-	.string "this in your BAG.$"
+	.string "this in your BAG.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_MonMostImpressiveGiveItThis:
-	.string "Your {STR_VAR_1}, it is growing in\n"
+	.string "{COLOR BLUE}Your {STR_VAR_1}, it is growing in\n"
 	.string "a most impressive manner!\l"
 	.string "It is one fine specimen!\p"
 	.string "But! If you were to give it this,\n"
-	.string "it would grow even better! Indeed!$"
+	.string "it would grow even better! Indeed!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_ExplainRedScarf:
-	.string "Let a POKéMON hold that RED SCARF.\p"
+	.string "{COLOR BLUE}Let a POKéMON hold that RED SCARF.\p"
 	.string "Everyone will recognize the coolness\n"
-	.string "of that POKéMON!$"
+	.string "of that POKéMON!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_ExplainBlueScarf:
-	.string "Let a POKéMON hold that BLUE SCARF.\p"
+	.string "{COLOR BLUE}Let a POKéMON hold that BLUE SCARF.\p"
 	.string "Its beauty will be accentuated much\n"
-	.string "more than now!$"
+	.string "more than now!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_ExplainPinkScarf:
-	.string "Let a POKéMON hold that PINK SCARF.\p"
+	.string "{COLOR BLUE}Let a POKéMON hold that PINK SCARF.\p"
 	.string "It will draw out the cuteness of\n"
-	.string "the POKéMON some more!$"
+	.string "the POKéMON some more!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_ExplainGreenScarf:
-	.string "Let a POKéMON hold that GREEN SCARF.\p"
+	.string "{COLOR BLUE}Let a POKéMON hold that GREEN SCARF.\p"
 	.string "That will enhance the\n"
-	.string "smartness of POKéMON!$"
+	.string "smartness of POKéMON!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_ExplainYellowScarf:
-	.string "Let a POKéMON hold that YELLOW SCARF.\p"
+	.string "{COLOR BLUE}Let a POKéMON hold that YELLOW SCARF.\p"
 	.string "It will bolster your POKéMON's\n"
-	.string "toughness so much more!$"
+	.string "toughness so much more!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_NothingElseToGiveYou:
-	.string "I'm sorry, but I've nothing else to\n"
+	.string "{COLOR BLUE}I'm sorry, but I've nothing else to\n"
 	.string "give you! None at all!\p"
 	.string "After all, you're blessed with the gift\n"
 	.string "of raising POKéMON without resorting\l"
-	.string "to any items!$"
+	.string "to any items!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_ShowMePokemonThatLoveYou:
-	.string "I love seeing POKéMON that love\n"
+	.string "{COLOR RED}I love seeing POKéMON that love\n"
 	.string "their TRAINERS.\p"
 	.string "POKéMON are very sensitive to\n"
 	.string "the feelings of their TRAINERS.\p"
 	.string "If you treat your POKéMON with love\n"
 	.string "and care, they'll love you back.\p"
 	.string "When your POKéMON grow to love you,\n"
-	.string "please come show me.$"
+	.string "please come show me.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_PokemonAdoresYou:
-	.string "Your POKéMON really adores you.\p"
+	.string "{COLOR RED}Your POKéMON really adores you.\p"
 	.string "For you, a most compassionate\n"
-	.string "TRAINER, a gift from the FAN CLUB!$"
+	.string "TRAINER, a gift from the FAN CLUB!{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_TreatPokemonWithLove:
-	.string "POKéMON are very sensitive to\n"
+	.string "{COLOR RED}POKéMON are very sensitive to\n"
 	.string "the feelings of their TRAINERS.\p"
 	.string "If you treat your POKéMON with love\n"
-	.string "and care, they'll love you back.$"
+	.string "and care, they'll love you back.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_PokemonDontLikeFainting:
-	.string "If you keep letting a POKéMON faint\n"
+	.string "{COLOR BLUE}If you keep letting a POKéMON faint\n"
 	.string "in battle, it'll come to resent it.\p"
 	.string "Soon, it will become less trusting\n"
 	.string "of the TRAINER.\p"
 	.string "In other words, it certainly won't\n"
-	.string "like you very much.$"
+	.string "like you very much.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
-	.string "Do POKéMON enjoy having items used\n"
+	.string "{COLOR RED}Do POKéMON enjoy having items used\n"
 	.string "on them?\p"
 	.string "Mine acted really happy when I gave\n"
-	.string "it some PROTEIN.$"
+	.string "it some PROTEIN.{COLOR DARK_GRAY}$"
 
 SlateportCity_PokemonFanClub_Text_Skitty:
 	.string "SKITTY: Fffnyaaaah…$"
