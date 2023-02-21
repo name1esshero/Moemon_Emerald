@@ -31,6 +31,7 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**DexNav With Detector Mode**](https://www.pokecommunity.com/showthread.php?t=440571) by Ghoulslash
 * [**Nature Mints**](https://github.com/ghoulslash/pokeemerald/tree/nature_mints) by Ghoulslash
 * [**Pokecenters Disregard Eggs**](https://github.com/pret/pokeemerald/wiki/Pokecenters-Disregard-Eggs) by Ghoulslash
+* [**Fix Surf Dismount Effect**](https://github.com/pret/pokeemerald/wiki/Surfing-Dismount-Ground-Effects) by Ghoulslash
 * [**Day/Night System**](https://github.com/aarant/pokeemerald/tree/lighting) by Aarant
 * [**Enemy Trainers Use Revival Items**](https://www.pokecommunity.com/showthread.php?t=453908) by WiserVisor
 * [**Feed Any Number Of PokeBlocks**](https://www.pokecommunity.com/showpost.php?p=10364627) by Robinlukke
@@ -48,8 +49,11 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 
 
 ## Graphics
+Moemon Sprites by The Moemon Project
+Brendan & May Trainer front and backsprites by solo993
 
 ## Special Thanks
 
 Lunos for all kinds of assistance when I was stuck trying to figure something out
 Archie for help when I was stuck as well.
+Cookie Softcore, Rache, Princess Kitty, SoulOfMod, Nerak55, LeafJewel, Filth-Sama, and all the people on the moemon discord for tolerating my shenanigans and being great friends.
