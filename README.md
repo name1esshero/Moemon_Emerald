@@ -40,8 +40,11 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Randomizer, Nuzlocke, And Challenges**](https://github.com/TheXaman/pokeemerald/tree/tx_randomizer_and_challenges) by TheXaman
 * [**Better Options Menu**](https://github.com/TheXaman/pokeemerald/tree/tx_optionsPlus) by TheXaman
 * [**Speedy Nurse Joy**](https://github.com/pret/pokeemerald/wiki/Speedy-Nurse-Joy) by TheXaman
-* [**Thief Ball**](https://github.com/pret/pokeemerald/wiki/Add-Thief-Ball) by Devolov (edits by missiri)
-[**Make Cleanse Tag Avoid All Wild Encounters and Usable If Held By Anyone in Your Party; Make PokeDoll Do the Same for Trainers Seeing You**](https://github.com/pret/pokeemerald/wiki/Make-Cleanse-Tag-Avoid-All-Wild-Encounters-and-Usable-If-Held-By-Anyone-in-Your-Party;-Make-PokeDoll-Do-the-Same-for-Trainers-Seeing-You) by Devolov
+* [**Make Cleanse Tag Avoid All Wild Encounters and Usable If Held By Anyone in Your Party; Make PokeDoll Do the Same for Trainers Seeing You**](https://github.com/pret/pokeemerald/wiki/Make-Cleanse-Tag-Avoid-All-Wild-Encounters-and-Usable-If-Held-By-Anyone-in-Your-Party;-Make-PokeDoll-Do-the-Same-for-Trainers-Seeing-You) by Devolov
+* [**Faster HP Drain**](https://github.com/pret/pokeemerald/wiki/Faster-HP-Drain) by Sonikku A
+* [**Wrong Save Type Error Screen**](https://www.pokecommunity.com/showpost.php?p=10449518) by Anon822
+
+
 
 
 ## Graphics
