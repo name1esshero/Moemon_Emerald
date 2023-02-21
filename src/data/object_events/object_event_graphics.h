@@ -784,6 +784,7 @@ const u16 gObjectEventPal_Kecleon[] = INCBIN_U16("graphics/object_events/palette
 const u32 gObjectEventPic_WingullOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/wingull_old.4bpp");
 const u16 gObjectEventPal_Wingull[] = INCBIN_U16("graphics/object_events/palettes/wingull.gbapal");
 const u32 gObjectEventPic_AzumarillOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/azumarill_old.4bpp");
+const u16 gObjectEventPal_Azumarill[] = INCBIN_U16("graphics/object_events/palettes/azumarill.gbapal");
 const u32 gObjectEventPic_PikachuOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/pikachu_old.4bpp");
 const u16 gObjectEventPal_Pikachu[] = INCBIN_U16("graphics/object_events/palettes/pikachu.gbapal");
 const u32 gObjectEventPic_ZigzagoonOld[] = INCBIN_U32("graphics/object_events/pics/pokemon/zigzagoon.4bpp");

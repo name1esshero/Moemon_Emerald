@@ -2879,23 +2879,23 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_MAY] = {
-        .species = SPECIES_SEEDOT,
-        .nickname = _("DOTTY"),
+        .species = SPECIES_TROPIUS,
+        .nickname = _("TROPIUS"),
         .trainerName = _("MAY"),
         .trainerGfxId = OBJ_EVENT_GFX_MAY_NORMAL,
         .aiFlags = CONTEST_AI_SET_4,
         .whichRank = CONTEST_RANK_NORMAL,
-        .aiPool_Cool = FALSE,
-        .aiPool_Beauty = FALSE,
-        .aiPool_Cute = FALSE,
+        .aiPool_Cool = TRUE,
+        .aiPool_Beauty = TRUE,
+        .aiPool_Cute = TRUE,
         .aiPool_Smart = TRUE,
         .aiPool_Tough = TRUE,
         .moves =
         {
-            MOVE_BIDE,
-            MOVE_SYNTHESIS,
-            MOVE_BULLET_SEED,
-            MOVE_GROWTH
+            MOVE_STOMP,
+            MOVE_SWEET_SCENT,
+            MOVE_WHIRLWIND,
+            MOVE_MAGICAL_LEAF
         },
         .cool = 3,
         .beauty = 3,
@@ -2907,23 +2907,23 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_BRENDAN] = {
-        .species = SPECIES_SEEDOT,
-        .nickname = _("DOTTY"),
+        .species = SPECIES_TROPIUS,
+        .nickname = _("TROPIUS"),
         .trainerName = _("BRENDAN"),
         .trainerGfxId = OBJ_EVENT_GFX_BRENDAN_NORMAL,
         .aiFlags = CONTEST_AI_SET_4,
         .whichRank = CONTEST_RANK_NORMAL,
-        .aiPool_Cool = FALSE,
-        .aiPool_Beauty = FALSE,
-        .aiPool_Cute = FALSE,
+        .aiPool_Cool = TRUE,
+        .aiPool_Beauty = TRUE,
+        .aiPool_Cute = TRUE,
         .aiPool_Smart = TRUE,
         .aiPool_Tough = TRUE,
         .moves =
         {
-            MOVE_BIDE,
-            MOVE_SYNTHESIS,
-            MOVE_BULLET_SEED,
-            MOVE_GROWTH
+            MOVE_STOMP,
+            MOVE_SWEET_SCENT,
+            MOVE_WHIRLWIND,
+            MOVE_MAGICAL_LEAF
         },
         .cool = 3,
         .beauty = 3,

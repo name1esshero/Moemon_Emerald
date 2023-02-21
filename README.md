@@ -41,5 +41,12 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Better Options Menu**](https://github.com/TheXaman/pokeemerald/tree/tx_optionsPlus) by TheXaman
 * [**Speedy Nurse Joy**](https://github.com/pret/pokeemerald/wiki/Speedy-Nurse-Joy) by TheXaman
 * [**Thief Ball**](https://github.com/pret/pokeemerald/wiki/Add-Thief-Ball) by Devolov (edits by missiri)
+[**Make Cleanse Tag Avoid All Wild Encounters and Usable If Held By Anyone in Your Party; Make PokeDoll Do the Same for Trainers Seeing You**](https://github.com/pret/pokeemerald/wiki/Make-Cleanse-Tag-Avoid-All-Wild-Encounters-and-Usable-If-Held-By-Anyone-in-Your-Party;-Make-PokeDoll-Do-the-Same-for-Trainers-Seeing-You) by Devolov
+
 
 ## Graphics
+
+## Special Thanks
+
+Lunos for all kinds of assistance when I was stuck trying to figure something out
+Archie for help when I was stuck as well.
