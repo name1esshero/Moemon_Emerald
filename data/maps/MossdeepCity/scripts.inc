@@ -311,26 +311,26 @@ MossdeepCity_Movement_ScottExitEast:
 	step_end
 
 MossdeepCity_Text_WantKingsRockStevenGaveMe:
-	.string "I got this from STEVEN, but I don't\n"
+	.string "{COLOR BLUE}I got this from STEVEN, but I don't\n"
 	.string "know what it's good for.\p"
 	.string "I think it's called KING'S ROCK.\n"
 	.string "Do you want it?$"
 
 MossdeepCity_Text_YouCanKeepIt:
-	.string "Why would you want it?\n"
+	.string "{COLOR BLUE}Why would you want it?\n"
 	.string "You're weird.\p"
 	.string "You can keep it, but keep it a secret\n"
 	.string "from STEVEN.$"
 
 MossdeepCity_Text_StevensHouseOverThere:
-	.string "STEVEN's house is right over there!$"
+	.string "{COLOR BLUE}STEVEN's house is right over there!$"
 
 MossdeepCity_Text_WhatToDoWithWeirdRock:
-	.string "Yeah, you think so, too! What are you\n"
+	.string "{COLOR BLUE}Yeah, you think so, too! What are you\n"
 	.string "supposed to do with some weird rock?$"
 
 MossdeepCity_Text_WailmerWatching:
-	.string "Around MOSSDEEP, you can see wild\n"
+	.string "{COLOR BLUE}Around MOSSDEEP, you can see wild\n"
 	.string "WAILMER.\p"
 	.string "It's called, uh…\n"
 	.string "What was it now…\p"
@@ -338,17 +338,17 @@ MossdeepCity_Text_WailmerWatching:
 	.string "WAILMER watching!$"
 
 MossdeepCity_Text_SpaceCenterReceivedLetter:
-	.string "The island's SPACE CENTER has been\n"
+	.string "{COLOR RED}The island's SPACE CENTER has been\n"
 	.string "launching huge rockets.\p"
 	.string "There's been some kind of an uproar\n"
 	.string "over a letter they received recently.$"
 
 MossdeepCity_Text_SpaceCenterLaunchingRockets:
-	.string "The island's SPACE CENTER has been\n"
+	.string "{COLOR RED}The island's SPACE CENTER has been\n"
 	.string "launching huge rockets.$"
 
 MossdeepCity_Text_MossdeepTargetedByMagma:
-	.string "I heard from a SAILOR buddy that\n"
+	.string "{COLOR BLUE}I heard from a SAILOR buddy that\n"
 	.string "TEAM AQUA set up shop in LILYCOVE.\p"
 	.string "I also heard that someone came along\n"
 	.string "and wiped the floor with them!\p"
@@ -358,18 +358,18 @@ MossdeepCity_Text_MossdeepTargetedByMagma:
 	.string "go visit the SPACE CENTER.$"
 
 MossdeepCity_Text_FeelReliefOnLand:
-	.string "I'm a SAILOR, so the sea's obviously\n"
+	.string "{COLOR BLUE}I'm a SAILOR, so the sea's obviously\n"
 	.string "more important to me.\p"
 	.string "But you know? When I get back on land\n"
 	.string "after a long voyage, I do feel relief!$"
 
 MossdeepCity_Text_NiceIfWorldCoveredByFlowers:
-	.string "Wouldn't it be nice?\p"
+	.string "{COLOR RED}Wouldn't it be nice?\p"
 	.string "If the whole world was covered in\n"
 	.string "plants and flowers like this island?$"
 
 MossdeepCity_Text_LifeNeedsSeaToLive:
-	.string "All life needs the sea to live, even\n"
+	.string "{COLOR BLUE}All life needs the sea to live, even\n"
 	.string "though it makes its home on the land.\p"
 	.string "Life, having run its course, becomes\n"
 	.string "soil and returns to the land.\p"
@@ -378,14 +378,14 @@ MossdeepCity_Text_LifeNeedsSeaToLive:
 	.string "Yes, like the very shoreline here.$"
 
 MossdeepCity_Text_SurfExhilarating:
-	.string "A voyage on a ship is fine.\p"
+	.string "{COLOR BLUE}A voyage on a ship is fine.\p"
 	.string "But crossing the sea with POKéMON\n"
 	.string "using SURF…\p"
 	.string "Now that's an exhilarating trip!\n"
 	.string "Wouldn't you agree, youngster?$"
 
 MossdeepCity_Text_SpecialSpaceCenterRock:
-	.string "This rock has a special meaning to\n"
+	.string "{COLOR RED}This rock has a special meaning to\n"
 	.string "the people at the SPACE CENTER.\p"
 	.string "They put it here as their wish for\n"
 	.string "their rockets to fly safely.\p"
@@ -411,7 +411,7 @@ MossdeepCity_Text_SpaceCenterSign:
 	.string "“The closest place to space.”$"
 
 MossdeepCity_Text_ScottSomethingWrongWithTown:
-	.string "SCOTT: {PLAYER}{KUN}, feeling good?\n"
+	.string "{COLOR BLUE}SCOTT: {PLAYER}{KUN}, feeling good?\n"
 	.string "I'm doing great!\p"
 	.string "I'd heard MOSSDEEP's GYM LEADER is\n"
 	.string "pretty strong, so I decided to come\l"
@@ -424,7 +424,7 @@ MossdeepCity_Text_ScottSomethingWrongWithTown:
 	.string "way, though.$"
 
 MossdeepCity_Text_SootopolisNewGymLeader:
-	.string "Ahh… It feels great letting the waves\n"
+	.string "{COLOR BLUE}Ahh… It feels great letting the waves\n"
 	.string "wash over my feet…\p"
 	.string "Speaking of the waves, you know that\n"
 	.string "island city SOOTOPOLIS?\p"

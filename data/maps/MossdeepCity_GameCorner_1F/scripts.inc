@@ -39,7 +39,7 @@ RS_MysteryEventsHouse_EventScript_Door::
 	end
 
 RS_MysteryEventsHouse_Text_OldManGreeting:
-	.string "When I was young, I traveled the world\n"
+	.string "{COLOR BLUE}When I was young, I traveled the world\n"
 	.string "as a POKéMON TRAINER.\p"
 	.string "Now that I've become an old buzzard,\n"
 	.string "my only amusement is watching young\l"
@@ -49,39 +49,39 @@ RS_MysteryEventsHouse_Text_DoorIsLocked:
 	.string "The door appears to be locked.$"
 
 RS_MysteryEventsHouse_Text_ChallengeVisitingTrainer:
-	.string "A TRAINER named {STR_VAR_1} is\n"
+	.string "{COLOR BLUE}A TRAINER named {STR_VAR_1} is\n"
 	.string "visiting my home.\p"
 	.string "Would you like to challenge\n"
 	.string "{STR_VAR_1}?$"
 
 RS_MysteryEventsHouse_Text_YouWontBattle:
-	.string "You won't battle? I'm disappointed\n"
+	.string "{COLOR BLUE}You won't battle? I'm disappointed\n"
 	.string "that I can't see you battle…$"
 
 RS_MysteryEventsHouse_Text_KeepItToA3On3:
-	.string "Oh, good, good!\p"
+	.string "{COLOR BLUE}Oh, good, good!\p"
 	.string "But my house isn't all that sturdy.\p"
 	.string "Could I ask you to keep it down to\n"
 	.string "a 3-on-3 match?$"
 
 RS_MysteryEventsHouse_Text_SaveYourProgress:
-	.string "Before you two battle, you should\n"
+	.string "{COLOR BLUE}Before you two battle, you should\n"
 	.string "save your progress.$"
 
 RS_MysteryEventsHouse_Text_HopeToSeeAGoodMatch:
-	.string "I hope to see a good match!$"
+	.string "{COLOR BLUE}I hope to see a good match!$"
 
 RS_MysteryEventsHouse_Text_BattleTie:
-	.string "So, it became a standoff.\p"
+	.string "{COLOR BLUE}So, it became a standoff.\p"
 	.string "It was a brilliant match in which\n"
 	.string "neither side conceded a step!$"
 
 RS_MysteryEventsHouse_Text_BattleWon:
-	.string "That was superlative!\p"
+	.string "{COLOR BLUE}That was superlative!\p"
 	.string "Why, it was like seeing myself in\n"
 	.string "my youth again!$"
 
 RS_MysteryEventsHouse_Text_BattleLost:
-	.string "Ah, too bad for you!\p"
+	.string "{COLOR BLUE}Ah, too bad for you!\p"
 	.string "But it was a good match.\n"
 	.string "I hope you can win next time.$"

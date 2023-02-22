@@ -254,7 +254,7 @@ SSTidalCorridor_Movement_SailorReturn:
 	step_end
 
 SSTidalCorridor_Text_ScottBattleFrontierInvite:
-	.string "SCOTT: Well, hi, hi!\n"
+	.string "{COLOR BLUE}SCOTT: Well, hi, hi!\n"
 	.string "{PLAYER}{KUN}, {PLAYER}{KUN}!\p"
 	.string "Something's come up, so I have to\n"
 	.string "disembark, but am I glad to see you!\p"
@@ -274,25 +274,25 @@ SSTidalCorridor_Text_ScottBattleFrontierInvite:
 	.string "at the BATTLE FRONTIER!$"
 
 SSTidal_Text_FastCurrentsHopeYouEnjoyVoyage:
-	.string "This ferry is built to plow through\n"
+	.string "{COLOR BLUE}This ferry is built to plow through\n"
 	.string "fast-running currents.\p"
 	.string "We hope you enjoy your voyage with us.\n"
 	.string "Feel free to explore the ship.$"
 
 SSTidal_Text_HopeYouEnjoyVoyage:
-	.string "We hope you enjoy your voyage on\n"
+	.string "{COLOR BLUE}We hope you enjoy your voyage on\n"
 	.string "our ferry.$"
 
 SSTidal_Text_MadeLandInSlateport:
-	.string "We have made land in SLATEPORT CITY.\n"
+	.string "{COLOR BLUE}We have made land in SLATEPORT CITY.\n"
 	.string "Thank you for sailing with us.$"
 
 SSTidal_Text_MadeLandInLilycove:
-	.string "We have made land in LILYCOVE CITY.\n"
+	.string "{COLOR BLUE}We have made land in LILYCOVE CITY.\n"
 	.string "Thank you for sailing with us.$"
 
 SSTidalCorridor_Text_CanRestInCabin2:
-	.string "It'll be some time before we make land,\n"
+	.string "{COLOR BLUE}It'll be some time before we make land,\n"
 	.string "I reckon.\p"
 	.string "You can rest up in your cabin if you'd\n"
 	.string "like. Your cabin's No. 2.\p"
@@ -300,10 +300,10 @@ SSTidalCorridor_Text_CanRestInCabin2:
 	.string "I can attest to how comfy it is!$"
 
 SSTidalCorridor_Text_WeveArrived:
-	.string "We've arrived!$"
+	.string "{COLOR BLUE}We've arrived!$"
 
 SSTidalCorridor_Text_VisitOtherCabins:
-	.string "Go visit other cabins.\n"
+	.string "{COLOR BLUE}Go visit other cabins.\n"
 	.string "TRAINERS bored of the boat trip will\l"
 	.string "be itching to battle.$"
 

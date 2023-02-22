@@ -27,7 +27,7 @@ VerdanturfTown_PokemonCenter_1F_EventScript_ExpertM::
 	end
 
 VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
-	.string "You can't consider yourself a real\n"
+	.string "{COLOR BLUE}You can't consider yourself a real\n"
 	.string "TRAINER if you don't have faith\l"
 	.string "in your POKéMON.\p"
 	.string "Only those people who can believe\n"
@@ -35,7 +35,7 @@ VerdanturfTown_PokemonCenter_1F_Text_FaithInYourPokemon:
 	.string "through to the very end.$"
 
 VerdanturfTown_PokemonCenter_1F_Text_VisitForBattleTent:
-	.string "The reason why anyone would visit\n"
+	.string "{COLOR BLUE}The reason why anyone would visit\n"
 	.string "VERDANTURF…\p"
 	.string "It's the BATTLE TENT. It goes without\n"
 	.string "saying.\p"

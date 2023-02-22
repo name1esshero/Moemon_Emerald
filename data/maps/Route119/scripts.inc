@@ -480,7 +480,7 @@ Route119_EventScript_ScottWonAtFortreeGymCall::
 	end
 
 Route119_Text_MayIntro:
-	.string "MAY: {PLAYER}{KUN}!\n"
+	.string "{COLOR RED}MAY: {PLAYER}{KUN}!\n"
 	.string "Where were you? I was looking for you!\p"
 	.string "How much stronger have you gotten?\n"
 	.string "Let me check for you!\p"
@@ -494,12 +494,12 @@ Route119_Text_MayDefeat:
 	.string "struggling with your training.$"
 
 Route119_Text_MayPresentForYou:
-	.string "MAY: But I had absolutely nothing to\n"
+	.string "{COLOR RED}MAY: But I had absolutely nothing to\n"
 	.string "worry about! Keep it up!\p"
 	.string "And, here! I have a present for you.$"
 
 Route119_Text_MayExplainFly:
-	.string "MAY: Use FLY, and your POKéMON will\n"
+	.string "{COLOR RED}MAY: Use FLY, and your POKéMON will\n"
 	.string "instantly carry you to any town you've\l"
 	.string "already visited.\p"
 	.string "But, to use FLY, you have to get\n"
@@ -512,7 +512,7 @@ Route119_Text_MayExplainFly:
 	.string "Well, let's meet again somewhere!$"
 
 Route119_Text_BrendanIntro:
-	.string "BRENDAN: {PLAYER}! So this is where\n"
+	.string "{COLOR BLUE}BRENDAN: {PLAYER}! So this is where\n"
 	.string "you've been looking for POKéMON?\p"
 	.string "Let me see how good you got.\n"
 	.string "I'll test you!\p"
@@ -524,13 +524,13 @@ Route119_Text_BrendanDefeat:
 	.string "You've gotten pretty darn decent.$"
 
 Route119_Text_BrendanIllGiveYouThis:
-	.string "BRENDAN: I'd say you're good enough\n"
+	.string "{COLOR BLUE}BRENDAN: I'd say you're good enough\n"
 	.string "to search for POKéMON anywhere.\p"
 	.string "Here, I'll give you this.\n"
 	.string "Try it out.$"
 
 Route119_Text_BrendanExplainFly:
-	.string "BRENDAN: Use FLY, and your POKéMON\n"
+	.string "{COLOR BLUE}BRENDAN: Use FLY, and your POKéMON\n"
 	.string "instantly carries you to any town\l"
 	.string "you've already visited.\p"
 	.string "But you need the FORTREE GYM BADGE \n"
@@ -538,7 +538,7 @@ Route119_Text_BrendanExplainFly:
 	.string "Anyway, I have to move along.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:
-	.string "SCOTT: Hahahah!\n"
+	.string "{COLOR BLUE}SCOTT: Hahahah!\n"
 	.string "Way to go, {PLAYER}{KUN}!\p"
 	.string "I just passed by a TRAINER riding\n"
 	.string "a BIKE.\p"
@@ -568,17 +568,17 @@ Route119_Text_ScottYouWonAtFortreeGym:
 	.string "… … … … … Click!$"
 
 Route119_Text_StayAwayFromWeatherInstitute:
-	.string "We're standing lookout here.\p"
+	.string "{COLOR BLUE}We're standing lookout here.\p"
 	.string "Hey, you! Stay away from the WEATHER\n"
 	.string "INSTITUTE. It's not safe.$"
 
 Route119_Text_DontGoNearWeatherInstitute:
-	.string "Lookout duty is surprisingly boring.\p"
+	.string "{COLOR BLUE}Lookout duty is surprisingly boring.\p"
 	.string "Hey, you! Please don't go near the\n"
 	.string "WEATHER INSTITUTE.$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-	.string "I thought you FLY by catching a whole\n"
+	.string "{COLOR BLUE}I thought you FLY by catching a whole\n"
 	.string "flock of BIRD POKéMON, and then\l"
 	.string "hanging on to them somehow.\p"
 	.string "But it turns out there's an HM move\n"
@@ -587,13 +587,13 @@ Route119_Text_ThoughtFlyByCatchingBirdMons:
 	.string "time ago…$"
 
 Route119_Text_TallGrassSnaresBikeTires:
-	.string "Tch…\n"
+	.string "{COLOR BLUE}Tch…\n"
 	.string "It's a no-go…\p"
 	.string "The tall grass snares BIKE tires.\n"
 	.string "There's no way you can cycle here.$"
 
 Route119_Text_CanYourMonMakeSecretBase:
-	.string "Can your POKéMON use its SECRET POWER\n"
+	.string "{COLOR BLUE}Can your POKéMON use its SECRET POWER\n"
 	.string "on a big pile of grass and make a\l"
 	.string "SECRET BASE?$"
 

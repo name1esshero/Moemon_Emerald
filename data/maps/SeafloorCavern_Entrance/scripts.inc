@@ -59,7 +59,7 @@ SeafloorCavern_Entrance_EventScript_GruntFacePlayerNorth::
 	return
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
-	.string "Hey!\n"
+	.string "{COLOR BLUE}Hey!\n"
 	.string "I remember your face!\p"
 	.string "If you're here, it must mean that\n"
 	.string "you're about to mess with us again!\p"
@@ -75,7 +75,7 @@ SeafloorCavern_Entrance_Text_HearMagmaNearMossdeep:
 	.string "look good near the sea!$"
 
 SeafloorCavern_Entrance_Text_HearMagmaNearMossdeepShort:
-	.string "A punk like you, do you really think\n"
+	.string "{COLOR BLUE}A punk like you, do you really think\n"
 	.string "you can take on TEAM AQUA?\p"
 	.string "I'd say you're too early by about\n"
 	.string "a trillion years!\p"

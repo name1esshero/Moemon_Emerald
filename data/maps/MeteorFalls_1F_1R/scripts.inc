@@ -238,23 +238,23 @@ MeteorFalls_1F_1R_EventScript_MetCozmo::
 	end
 
 MeteorFalls_1F_1R_Text_WithThisMeteorite:
-	.string "Hehehe!\p"
+	.string "{COLOR BLUE}Hehehe!\p"
 	.string "With this METEORITE, that thing in\n"
 	.string "MT. CHIMNEY will…$"
 
 MeteorFalls_1F_1R_Text_DontExpectMercyFromMagma:
-	.string "Heh?\p"
+	.string "{COLOR BLUE}Heh?\p"
 	.string "I don't know who you are, but if you get\n"
 	.string "in the way of TEAM MAGMA, don't\l"
 	.string "expect any mercy!$"
 
 MeteorFalls_1F_1R_Text_HoldItRightThereMagma:
-	.string "Hold it right there, TEAM MAGMA!\p"
+	.string "{COLOR BLUE}Hold it right there, TEAM MAGMA!\p"
 	.string "You're badly mistaken if you think you\n"
 	.string "can have your way with the world!$"
 
 MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
-	.string "Hehehe!\n"
+	.string "{COLOR BLUE}Hehehe!\n"
 	.string "Even TEAM AQUA joins us!\p"
 	.string "But it's too much trouble to deal with\n"
 	.string "you all…\p"
@@ -265,7 +265,7 @@ MeteorFalls_1F_1R_Text_BeSeeingYouTeamAqua:
 	.string "AQUA dingbats!$"
 
 MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
-	.string "ARCHIE: Didn't I see you before?\n"
+	.string "{COLOR BLUE}ARCHIE: Didn't I see you before?\n"
 	.string "At SLATEPORT's MUSEUM?\p"
 	.string "Ah, so your name is {PLAYER}.\p"
 	.string "At the time, I thought you were one\n"
@@ -280,22 +280,22 @@ MeteorFalls_1F_1R_Text_ArchieSeenYouBefore:
 	.string "the sea-loving TEAM AQUA!$"
 
 MeteorFalls_1F_1R_Text_BossWeShouldChaseMagma:
-	.string "BOSS, we should give chase to\n"
+	.string "{COLOR BLUE}BOSS, we should give chase to\n"
 	.string "TEAM MAGMA…$"
 
 MeteorFalls_1F_1R_Text_ArchieYesNoTellingWhatMagmaWillDo:
-	.string "ARCHIE: Yes, yes, we must!\n"
+	.string "{COLOR BLUE}ARCHIE: Yes, yes, we must!\n"
 	.string "We've got to hurry.\p"
 	.string "There's no telling what TEAM MAGMA\n"
 	.string "will do at MT. CHIMNEY!$"
 
 MeteorFalls_1F_1R_Text_ArchieFarewell:
-	.string "ARCHIE: {PLAYER}, you should keep\n"
+	.string "{COLOR BLUE}ARCHIE: {PLAYER}, you should keep\n"
 	.string "an eye out for TEAM MAGMA, too.\p"
 	.string "Farewell!$"
 
 MeteorFalls_1F_1R_Text_MeetProfCozmo:
-	.string "I… I'm COZMO…\n"
+	.string "{COLOR BLUE}I… I'm COZMO…\n"
 	.string "I'm a PROFESSOR…\p"
 	.string "TEAM MAGMA asked me to guide them\n"
 	.string "to METEOR FALLS…\p"
@@ -310,6 +310,6 @@ MeteorFalls_1F_1R_Text_MeetProfCozmo:
 	.string "METEORITE at MT. CHIMNEY?$"
 
 MeteorFalls_1F_1R_Text_WhatsTeamMagmaDoingAtMtChimney:
-	.string "PROF. COZMO: But that TEAM MAGMA…\p"
+	.string "{COLOR BLUE}PROF. COZMO: But that TEAM MAGMA…\p"
 	.string "What are they going to do with that\n"
 	.string "METEORITE at MT. CHIMNEY?$"

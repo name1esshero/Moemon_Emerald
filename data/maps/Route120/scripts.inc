@@ -363,7 +363,7 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
+	.string "{COLOR BLUE}STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
 	.string "It's been a while.\p"
 	.string "There's something here that you can't\n"
 	.string "see, right?\p"
@@ -376,15 +376,15 @@ Route120_Text_StevenGreeting:
 	.string "battle?$"
 
 Route120_Text_StevenIllWaitHere:
-	.string "STEVEN: No?\p"
+	.string "{COLOR BLUE}STEVEN: No?\p"
 	.string "I'll wait here, so you can get ready.$"
 
 Route120_Text_StevenReadyForBattle:
-	.string "STEVEN: {PLAYER}{KUN}, are your POKéMON\n"
+	.string "{COLOR BLUE}STEVEN: {PLAYER}{KUN}, are your POKéMON\n"
 	.string "ready for battle?$"
 
 Route120_Text_StevenShowMeYourPower:
-	.string "STEVEN: {PLAYER}{KUN}, show me your true\n"
+	.string "{COLOR BLUE}STEVEN: {PLAYER}{KUN}, show me your true\n"
 	.string "power as a TRAINER!$"
 
 Route120_Text_StevenUsedDevonScope:
@@ -394,7 +394,7 @@ Route120_Text_StevenUsedDevonScope:
 	.string "The startled POKéMON attacked!$"
 
 Route120_Text_StevenGiveDevonScope:
-	.string "STEVEN: I see…\n"
+	.string "{COLOR BLUE}STEVEN: I see…\n"
 	.string "Your battle style is intriguing.\p"
 	.string "Your POKéMON have obviously grown\n"
 	.string "since I first met you in DEWFORD.\p"
@@ -404,7 +404,7 @@ Route120_Text_StevenGiveDevonScope:
 	.string "concealed POKéMON.$"
 
 Route120_Text_StevenGoodbye:
-	.string "STEVEN: {PLAYER}{KUN}.\p"
+	.string "{COLOR BLUE}STEVEN: {PLAYER}{KUN}.\p"
 	.string "I enjoy seeing POKéMON and TRAINERS\n"
 	.string "who strive together.\p"
 	.string "I think you're doing great.\p"

@@ -9,7 +9,7 @@ MtPyre_5F_EventScript_Atsushi::
 	end
 
 MtPyre_5F_Text_AtsushiIntro:
-	.string "Teacher…\n"
+	.string "{COLOR BLUE}Teacher…\n"
 	.string "Please watch over my progress!$"
 
 MtPyre_5F_Text_AtsushiDefeat:
@@ -17,6 +17,6 @@ MtPyre_5F_Text_AtsushiDefeat:
 	.string "Please forgive me!$"
 
 MtPyre_5F_Text_AtsushiPostBattle:
-	.string "Until I improve, my teacher, who rests\n"
+	.string "{COLOR BLUE}Until I improve, my teacher, who rests\n"
 	.string "here, will never find true peace…$"
 

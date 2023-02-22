@@ -10,7 +10,7 @@ PacifidlogTown_House1_EventScript_Woman::
 	end
 
 PacifidlogTown_House1_Text_RegiStory:
-	.string "In the HOENN region, there are three\n"
+	.string "{COLOR BLUE}In the HOENN region, there are three\n"
 	.string "POKéMON that represent the power of\l"
 	.string "rock, ice, and steel.\p"
 	.string "Each of them is said to hide away deep\n"
@@ -19,7 +19,7 @@ PacifidlogTown_House1_Text_RegiStory:
 	.string "just a little kid.$"
 
 PacifidlogTown_House1_Text_SixDotsOpenThreeDoors:
-	.string "“Six dots open three doors.”\p"
+	.string "{COLOR RED}“Six dots open three doors.”\p"
 	.string "Grandpa used to say that, but I don't\n"
 	.string "know what he meant.$"
 

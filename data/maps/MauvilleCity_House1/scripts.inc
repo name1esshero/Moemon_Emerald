@@ -19,7 +19,7 @@ MauvilleCity_House1_EventScript_ReceivedRockSmash::
 	end
 
 MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
-	.string "Woohoo!\p"
+	.string "{COLOR BLUE}Woohoo!\p"
 	.string "I hear people call me the ROCK SMASH\n"
 	.string "GUY, but I find that sort of degrading.\p"
 	.string "I think I deserve a bit more respect,\n"
@@ -31,7 +31,7 @@ MauvilleCity_House1_Text_ImRockSmashDudeTakeThis:
 	.string "Here, take this HIDDEN MACHINE!$"
 
 MauvilleCity_House1_Text_ExplainRockSmash:
-	.string "That HM contains ROCK SMASH.\p"
+	.string "{COLOR BLUE}That HM contains ROCK SMASH.\p"
 	.string "If you come across large boulders\n"
 	.string "that block your path…\p"
 	.string "Well, use that HM move and smash\n"
@@ -40,7 +40,7 @@ MauvilleCity_House1_Text_ExplainRockSmash:
 	.string "Woohoo!$"
 
 MauvilleCity_House1_Text_MonCanFlyOutOfSmashedRock:
-	.string "Oh, yes, if you smash a rock, a POKéMON\n"
+	.string "{COLOR BLUE}Oh, yes, if you smash a rock, a POKéMON\n"
 	.string "could come flying out of hiding.\p"
 	.string "Woohoo!$"
 

@@ -173,11 +173,11 @@ Route121_EventScript_RematchCristin::
 	end
 
 Route121_Text_OkayMoveOutToMtPyre:
-	.string "Okay!\n"
+	.string "{COLOR BLUE}Okay!\n"
 	.string "We're to move out to MT. PYRE!$"
 
 Route121_Text_AheadLoomsMtPyre:
-	.string "Ahead looms MT. PYRE…\p"
+	.string "{COLOR RED}Ahead looms MT. PYRE…\p"
 	.string "It is a natural monument to the spirits \n"
 	.string "of departed POKéMON…$"
 

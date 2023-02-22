@@ -574,28 +574,28 @@ Route111_EventScript_TrainerHillSign::
 	end
 
 Route111_Text_BattleOurFamily:
-	.string "Hello! I take it you're a traveler.\p"
+	.string "{COLOR BLUE}Hello! I take it you're a traveler.\p"
 	.string "How's this? What do you say to taking\n"
 	.string "on our family of four in a series of\l"
 	.string "POKéMON battles?$"
 
 Route111_Text_IsThatSo:
-	.string "Is that so?\n"
+	.string "{COLOR BLUE}Is that so?\n"
 	.string "Drop in, if you change your mind!$"
 
 Route111_Text_VictorIntro:
-	.string "That's the spirit! I like you!$"
+	.string "{COLOR BLUE}That's the spirit! I like you!$"
 
 Route111_Text_VictorDefeat:
 	.string "Aiyah!\n"
 	.string "You're a lot tougher than I expected!$"
 
 Route111_Text_VictorPostBattle:
-	.string "Hey, all!\n"
+	.string "{COLOR BLUE}Hey, all!\n"
 	.string "I've found a pretty strong TRAINER!$"
 
 Route111_Text_VictoriaIntro:
-	.string "Oh, my goodness! Aren't you young?\p"
+	.string "{COLOR RED}Oh, my goodness! Aren't you young?\p"
 	.string "You must be quite the TRAINER to beat\n"
 	.string "my husband, though.\p"
 	.string "It's my turn to battle now!$"
@@ -605,11 +605,11 @@ Route111_Text_VictoriaDefeat:
 	.string "I can't get over how strong you are!$"
 
 Route111_Text_VictoriaPostBattle:
-	.string "There's a strong TRAINER here!\n"
+	.string "{COLOR RED}There's a strong TRAINER here!\n"
 	.string "This one's really strong!$"
 
 Route111_Text_ViviIntro:
-	.string "You're stronger than Mommy? Wow!\p"
+	.string "{COLOR RED}You're stronger than Mommy? Wow!\p"
 	.string "But I'm strong, too!\n"
 	.string "Really! Honestly!$"
 
@@ -617,11 +617,11 @@ Route111_Text_ViviDefeat:
 	.string "Huh? Did I just lose?$"
 
 Route111_Text_ViviPostBattle:
-	.string "This stinks…\p"
+	.string "{COLOR RED}This stinks…\p"
 	.string "…Snivel… Grandma!$"
 
 Route111_Text_VickyIntro:
-	.string "How dare you make my granddaughter\n"
+	.string "{COLOR RED}How dare you make my granddaughter\n"
 	.string "cry!\p"
 	.string "For that, I'm going to smack you!\n"
 	.string "Prepare to lose!$"
@@ -631,11 +631,11 @@ Route111_Text_VickyDefeat:
 	.string "My granddaughter was right…$"
 
 Route111_Text_VickyPostBattle:
-	.string "If you're not in any hurry,\n"
+	.string "{COLOR RED}If you're not in any hurry,\n"
 	.string "visit with us awhile.$"
 
 Route111_Text_ToughToKeepWinningUpTheRanks:
-	.string "If you don't raise your POKéMON some\n"
+	.string "{COLOR BLUE}If you don't raise your POKéMON some\n"
 	.string "more, it could be tough to keep winning\l"
 	.string "up through the ranks.\p"
 	.string "I've heard the POKéMON LEAGUE's\n"
@@ -643,7 +643,7 @@ Route111_Text_ToughToKeepWinningUpTheRanks:
 	.string "any GYM LEADER.$"
 
 Route111_Text_WinstrateFamilyDestroyedMe:
-	.string "I challenged the WINSTRATE family,\n"
+	.string "{COLOR BLUE}I challenged the WINSTRATE family,\n"
 	.string "but four matches in a row is tough\l"
 	.string "going… They destroyed me.$"
 
@@ -676,14 +676,14 @@ Route111_Text_TrainerTipsSpAtkSpDef:
 	.string "DEFENSE.”$"
 
 Route111_Text_ShouldBeMirageTowerAroundHere:
-	.string "There should be a tower made of sand\n"
+	.string "{COLOR BLUE}There should be a tower made of sand\n"
 	.string "around here somewhere.\p"
 	.string "But for some reason, it can be seen\n"
 	.string "sometimes, and sometimes not.\p"
 	.string "That's why I call it the MIRAGE TOWER.$"
 
 Route111_Text_MirageTowerClearlyVisible:
-	.string "I see it!\n"
+	.string "{COLOR BLUE}I see it!\n"
 	.string "The tower of sand!\p"
 	.string "The sand tower they called a mirage\n"
 	.string "is clearly visible!\p"
@@ -693,7 +693,7 @@ Route111_Text_MirageTowerClearlyVisible:
 	.string "get my courage up for it…$"
 
 Route111_Text_ThatWasShockingSandRainedDown:
-	.string "Whoa…\n"
+	.string "{COLOR BLUE}Whoa…\n"
 	.string "That was shocking.\p"
 	.string "Sand rained down in chunks all of\n"
 	.string "a sudden.\p"
@@ -701,7 +701,7 @@ Route111_Text_ThatWasShockingSandRainedDown:
 	.string "Were there sandy ghosts and such?$"
 
 Route111_Text_MirageTowerHasntBeenSeenSince:
-	.string "Since I spoke to you, the tower of sand\n"
+	.string "{COLOR BLUE}Since I spoke to you, the tower of sand\n"
 	.string "hasn't been seen.\p"
 	.string "Perhaps it really was\n"
 	.string "the MIRAGE TOWER…$"
@@ -715,7 +715,7 @@ Route111_Text_RootFossilDisappeared:
 	.string "the sand…$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-	.string "Oh, no!\p"
+	.string "{COLOR BLUE}Oh, no!\p"
 	.string "My uncle in MAUVILLE told me to take\n"
 	.string "ROCK SMASH with me if I was going to\l"
 	.string "ROUTE 111!\p"

@@ -86,12 +86,12 @@ MtChimney_CableCarStation_Movement_ExitCableCar:
 	step_end
 
 MtChimney_CableCarStation_Text_CableCarReadyGetOn:
-	.string "The CABLE CAR is ready to go down.\n"
+	.string "{COLOR RED}The CABLE CAR is ready to go down.\n"
 	.string "Would you like to be on it?$"
 
 MtChimney_CableCarStation_Text_StepThisWay:
-	.string "Please step this way.$"
+	.string "{COLOR RED}Please step this way.$"
 
 MtChimney_CableCarStation_Text_RideAnotherTime:
-	.string "Please ride with us another time.$"
+	.string "{COLOR RED}Please ride with us another time.$"
 

@@ -12,7 +12,7 @@ SeafloorCavern_Room3_EventScript_Grunt5::
 	end
 
 SeafloorCavern_Room3_Text_ShellyIntro:
-	.string "Ahahahaha!\p"
+	.string "{COLOR RED}Ahahahaha!\p"
 	.string "How did you manage to get here without\n"
 	.string "a submarine?\l"
 	.string "What an impressive child!\p"
@@ -28,7 +28,7 @@ SeafloorCavern_Room3_Text_ShellyDefeat:
 	.string "Ouch!$"
 
 SeafloorCavern_Room3_Text_ShellyPostBattle:
-	.string "Ahahahaha!\n"
+	.string "{COLOR RED}Ahahahaha!\n"
 	.string "You're so darn strong.\p"
 	.string "It's terribly disappointing that you're\n"
 	.string "not a TEAM AQUA member.\p"
@@ -37,7 +37,7 @@ SeafloorCavern_Room3_Text_ShellyPostBattle:
 	.string "one of us…$"
 
 SeafloorCavern_Room3_Text_Grunt5Intro:
-	.string "For our dream to become real, we need\n"
+	.string "{COLOR BLUE}For our dream to become real, we need\n"
 	.string "the power of POKéMON.\p"
 	.string "But meddlers like you use the power of\n"
 	.string "POKéMON to mess with us even at\l"
@@ -49,7 +49,7 @@ SeafloorCavern_Room3_Text_Grunt5Defeat:
 	.string "Gwah!$"
 
 SeafloorCavern_Room3_Text_Grunt5PostBattle:
-	.string "You know, we don't dare question\n"
+	.string "{COLOR BLUE}You know, we don't dare question\n"
 	.string "the motives of our leader.\p"
 	.string "But here you are, just some punk,\n"
 	.string "going up against our BOSS.\p"

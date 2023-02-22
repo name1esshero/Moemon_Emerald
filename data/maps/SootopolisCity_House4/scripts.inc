@@ -20,7 +20,7 @@ SootopolisCity_House4_EventScript_Azumarill::
 	end
 
 SootopolisCity_House4_Text_AncientTreasuresWaitingInSea:
-	.string "Listen up, and I'll tell you something\n"
+	.string "{COLOR BLUE}Listen up, and I'll tell you something\n"
 	.string "good.\p"
 	.string "There's supposed to be an ancient\n"
 	.string "ruin in the sea around here.\p"
@@ -28,7 +28,7 @@ SootopolisCity_House4_Text_AncientTreasuresWaitingInSea:
 	.string "to be discovered down there.$"
 
 SootopolisCity_House4_Text_StrollUnderwaterWithPokemon:
-	.string "Ancient treasures…\p"
+	.string "{COLOR RED}Ancient treasures…\p"
 	.string "It would be nice if they existed, but\n"
 	.string "even if they didn't, it would be so\l"
 	.string "beautiful to take an underwater\l"

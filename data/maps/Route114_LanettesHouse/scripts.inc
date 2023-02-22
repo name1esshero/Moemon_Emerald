@@ -46,7 +46,7 @@ Route114_LanettesHouse_EventScript_PC::
 	end
 
 Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
-	.string "LANETTE: Oh! {PLAYER}{KUN}!\p"
+	.string "{COLOR RED}LANETTE: Oh! {PLAYER}{KUN}!\p"
 	.string "I'm sorry everything is so cluttered…\n"
 	.string "When I get engrossed in research,\l"
 	.string "things end up this way…\p"
@@ -54,7 +54,7 @@ Route114_LanettesHouse_Text_EverythingClutteredKeepThis:
 	.string "this a secret in exchange for this.$"
 
 Route114_LanettesHouse_Text_OrganizeYourBoxes:
-	.string "May I offer advice about my POKéMON\n"
+	.string "{COLOR RED}May I offer advice about my POKéMON\n"
 	.string "Storage System?\p"
 	.string "You should organize your BOXES so you\n"
 	.string "can tell which POKéMON are in them.$"

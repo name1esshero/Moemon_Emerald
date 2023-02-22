@@ -425,7 +425,7 @@ RusturfTunnel_EventScript_Mike::
 
 RusturfTunnel_Text_ComeAndGetSome:
 	.string "{COLOR BLUE}What, are you coming?\n"
-	.string "Come and get some, then!{COLOR DARK_GRAY}$"
+	.string "Come and get some, then!$"
 
 RusturfTunnel_Text_Peeko:
 	.string "PEEKO: Pii pihyoh!$"
@@ -437,7 +437,7 @@ RusturfTunnel_Text_GruntIntro:
 	.string "And to think I made a getaway…\n"
 	.string "In this tunnel to nowhere!\p"
 	.string "Hey! You!\n"
-	.string "So you want to battle me?{COLOR DARK_GRAY}$"
+	.string "So you want to battle me?$"
 
 RusturfTunnel_Text_GruntDefeat:
 	.string "Urrrggh! My career in crime comes to\n"
@@ -450,11 +450,11 @@ RusturfTunnel_Text_GruntTakePackage:
 	.string "All I had to do was steal some package\n"
 	.string "from DEVON.\p"
 	.string "Tch!\n"
-	.string "You want it back that badly, take it!{COLOR DARK_GRAY}$"
+	.string "You want it back that badly, take it!$"
 
 RusturfTunnel_Text_PeekoGladToSeeYouSafe:
 	.string "{COLOR BLUE}PEEKO!\n"
-	.string "Am I glad to see you're safe!{COLOR DARK_GRAY}$"
+	.string "Am I glad to see you're safe!$"
 
 RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 	.string "{COLOR BLUE}PEEKO owes her life to you!\p"
@@ -469,7 +469,7 @@ RusturfTunnel_Text_ThankYouLetsGoHomePeeko:
 	.string "You can usually find me in my cottage\n"
 	.string "by the sea near PETALBURG WOODS.\p"
 	.string "Come, PEEKO, we should make our way\n"
-	.string "home.{COLOR DARK_GRAY}\p"
+	.string "home.\p"
 	.string "PEEKO: Pihyoh!$"
 
 RusturfTunnel_Text_WhyCantTheyKeepDigging:
@@ -482,30 +482,30 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 	.string "joined by this tunnel, I could visit\l"
 	.string "her every day…\p"
 	.string "But this…\n"
-	.string "What am I to do?{COLOR DARK_GRAY}$"
+	.string "What am I to do?$"
 
 RusturfTunnel_Text_ToGetToVerdanturf:
 	.string "{COLOR BLUE}To get from RUSTBORO to VERDANTURF,\n"
 	.string "you need to go to DEWFORD, then pass\l"
-	.string "through SLATEPORT and MAUVILLE…{COLOR DARK_GRAY}$"
+	.string "through SLATEPORT and MAUVILLE…$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 	.string "{COLOR BLUE}Wow! You shattered that boulder\n"
 	.string "blocking the way.\p"
 	.string "To show you how much I appreciate it,\n"
-	.string "I'd like you to have this HM.{COLOR DARK_GRAY}$"
+	.string "I'd like you to have this HM.$"
 
 RusturfTunnel_Text_ExplainStrength:
 	.string "{COLOR BLUE}That HM contains STRENGTH.\p"
 	.string "If a muscular POKéMON were to learn\n"
 	.string "that, it would be able to move even\l"
-	.string "large boulders.{COLOR DARK_GRAY}$"
+	.string "large boulders.$"
 
 RusturfTunnel_Text_WandaReunion:
 	.string "{COLOR BLUE}WANDA!\n"
-	.string "Now I can see you anytime!{COLOR DARK_GRAY}\p"
+	.string "Now I can see you anytime!\p"
 	.string "{COLOR RED}WANDA: That's…wonderful.\p"
-	.string "Please, take some rest at my home.{COLOR DARK_GRAY}$"
+	.string "Please, take some rest at my home.$"
 
 RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
 	.string "{COLOR RED}On the other side of this rock…\n"
@@ -513,13 +513,13 @@ RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
 	.string "He… He's not just digging the tunnel\n"
 	.string "to come see me.\p"
 	.string "He works his hands raw and rough\n"
-	.string "for the benefit of everyone.{COLOR DARK_GRAY}$"
+	.string "for the benefit of everyone.$"
 
 RusturfTunnel_Text_MikeIntro:
 	.string "{COLOR BLUE}What do you call a wild man up in the\n"
 	.string "mountains? A mountain man, right?\p"
 	.string "So why don't they call a POKéMON in\n"
-	.string "the mountains a mountain POKéMON?{COLOR DARK_GRAY}$"
+	.string "the mountains a mountain POKéMON?$"
 
 RusturfTunnel_Text_MikeDefeat:
 	.string "My POKéMON…\n"
@@ -528,5 +528,5 @@ RusturfTunnel_Text_MikeDefeat:
 RusturfTunnel_Text_MikePostBattle:
 	.string "{COLOR BLUE}They halted development here to\n"
 	.string "protect POKéMON, right?\l"
-	.string "There's a feel-good story!{COLOR DARK_GRAY}$"
+	.string "There's a feel-good story!$"
 

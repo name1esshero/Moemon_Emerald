@@ -56,7 +56,7 @@ Route114_FossilManiacsTunnel_EventScript_PlayerRevivedFossil::
 	end
 
 Route114_FossilManiacsTunnel_Text_LookInDesertForFossils:
-	.string "I'm the FOSSIL MANIAC…\n"
+	.string "{COLOR BLUE}I'm the FOSSIL MANIAC…\n"
 	.string "I'm a nice guy who loves FOSSILS…\p"
 	.string "Do you want a FOSSIL?\p"
 	.string "But the FOSSILS around these parts all\n"
@@ -67,7 +67,7 @@ Route114_FossilManiacsTunnel_Text_LookInDesertForFossils:
 	.string "FOSSILS…$"
 
 Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils:
-	.string "You found a FOSSIL, didn't you?\n"
+	.string "{COLOR BLUE}You found a FOSSIL, didn't you?\n"
 	.string "That's so nice… It's so dreamy…\p"
 	.string "What are you going to do with that\n"
 	.string "FOSSIL?\p"
@@ -78,11 +78,11 @@ Route114_FossilManiacsTunnel_Text_DevonCorpRevivingFossils:
 	.string "do anything like that…$"
 
 Route114_FossilManiacsTunnel_Text_FossilsAreWonderful:
-	.string "FOSSILS are so… Wonderful…\n"
+	.string "{COLOR BLUE}FOSSILS are so… Wonderful…\n"
 	.string "It's so dreamy…$"
 
 Route114_FossilManiacsTunnel_Text_NotSafeThatWay:
-	.string "Oh…\n"
+	.string "{COLOR BLUE}Oh…\n"
 	.string "It's not safe that way…\p"
 	.string "I was digging away, you see…\n"
 	.string "When the whole wall collapsed…\p"

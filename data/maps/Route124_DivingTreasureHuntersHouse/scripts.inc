@@ -284,47 +284,47 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
-	.string "I'm the DIVING TREASURE HUNTER!\p"
+	.string "{COLOR BLUE}I'm the DIVING TREASURE HUNTER!\p"
 	.string "I'm the awesome dude who makes\n"
 	.string "deep-sea dives to gather treasures\l"
 	.string "resting at the bottom.$"
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
-	.string "Tell me, have you seen any SHARDS of\n"
+	.string "{COLOR BLUE}Tell me, have you seen any SHARDS of\n"
 	.string "tools made in ancient times?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
-	.string "You haven't got any treasures\n"
+	.string "{COLOR BLUE}You haven't got any treasures\n"
 	.string "for me…\p"
 	.string "If you see any SHARDS, like the RED\n"
 	.string "SHARD, you've got to trade it with me!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
-	.string "Oh, hey! That…\n"
+	.string "{COLOR BLUE}Oh, hey! That…\n"
 	.string "That's a SHARD! I'm looking for those!\p"
 	.string "Oh, man, you've got to trade that\n"
 	.string "with me! I'll give you something good!$"
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
-	.string "What do you want to trade?$"
+	.string "{COLOR BLUE}What do you want to trade?$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
-	.string "You'll trade your {STR_VAR_1} for\n"
+	.string "{COLOR BLUE}You'll trade your {STR_VAR_1} for\n"
 	.string "my {STR_VAR_2}, then?$"
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
-	.string "It's a done deal!\n"
+	.string "{COLOR BLUE}It's a done deal!\n"
 	.string "Use that wisely!$"
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
-	.string "Do you want to trade something else?$"
+	.string "{COLOR BLUE}Do you want to trade something else?$"
 
 Route124_DivingTreasureHuntersHouse_Text_BagFull:
-	.string "Whoops, your BAG's full.\n"
+	.string "{COLOR BLUE}Whoops, your BAG's full.\n"
 	.string "Get rid of some items, friend!$"
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
-	.string "No? That's a downer.\n"
+	.string "{COLOR BLUE}No? That's a downer.\n"
 	.string "Well, if you change your mind, come back.$"
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:

@@ -110,23 +110,23 @@ Route112_EventScript_Shayla::
 	end
 
 Route112_Text_LeaderGoingToAwakenThing:
-	.string "Hey, man, is our leader really going\n"
+	.string "{COLOR BLUE}Hey, man, is our leader really going\n"
 	.string "to awaken that thing?$"
 
 Route112_Text_YeahWeNeedMeteorite:
-	.string "Sounds like it, yeah. But I heard\n"
+	.string "{COLOR BLUE}Sounds like it, yeah. But I heard\n"
 	.string "we need a METEORITE to do it.$"
 
 Route112_Text_OhThatsWhyCrewWentToFallarbor:
-	.string "Oh, I get it now. That's why the rest\n"
+	.string "{COLOR BLUE}Oh, I get it now. That's why the rest\n"
 	.string "of the crew went out to FALLARBOR.$"
 
 Route112_Text_CantLetAnyonePassUntilTheyreBack:
-	.string "You got it. And until they come back,\n"
+	.string "{COLOR BLUE}You got it. And until they come back,\n"
 	.string "we're not to let anyone pass, right.$"
 
 Route112_Text_NotEasyToGetBackToLavaridge:
-	.string "Eh, I'd like to get to MAUVILLE, but if\n"
+	.string "{COLOR BLUE}Eh, I'd like to get to MAUVILLE, but if\n"
 	.string "I went down these ledges, it'd be no\l"
 	.string "easy matter to get back to LAVARIDGE.$"
 

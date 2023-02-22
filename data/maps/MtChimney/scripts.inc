@@ -534,7 +534,7 @@ MtChimney_EventScript_SawyerRematch::
 	end
 
 MtChimney_Text_MeteoriteWillActivateVolcano:
-	.string "The power contained in the METEORITE…\p"
+	.string "{COLOR BLUE}The power contained in the METEORITE…\p"
 	.string "By amplifying its power with this\n"
 	.string "machine, MT. CHIMNEY's volcanic\l"
 	.string "activity will instantly intensify…\p"
@@ -543,7 +543,7 @@ MtChimney_Text_MeteoriteWillActivateVolcano:
 	.string "Fufufu…$"
 
 MtChimney_Text_MaxieIntro:
-	.string "MAXIE: Hm?\n"
+	.string "{COLOR BLUE}MAXIE: Hm?\n"
 	.string "Who are you?\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
@@ -575,7 +575,7 @@ MtChimney_Text_MaxieDefeat:
 	.string "I, MAXIE, was caught off guard?!$"
 
 MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
-	.string "MAXIE: But, enough.\n"
+	.string "{COLOR BLUE}MAXIE: But, enough.\n"
 	.string "I will back off this time.\p"
 	.string "But don't think that this is the last\n"
 	.string "you've seen of TEAM MAGMA.\p"
@@ -584,7 +584,7 @@ MtChimney_Text_MaxieYouHaventSeenLastOfMagma:
 	.string "obtain that ORB… Fufufu…$"
 
 MtChimney_Text_TabithaIntro:
-	.string "Hehehe!\p"
+	.string "{COLOR RED}Hehehe!\p"
 	.string "So you've come all the way here!\p"
 	.string "But you're too late!\n"
 	.string "I've already delivered the METEORITE\l"
@@ -596,12 +596,12 @@ MtChimney_Text_TabithaDefeat:
 	.string "awakens that thing…$"
 
 MtChimney_Text_TabithaPostBattle:
-	.string "BOSS, hurry!\n"
+	.string "{COLOR RED}BOSS, hurry!\n"
 	.string "Give it the METEORITE's energy!\p"
 	.string "Hehehe…$"
 
 MtChimney_Text_Grunt2Intro:
-	.string "We of TEAM MAGMA are working hard for\n"
+	.string "{COLOR BLUE}We of TEAM MAGMA are working hard for\n"
 	.string "everyone's sake.\p"
 	.string "Like, if that thing's power made more\n"
 	.string "land, there'd be more places to live.\p"
@@ -612,13 +612,13 @@ MtChimney_Text_Grunt2Defeat:
 	.string "What do you mean I lost?$"
 
 MtChimney_Text_Grunt2PostBattle:
-	.string "Our BOSS says, “It will make everyone\n"
+	.string "{COLOR BLUE}Our BOSS says, “It will make everyone\n"
 	.string "happy.”\p"
 	.string "But why does everyone keep getting\n"
 	.string "in our way?$"
 
 MtChimney_Text_Grunt1Intro:
-	.string "If there were more land, I'd be able\n"
+	.string "{COLOR RED}If there were more land, I'd be able\n"
 	.string "to get a big house of my own!\p"
 	.string "I'm going to build it on hardened lava!$"
 
@@ -626,39 +626,39 @@ MtChimney_Text_Grunt1Defeat:
 	.string "My dream of a big house…$"
 
 MtChimney_Text_Grunt1PostBattle:
-	.string "A kid like you, you ought to be\n"
+	.string "{COLOR RED}A kid like you, you ought to be\n"
 	.string "splashing about in the waves!$"
 
 MtChimney_Text_TeamAquaAlwaysMessingWithPlans:
-	.string "That annoying TEAM AQUA…\n"
+	.string "{COLOR BLUE}That annoying TEAM AQUA…\n"
 	.string "They always mess with our plans!$"
 
 MtChimney_Text_MeteoritesPackAmazingPower:
-	.string "METEORITES pack amazing power!$"
+	.string "{COLOR BLUE}METEORITES pack amazing power!$"
 
 MtChimney_Text_YouBetterNotMessWithUs:
-	.string "You'd better not mess with us!\p"
+	.string "{COLOR BLUE}You'd better not mess with us!\p"
 	.string "We're trying to awaken that thing\n"
 	.string "for the benefit of everyone!$"
 
 MtChimney_Text_AquasNameSimilar:
-	.string "We're TEAM MAGMA!\p"
+	.string "{COLOR BLUE}We're TEAM MAGMA!\p"
 	.string "They're TEAM AQUA!\p"
 	.string "It totally annoys me that they'd\n"
 	.string "use a name like ours!$"
 
 MtChimney_Text_DouseThemInFire:
-	.string "Yeah!\n"
+	.string "{COLOR BLUE}Yeah!\n"
 	.string "Douse them in fire!$"
 
 MtChimney_Text_KeepMakingMoreLand:
-	.string "We're going to keep making more land!$"
+	.string "{COLOR BLUE}We're going to keep making more land!$"
 
 MtChimney_Text_Bufoh:
 	.string "Bufoh!$"
 
 MtChimney_Text_ArchieGoStopTeamMagma:
-	.string "ARCHIE: Grr, {PLAYER}!\n"
+	.string "{COLOR BLUE}ARCHIE: Grr, {PLAYER}!\n"
 	.string "I should've guessed you'd show up!\p"
 	.string "See for yourself what the fanatics\n"
 	.string "of TEAM MAGMA are up to!\p"
@@ -668,14 +668,14 @@ MtChimney_Text_ArchieGoStopTeamMagma:
 	.string "the volcano's eruption!$"
 
 MtChimney_Text_ArchieIHaveMyHandsFull:
-	.string "ARCHIE: Grrr…\p"
+	.string "{COLOR BLUE}ARCHIE: Grrr…\p"
 	.string "I want to stop that MAXIE,\n"
 	.string "but I can't!\p"
 	.string "Not when I have my hands full battling\n"
 	.string "three opponents at once!$"
 
 MtChimney_Text_ArchieThankYou:
-	.string "ARCHIE: {PLAYER}!\n"
+	.string "{COLOR BLUE}ARCHIE: {PLAYER}!\n"
 	.string "Thank you!\p"
 	.string "With your help, we thwarted TEAM\n"
 	.string "MAGMA's destructive plan!\p"
@@ -687,15 +687,15 @@ MtChimney_Text_ArchieThankYou:
 	.string "{PLAYER}, we shall meet again!$"
 
 MtChimney_Text_MagmaOutnumbersUs:
-	.string "Darn… TEAM MAGMA outnumbers us!\n"
+	.string "{COLOR BLUE}Darn… TEAM MAGMA outnumbers us!\n"
 	.string "We can't keep up with them!$"
 
 MtChimney_Text_LessHabitatForWaterPokemon:
-	.string "If they expand the land, there'll be\n"
+	.string "{COLOR BLUE}If they expand the land, there'll be\n"
 	.string "less habitats for WATER POKéMON!$"
 
 MtChimney_Text_MagmasNameSimilar:
-	.string "We're TEAM AQUA!\p"
+	.string "{COLOR BLUE}We're TEAM AQUA!\p"
 	.string "They're TEAM MAGMA!\p"
 	.string "It burns me up that they'd use such\n"
 	.string "a confusing name!$"
@@ -704,19 +704,19 @@ MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
 
 MtChimney_Text_LavaCookiesJust200:
-	.string "LAVA COOKIES are MT. CHIMNEY's local\n"
+	.string "{COLOR RED}LAVA COOKIES are MT. CHIMNEY's local\n"
 	.string "specialty.\p"
 	.string "Try one. It's just ¥200.$"
 
 MtChimney_Text_ThankYouDear:
-	.string "Thank you, dear!$"
+	.string "{COLOR RED}Thank you, dear!$"
 
 MtChimney_Text_YouveNotGotTheMoney:
-	.string "Oh, dear. You can't buy a thing if\n"
+	.string "{COLOR RED}Oh, dear. You can't buy a thing if\n"
 	.string "you've not got the money.$"
 
 MtChimney_Text_OhFineThen:
-	.string "Oh, fine then.$"
+	.string "{COLOR RED}Oh, fine then.$"
 
 MtChimney_Text_MetoriteFittedOnMachine:
 	.string "A METEORITE is fitted on a mysterious\n"
@@ -746,7 +746,7 @@ MtChimney_Text_RouteSign:
 	.string "LAVARIDGE TOWN AHEAD$"
 
 MtChimney_Text_ShelbyIntro:
-	.string "I've been to the hot springs and\n"
+	.string "{COLOR RED}I've been to the hot springs and\n"
 	.string "refreshed my tired bones.\l"
 	.string "Right now I'm feeling strong!$"
 
@@ -755,17 +755,17 @@ MtChimney_Text_ShelbyDefeat:
 	.string "Now, aren't you something!$"
 
 MtChimney_Text_ShelbyPostBattle:
-	.string "Well, well, I've lost. I can't call\n"
+	.string "{COLOR RED}Well, well, I've lost. I can't call\n"
 	.string "myself an EXPERT now, can I?$"
 
 MtChimney_Text_ShelbyRegister:
-	.string "Thank you, child. It was fun, as if\n"
+	.string "{COLOR RED}Thank you, child. It was fun, as if\n"
 	.string "I were battling my own grandchild.\p"
 	.string "Please, come see me again for\n"
 	.string "a rematch.$"
 
 MtChimney_Text_ShelbyRematchIntro:
-	.string "If you can mesh your heart with those\n"
+	.string "{COLOR RED}If you can mesh your heart with those\n"
 	.string "of your POKéMON, why, you should be\l"
 	.string "able to achieve great things.$"
 
@@ -774,22 +774,22 @@ MtChimney_Text_ShelbyRematchDefeat:
 	.string "Now, aren't you something!$"
 
 MtChimney_Text_ShelbyPostRematch:
-	.string "Perhaps your heart has become one\n"
+	.string "{COLOR RED}Perhaps your heart has become one\n"
 	.string "with the hearts of your POKéMON.$"
 
 MtChimney_Text_MelissaIntro:
-	.string "I've got the fire in me, baby.\n"
+	.string "{COLOR RED}I've got the fire in me, baby.\n"
 	.string "I can't stand it! I have to battle!$"
 
 MtChimney_Text_MelissaDefeat:
 	.string "Ooh, that was a scorching-hot match!$"
 
 MtChimney_Text_MelissaPostBattle:
-	.string "The heat of MT. CHIMNEY warms\n"
+	.string "{COLOR RED}The heat of MT. CHIMNEY warms\n"
 	.string "me up, baby!$"
 
 MtChimney_Text_SheilaIntro:
-	.string "I've finally made it to MT. CHIMNEY.\n"
+	.string "{COLOR RED}I've finally made it to MT. CHIMNEY.\n"
 	.string "I want to make my POKéMON battle!$"
 
 MtChimney_Text_SheilaDefeat:
@@ -797,14 +797,14 @@ MtChimney_Text_SheilaDefeat:
 	.string "It's like a MT. CHIMNEY eruption!$"
 
 MtChimney_Text_SheilaPostBattle:
-	.string "Like I said, I've finally made it to\n"
+	.string "{COLOR RED}Like I said, I've finally made it to\n"
 	.string "MT. CHIMNEY. It would be a shame if\l"
 	.string "I only do a little sightseeing…\p"
 	.string "I want to get in some battles and buy\n"
 	.string "COOKIES as souvenirs.$"
 
 MtChimney_Text_ShirleyIntro:
-	.string "Since I bathed in the hot springs,\n"
+	.string "{COLOR RED}Since I bathed in the hot springs,\n"
 	.string "I've been feeling great!\l"
 	.string "I'm sure I'm going to win!$"
 
@@ -813,27 +813,27 @@ MtChimney_Text_ShirleyDefeat:
 	.string "I'm getting a chill out of the water.$"
 
 MtChimney_Text_ShirleyPostBattle:
-	.string "I'll have to take another dip in the\n"
+	.string "{COLOR RED}I'll have to take another dip in the\n"
 	.string "hot springs. Want to join me?\p"
 	.string "Just joking!$"
 
 MtChimney_Text_SawyerIntro:
-	.string "This is one fine mountain! Plenty of\n"
+	.string "{COLOR BLUE}This is one fine mountain! Plenty of\n"
 	.string "hot people around for company!$"
 
 MtChimney_Text_SawyerDefeat:
 	.string "Oh, you're a real firebrand, too!$"
 
 MtChimney_Text_SawyerPostBattle:
-	.string "I think I need a dip in LAVARIDGE\n"
+	.string "{COLOR BLUE}I think I need a dip in LAVARIDGE\n"
 	.string "HOT SPRING with the locals!$"
 
 MtChimney_Text_SawyerRegister:
-	.string "I like little fireballs like you.\n"
+	.string "{COLOR BLUE}I like little fireballs like you.\n"
 	.string "Let me register you in my POKéNAV.$"
 
 MtChimney_Text_SawyerRematchIntro:
-	.string "I'm happily surrounded by hot people\n"
+	.string "{COLOR BLUE}I'm happily surrounded by hot people\n"
 	.string "around these parts. I won't lose!$"
 
 MtChimney_Text_SawyerRematchDefeat:
@@ -841,6 +841,6 @@ MtChimney_Text_SawyerRematchDefeat:
 	.string "firebrand as before!$"
 
 MtChimney_Text_SawyerPostRematch:
-	.string "Actually, it really is hot here.\n"
+	.string "{COLOR BLUE}Actually, it really is hot here.\n"
 	.string "I'm overdressed for these parts.$"
 

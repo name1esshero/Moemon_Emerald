@@ -175,23 +175,23 @@ MauvilleCity_BikeShop_EventScript_ExitAcroHandbook::
 	end
 
 MauvilleCity_BikeShop_Text_RydelGreeting:
-	.string "Well, well, what have we here?\n"
+	.string "{COLOR BLUE}Well, well, what have we here?\n"
 	.string "A most energetic customer!\p"
 	.string "Me? You may call me RYDEL.\n"
 	.string "I'm the owner of this cycle shop.$"
 
 MauvilleCity_BikeShop_Text_DidYouComeFromFarAway:
-	.string "RYDEL: Your RUNNING SHOES…\n"
+	.string "{COLOR BLUE}RYDEL: Your RUNNING SHOES…\n"
 	.string "They're awfully filthy.\p"
 	.string "Did you come from far away?$"
 
 MauvilleCity_BikeShop_Text_GuessYouDontNeedBike:
-	.string "RYDEL: Is that right?\p"
+	.string "{COLOR BLUE}RYDEL: Is that right?\p"
 	.string "Then, I guess you have no need for\n"
 	.string "any of my BIKES.$"
 
 MauvilleCity_BikeShop_Text_ExplainBikesChooseWhichOne:
-	.string "RYDEL: Hm, hm… … … … …\p"
+	.string "{COLOR BLUE}RYDEL: Hm, hm… … … … …\p"
 	.string "You're saying that you came all this\n"
 	.string "way from LITTLEROOT?\p"
 	.string "My goodness!\n"
@@ -221,15 +221,15 @@ MauvilleCity_BikeShop_Text_ChoseAcroBike:
 	.string "{PLAYER} chose the ACRO BIKE.$"
 
 MauvilleCity_BikeShop_Text_ComeBackToSwitchBikes:
-	.string "RYDEL: If you get the urge to switch\n"
+	.string "{COLOR BLUE}RYDEL: If you get the urge to switch\n"
 	.string "BIKES, just come see me!$"
 
 MauvilleCity_BikeShop_Text_WantToSwitchBikes:
-	.string "RYDEL: Oh? Were you thinking about\n"
+	.string "{COLOR BLUE}RYDEL: Oh? Were you thinking about\n"
 	.string "switching BIKES?$"
 
 MauvilleCity_BikeShop_Text_IllSwitchBikes:
-	.string "RYDEL: Okay, no problem!\n"
+	.string "{COLOR BLUE}RYDEL: Okay, no problem!\n"
 	.string "I'll switch BIKES for you!$"
 
 MauvilleCity_BikeShop_Text_ExchangedMachForAcro:
@@ -241,11 +241,11 @@ MauvilleCity_BikeShop_Text_ExchangedAcroForMach:
 	.string "for a MACH BIKE.$"
 
 MauvilleCity_BikeShop_Text_HappyYouLikeIt:
-	.string "RYDEL: Good, good!\n"
+	.string "{COLOR BLUE}RYDEL: Good, good!\n"
 	.string "I'm happy that you like it!$"
 
 MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
-	.string "Oh? What happened to that BIKE\n"
+	.string "{COLOR BLUE}Oh? What happened to that BIKE\n"
 	.string "I gave you?\p"
 	.string "Oh, I get it, you stored it using your PC.\p"
 	.string "Well, take it out of PC storage,\n"
@@ -254,7 +254,7 @@ MauvilleCity_BikeShop_Text_OhYourBikeIsInPC:
 	.string "on your adventure!$"
 
 MauvilleCity_BikeShop_Text_HandbooksAreInBack:
-	.string "I'm learning about BIKES while\n"
+	.string "{COLOR BLUE}I'm learning about BIKES while\n"
 	.string "I work here.\p"
 	.string "If you need advice on how to ride your\n"
 	.string "BIKE, there're a couple handbooks in\l"
