@@ -890,7 +890,7 @@ gText_RegisteredTrainerinPokeNav::
 	.string "in the POKéNAV.$"
 
 gText_ComeBackWithSecretPower::
-	.string "Do you know the TM SECRET POWER?\p"
+	.string "{COLOR BLUE}Do you know the TM SECRET POWER?\p"
 	.string "Our group, we love the TM SECRET\n"
 	.string "POWER.\p"
 	.string "One of our members will give it to you.\n"
@@ -899,7 +899,7 @@ gText_ComeBackWithSecretPower::
 	.string "you good stuff in secrecy.$"
 
 gText_PokerusExplanation::
-	.string "Your POKéMON may be infected with\n"
+	.string "{COLOR RED}Your POKéMON may be infected with\n"
 	.string "POKéRUS.\p"
 	.string "Little is known about the POKéRUS\n"
 	.string "except that they are microscopic life-\l"
@@ -917,7 +917,7 @@ gText_BigHoleInTheWall::
 	.string "There is a big hole in the wall.$"
 
 gText_SorryWirelessClubAdjustments::
-	.string "I'm terribly sorry.\n"
+	.string "{COLOR RED}I'm terribly sorry.\n"
 	.string "The POKéMON WIRELESS CLUB is\l"
 	.string "undergoing adjustments now.$"
 
@@ -927,12 +927,12 @@ gText_UndergoingAdjustments::
 
 @ Unused
 gText_SorryTradeCenterInspections::
-	.string "I'm terribly sorry. The TRADE CENTER\n"
+	.string "{COLOR RED}I'm terribly sorry. The TRADE CENTER\n"
 	.string "is undergoing inspections.$"
 
 @ Unused
 gText_SorryRecordCornerPreparation::
-	.string "I'm terribly sorry. The RECORD CORNER\n"
+	.string "{COLOR RED}I'm terribly sorry. The RECORD CORNER\n"
 	.string "is under preparation.$"
 
 gText_PlayerHandedOverTheItem::
@@ -1037,10 +1037,10 @@ EventScript_End:
 	end
 
 EventScript_DoWonderTrade_Text_WannaDoAnotherWonderTrade:
-	.string "Do you want to do\nanother Wonder Trade?$"
+	.string "{COLOR RED}Do you want to do\nanother Wonder Trade?$"
 
 EventScript_WonderTrade_Text_Want_To_Trade:
-	.string "Would you like to\nperform a Wonder Trade?$"
+	.string "{COLOR RED}Would you like to\nperform a Wonder Trade?$"
 
 EventScript_SelfTrade::
 	lock
@@ -1067,15 +1067,15 @@ EventScript_SelfTrade_DeclineTrade::
 	end
 
 EventScript_SelfTrade_Text_IllTradeIfYouWant:
-	.string "I will help you\n"
+	.string "{COLOR RED}I will help you\n"
 	.string "trade a pokemon\p"
 	.string "with yourself!$"
 
 EventScript_SelfTrade_Text_ComeBack:
-	.string "Come back anytime.$"
+	.string "{COLOR RED}Come back anytime.$"
 
 EventScript_SelfTrade_Text_YouDontWantToThatsOkay:
-	.string "You dont want to?\n"
+	.string "{COLOR RED}You dont want to?\n"
     .string "Okay come back anytime$"
 
 	.include "data/scripts/pc_transfer.inc"
