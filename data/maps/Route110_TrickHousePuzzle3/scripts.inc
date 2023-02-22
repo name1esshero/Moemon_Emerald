@@ -309,7 +309,7 @@ Route110_TrickHousePuzzle3_Text_WroteSecretCodeLockOpened:
 	.string "The lock clicked open!$"
 
 Route110_TrickHousePuzzle3_Text_JustinIntro:
-	.string "{COLOR BLUE}I keep coming back to this same place!{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}I keep coming back to this same place!$"
 
 Route110_TrickHousePuzzle3_Text_JustinDefeat:
 	.string "I'm already having trouble, and then\n"
@@ -317,22 +317,22 @@ Route110_TrickHousePuzzle3_Text_JustinDefeat:
 
 Route110_TrickHousePuzzle3_Text_JustinPostBattle:
 	.string "{COLOR BLUE}It's full of doors here!\n"
-	.string "It's too small and dark in here! Help!{COLOR DARK_GRAY}$"
+	.string "It's too small and dark in here! Help!$"
 
 Route110_TrickHousePuzzle3_Text_MarthaIntro:
 	.string "{COLOR RED}I don't know what's going on here.\n"
-	.string "I'm starting to feel sad…{COLOR DARK_GRAY}$"
+	.string "I'm starting to feel sad…$"
 
 Route110_TrickHousePuzzle3_Text_MarthaDefeat:
 	.string "You… You're awful!$"
 
 Route110_TrickHousePuzzle3_Text_MarthaPostBattle:
 	.string "{COLOR RED}I know I'm weak!\n"
-	.string "And, I have no sense of direction!{COLOR DARK_GRAY}$"
+	.string "And, I have no sense of direction!$"
 
 Route110_TrickHousePuzzle3_Text_AlanIntro:
 	.string "{COLOR BLUE}I don't get it. What would anyone want\n"
-	.string "with a house this bizarre?{COLOR DARK_GRAY}$"
+	.string "with a house this bizarre?$"
 
 Route110_TrickHousePuzzle3_Text_AlanDefeat:
 	.string "I don't get it.\n"
@@ -341,5 +341,5 @@ Route110_TrickHousePuzzle3_Text_AlanDefeat:
 Route110_TrickHousePuzzle3_Text_AlanPostBattle:
 	.string "{COLOR BLUE}I don't get it.\n"
 	.string "How many traps are in this house?\p"
-	.string "You may be the one to solve that.{COLOR DARK_GRAY}$"
+	.string "You may be the one to solve that.$"
 

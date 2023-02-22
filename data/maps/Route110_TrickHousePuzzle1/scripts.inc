@@ -45,33 +45,33 @@ Route110_TrickHousePuzzle1_Text_WroteSecretCodeLockOpened::
 
 Route110_TrickHousePuzzle1_Text_SallyIntro:
 	.string "{COLOR RED}I'll hack and slash my way to victory\n"
-	.string "with the CUT we just learned!{COLOR DARK_GRAY}$"
+	.string "with the CUT we just learned!$"
 
 Route110_TrickHousePuzzle1_Text_SallyDefeat:
 	.string "Why are you so serious?$"
 
 Route110_TrickHousePuzzle1_Text_SallyPostBattle:
 	.string "{COLOR RED}I never get tired of hacking\n"
-	.string "and slashing!{COLOR DARK_GRAY}$"
+	.string "and slashing!$"
 
 Route110_TrickHousePuzzle1_Text_EddieIntro:
 	.string "{COLOR BLUE}I wandered into this weird house\n"
-	.string "by accident…{COLOR DARK_GRAY}$"
+	.string "by accident…$"
 
 Route110_TrickHousePuzzle1_Text_EddieDefeat:
 	.string "And now I've lost…$"
 
 Route110_TrickHousePuzzle1_Text_EddiePostBattle:
 	.string "{COLOR BLUE}I lost my way, I lost a battle, and I'm\n"
-	.string "now even more lost… I can't get out…{COLOR DARK_GRAY}$"
+	.string "now even more lost… I can't get out…$"
 
 Route110_TrickHousePuzzle1_Text_RobinIntro:
-	.string "{COLOR RED}Just who is the TRICK MASTER?{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}Just who is the TRICK MASTER?$"
 
 Route110_TrickHousePuzzle1_Text_RobinDefeat:
 	.string "I lost while I was lost in thought!$"
 
 Route110_TrickHousePuzzle1_Text_RobinPostBattle:
 	.string "{COLOR RED}You're strong!\n"
-	.string "Just who are you?{COLOR DARK_GRAY}$"
+	.string "Just who are you?$"
 

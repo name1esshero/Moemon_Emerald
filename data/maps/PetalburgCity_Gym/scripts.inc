@@ -1152,15 +1152,15 @@ PetalburgCity_Gym_Text_DadYoureHereWithYourPokemon:
 	.string "Hm… Then I guess you're going to\n"
 	.string "become a TRAINER like me, {PLAYER}.\p"
 	.string "That's great news!\n"
-	.string "I'll be looking forward to it!{COLOR DARK_GRAY}$"
+	.string "I'll be looking forward to it!$"
 
 PetalburgCity_Gym_Text_WallyIdLikeAPokemon:
 	.string "{COLOR BLUE}Um… I…\n"
-	.string "I'd like to get a POKéMON, please…{COLOR DARK_GRAY}$"
+	.string "I'd like to get a POKéMON, please…$"
 
 PetalburgCity_Gym_Text_DadOhYoureWallyRight:
 	.string "{COLOR BLUE}DAD: Hm? You're… Uh… Oh, right.\n"
-	.string "You're WALLY, right?{COLOR DARK_GRAY}$"
+	.string "You're WALLY, right?$"
 
 PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "{COLOR BLUE}WALLY: I'm going to go stay with my\n"
@@ -1168,38 +1168,38 @@ PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon:
 	.string "I thought I would be lonely by myself,\n"
 	.string "so I wanted to take a POKéMON along.\p"
 	.string "But I've never caught a POKéMON before.\n"
-	.string "I don't know how…{COLOR DARK_GRAY}$"
+	.string "I don't know how…$"
 
 PetalburgCity_Gym_Text_DadHmISee:
-	.string "{COLOR BLUE}DAD: Hm. I see.{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}DAD: Hm. I see.$"
 
 PetalburgCity_Gym_Text_DadPlayerGoWithWally:
 	.string "{COLOR BLUE}DAD: {PLAYER}, you heard that,\n"
 	.string "right?\p"
 	.string "Go with WALLY and make sure that he\n"
-	.string "safely catches a POKéMON.{COLOR DARK_GRAY}$"
+	.string "safely catches a POKéMON.$"
 
 PetalburgCity_Gym_Text_IllLoanYouMyZigzagoon:
 	.string "{COLOR BLUE}WALLY, here, I'll loan you my POKéMON.\p"
-	.string "WALLY received a ZIGZAGOON!{COLOR DARK_GRAY}$"
+	.string "WALLY received a ZIGZAGOON!$"
 
 PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall:
 	.string "{COLOR BLUE}WALLY: Oh, wow!\n"
 	.string "A POKéMON!\p"
 	.string "DAD: Hm. I'll give you a POKé BALL, too.\n"
 	.string "Go for it!\p"
-	.string "WALLY received a POKé BALL!{COLOR DARK_GRAY}$"
+	.string "WALLY received a POKé BALL!$"
 
 PetalburgCity_Gym_Text_WallyOhWowThankYou:
 	.string "{COLOR BLUE}WALLY: Oh, wow!\n"
-	.string "Thank you!{COLOR DARK_GRAY}$"
+	.string "Thank you!$"
 
 PetalburgCity_Gym_Text_WouldYouReallyComeWithMe:
 	.string "{COLOR BLUE}{PLAYER}… Would you really come\n"
-	.string "with me?{COLOR DARK_GRAY}$"
+	.string "with me?$"
 
 PetalburgCity_Gym_Text_DadSoDidItWorkOut:
-	.string "{COLOR BLUE}DAD: So, did it work out?{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}DAD: So, did it work out?$"
 
 PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "{COLOR BLUE}WALLY: Thank you, yes, it did.\n"
@@ -1212,7 +1212,7 @@ PetalburgCity_Gym_Text_WallyThankYouBye:
 	.string "care of it.\p"
 	.string "Oh! My mom's waiting for me,\n"
 	.string "so I have to go!\p"
-	.string "Bye, {PLAYER}!{COLOR DARK_GRAY}$"
+	.string "Bye, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "{COLOR BLUE}DAD: Now…\p"
@@ -1229,7 +1229,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "Of course, I'm a GYM LEADER, too.\n"
 	.string "We'll battle one day, {PLAYER}.\p"
 	.string "But that's only after you become\n"
-	.string "stronger.{COLOR DARK_GRAY}$"
+	.string "stronger.$"
 
 PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "{COLOR BLUE}DAD: Hm? Aren't you going to the\n"
@@ -1239,7 +1239,7 @@ PetalburgCity_Gym_Text_NormanGoToRustboro:
 	.string "{PLAYER}, I want you to challenge me\n"
 	.string "when you become a lot stronger.\p"
 	.string "I'll battle you, {PLAYER}, when you\n"
-	.string "can show me four GYM BADGES, okay?{COLOR DARK_GRAY}$"
+	.string "can show me four GYM BADGES, okay?$"
 
 PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "{COLOR BLUE}DAD: I see… So, you've beaten\n"
@@ -1248,13 +1248,13 @@ PetalburgCity_Gym_Text_NormanGoToDewford:
 	.string "who are stronger than you, {PLAYER}.\p"
 	.string "Across the sea in DEWFORD TOWN is a\n"
 	.string "GYM LEADER named BRAWLY.\p"
-	.string "You should go challenge him.{COLOR DARK_GRAY}$"
+	.string "You should go challenge him.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger:
 	.string "{COLOR BLUE}DAD: Hm… {PLAYER}, you have gotten\n"
 	.string "stronger.\p"
 	.string "I can tell by the number of BADGES\n"
-	.string "that you've earned.{COLOR DARK_GRAY}$"
+	.string "that you've earned.$"
 
 PetalburgCity_Gym_Text_NormanIntro:
 	.string "{COLOR BLUE}DAD: Hm…\n"
@@ -1268,7 +1268,7 @@ PetalburgCity_Gym_Text_NormanIntro:
 	.string "I will do everything in my power as\n"
 	.string "a GYM LEADER to win.\p"
 	.string "{PLAYER}, you'd better give it your\n"
-	.string "best shot, too!{COLOR DARK_GRAY}$"
+	.string "best shot, too!$"
 
 PetalburgCity_Gym_Text_NormanDefeat:
 	.string "…\p"
@@ -1280,7 +1280,7 @@ PetalburgCity_Gym_Text_NormanDefeat:
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
 	.string "{COLOR BLUE}{PLAYER} received the BALANCE BADGE\n"
-	.string "from DAD!{COLOR DARK_GRAY}$"
+	.string "from DAD!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 	.string "{COLOR BLUE}DAD: With that BADGE, the DEFENSE\n"
@@ -1288,7 +1288,7 @@ PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 	.string "POKéMON that know the HM move SURF\n"
 	.string "will be able to travel over water.\p"
 	.string "This is my gift to you. {PLAYER}, I'm\n"
-	.string "sure you can use it correctly.{COLOR DARK_GRAY}$"
+	.string "sure you can use it correctly.$"
 
 PetalburgCity_Gym_Text_ExplainFacade:
 	.string "{COLOR BLUE}DAD: TM42 contains FACADE.\p"
@@ -1296,23 +1296,23 @@ PetalburgCity_Gym_Text_ExplainFacade:
 	.string "the POKéMON is poisoned, paralyzed,\l"
 	.string "or burned.\p"
 	.string "It might be able to turn a bad\n"
-	.string "situation into an advantage.{COLOR DARK_GRAY}$"
+	.string "situation into an advantage.$"
 
 PetalburgCity_Gym_Text_DadHappyAndSad:
 	.string "{COLOR BLUE}DAD: As the GYM LEADER, I can't\n"
 	.string "express how upset I am…\p"
 	.string "But as a father, it makes me both\n"
-	.string "happy and a little sad. It's odd…{COLOR DARK_GRAY}$"
+	.string "happy and a little sad. It's odd…$"
 
 PetalburgCity_Gym_Text_PleaseComeWithMe:
 	.string "{COLOR BLUE}Ah, there you are, {PLAYER}{KUN}!\p"
 	.string "Please come with me.\n"
-	.string "I have something I want you to have.{COLOR DARK_GRAY}$"
+	.string "I have something I want you to have.$"
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer:
 	.string "{COLOR BLUE}NORMAN, you don't mind, do you?\p"
 	.string "Let me borrow your {PLAYER}{KUN} for\n"
-	.string "a minute or two.{COLOR DARK_GRAY}$"
+	.string "a minute or two.$"
 
 PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 	.string "{COLOR BLUE}DAD: {PLAYER}, you should go visit\n"
@@ -1320,13 +1320,13 @@ PetalburgCity_Gym_Text_DadGoingToKeepTraining:
 	.string "I'm going to stay here and redouble\n"
 	.string "my training.\p"
 	.string "It would bother me as a TRAINER to\n"
-	.string "not avenge my loss to you, {PLAYER}!{COLOR DARK_GRAY}$"
+	.string "not avenge my loss to you, {PLAYER}!$"
 
 PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
 	.string "{COLOR BLUE}DAD: {PLAYER}, how are things going?\p"
 	.string "The world of POKéMON is deep.\p"
 	.string "I honestly think that no amount of\n"
-	.string "training would ever be enough.{COLOR DARK_GRAY}$"
+	.string "training would ever be enough.$"
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
 	.string "{COLOR BLUE}Hey, how's it going, CHAMPION-\n"
@@ -1344,19 +1344,19 @@ PetalburgCity_Gym_Text_GymGuideAdvice:
 	.string "The room's name will be on\n"
 	.string "the door, so choose carefully.\p"
 	.string "Once you've chosen the door…\n"
-	.string "Well, hey, go for it!{COLOR DARK_GRAY}$"
+	.string "Well, hey, go for it!$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
 	.string "{COLOR BLUE}{PLAYER}! Whoa! You've overcome even\n"
 	.string "your own father!\p"
 	.string "Like, whoa!\n"
-	.string "What a stunning turn of events!{COLOR DARK_GRAY}$"
+	.string "What a stunning turn of events!$"
 
 PetalburgCity_Gym_Text_RandallIntro:
 	.string "{COLOR BLUE}The ability to attack before the\n"
 	.string "opponent…\p"
 	.string "Just that alone puts me at a great\n"
-	.string "advantage, don't you agree?{COLOR DARK_GRAY}$"
+	.string "advantage, don't you agree?$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
 	.string "That was a magnificent battle!$"
@@ -1366,19 +1366,19 @@ PetalburgCity_Gym_Text_RandallPostBattle:
 	.string "challenge awaits you.\p"
 	.string "At the left is the CONFUSION ROOM.\p"
 	.string "The right door leads to the DEFENSE\n"
-	.string "ROOM.{COLOR DARK_GRAY}$"
+	.string "ROOM.$"
 
 PetalburgCity_Gym_Text_RandallPostBadge:
 	.string "{COLOR BLUE}Whomever you beat, and whomever you\n"
 	.string "may lose to, you never shirk from\l"
 	.string "training yourself and your POKéMON.\p"
 	.string "That's what I think being a\n"
-	.string "GYM LEADER is all about.{COLOR DARK_GRAY}$"
+	.string "GYM LEADER is all about.$"
 
 PetalburgCity_Gym_Text_ParkerIntro:
 	.string "{COLOR BLUE}This is the CONFUSION ROOM.\p"
 	.string "Let me see how well bonded you are\n"
-	.string "with your POKéMON!{COLOR DARK_GRAY}$"
+	.string "with your POKéMON!$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
 	.string "I couldn't confuse your team enough…\n"
@@ -1386,11 +1386,11 @@ PetalburgCity_Gym_Text_ParkerDefeat:
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
 	.string "{COLOR BLUE}The next room is the STRENGTH ROOM.\n"
-	.string "Can you withstand brute force?{COLOR DARK_GRAY}$"
+	.string "Can you withstand brute force?$"
 
 PetalburgCity_Gym_Text_ParkerPostBadge:
 	.string "{COLOR BLUE}After you beat our LEADER, the\n"
-	.string "training has become a lot tougher.{COLOR DARK_GRAY}$"
+	.string "training has become a lot tougher.$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
 	.string "{COLOR BLUE}Just when you think you're going to\n"
@@ -1398,7 +1398,7 @@ PetalburgCity_Gym_Text_GeorgeIntro:
 	.string "Can you just imagine how awful that\n"
 	.string "must feel?\p"
 	.string "I'll show you exactly how awful it\n"
-	.string "feels!{COLOR DARK_GRAY}$"
+	.string "feels!$"
 
 PetalburgCity_Gym_Text_GeorgeDefeat:
 	.string "I couldn't restore HP enough…\n"
@@ -1411,17 +1411,17 @@ PetalburgCity_Gym_Text_GeorgePostBattle:
 	.string "earned only through effort.\p"
 	.string "I lost because my own efforts\n"
 	.string "weren't enough.\p"
-	.string "Go on! The ONE-HIT KO ROOM is next.{COLOR DARK_GRAY}$"
+	.string "Go on! The ONE-HIT KO ROOM is next.$"
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
 	.string "{COLOR BLUE}I'm going to keep training at GYMS.\n"
-	.string "One day, I'll become a LEADER.{COLOR DARK_GRAY}$"
+	.string "One day, I'll become a LEADER.$"
 
 PetalburgCity_Gym_Text_BerkeIntro:
 	.string "{COLOR BLUE}I'm not going to take it easy just\n"
 	.string "because you're our LEADER's kid.\p"
 	.string "I'll show you how horrid it is for\n"
-	.string "a POKéMON to take a critical hit!{COLOR DARK_GRAY}$"
+	.string "a POKéMON to take a critical hit!$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
 	.string "Your power…\n"
@@ -1433,18 +1433,18 @@ PetalburgCity_Gym_Text_BerkePostBattle:
 	.string "And, I sense the same glow coming\n"
 	.string "from you as your father.\p"
 	.string "I hope that you'll stage a terrific\n"
-	.string "battle with your father!{COLOR DARK_GRAY}$"
+	.string "battle with your father!$"
 
 PetalburgCity_Gym_Text_BerkePostBadge:
 	.string "{COLOR BLUE}Since your dad became the LEADER,\n"
 	.string "the TRAINERS of PETALBURG CITY have\l"
-	.string "become a lot tougher.{COLOR DARK_GRAY}$"
+	.string "become a lot tougher.$"
 
 PetalburgCity_Gym_Text_MaryIntro:
 	.string "{COLOR RED}Giggle…\n"
 	.string "This is the ACCURACY ROOM.\p"
 	.string "It's pretty nasty when every attack\n"
-	.string "lands without fail.{COLOR DARK_GRAY}$"
+	.string "lands without fail.$"
 
 PetalburgCity_Gym_Text_MaryDefeat:
 	.string "You were a cut above me…$"
@@ -1455,17 +1455,17 @@ PetalburgCity_Gym_Text_MaryPostBattle:
 	.string "The left is the DEFENSE ROOM, and\n"
 	.string "the right is the RECOVERY ROOM.\p"
 	.string "Your POKéMON's ATTACK power will be\n"
-	.string "on trial either way.{COLOR DARK_GRAY}$"
+	.string "on trial either way.$"
 
 PetalburgCity_Gym_Text_MaryPostBadge:
 	.string "{COLOR RED}Do you know what we're trying to\n"
 	.string "achieve as TRAINERS?\p"
 	.string "We're striving to become soul mates\n"
-	.string "with our POKéMON.{COLOR DARK_GRAY}$"
+	.string "with our POKéMON.$"
 
 PetalburgCity_Gym_Text_AlexiaIntro:
 	.string "{COLOR RED}The higher the DEFENSE, the more\n"
-	.string "reckless I can be in attack.{COLOR DARK_GRAY}$"
+	.string "reckless I can be in attack.$"
 
 PetalburgCity_Gym_Text_AlexiaDefeat:
 	.string "Our defenses weren't enough…$"
@@ -1478,16 +1478,16 @@ PetalburgCity_Gym_Text_AlexiaPostBattle:
 	.string "The right door opens to\n"
 	.string "the ONE-HIT KO ROOM.\p"
 	.string "Both of them have TRAINERS who are\n"
-	.string "skilled at offense.{COLOR DARK_GRAY}$"
+	.string "skilled at offense.$"
 
 PetalburgCity_Gym_Text_AlexiaPostBadge:
-	.string "{COLOR RED}Hi! Have you tried using SURF?{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}Hi! Have you tried using SURF?$"
 
 PetalburgCity_Gym_Text_JodyIntro:
 	.string "{COLOR RED}Our GYM LEADER told us to go all out\n"
 	.string "and beat you.\p"
 	.string "Even if you happen to be the\n"
-	.string "LEADER's kid!{COLOR DARK_GRAY}$"
+	.string "LEADER's kid!$"
 
 PetalburgCity_Gym_Text_JodyDefeat:
 	.string "But… I went all out!$"
@@ -1496,14 +1496,14 @@ PetalburgCity_Gym_Text_JodyPostBattle:
 	.string "{COLOR RED}The way you use your POKéMON…\n"
 	.string "It's like your father's style.\p"
 	.string "Go on through! The GYM LEADER, your\n"
-	.string "father, is waiting!{COLOR DARK_GRAY}$"
+	.string "father, is waiting!$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
 	.string "{COLOR RED}Sure, it's fine to make your POKéMON\n"
 	.string "stronger.\p"
 	.string "But what decides the winner?\p"
 	.string "Why, it's the feelings TRAINERS have\n"
-	.string "for their POKéMON.{COLOR DARK_GRAY}$"
+	.string "for their POKéMON.$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
 	.string "This door appears to be locked\n"
@@ -1566,7 +1566,7 @@ PetalburgCity_Gym_Text_NormanPreRematch:
 	.string "we are a parent and child.\p"
 	.string "…No, because we are parent and child,\n"
 	.string "we owe it to each other to do the best\l"
-	.string "we can. Isn't that right, {PLAYER}?{COLOR DARK_GRAY}$"
+	.string "we can. Isn't that right, {PLAYER}?$"
 
 PetalburgCity_Gym_Text_NormanRematchDefeat:
 	.string "Uh… Haha…\n"
@@ -1577,7 +1577,7 @@ PetalburgCity_Gym_Text_NormanPostRematch:
 	.string "What is your dream?\p"
 	.string "My dream…\n"
 	.string "Hahaha…\l"
-	.string "It has already come true, actually.{COLOR DARK_GRAY}$"
+	.string "It has already come true, actually.$"
 
 PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 	.string "{COLOR BLUE}DAD: {PLAYER}…\n"
@@ -1591,5 +1591,5 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons:
 	.string "Do you only have one POKéMON that is\n"
 	.string "capable of battle?\p"
 	.string "Sorry, but you'll have to come back\n"
-	.string "with at least two POKéMON.{COLOR DARK_GRAY}$"
+	.string "with at least two POKéMON.$"
 

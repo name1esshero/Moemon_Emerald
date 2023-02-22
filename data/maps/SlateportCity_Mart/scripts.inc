@@ -38,11 +38,11 @@ SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
 	.string "{COLOR BLUE}The MARKET does have some interesting\n"
 	.string "merchandise.\p"
 	.string "But there are some items you can only\n"
-	.string "get at a POKéMON MART.{COLOR DARK_GRAY}$"
+	.string "get at a POKéMON MART.$"
 
 SlateportCity_Mart_Text_GreatBallIsBetter:
 	.string "{COLOR BLUE}A GREAT BALL is better than a POKé BALL\n"
 	.string "at catching POKéMON.\p"
 	.string "With this, I should be able to get that\n"
-	.string "elusive POKéMON…{COLOR DARK_GRAY}$"
+	.string "elusive POKéMON…$"
 

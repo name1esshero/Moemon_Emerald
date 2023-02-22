@@ -480,64 +480,64 @@ DewfordTown_Text_BrineyLandedInSlateportDeliverGoods:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy!\n"
 	.string "We've made land in SLATEPORT!\p"
 	.string "I suppose you're going to visit CAPT.\n"
-	.string "STERN and deliver the DEVON GOODS?{COLOR DARK_GRAY}$"
+	.string "STERN and deliver the DEVON GOODS?$"
 
 Route109_Text_BrineySailToDewfordQuestion:
 	.string "{COLOR BLUE}MR. BRINEY: I thought you're supposed\n"
 	.string "to deliver the DEVON GOODS.\p"
 	.string "Would you like to sail back to\n"
-	.string "DEWFORD, then?{COLOR DARK_GRAY}$"
+	.string "DEWFORD, then?$"
 
 Route109_Text_BrineyDewfordItIs:
 	.string "{COLOR BLUE}MR. BRINEY: DEWFORD it is, then!\p"
 	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!{COLOR DARK_GRAY}$"
+	.string "PEEKO, we're setting sail, my darling!$"
 
 Route109_Text_BrineyDeliverDevonGoods:
 	.string "{COLOR BLUE}MR. BRINEY: Then you go on and deliver\n"
-	.string "the DEVON GOODS. I'll be waiting.{COLOR DARK_GRAY}$"
+	.string "the DEVON GOODS. I'll be waiting.$"
 
 DewfordTown_Text_BrineyLandedInSlateport:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy! We've made land in\n"
 	.string "SLATEPORT!\p"
 	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail again!{COLOR DARK_GRAY}$"
+	.string "you want to set sail again!$"
 
 Route109_Text_BrineyWhereAreWeBound:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy!\n"
 	.string "For you, I'll go out to sea anytime!\p"
-	.string "Now, my friend, where are we bound?{COLOR DARK_GRAY}$"
+	.string "Now, my friend, where are we bound?$"
 
 Route109_Text_BrineyTellMeWhenYouNeedToSail:
 	.string "{COLOR BLUE}MR. BRINEY: You just tell me whenever\n"
-	.string "you need to set sail again!{COLOR DARK_GRAY}$"
+	.string "you need to set sail again!$"
 
 Route109_Text_ChillAtMyPapasSpot:
 	.string "{COLOR RED}Yo, TRAINERS!\n"
 	.string "Whether you're hot to trot,\l"
 	.string "or cool cat not,\l"
-	.string "chill at my papa's spot!{COLOR DARK_GRAY}$"
+	.string "chill at my papa's spot!$"
 
 Route109_Text_LittleKidsDartAround:
 	.string "{COLOR RED}Little kids can dart around so quickly…\p"
 	.string "You don't dare take your eyes off them\n"
 	.string "for an instant. It's very taxing.\p"
 	.string "Mine are with my POKéMON, so they\n"
-	.string "should be okay, but…{COLOR DARK_GRAY}$"
+	.string "should be okay, but…$"
 
 Route109_Text_SandCastleTakingLongTime:
 	.string "{COLOR BLUE}Our sand castle's taking a long time\n"
-	.string "to make.{COLOR DARK_GRAY}$"
+	.string "to make.$"
 
 Route109_Text_YouCanHaveThis:
-	.string "{COLOR RED}You can have this!{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}You can have this!$"
 
 Route109_Text_WereGoingToMakeBigCastle:
 	.string "{COLOR RED}We're going to get all the sand from\n"
 	.string "the beach and make a big castle!\p"
 	.string "And then we're going to be a king and\n"
 	.string "queen.\p"
-	.string "We'll let you be a servant.{COLOR DARK_GRAY}$"
+	.string "We'll let you be a servant.$"
 
 Route109_Text_ZigzagoonPicksUpLitter:
 	.string "{COLOR BLUE}The water around these parts is clean.\p"
@@ -546,7 +546,7 @@ Route109_Text_ZigzagoonPicksUpLitter:
 	.string "Dirty water becomes rain and joins our\n"
 	.string "rivers, which we drink from…\p"
 	.string "If we pollute the sea, it all comes\n"
-	.string "back to haunt us eventually.{COLOR DARK_GRAY}$"
+	.string "back to haunt us eventually.$"
 
 Route109_Text_ZigzagoonCry:
 	.string "ZIGZAGOON: Guguu?$"

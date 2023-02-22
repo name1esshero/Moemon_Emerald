@@ -1,5 +1,5 @@
 LilycoveCity_ContestLobby_Text_InterviewRequest:
-	.string "Oh, hello! You were in a POKéMON\n"
+	.string "{COLOR RED}Oh, hello! You were in a POKéMON\n"
 	.string "CONTEST, weren't you?\l"
 	.string "It's easy to tell from your POKéMON.\p"
 	.string "I'm a reporter. I'm working on a story\n"
@@ -8,13 +8,13 @@ LilycoveCity_ContestLobby_Text_InterviewRequest:
 	.string "a few questions?$"
 
 LilycoveCity_ContestLobby_Text_DescribeContest:
-	.string "Oh, you will?\n"
+	.string "{COLOR RED}Oh, you will?\n"
 	.string "Thank you.\p"
 	.string "Briefly, how would you describe the\n"
 	.string "CONTEST you just entered?$"
 
 LilycoveCity_ContestLobby_Text_WhatImageWhenYouHearX:
-	.string "Ah, I see.\n"
+	.string "{COLOR RED}Ah, I see.\n"
 	.string "That's a very edifying comment.\p"
 	.string "You get a good feel for what\n"
 	.string "the CONTEST was like.\p"
@@ -23,7 +23,7 @@ LilycoveCity_ContestLobby_Text_WhatImageWhenYouHearX:
 	.string "what image do you get?$"
 
 LilycoveCity_ContestLobby_Text_ThatsAllForInterview:
-	.string "I see!\p"
+	.string "{COLOR RED}I see!\p"
 	.string "So that's how you imagine the concept\n"
 	.string "of “{STR_VAR_2}” to be.\p"
 	.string "Thank you!\n"
@@ -35,12 +35,12 @@ LilycoveCity_ContestLobby_Text_ThatsAllForInterview:
 	.string "I hope you'll look forward to it!$"
 
 LilycoveCity_ContestLobby_Text_PleaseDoShareStoryWithMe:
-	.string "Oh, too bad…\p"
+	.string "{COLOR RED}Oh, too bad…\p"
 	.string "Well, if you come across a good story,\n"
 	.string "please do share it with me.$"
 
 LilycoveCity_ContestLobby_Text_LookingForwardToNextContest:
-	.string "I'll be looking forward to your next\n"
+	.string "{COLOR RED}I'll be looking forward to your next\n"
 	.string "POKéMON CONTEST.$"
 
 gTVBravoTrainerText00::
@@ -109,7 +109,7 @@ gTVBravoTrainerText08::
 	.string "Introducing the TRAINER's {STR_VAR_1}!$"
 
 BattleFrontier_BattleTowerLobby_Text_InterviewRequest::
-	.string "Hello! You're the TRAINER who just had\n"
+	.string "{COLOR RED}Hello! You're the TRAINER who just had\n"
 	.string "a battle, right?\p"
 	.string "I'm gathering interviews with TRAINERS\n"
 	.string "all over the place.\p"
@@ -117,7 +117,7 @@ BattleFrontier_BattleTowerLobby_Text_InterviewRequest::
 	.string "your impressions on battling?$"
 
 BattleFrontier_BattleTowerLobby_Text_HowDidBattleTowerTurnOut::
-	.string "You will? Really?\n"
+	.string "{COLOR RED}You will? Really?\n"
 	.string "Thank you!\l"
 	.string "Then, uh…\p"
 	.string "How did things turn out in\n"
@@ -126,44 +126,44 @@ BattleFrontier_BattleTowerLobby_Text_HowDidBattleTowerTurnOut::
 	.string "Or are you unhappy?$"
 
 BattleFrontier_BattleTowerLobby_Text_SorryWeDisturbedYou::
-	.string "Oh…\n"
+	.string "{COLOR RED}Oh…\n"
 	.string "Sorry we disturbed you.\p"
 	.string "Please give us an interview the next\n"
 	.string "time you visit the BATTLE TOWER.$"
 
 BattleFrontier_BattleTowerLobby_Text_ObviousYouHadGreatBattle::
-	.string "Well, of course!\p"
+	.string "{COLOR RED}Well, of course!\p"
 	.string "That unmistakable look of satisfaction\n"
 	.string "on your face…\p"
 	.string "It's obvious that you've had a great\n"
 	.string "battle.$"
 
 BattleFrontier_BattleTowerLobby_Text_DifficultToMakeBattleTurnOutAsPlanned::
-	.string "Oh, I see…\p"
+	.string "{COLOR RED}Oh, I see…\p"
 	.string "Well, it certainly is difficult to make a\n"
 	.string "battle turn out exactly as planned.$"
 
 BattleFrontier_BattleTowerLobby_Text_DescribeYourBattle::
-	.string "Oh, oh, may I ask one more question?\p"
+	.string "{COLOR RED}Oh, oh, may I ask one more question?\p"
 	.string "If you were to describe your\n"
 	.string "impressions about this battle with\l"
 	.string "one saying, what would it be?$"
 
 BattleFrontier_BattleTowerLobby_Text_ThatsGreatLine::
-	.string "Oh, that is stunningly cool!\p"
+	.string "{COLOR RED}Oh, that is stunningly cool!\p"
 	.string "That's a great line!\n"
 	.string "I hope you'll do great next time, too.\p"
 	.string "I hope to see you again!$"
 
 BattleFrontier_BattleTowerLobby_Text_SilentType::
-	.string "Oh, I see…\p"
+	.string "{COLOR RED}Oh, I see…\p"
 	.string "Still, being the silent type is also\n"
 	.string "cool, isn't it?\p"
 	.string "I hope you'll give me the opportunity\n"
 	.string "to share your thoughts again!$"
 
 BattleFrontier_BattleTowerLobby_Text_LookingForwardToNextBattle::
-	.string "I'll be looking forward to your\n"
+	.string "{COLOR RED}I'll be looking forward to your\n"
 	.string "next battle!$"
 
 BravoTrainerBattleTower_Text_Intro::
@@ -278,36 +278,36 @@ SlateportCity_PokemonFanClub_Text_InterviewRequestHasName:
 	.string "I'm a TV reporter, and I'm running\n"
 	.string "a survey on POKéMON.\p"
 	.string "Would you be willing to answer a few\n"
-	.string "simple questions for me?{COLOR DARK_GRAY}$"
+	.string "simple questions for me?$"
 
 SlateportCity_PokemonFanClub_Text_HereGoesQuickAnswers:
 	.string "{COLOR RED}Great! Thank you!\p"
 	.string "Okay, here goes.\n"
-	.string "I just need quick answers, okay?{COLOR DARK_GRAY}$"
+	.string "I just need quick answers, okay?$"
 
 SlateportCity_PokemonFanClub_Text_DescribeFeelingsFirstMetMon:
 	.string "{COLOR RED}When you first met {STR_VAR_1},\n"
 	.string "what did you feel?\p"
 	.string "How would you describe your feelings\n"
-	.string "at the time?{COLOR DARK_GRAY}$"
+	.string "at the time?$"
 
 SlateportCity_PokemonFanClub_Text_LikenMonToSomethingYouLike:
 	.string "{COLOR RED}Your {STR_VAR_1} is cared for lovingly.\p"
 	.string "If you were to liken it to something\n"
-	.string "that you like, what would it be?{COLOR DARK_GRAY}$"
+	.string "that you like, what would it be?$"
 
 SlateportCity_PokemonFanClub_Text_WhatAttractedYouAboutMon:
 	.string "{COLOR RED}This question also relates to your\n"
 	.string "beloved {STR_VAR_1}.\p"
 	.string "What was it about {STR_VAR_1} that\n"
-	.string "attracted you?{COLOR DARK_GRAY}$"
+	.string "attracted you?$"
 
 SlateportCity_PokemonFanClub_Text_WhatDoPokemonMeanToYou:
 	.string "{COLOR RED}Okay, that makes sense.\p"
 	.string "The next question might be a little\n"
 	.string "on the tough side.\p"
 	.string "Here goes…\p"
-	.string "What do POKéMON mean to you?{COLOR DARK_GRAY}$"
+	.string "What do POKéMON mean to you?$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview:
 	.string "{COLOR RED}I see!\p"
@@ -319,16 +319,16 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview:
 	.string "It's possible that our interview will\n"
 	.string "end up on TV. Tune in and check!\p"
 	.string "Okay, that's all.\n"
-	.string "Bye-bye!{COLOR DARK_GRAY}$"
+	.string "Bye-bye!$"
 
 SlateportCity_PokemonFanClub_Text_HereIfYouGetUrgeToTellMe:
 	.string "{COLOR RED}Oh, okay…\p"
 	.string "Well, if you get the urge to tell me\n"
-	.string "about POKéMON, I'll be here!{COLOR DARK_GRAY}$"
+	.string "about POKéMON, I'll be here!$"
 
 SlateportCity_PokemonFanClub_Text_EnjoyDoingInterviews:
 	.string "{COLOR RED}I enjoy this job--you get to learn\n"
-	.string "about POKéMON by doing interviews.{COLOR DARK_GRAY}$"
+	.string "about POKéMON by doing interviews.$"
 
 SlateportCity_PokemonFanClub_Text_InterviewRequest:
 	.string "{COLOR RED}Hi, you seem to be very close to your\n"
@@ -338,12 +338,12 @@ SlateportCity_PokemonFanClub_Text_InterviewRequest:
 	.string "I travel around interviewing people\n"
 	.string "about POKéMON.\p"
 	.string "I'm wondering if you'd be willing to tell\n"
-	.string "me a little about your {STR_VAR_1}?{COLOR DARK_GRAY}$"
+	.string "me a little about your {STR_VAR_1}?$"
 
 SlateportCity_PokemonFanClub_Text_TellMeAnythingAboutYourMon:
 	.string "{COLOR RED}Wow, thank you!\p"
 	.string "Okay, then, please tell me anything\n"
-	.string "you'd like about your {STR_VAR_1}.{COLOR DARK_GRAY}$"
+	.string "you'd like about your {STR_VAR_1}.$"
 
 SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2:
 	.string "{COLOR RED}Wow…\n"
@@ -356,7 +356,7 @@ SlateportCity_PokemonFanClub_Text_ThatsAllForInterview2:
 	.string "an entertaining show.\l"
 	.string "Keep your eyes out for it.\p"
 	.string "Okay, that's all.\n"
-	.string "Bye-bye!{COLOR DARK_GRAY}$"
+	.string "Bye-bye!$"
 
 gTVFanClubOpinionsText00::
 	.string "WE ARE THE POKéMON FAN CLUB!\p"
@@ -480,7 +480,7 @@ gTVFanClubText07::
 	.string "Time to say good-bye until next time!$"
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequest:
-	.string "Oh?\n"
+	.string "{COLOR RED}Oh?\n"
 	.string "Do you perhaps like POKéMON?\p"
 	.string "I'm on assignment with the TV network.\p"
 	.string "I'm gathering stories on POKéMON and\n"
@@ -489,32 +489,32 @@ SlateportCity_OceanicMuseum_1F_Text_InterviewRequest:
 	.string "something about yourself?$"
 
 SlateportCity_OceanicMuseum_1F_Text_InterviewRequestShort:
-	.string "I'm gathering stories on POKéMON and\n"
+	.string "{COLOR RED}I'm gathering stories on POKéMON and\n"
 	.string "TRAINERS that occurred recently.\p"
 	.string "If you don't mind, could you tell me\n"
 	.string "something about yourself?$"
 
 SlateportCity_OceanicMuseum_1F_Text_TellMeExperienceInvolvingPokemon:
-	.string "Oh, you will?\n"
+	.string "{COLOR RED}Oh, you will?\n"
 	.string "Thank you!\p"
 	.string "Then, please, tell me anything of\n"
 	.string "interest that you experienced recently\l"
 	.string "involving POKéMON.$"
 
 SlateportCity_OceanicMuseum_1F_Text_LetMeKnowIfYouHaveStory:
-	.string "Oh, I see…\p"
+	.string "{COLOR RED}Oh, I see…\p"
 	.string "Well, if you do have an interesting\n"
 	.string "story to tell, please let me know.$"
 
 SlateportCity_OceanicMuseum_1F_Text_ThatsAllForInterview:
-	.string "Oh, what an uplifting story!\p"
+	.string "{COLOR RED}Oh, what an uplifting story!\p"
 	.string "I'll be sure to get your story told\n"
 	.string "on television.\p"
 	.string "It should be aired sometime, I think,\n"
 	.string "so please look forward to it.$"
 
 SlateportCity_OceanicMuseum_1F_Text_BetterWriteUpStory:
-	.string "Hmmm…\n"
+	.string "{COLOR RED}Hmmm…\n"
 	.string "I've got a good story for a TV program.\p"
 	.string "I'd better write it up in a hurry!$"
 
@@ -613,44 +613,44 @@ gTV3CheersForPokeblocksText05::
 	.string "Our slogan is “3 CHEERS FOR {POKEBLOCK}S!”$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer::
-	.string "Hi, there!\p"
+	.string "{COLOR RED}Hi, there!\p"
 	.string "I'm a big fan of {STR_VAR_1}.\n"
 	.string "What's your opinion of {STR_VAR_1}?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThatsWhatYouThink::
-	.string "I see, I see. That's what you think\n"
+	.string "{COLOR RED}I see, I see. That's what you think\n"
 	.string "about the TRAINER.$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer::
-	.string "Have you completely forgotten\n"
+	.string "{COLOR RED}Have you completely forgotten\n"
 	.string "about {STR_VAR_1}?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_WhatsYourOpinionOfTrainer2::
-	.string "I'm a big fan of {STR_VAR_1}.\n"
+	.string "{COLOR RED}I'm a big fan of {STR_VAR_1}.\n"
 	.string "What's your opinion of {STR_VAR_1}?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HowStrongRateTrainer::
-	.string "How strong would you rate {STR_VAR_1}\n"
+	.string "{COLOR RED}How strong would you rate {STR_VAR_1}\n"
 	.string "on a scale of one hundred?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_HaveYouForgottenTrainer2::
-	.string "Have you completely forgotten\n"
+	.string "{COLOR RED}Have you completely forgotten\n"
 	.string "about {STR_VAR_1}?$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouShouldMeetTrainer::
-	.string "Oh, I see!\n"
+	.string "{COLOR RED}Oh, I see!\n"
 	.string "You should meet {STR_VAR_1} sometime.\l"
 	.string "I'm sure you'll become a fan, too!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_ThankYouIllShareThisInfo::
-	.string "I see, I see.\p"
+	.string "{COLOR RED}I see, I see.\p"
 	.string "Thank you!\n"
 	.string "That's very useful to know.\p"
 	.string "I'll share this information with other\n"
 	.string "{STR_VAR_1} fans and discuss it.$"
 
 LilycoveCity_PokemonTrainerFanClub_HopeYouCatchTVSpecial::
-	.string "There's going to be a TV special on\n"
+	.string "{COLOR RED}There's going to be a TV special on\n"
 	.string "{STR_VAR_1} very soon.\p"
 	.string "I hope you catch it!$"
 

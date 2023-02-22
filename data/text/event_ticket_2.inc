@@ -1,5 +1,5 @@
 EventTicket_Text_OldSeaMapTooFar:
-	.string "What's up, youngster?\p"
+	.string "{COLOR BLUE}What's up, youngster?\p"
 	.string "What, it's you who's supposed to have\n"
 	.string "a tattered old map?\p"
 	.string "Let's have a look.\n"
@@ -8,12 +8,12 @@ EventTicket_Text_OldSeaMapTooFar:
 	.string "I'm afraid I can't help you…$"
 
 EventTicket_Text_BrineyHoldOnASecond:
-	.string "BRINEY: Hold on a second!\p"
+	.string "{COLOR BLUE}BRINEY: Hold on a second!\p"
 	.string "What's the idea of turning down\n"
 	.string "someone that I owe so much to?$"
 
 EventTicket_Text_BrineyLetsSail:
-	.string "{PLAYER}{KUN}, I'm terribly sorry.\p"
+	.string "{COLOR BLUE}{PLAYER}{KUN}, I'm terribly sorry.\p"
 	.string "You came to me seeking my help,\n"
 	.string "and we almost turned you away.\p"
 	.string "Well, let me make things right.\p"
@@ -22,7 +22,7 @@ EventTicket_Text_BrineyLetsSail:
 	.string "this OLD SEA MAP!$"
 
 EventTicket_Text_OddTicketGetOnBoard:
-	.string "Is it you who brought that odd\n"
+	.string "{COLOR BLUE}Is it you who brought that odd\n"
 	.string "ticket?\p"
 	.string "Where you're trying to go is an island\n"
 	.string "that's far, far away.\p"
@@ -32,16 +32,16 @@ EventTicket_Text_OddTicketGetOnBoard:
 	.string "Get on board, youngster!$"
 
 FarawayIsland_Entrance_Text_SailorReturn:
-	.string "CAPT. BRINEY can be so maddeningly\n"
+	.string "{COLOR BLUE}CAPT. BRINEY can be so maddeningly\n"
 	.string "fickle…\p"
 	.string "Do you want to return to LILYCOVE?$"
 
 BirthIsland_Harbor_Text_SailorReturn:
-	.string "What an oddly shaped island, eh?\n"
+	.string "{COLOR BLUE}What an oddly shaped island, eh?\n"
 	.string "Do you want to return to LILYCOVE?$"
 
 EventTicket_Text_OddTicketsWhereTo:
-	.string "Is it you who brought those\n"
+	.string "{COLOR BLUE}Is it you who brought those\n"
 	.string "odd tickets?\p"
 	.string "… … …Hm.\p"
 	.string "These tickets will get you to islands\n"
@@ -54,7 +54,7 @@ EventTicket_Text_OddTicketsWhereTo:
 	.string "Where shall we sail first?$"
 
 NavelRock_Harbor_Text_SailorReturn:
-	.string "Did… Did you hear that?\n"
+	.string "{COLOR BLUE}Did… Did you hear that?\n"
 	.string "That low growling from deep in there.\p"
 	.string "Are you sure it's safe?\n"
 	.string "Do you think we should leave?$"

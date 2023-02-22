@@ -745,26 +745,26 @@ Route110_Movement_BirchExit4:
 
 Route110_Text_WeCantTalkAboutAquaActivities:
 	.string "{COLOR BLUE}TEAM AQUA's activities…\n"
-	.string "We can't talk about them yet.{COLOR DARK_GRAY}$"
+	.string "We can't talk about them yet.$"
 
 Route110_Text_KickUpARuckus:
 	.string "{COLOR BLUE}I want to get going to SLATEPORT and\n"
-	.string "kick up a ruckus!{COLOR DARK_GRAY}$"
+	.string "kick up a ruckus!$"
 
 Route110_Text_MyFirstJobInAqua:
 	.string "{COLOR BLUE}This is my first job after joining\n"
-	.string "TEAM AQUA. It's a little scary.{COLOR DARK_GRAY}$"
+	.string "TEAM AQUA. It's a little scary.$"
 
 Route110_Text_AquaActionsBringSmiles:
 	.string "{COLOR BLUE}TEAM AQUA's actions should bring\n"
-	.string "smiles to people's faces!{COLOR DARK_GRAY}$"
+	.string "smiles to people's faces!$"
 
 Route110_Text_MayLetsBattle:
 	.string "{COLOR RED}MAY: Hi, {PLAYER}{KUN}, long time no see!\p"
 	.string "While I was searching for other\n"
 	.string "POKéMON, my POKéMON grew stronger.\p"
 	.string "So…\n"
-	.string "How about a little battle?{COLOR DARK_GRAY}$"
+	.string "How about a little battle?$"
 
 Route110_Text_MayDefeated:
 	.string "Yikes!\n"
@@ -774,7 +774,7 @@ Route110_Text_MayTakeThis:
 	.string "{COLOR RED}MAY: {PLAYER}{KUN}, you've been busy\n"
 	.string "training, too, haven't you?\p"
 	.string "I think you deserve a reward!\n"
-	.string "This is from me!{COLOR DARK_GRAY}$"
+	.string "This is from me!$"
 
 Route110_Text_MayExplainItemfinder:
 	.string "{COLOR RED}MAY: That's an ITEMFINDER.\p"
@@ -783,14 +783,14 @@ Route110_Text_MayExplainItemfinder:
 	.string "Okay, {PLAYER}{KUN}, let's meet again!\p"
 	.string "I know it's a little silly coming from\n"
 	.string "me, but I think you should train a lot\l"
-	.string "harder for the next time.{COLOR DARK_GRAY}$"
+	.string "harder for the next time.$"
 
 Route110_Text_BrendanLetsBattle:
 	.string "{COLOR BLUE}BRENDAN: Hey, {PLAYER}.\n"
 	.string "So this is where you were.\l"
 	.string "How's it going?\p"
 	.string "Have you been raising your POKéMON?\n"
-	.string "I'll check for you.{COLOR DARK_GRAY}$"
+	.string "I'll check for you.$"
 
 Route110_Text_BrendanDefeated:
 	.string "Hmm…\n"
@@ -800,7 +800,7 @@ Route110_Text_BrendanTakeThis:
 	.string "{COLOR BLUE}BRENDAN: {PLAYER}, you've trained\n"
 	.string "without me noticing…\p"
 	.string "Good enough!\n"
-	.string "Here, take this.{COLOR DARK_GRAY}$"
+	.string "Here, take this.$"
 
 Route110_Text_BrendanExplainItemfinder:
 	.string "{COLOR BLUE}BRENDAN: That's an ITEMFINDER.\p"
@@ -809,16 +809,16 @@ Route110_Text_BrendanExplainItemfinder:
 	.string "If it senses something, it emits\n"
 	.string "a sound.\p"
 	.string "Anyway, I'm off to look for new\n"
-	.string "POKéMON.{COLOR DARK_GRAY}$"
+	.string "POKéMON.$"
 
 Route110_Text_RideBikeAtFullSpeed:
 	.string "{COLOR BLUE}Wouldn't it be great to ride a BIKE\n"
-	.string "at full speed on CYCLING ROAD?{COLOR DARK_GRAY}$"
+	.string "at full speed on CYCLING ROAD?$"
 
 Route110_Text_HairStreamsBehindMe:
 	.string "{COLOR RED}How do you like the way my raven-\n"
 	.string "colored hair streams behind me?\p"
-	.string "I grew my hair out just for that.{COLOR DARK_GRAY}$"
+	.string "I grew my hair out just for that.$"
 
 Route110_Text_YouGotBikeFromRydel:
 	.string "{COLOR BLUE}Oh, hey, you got that BIKE from RYDEL!\p"
@@ -835,28 +835,28 @@ Route110_Text_YouGotBikeFromRydel:
 	.string "RYDEL, RYDEL, RYDEL, RYDEL, RYDEL…\n"
 	.string "That name's everywhere.\p"
 	.string "You should ride it around all over\n"
-	.string "the place--it's good advertising!{COLOR DARK_GRAY}$"
+	.string "the place--it's good advertising!$"
 
 Route110_Text_TwoRoads:
 	.string "{COLOR BLUE}The two roads, one above, one below…\p"
 	.string "A road each for people and POKéMON.\n"
-	.string "Perhaps that is right and fair.{COLOR DARK_GRAY}$"
+	.string "Perhaps that is right and fair.$"
 
 Route110_Text_WalkOnTheLowRoad:
 	.string "{COLOR RED}I don't have a BIKE, so I'll take\n"
-	.string "a leisurely walk on the low road.{COLOR DARK_GRAY}$"
+	.string "a leisurely walk on the low road.$"
 
 Route110_Text_BikeTechniques:
 	.string "{COLOR BLUE}Learning techniques will make BIKE\n"
 	.string "riding even more fun.\p"
 	.string "There are some places that you can\n"
-	.string "reach only by using a BIKE technique.{COLOR DARK_GRAY}$"
+	.string "reach only by using a BIKE technique.$"
 
 Route110_Text_WhichShouldIChoose:
 	.string "{COLOR BLUE}Which should I choose?\p"
 	.string "Make a beeline for MAUVILLE on\n"
 	.string "CYCLING ROAD, or take the low road\l"
-	.string "and look for POKéMON?{COLOR DARK_GRAY}$"
+	.string "and look for POKéMON?$"
 
 Route110_Text_CyclingChallengeResultSummary:
 	.string "Number of collisions:\n"
@@ -868,50 +868,50 @@ Route110_Text_ChallengeReactionBest:
 	.string "{COLOR BLUE}Bravo! Splendid showing!\p"
 	.string "Your love of cycling comes from deep\n"
 	.string "within your heart.\l"
-	.string "You've shaken me to my very soul!{COLOR DARK_GRAY}$"
+	.string "You've shaken me to my very soul!$"
 
 Route110_Text_ChallengeReactionGood:
 	.string "{COLOR BLUE}Your technique is remarkable.\p"
 	.string "I suggest you speed up a bit while\n"
-	.string "still avoiding collisions.{COLOR DARK_GRAY}$"
+	.string "still avoiding collisions.$"
 
 Route110_Text_ChallengeReactionOk:
 	.string "{COLOR BLUE}I would consider you a work in\n"
 	.string "progress.\p"
 	.string "Still, I hope you don't forget the\n"
-	.string "sheer pleasure of cycling.{COLOR DARK_GRAY}$"
+	.string "sheer pleasure of cycling.$"
 
 Route110_Text_ChallengeReactionBad:
 	.string "{COLOR BLUE}My word… Your cycling skills border\n"
 	.string "on terrifying.\p"
 	.string "Most certainly, you need much more\n"
-	.string "practice riding.{COLOR DARK_GRAY}$"
+	.string "practice riding.$"
 
 Route110_Text_ChallengeReactionWorst:
 	.string "{COLOR BLUE}…I am aghast…\p"
 	.string "You're perhaps not cut out for this\n"
 	.string "unfortunate cycling business.\p"
 	.string "You ought to give serious thought to\n"
-	.string "returning that BIKE to RYDEL.{COLOR DARK_GRAY}$"
+	.string "returning that BIKE to RYDEL.$"
 
 Route110_Text_RatedForNumberOfCollisions:
 	.string "{COLOR BLUE}This is CYCLING ROAD.\p"
 	.string "If you were to ride from MAUVILLE to\n"
 	.string "SLATEPORT on a MACH BIKE, you would\l"
 	.string "be rated for the number of collisions\l"
-	.string "and your total time.{COLOR DARK_GRAY}$"
+	.string "and your total time.$"
 
 Route110_Text_AlwaysAimHigher:
 	.string "{COLOR BLUE}Regardless of the results, I count on\n"
 	.string "seeing more challenges from you.\l"
-	.string "Always aim higher!{COLOR DARK_GRAY}$"
+	.string "Always aim higher!$"
 
 Route110_Text_AcroBikesDoNotQualify:
 	.string "{COLOR BLUE}On this CYCLING ROAD, those riding\n"
 	.string "MACH BIKES are rated for their number\l"
 	.string "of collisions and their total times.\p"
 	.string "ACRO BIKES do not qualify for rating.\n"
-	.string "They are easy to turn, so it's not fair.{COLOR DARK_GRAY}$"
+	.string "They are easy to turn, so it's not fair.$"
 
 Route110_Text_SlateportCitySign:
 	.string "ROUTE 110\n"
@@ -967,7 +967,7 @@ Route110_Text_ThereIsNoRecord:
 Route110_Text_ImagineSeeingYouHere:
 	.string "{COLOR BLUE}PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
 	.string "Imagine seeing you here!\p"
-	.string "And where might my {RIVAL} be?{COLOR DARK_GRAY}$"
+	.string "And where might my {RIVAL} be?$"
 
 Route110_Text_HeardYouInstallMatchCall:
 	.string "{COLOR BLUE}Oh, I see!\n"
@@ -978,7 +978,7 @@ Route110_Text_HeardYouInstallMatchCall:
 	.string "Well, then, I should register you in\n"
 	.string "my POKéNAV as well.\p"
 	.string "That way, even when we're apart,\n"
-	.string "I can rate your POKéDEX anytime.{COLOR DARK_GRAY}\p"
+	.string "I can rate your POKéDEX anytime.\p"
 	.string "… … … … … …$"
 
 Route110_Text_RegisteredBirchInPokenav:
@@ -990,5 +990,5 @@ Route110_Text_KeepAnEyeOutForRival:
 	.string "Please keep an eye out for my {RIVAL}.\n"
 	.string "… … … … … …\p"
 	.string "Well, I had better get going.\n"
-	.string "See you again, {PLAYER}{KUN}!{COLOR DARK_GRAY}$"
+	.string "See you again, {PLAYER}{KUN}!$"
 

@@ -641,7 +641,7 @@ DewfordTown_EventScript_PhraseNotTrendyEnough::
 DewfordTown_Text_TinyIslandCommunity:
 	.string "{COLOR RED}DEWFORD is a tiny island community.\n"
 	.string "If something gets trendy here,\l"
-	.string "everyone picks up on it right away.{COLOR DARK_GRAY}$"
+	.string "everyone picks up on it right away.$"
 
 DewfordTown_Text_TownSign:
 	.string "DEWFORD TOWN\n"
@@ -660,56 +660,56 @@ Route104_Text_LandedInDewfordDeliverLetter:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy!\n"
 	.string "We've hit land in DEWFORD.\p"
 	.string "I suppose you're off to deliver that\n"
-	.string "LETTER to, who was it now, STEVEN!{COLOR DARK_GRAY}$"
+	.string "LETTER to, who was it now, STEVEN!$"
 
 DewfordTown_Text_SetSailBackToPetalburg:
 	.string "{COLOR BLUE}MR. BRINEY: Have you delivered your\n"
 	.string "LETTER?\p"
 	.string "Or were you meaning to sail back to\n"
-	.string "PETALBURG?{COLOR DARK_GRAY}$"
+	.string "PETALBURG?$"
 
 DewfordTown_Text_PetalburgWereSettingSail2:
 	.string "{COLOR BLUE}MR. BRINEY: PETALBURG it is, then!\p"
 	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!{COLOR DARK_GRAY}$"
+	.string "PEEKO, we're setting sail, my darling!$"
 
 DewfordTown_Text_GoDeliverIllBeWaiting:
 	.string "{COLOR BLUE}MR. BRINEY: Then you go on and deliver\n"
-	.string "the LETTER. I'll be waiting.{COLOR DARK_GRAY}$"
+	.string "the LETTER. I'll be waiting.$"
 
 DewfordTown_Text_BrineyLandedInDewford:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy!\n"
 	.string "We've hit land in DEWFORD!\p"
 	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail again!{COLOR DARK_GRAY}$"
+	.string "you want to set sail again!$"
 
 DewfordTown_Text_WhereAreWeBound:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy!\n"
 	.string "For you, I'll go out to sea anytime!\p"
-	.string "Now, my friend, where are we bound?{COLOR DARK_GRAY}$"
+	.string "Now, my friend, where are we bound?$"
 
 DewfordTown_Text_PetalburgWereSettingSail:
 	.string "{COLOR BLUE}MR. BRINEY: PETALBURG, is it?\p"
 	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!{COLOR DARK_GRAY}$"
+	.string "PEEKO, we're setting sail, my darling!$"
 
 DewfordTown_Text_SlateportWereSettingSail:
 	.string "{COLOR BLUE}MR. BRINEY: SLATEPORT, is it?\p"
 	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!{COLOR DARK_GRAY}$"
+	.string "PEEKO, we're setting sail, my darling!$"
 
 DewfordTown_Text_JustTellMeWhenYouNeedToSetSail:
 	.string "{COLOR BLUE}MR. BRINEY: You just tell me whenever\n"
-	.string "you need to set sail again!{COLOR DARK_GRAY}$"
+	.string "you need to set sail again!$"
 
 DewfordTown_Text_GettingItchToFish:
 	.string "{COLOR BLUE}This is a renowned fishing spot.\n"
-	.string "Are you getting the itch to fish?{COLOR DARK_GRAY}$"
+	.string "Are you getting the itch to fish?$"
 
 DewfordTown_Text_GiveYouOneOfMyRods:
 	.string "{COLOR BLUE}I hear you, and I like what\n"
 	.string "you're saying!\p"
-	.string "I'll give you one of my fishing RODS.{COLOR DARK_GRAY}$"
+	.string "I'll give you one of my fishing RODS.$"
 
 DewfordTown_Text_ThrowInFishingAdvice:
 	.string "{COLOR BLUE}And, as an added bonus, I'll even throw\n"
@@ -721,19 +721,19 @@ DewfordTown_Text_ThrowInFishingAdvice:
 	.string "Sometimes you can snag something\n"
 	.string "immediately, but with bigger catches,\l"
 	.string "you need to time the pulls on your ROD\l"
-	.string "to haul them in.{COLOR DARK_GRAY}$"
+	.string "to haul them in.$"
 
 DewfordTown_Text_ThatsTooBadThen:
 	.string "{COLOR BLUE}Oh, is that so?\n"
-	.string "That's too bad, then.{COLOR DARK_GRAY}$"
+	.string "That's too bad, then.$"
 
 DewfordTown_Text_HowsYourFishing:
 	.string "{COLOR BLUE}Yo!\n"
-	.string "How's your fishing?{COLOR DARK_GRAY}$"
+	.string "How's your fishing?$"
 
 DewfordTown_Text_GreatHaulInSomeBigOnes:
 	.string "{COLOR BLUE}Is that right! That's great!\n"
-	.string "Haul in some big ones!{COLOR DARK_GRAY}$"
+	.string "Haul in some big ones!$"
 
 DewfordTown_Text_FishingAdvice:
 	.string "{COLOR BLUE}Oh, hey, don't get down on yourself!\n"
@@ -745,7 +745,7 @@ DewfordTown_Text_FishingAdvice:
 	.string "Sometimes you can snag something\n"
 	.string "immediately, but with bigger catches,\l"
 	.string "you need to time the pulls on your ROD\l"
-	.string "to haul them in.{COLOR DARK_GRAY}$"
+	.string "to haul them in.$"
 
 DewfordTown_Text_XIsTheBiggestHappeningThingRight:
 	.string "{COLOR BLUE}I like what's hip, happening, and trendy.\n"
@@ -759,13 +759,13 @@ DewfordTown_Text_XIsTheBiggestHappeningThingRight:
 	.string "It's the hottest thing in cool!\p"
 	.string "Wherever you're from,\n"
 	.string "“{STR_VAR_1}”\l"
-	.string "is the biggest happening thing, right?{COLOR DARK_GRAY}$"
+	.string "is the biggest happening thing, right?$"
 
 DewfordTown_Text_TellMeWhatsNewAndIn:
 	.string "{COLOR BLUE}Hunh?\n"
 	.string "It's not the hip and happening thing?\p"
 	.string "Well, hey, you have to tell me,\n"
-	.string "what's new and what's “in”?{COLOR DARK_GRAY}$"
+	.string "what's new and what's “in”?$"
 
 DewfordTown_Text_OfCourseIKnowAboutThat:
 	.string "{COLOR BLUE}Hunh?\n"
@@ -783,20 +783,20 @@ DewfordTown_Text_OfCourseIKnowAboutThat:
 	.string "“{STR_VAR_1}”…\n"
 	.string "It's, like, so five minutes ago.\p"
 	.string "Now, “{STR_VAR_2}” is\n"
-	.string "what's vital and in tune with the times!{COLOR DARK_GRAY}$"
+	.string "what's vital and in tune with the times!$"
 
 DewfordTown_Text_XHuhIThinkYIsCool:
 	.string "{COLOR BLUE}Hmm…\n"
 	.string "“{STR_VAR_2},” huh?\p"
 	.string "But personally, I think\n"
 	.string "“{STR_VAR_1}”\l"
-	.string "is what's real in cool.{COLOR DARK_GRAY}$"
+	.string "is what's real in cool.$"
 
 DewfordTown_Text_HearOfAnyTrendsComeShareWithMe:
 	.string "{COLOR BLUE}Well, if you hear of any happening new\n"
-	.string "trends, come share them with me, okay?{COLOR DARK_GRAY}$"
+	.string "trends, come share them with me, okay?$"
 
 DewfordTown_Text_YeahDefinitionOfInRightNow:
 	.string "{COLOR BLUE}Yeah, absolutely right!\p"
 	.string "“{STR_VAR_1}” is the\n"
-	.string "definition of “in” right now.{COLOR DARK_GRAY}$"
+	.string "definition of “in” right now.$"

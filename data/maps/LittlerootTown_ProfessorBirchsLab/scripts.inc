@@ -729,19 +729,19 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchAwayOnFieldwork:
 	.string "The PROF isn't one for doing desk work.\n"
 	.string "He's the type of person who would\l"
 	.string "rather go outside and experience\l"
-	.string "things than read about them here.{COLOR DARK_GRAY}$"
+	.string "things than read about them here.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchIsntOneForDeskWork:
 	.string "{COLOR BLUE}The PROF isn't one for doing desk work.\n"
 	.string "He's the type of person who would\l"
 	.string "rather go outside and experience\l"
-	.string "things than read about them here.{COLOR DARK_GRAY}$"
+	.string "things than read about them here.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchEnjoysRivalsHelpToo:
 	.string "{COLOR BLUE}PROF. BIRCH is studying the habitats\n"
 	.string "and distribution of POKéMON.\p"
 	.string "The PROF enjoys {RIVAL}'s help, too.\n"
-	.string "There's a lot of love there.{COLOR DARK_GRAY}$"
+	.string "There's a lot of love there.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "{COLOR BLUE}PROF. BIRCH: So, {PLAYER}{KUN}.\p"
@@ -756,15 +756,15 @@ LittlerootTown_ProfessorBirchsLab_Text_LikeYouToHavePokemon:
 	.string "Oh, yes. As thanks for rescuing me,\n"
 	.string "I'd like you to have the POKéMON you\l"
 	.string "used earlier.\p"
-	.string "{PLAYER} received the {STR_VAR_1}!{COLOR DARK_GRAY}$"
+	.string "{PLAYER} received the {STR_VAR_1}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon:
 	.string "{COLOR BLUE}PROF. BIRCH: While you're at it, why not\n"
-	.string "give a nickname to that {STR_VAR_1}?{COLOR DARK_GRAY}$"
+	.string "give a nickname to that {STR_VAR_1}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_WhyNotGiveNicknameToMon_Nuzlocke:
 	.string "{COLOR BLUE}PROF. BIRCH: While you're at it, why not\n"
-	.string "give a nickname to that {STR_VAR_1}?{COLOR DARK_GRAY}\p$"
+	.string "give a nickname to that {STR_VAR_1}?\p$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "{COLOR BLUE}PROF. BIRCH: If you work at POKéMON\n"
@@ -773,17 +773,17 @@ LittlerootTown_ProfessorBirchsLab_Text_MightBeGoodIdeaToGoSeeRival:
 	.string "My kid, {RIVAL}, is also studying\n"
 	.string "POKéMON while helping me out.\p"
 	.string "{PLAYER}{KUN}, don't you think it might be\n"
-	.string "a good idea to go see {RIVAL}?{COLOR DARK_GRAY}$"
+	.string "a good idea to go see {RIVAL}?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_GetRivalToTeachYou:
 	.string "{COLOR BLUE}PROF. BIRCH: Great!\n"
 	.string "{RIVAL} should be happy, too.\p"
 	.string "Get {RIVAL} to teach you what it\n"
-	.string "means to be a TRAINER.{COLOR DARK_GRAY}$"
+	.string "means to be a TRAINER.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_DontBeThatWay:
 	.string "{COLOR BLUE}PROF. BIRCH: Oh, don't be that way.\n"
-	.string "You should go meet my kid.{COLOR DARK_GRAY}$"
+	.string "You should go meet my kid.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "{COLOR BLUE}PROF. BIRCH: {RIVAL}?\n"
@@ -791,7 +791,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BirchRivalGoneHome:
 	.string "Or maybe that kid's scrabbling around\n"
 	.string "in tall grass again somewhere…\p"
 	.string "If you or your POKéMON get tired,\n"
-	.string "you should get some rest at home.{COLOR DARK_GRAY}$"
+	.string "you should get some rest at home.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "{COLOR BLUE}PROF. BIRCH: Oh, hi, {PLAYER}{KUN}!\p"
@@ -803,7 +803,7 @@ LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex:
 	.string "a TRAINER already.\p"
 	.string "Here, {PLAYER}{KUN}, I ordered this for my\n"
 	.string "research, but I think you should have\l"
-	.string "this POKéDEX.{COLOR DARK_GRAY}$"
+	.string "this POKéDEX.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedPokedex:
 	.string "{PLAYER} received the POKéDEX!$"
@@ -817,19 +817,19 @@ LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex:
 	.string "Whenever my kid catches a rare POKéMON\n"
 	.string "and records its data in the POKéDEX,\l"
 	.string "why, {RIVAL} looks for me while I'm out\l"
-	.string "doing fieldwork, and shows me.{COLOR DARK_GRAY}$"
+	.string "doing fieldwork, and shows me.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "{COLOR BLUE}PROF. BIRCH: Countless POKéMON\n"
 	.string "await you!\p"
 	.string "Argh, I'm getting the itch to get out\n"
-	.string "and do fieldwork again!{COLOR DARK_GRAY}$"
+	.string "and do fieldwork again!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 	.string "{COLOR RED}MAY: Oh, wow, {PLAYER}{KUN}!\n"
 	.string "You got a POKéDEX, too!\p"
 	.string "That's great! Just like me!\n"
-	.string "I've got something for you, too!{COLOR DARK_GRAY}$"
+	.string "I've got something for you, too!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "{COLOR RED}MAY: It's fun if you can get a lot of\n"
@@ -837,20 +837,20 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "I'm going to look all over the place\n"
 	.string "because I want different POKéMON.\p"
 	.string "If I find any cute POKéMON, I'll catch\n"
-	.string "them with POKé BALLS!{COLOR DARK_GRAY}$"
+	.string "them with POKé BALLS!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
-	.string "{COLOR RED}Oh? Your BAG's full.{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}Oh? Your BAG's full.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
 	.string "{COLOR RED}MAY: I wonder where I should go look\n"
-	.string "for POKéMON next?{COLOR DARK_GRAY}$"
+	.string "for POKéMON next?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
 	.string "{COLOR BLUE}BRENDAN: Huh…\n"
 	.string "So you got a POKéDEX, too.\p"
 	.string "Well then, here.\n"
-	.string "I'll give you these.{COLOR DARK_GRAY}$"
+	.string "I'll give you these.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "{COLOR BLUE}BRENDAN: You know it's more fun to\n"
@@ -858,14 +858,14 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
 	.string "I'm going to explore all over the place\n"
 	.string "to find different POKéMON.\p"
 	.string "If I find any cool POKéMON, you bet\n"
-	.string "I'll try to get them with POKé BALLS.{COLOR DARK_GRAY}$"
+	.string "I'll try to get them with POKé BALLS.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
-	.string "{COLOR BLUE}Hey, your BAG's full.{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}Hey, your BAG's full.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanWhereShouldIGoNext:
 	.string "{COLOR BLUE}BRENDAN: Where should I look for\n"
-	.string "POKéMON next…{COLOR DARK_GRAY}$"
+	.string "POKéMON next…$"
 
 LittlerootTown_ProfessorBirchsLab_Text_SeriousLookingMachine:
 	.string "It's a serious-looking machine.\n"
@@ -896,24 +896,24 @@ LittlerootTown_ProfessorBirchsLab_Text_OtherRegionsUpgradeToNational:
 	.string "That's why I think it's necessary for\n"
 	.string "me to upgrade your POKéDEX to\l"
 	.string "the NATIONAL Mode.\p"
-	.string "Here, let me see your POKéDEX units.{COLOR DARK_GRAY}$"
+	.string "Here, let me see your POKéDEX units.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayUpgradeSoCool:
 	.string "{COLOR RED}MAY: Eheheh!\p"
 	.string "It's so cool that even my POKéDEX\n"
 	.string "is getting updated!\p"
 	.string "It's because you went out and caught\n"
-	.string "so many POKéMON, {PLAYER}{KUN}!{COLOR DARK_GRAY}$"
+	.string "so many POKéMON, {PLAYER}{KUN}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanYouCanThankMe:
 	.string "{COLOR BLUE}BRENDAN: I went out all over HOENN\n"
 	.string "and checked out POKéMON.\p"
 	.string "You can thank me for getting\n"
 	.string "the NATIONAL Mode POKéDEX.\p"
-	.string "Yep, you're lucky, {PLAYER}!{COLOR DARK_GRAY}$"
+	.string "Yep, you're lucky, {PLAYER}!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OkayAllDone:
-	.string "{COLOR BLUE}PROF. BIRCH: Okay, all done!{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}PROF. BIRCH: Okay, all done!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_PokedexUpgradedToNational:
 	.string "{PLAYER}'s POKéDEX was upgraded\n"
@@ -926,19 +926,19 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting2:
 	.string "There is no end to the road\n"
 	.string "that is POKéMON.\p"
 	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!{COLOR DARK_GRAY}$"
+	.string "that's waiting for you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayTakeBreakFromFieldwork:
 	.string "{COLOR RED}MAY: I think I'll take a short break\n"
 	.string "from fieldwork.\p"
 	.string "I think I'll help the PROF here for\n"
-	.string "a while.{COLOR DARK_GRAY}$"
+	.string "a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanTakeBreakFromFieldwork:
 	.string "{COLOR BLUE}BRENDAN: For the time being,\n"
 	.string "I'm taking a break from fieldwork.\p"
 	.string "I'll be helping out the PROF here\n"
-	.string "for a while.{COLOR DARK_GRAY}$"
+	.string "for a while.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "{COLOR BLUE}PROF. BIRCH: Oh, {PLAYER}{KUN}!\n"
@@ -955,41 +955,41 @@ LittlerootTown_ProfessorBirchsLab_Text_CompletedDexChoosePokemon:
 	.string "My gift is a rare POKéMON only found\n"
 	.string "in another region!\p"
 	.string "You can have any one of these\n"
-	.string "three POKéMON!{COLOR DARK_GRAY}$"
+	.string "three POKéMON!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon:
 	.string "{COLOR BLUE}PROF. BIRCH: These are rare POKéMON\n"
 	.string "only found in another region!\p"
 	.string "You can have any one of these\n"
-	.string "three POKéMON!{COLOR DARK_GRAY}$"
+	.string "three POKéMON!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCyndaquil:
 	.string "{COLOR BLUE}PROF. BIRCH: The FIRE POKéMON\n"
 	.string "CYNDAQUIL caught your eye!\p"
 	.string "You're as sharp as ever!\p"
-	.string "So the CYNDAQUIL is your choice?{COLOR DARK_GRAY}$"
+	.string "So the CYNDAQUIL is your choice?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeTotodile:
 	.string "{COLOR BLUE}PROF. BIRCH: The WATER POKéMON\n"
 	.string "TOTODILE is your choice!\p"
 	.string "You know how to pick a good one.\p"
-	.string "So, you'll take the TOTODILE?{COLOR DARK_GRAY}$"
+	.string "So, you'll take the TOTODILE?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeChikorita:
 	.string "{COLOR BLUE}PROF. BIRCH: The GRASS POKéMON\n"
 	.string "CHIKORITA is your choice!\p"
 	.string "You sure know what you're doing.\p"
-	.string "So, you'll take the CHIKORITA?{COLOR DARK_GRAY}$"
+	.string "So, you'll take the CHIKORITA?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_TakeYourTimeAllInvaluable:
 	.string "{COLOR BLUE}PROF. BIRCH: Take your time before\n"
 	.string "you decide.\p"
-	.string "They're all invaluable POKéMON.{COLOR DARK_GRAY}$"
+	.string "They're all invaluable POKéMON.$"
 
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_PickedFinePokemon:
 	.string "{COLOR BLUE}PROF. BIRCH: I see!\n"
-	.string "You picked a fine POKéMON!{COLOR DARK_GRAY}$"
+	.string "You picked a fine POKéMON!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ReceivedJohtoStarter:
 	.string "{PLAYER} received the {STR_VAR_1}\n"
@@ -1007,7 +1007,7 @@ LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting:
 	.string "There is no end to the road\n"
 	.string "that is POKéMON.\p"
 	.string "Somewhere, there is a grassy patch\n"
-	.string "that's waiting for you!{COLOR DARK_GRAY}$"
+	.string "that's waiting for you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
 	.string "You received the promised POKéMON.\n"
@@ -1016,7 +1016,7 @@ LittlerootTown_ProfessorBirchsLab_Text_BetterLeaveOthersAlone:
 @ Unused
 LittlerootTown_ProfessorBirchsLab_Text_DontHaveAnyRoomForPokemon:
 	.string "{COLOR BLUE}Oh, you don't have any room for\n"
-	.string "this POKéMON.{COLOR DARK_GRAY}$"
+	.string "this POKéMON.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
 	.string "{COLOR RED}MAY: {PLAYER}{KUN}, after this…\n"
@@ -1025,22 +1025,22 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhatNextImStayingHere:
 	.string "and sharpening your skills?\p"
 	.string "Or are you going to try filling\n"
 	.string "the NATIONAL POKéDEX?\p"
-	.string "I'm staying here to help the PROF.{COLOR DARK_GRAY}$"
+	.string "I'm staying here to help the PROF.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanPreferCollectingSlowly:
 	.string "{COLOR BLUE}BRENDAN: Rather than collecting\n"
 	.string "POKéMON, I prefer slowly and \l"
-	.string "steadily raising the one I chose.{COLOR DARK_GRAY}$"
+	.string "steadily raising the one I chose.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayHaveYouGoneToBattleFrontier:
 	.string "{COLOR RED}MAY: Oh, hi, {PLAYER}{KUN}!\n"
 	.string "Have you gone to that place,\l"
-	.string "the BATTLE FRONTIER?{COLOR DARK_GRAY}$"
+	.string "the BATTLE FRONTIER?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanHaveYouGoneToBattleFrontier:
 	.string "{COLOR BLUE}BRENDAN: Hey, {PLAYER}!\n"
 	.string "Have you gone out to that place,\l"
-	.string "the BATTLE FRONTIER?{COLOR DARK_GRAY}$"
+	.string "the BATTLE FRONTIER?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "… … … … … …\n"
@@ -1055,6 +1055,6 @@ LittlerootTown_ProfessorBirchsLab_Text_ScottAboardSSTidalCall:
 	.string "If you're interested, board a ferry\n"
 	.string "at either SLATEPORT or LILYCOVE.\p"
 	.string "I'll fill you in on the details when\n"
-	.string "we meet. I'll be waiting!{COLOR DARK_GRAY}\p"
+	.string "we meet. I'll be waiting!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"

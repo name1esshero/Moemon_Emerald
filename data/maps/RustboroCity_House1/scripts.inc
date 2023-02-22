@@ -55,27 +55,27 @@ RustboroCity_House1_Text_IllTradeIfYouWant:
 	.string "But if you really want, I'm willing\n"
 	.string "to trade it to you.\p"
 	.string "I'll trade you my {STR_VAR_2} for\n"
-	.string "a {STR_VAR_1} if you want.{COLOR DARK_GRAY}$"
+	.string "a {STR_VAR_1} if you want.$"
 
 RustboroCity_House1_Text_PleaseBeGoodToMyPokemon:
 	.string "{COLOR BLUE}Eheheh…\n"
-	.string "Please be good to my POKéMON.{COLOR DARK_GRAY}$"
+	.string "Please be good to my POKéMON.$"
 
 RustboroCity_House1_Text_DoesntLookLikeMonToMe:
 	.string "{COLOR BLUE}Huh? That doesn't look anything like\n"
-	.string "a {STR_VAR_1} to me.{COLOR DARK_GRAY}$"
+	.string "a {STR_VAR_1} to me.$"
 
 RustboroCity_House1_Text_YouDontWantToThatsOkay:
 	.string "{COLOR BLUE}Oh, if you don't want to, that's okay.\n"
-	.string "But my POKéMON is cute, you know…{COLOR DARK_GRAY}$"
+	.string "But my POKéMON is cute, you know…$"
 
 RustboroCity_House1_Text_AnyPokemonCanBeCute:
 	.string "{COLOR BLUE}Any POKéMON can be cute if you raise\n"
-	.string "it with care and kindness.{COLOR DARK_GRAY}$"
+	.string "it with care and kindness.$"
 
 RustboroCity_House1_Text_AllSortsOfPlaces:
 	.string "{COLOR BLUE}In all sorts of places, there are all\n"
 	.string "sorts of POKéMON and people.\p"
 	.string "I find that fascinating, so I go to all\n"
-	.string "sorts of places.{COLOR DARK_GRAY}$"
+	.string "sorts of places.$"
 

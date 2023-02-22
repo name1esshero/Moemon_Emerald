@@ -252,57 +252,57 @@ Route110_TrickHouseEnd_Movement_TrickMasterSurprise:
 Route110_TrickHouseEnd_Text_YouveMadeItToMe:
 	.string "{COLOR BLUE}Aak!\n"
 	.string "You've made it to me?\l"
-	.string "Hmmm… You're sharp!{COLOR DARK_GRAY}$"
+	.string "Hmmm… You're sharp!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPlantTrees:
 	.string "{COLOR BLUE}It took me all night to plant all those\n"
 	.string "trees…\p"
 	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four, five, six places!{COLOR DARK_GRAY}$"
+	.string "one, two, three, four, five, six places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMaze:
 	.string "{COLOR BLUE}It took me all night to make the maze…\p"
 	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four, five places!{COLOR DARK_GRAY}$"
+	.string "one, two, three, four, five places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToPreparePanels:
 	.string "{COLOR BLUE}It took me all night to prepare\n"
 	.string "the wall panels…\p"
 	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three, four places!{COLOR DARK_GRAY}$"
+	.string "one, two, three, four places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToShoveBoulders:
 	.string "{COLOR BLUE}It took me all night to shove in those\n"
 	.string "boulders…\p"
 	.string "You're almost my equal in greatness by\n"
-	.string "one, two, three places!{COLOR DARK_GRAY}$"
+	.string "one, two, three places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToMakeMechadolls:
 	.string "{COLOR BLUE}It took me all night to make MECHADOLLS\n"
 	.string "and another to think up the quiz…\p"
 	.string "You're almost my equal in greatness by\n"
-	.string "one, two places!{COLOR DARK_GRAY}$"
+	.string "one, two places!$"
 
 Route110_TrickHouseEnd_Text_AllNightToInstallDoors:
 	.string "{COLOR BLUE}It took me all night to install\n"
 	.string "the doors…\p"
-	.string "You're almost my equal in greatness!{COLOR DARK_GRAY}$"
+	.string "You're almost my equal in greatness!$"
 
 Route110_TrickHouseEnd_Text_AllNightSettingUpArrows:
 	.string "{COLOR BLUE}It took me all night setting up arrows…\p"
-	.string "You're my equal in greatness!{COLOR DARK_GRAY}$"
+	.string "You're my equal in greatness!$"
 
 Route110_TrickHouseEnd_Text_AllNightPolishingFloors:
 	.string "{COLOR BLUE}It took me all night polishing floors…\p"
 	.string "You're above me in greatness!\n"
-	.string "Possibly…{COLOR DARK_GRAY}$"
+	.string "Possibly…$"
 
 Route110_TrickHouseEnd_Text_FountainOfIdeasRunDry:
 	.string "{COLOR BLUE}Wh-what should I do?\n"
 	.string "My fountain of ideas for tricks has\l"
 	.string "run dry…\p"
 	.string "Perhaps it is time I toured the country\n"
-	.string "on a quest to devise new tricks…{COLOR DARK_GRAY}$"
+	.string "on a quest to devise new tricks…$"
 
 Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
 	.string "{COLOR BLUE}I hate to admit defeat, but you have\n"
@@ -318,13 +318,13 @@ Route110_TrickHouseEnd_Text_DefeatedMePreferWhichTent:
 	.string "this keepsake!\p"
 	.string "Actually there are two--\n"
 	.string "a RED TENT and a BLUE TENT.\l"
-	.string "Which do you prefer?{COLOR DARK_GRAY}$"
+	.string "Which do you prefer?$"
 
 Route110_TrickHouseEnd_Text_NoRoomInPC:
 	.string "{COLOR BLUE}What? No room in your PC?\n"
 	.string "What am I to make of that?\p"
 	.string "I wish I could say that, but I am much\n"
-	.string "too kind and caring, so come back later!{COLOR DARK_GRAY}$"
+	.string "too kind and caring, so come back later!$"
 
 Route110_TrickHouseEnd_Text_LeavingOnJourney:
 	.string "… … … … … …\p"
@@ -332,17 +332,17 @@ Route110_TrickHouseEnd_Text_LeavingOnJourney:
 	.string "A quest in search of new tricks.\p"
 	.string "I wish that you will one day visit and\n"
 	.string "entertain me again.\p"
-	.string "And now, farewell!{COLOR DARK_GRAY}$"
+	.string "And now, farewell!$"
 
 Route110_TrickHouseEnd_Text_YouHaveEarnedThisReward:
 	.string "{COLOR BLUE}Fine!\n"
-	.string "You have earned this reward!{COLOR DARK_GRAY}$"
+	.string "You have earned this reward!$"
 
 Route110_TrickHouseEnd_Text_NoRoomForThis:
 	.string "{COLOR BLUE}What? Have you no room for this?\n"
 	.string "What manner of items do you carry?\p"
 	.string "But fine, since you've reached me,\n"
-	.string "your reward will be with me till later.{COLOR DARK_GRAY}$"
+	.string "your reward will be with me till later.$"
 
 Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
 	.string "{COLOR BLUE}Scrub that smug smirk from your face!\n"
@@ -350,9 +350,9 @@ Route110_TrickHouseEnd_Text_MakeNewTricksToStumpYou:
 	.string "I'll make new tricks to stump you, I will.\n"
 	.string "You may mock me only when you're done.\p"
 	.string "Come back for the next exciting\n"
-	.string "installment!{COLOR DARK_GRAY}$"
+	.string "installment!$"
 
 Route110_TrickHouseEnd_Text_YoureIgnoringMe:
 	.string "{COLOR BLUE}Now, now! You're ignoring me now?\n"
-	.string "Now that, I consider heartbreaking!{COLOR DARK_GRAY}$"
+	.string "Now that, I consider heartbreaking!$"
 

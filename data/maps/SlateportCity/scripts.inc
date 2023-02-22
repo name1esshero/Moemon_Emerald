@@ -952,16 +952,16 @@ SlateportCity_EventScript_BerryCrushRankingsSign::
 
 SlateportCity_Text_EnergyGuruSellWhatYouNeed:
 	.string "{COLOR BLUE}I'm the ENERGY GURU! I'll go for it and\n"
-	.string "sell you what you need!{COLOR DARK_GRAY}$"
+	.string "sell you what you need!$"
 
 SlateportCity_Text_OhYourPokemon:
 	.string "{COLOR RED}Oh?\n"
-	.string "Your {STR_VAR_1}…{COLOR DARK_GRAY}$"
+	.string "Your {STR_VAR_1}…$"
 
 SlateportCity_Text_PleaseGiveItThisEffortRibbon:
 	.string "{COLOR RED}Went for it stupendously!\p"
 	.string "As its reward, please give it this\n"
-	.string "EFFORT RIBBON.{COLOR DARK_GRAY}$"
+	.string "EFFORT RIBBON.$"
 
 SlateportCity_Text_ReceivedEffortRibbon:
 	.string "{PLAYER} received the EFFORT RIBBON.$"
@@ -973,161 +973,161 @@ SlateportCity_Text_PutEffortRibbonOnMon:
 SlateportCity_Text_GoForItLittleHarder:
 	.string "{COLOR RED}You have to go for it a little harder.\p"
 	.string "If you do, I'll give your POKéMON\n"
-	.string "something nice.{COLOR DARK_GRAY}$"
+	.string "something nice.$"
 
 SlateportCity_Text_EffortRibbonLooksGoodOnIt:
 	.string "{COLOR RED}Oh! Your {STR_VAR_1}, that EFFORT\n"
-	.string "RIBBON looks good on it!{COLOR DARK_GRAY}$"
+	.string "RIBBON looks good on it!$"
 
 SlateportCity_Text_WonderIfLighthouseStartlesPokemon:
 	.string "{COLOR BLUE}The light of the lighthouse reaches\n"
 	.string "dozens of miles away.\p"
 	.string "I wonder if it doesn't startle POKéMON\n"
-	.string "in the sea.{COLOR DARK_GRAY}$"
+	.string "in the sea.$"
 
 SlateportCity_Text_SeaweedFullOfLife:
 	.string "{COLOR BLUE}Ooh, look at this!\p"
 	.string "The seaweed you can get around these\n"
 	.string "parts is fresh and full of life.\p"
 	.string "Why, it looks like it can even rear up\n"
-	.string "and attack!{COLOR DARK_GRAY}$"
+	.string "and attack!$"
 
 SlateportCity_Text_HowTownIsBornAndGrows:
 	.string "{COLOR RED}Where the water is clean, the fruits\n"
 	.string "of bountiful harvest gather.\p"
 	.string "And where people gather, a market\n"
 	.string "soon starts.\p"
-	.string "That is how a town is born and grows.{COLOR DARK_GRAY}$"
+	.string "That is how a town is born and grows.$"
 
 SlateportCity_Text_SlateportWonderfulPlace:
 	.string "{COLOR RED}Shopping where you can breathe the\n"
 	.string "scent of the ocean…\p"
-	.string "SLATEPORT is such a wonderful place!{COLOR DARK_GRAY}$"
+	.string "SLATEPORT is such a wonderful place!$"
 
 SlateportCity_Text_BuyBricksSoDecorWontGetDirty:
 	.string "{COLOR BLUE}If you put DOLLS or CUSHIONS on\n"
 	.string "the floor, they'll get dirty.\p"
 	.string "I'm going to buy some BRICKS so my\n"
 	.string "DOLLS and CUSHIONS won't get dirty\l"
-	.string "when I leave them out.{COLOR DARK_GRAY}$"
+	.string "when I leave them out.$"
 
 SlateportCity_Text_GoingToCompeteInBattleTent:
 	.string "{COLOR BLUE}Wroooar! I'm going to compete in\n"
 	.string "the BATTLE TENT, too!\p"
 	.string "But before that, I need to catch\n"
-	.string "some POKéMON!{COLOR DARK_GRAY}$"
+	.string "some POKéMON!$"
 
 SlateportCity_Text_BushedHikingFromMauville:
 	.string "{COLOR BLUE}Whew… I'm just bushed…\p"
 	.string "I hiked over from MAUVILLE CITY.\n"
 	.string "But, boy, this city's huge.\p"
 	.string "If I'd known this, I would've ridden\n"
-	.string "my BIKE here.{COLOR DARK_GRAY}$"
+	.string "my BIKE here.$"
 
 SlateportCity_Text_EveryoneCallsHimCaptStern:
 	.string "{COLOR BLUE}STERN, the fellow who built the\n"
 	.string "MUSEUM, also happens to be the leader\l"
 	.string "of an undersea exploration team.\p"
-	.string "So, everyone calls him CAPT. STERN.{COLOR DARK_GRAY}$"
+	.string "So, everyone calls him CAPT. STERN.$"
 
 SlateportCity_Text_WhatsLongLineOverThere:
 	.string "{COLOR RED}What is that over there?\n"
-	.string "That long line…{COLOR DARK_GRAY}$"
+	.string "That long line…$"
 
 SlateportCity_Text_VisitedMuseumOften:
 	.string "{COLOR RED}When I was a child, I visited\n"
 	.string "the MUSEUM often.\p"
 	.string "I used to dream about the mysteries of\n"
-	.string "the sea after seeing the exhibits.{COLOR DARK_GRAY}$"
+	.string "the sea after seeing the exhibits.$"
 
 SlateportCity_Text_QuitPushing:
 	.string "{COLOR RED}Hey, there! Quit pushing!\n"
-	.string "This is the line, can't you see?{COLOR DARK_GRAY}$"
+	.string "This is the line, can't you see?$"
 
 SlateportCity_Text_AquaHasPolicy:
 	.string "{COLOR BLUE}TEAM AQUA has a policy of\n"
 	.string "assembling and dispersing at\l"
-	.string "the operation site.{COLOR DARK_GRAY}$"
+	.string "the operation site.$"
 
 SlateportCity_Text_BossIsBrilliant:
 	.string "{COLOR BLUE}Our BOSS is brilliant.\p"
 	.string "What would he want to do with\n"
-	.string "a MUSEUM now?{COLOR DARK_GRAY}$"
+	.string "a MUSEUM now?$"
 
 SlateportCity_Text_WhatsNewSchemeIWonder:
 	.string "{COLOR BLUE}What's the new scheme, I wonder?\p"
 	.string "Our BOSS is scary when he's mad, so\n"
-	.string "I'd better not screw things up…{COLOR DARK_GRAY}$"
+	.string "I'd better not screw things up…$"
 
 SlateportCity_Text_ShouldTakeItAll:
 	.string "{COLOR BLUE}If there's something we need in\n"
-	.string "the MUSEUM, we should take it all!{COLOR DARK_GRAY}$"
+	.string "the MUSEUM, we should take it all!$"
 
 SlateportCity_Text_DontButtIn:
 	.string "{COLOR BLUE}Hey, you there!\n"
-	.string "Don't butt in!{COLOR DARK_GRAY}$"
+	.string "Don't butt in!$"
 
 SlateportCity_Text_RemindsMeOfLongLineForGames:
 	.string "{COLOR BLUE}A long line, huh?\p"
 	.string "It reminds me of the times I lined up to\n"
-	.string "buy smash-hit games…{COLOR DARK_GRAY}$"
+	.string "buy smash-hit games…$"
 
 SlateportCity_Text_WhyAreWeLiningUp:
 	.string "{COLOR BLUE}Why are we even lining up and paying?\n"
-	.string "We should just march in!{COLOR DARK_GRAY}$"
+	.string "We should just march in!$"
 
 SlateportCity_Text_WhatDoYouWant:
 	.string "{COLOR BLUE}What?\n"
-	.string "What do you want?{COLOR DARK_GRAY}$"
+	.string "What do you want?$"
 
 SlateportCity_Text_IllReadSignForYou:
 	.string "{COLOR BLUE}You want to read this sign?\n"
-	.string "I'll read it for you!{COLOR DARK_GRAY}$"
+	.string "I'll read it for you!$"
 
 SlateportCity_Text_SaysSomethingLikeSeaIsEndless:
 	.string "{COLOR BLUE}Let's see…\p"
 	.string "Um… I think it says something like\n"
 	.string "“the life in the sea is endless.”\p"
 	.string "Yup, I'm pretty sure that's what\n"
-	.string "it says.{COLOR DARK_GRAY}$"
+	.string "it says.$"
 
 SlateportCity_Text_ShouldveBroughtMyGameBoy:
 	.string "{COLOR BLUE}Grumble…\p"
 	.string "I should've brought my Game Boy\n"
 	.string "Advance so I wouldn't get bored in line…\p"
-	.string "Grumble…{COLOR DARK_GRAY}$"
+	.string "Grumble…$"
 
 SlateportCity_Text_HotSpringsAfterOperation:
 	.string "{COLOR BLUE}When this operation's over, I'll take\n"
 	.string "you to a hot spring spa!\p"
 	.string "That's what our leader said.\n"
-	.string "I can't wait!{COLOR DARK_GRAY}$"
+	.string "I can't wait!$"
 
 SlateportCity_Text_SeaIsSoWet:
 	.string "{COLOR BLUE}The sea is just so vast…\p"
 	.string "Could the sea have been made by\n"
-	.string "the tears shed by POKéMON?{COLOR DARK_GRAY}$"
+	.string "the tears shed by POKéMON?$"
 
 SlateportCity_Text_SinkOldBoats:
 	.string "{COLOR BLUE}Do you know what they do with old\n"
 	.string "ships that become too creaky to sail?\p"
 	.string "They sink them in the sea so they\n"
-	.string "become habitats for POKéMON.{COLOR DARK_GRAY}$"
+	.string "become habitats for POKéMON.$"
 
 SlateportCity_Text_BuyTooMuch:
 	.string "{COLOR RED}Whenever I visit here, I get carried\n"
-	.string "away and buy too much.{COLOR DARK_GRAY}$"
+	.string "away and buy too much.$"
 
 SlateportCity_Text_GetNameRaterToHelpYou:
 	.string "{COLOR BLUE}If you want to change your POKéMON's\n"
 	.string "nickname, you'll have to get the NAME\l"
-	.string "RATER to help you.{COLOR DARK_GRAY}$"
+	.string "RATER to help you.$"
 
 SlateportCity_Text_CantChangeTradeMonName:
 	.string "{COLOR RED}Any POKéMON you get in a trade,\n"
 	.string "you can't change its nickname.\p"
 	.string "The original TRAINER's love for that\n"
-	.string "POKéMON is in the nickname.{COLOR DARK_GRAY}$"
+	.string "POKéMON is in the nickname.$"
 
 SlateportCity_Text_BattleTentBuiltRecently:
 	.string "{COLOR BLUE}Recently, a BATTLE TENT was built\n"
@@ -1135,62 +1135,62 @@ SlateportCity_Text_BattleTentBuiltRecently:
 	.string "GYMS are fun, but the BATTLE TENT's\n"
 	.string "awesome in its own way.\p"
 	.string "You should go find tough POKéMON\n"
-	.string "for the BATTLE TENT!{COLOR DARK_GRAY}$"
+	.string "for the BATTLE TENT!$"
 
 SlateportCity_Text_CaptSternBeingInterviewed:
 	.string "{COLOR RED}I was hoping that it was a famous star\n"
 	.string "so I could get an autograph.\p"
 	.string "But who's that being interviewed?\n"
-	.string "Isn't that CAPT. STERN?{COLOR DARK_GRAY}$"
+	.string "Isn't that CAPT. STERN?$"
 
 SlateportCity_Text_InterviewerSoCool:
 	.string "{COLOR RED}That lady interviewer is so cool\n"
 	.string "and pretty.\p"
 	.string "When I grow up, I'm going to be\n"
-	.string "an international journalist!{COLOR DARK_GRAY}$"
+	.string "an international journalist!$"
 
 SlateportCity_Text_SternSaysDiscoveredSomething:
 	.string "{COLOR BLUE}CAPT. STERN says they discovered\n"
 	.string "something at the bottom of the sea.\p"
 	.string "I wonder what it is?\n"
-	.string "What could it be?{COLOR DARK_GRAY}$"
+	.string "What could it be?$"
 
 SlateportCity_Text_CaptainComeBackWithBigFish:
 	.string "{COLOR BLUE}What's going on here?\p"
 	.string "Did the good CAPTAIN come back with\n"
-	.string "a big fish from the ocean floor?{COLOR DARK_GRAY}$"
+	.string "a big fish from the ocean floor?$"
 
 SlateportCity_Text_AmIOnTV:
 	.string "{COLOR BLUE}Hey! Are you watching?\n"
-	.string "Am I on TV?{COLOR DARK_GRAY}$"
+	.string "Am I on TV?$"
 
 SlateportCity_Text_CaptainsACelebrity:
 	.string "{COLOR BLUE}A TV interview! Here!\n"
-	.string "The CAPTAIN's a celebrity!{COLOR DARK_GRAY}$"
+	.string "The CAPTAIN's a celebrity!$"
 
 SlateportCity_Text_BigSmileForCamera:
 	.string "{COLOR BLUE}TY: Okay, CAPT. STERN, a big smile\n"
-	.string "for the camera!{COLOR DARK_GRAY}$"
+	.string "for the camera!$"
 
 SlateportCity_Text_MostInvaluableExperience:
 	.string "{COLOR RED}GABBY: I see, I see. You've had a most\n"
-	.string "invaluable experience…{COLOR DARK_GRAY}$"
+	.string "invaluable experience…$"
 
 SlateportCity_Text_SternMoveAheadWithExploration:
 	.string "{COLOR BLUE}CAPT. STERN: Yes, indeed. We intend to\n"
-	.string "move ahead with our exploration.{COLOR DARK_GRAY}$"
+	.string "move ahead with our exploration.$"
 
 SlateportCity_Text_GabbyWonderfulThanksForInterview:
 	.string "{COLOR RED}GABBY: That's wonderful, CAPT. STERN!\n"
 	.string "Thank you for taking the time from\l"
 	.string "your busy schedule to talk to us.\p"
 	.string "We hope we can interview you again\n"
-	.string "with news of more discoveries!{COLOR DARK_GRAY}$"
+	.string "with news of more discoveries!$"
 
 SlateportCity_Text_SternWhewFirstInterview:
 	.string "{COLOR BLUE}CAPT. STERN: Whew…\p"
 	.string "That was my first time to be filmed for\n"
-	.string "TV. That was nerve-wracking.{COLOR DARK_GRAY}$"
+	.string "TV. That was nerve-wracking.$"
 
 SlateportCity_Text_OhPlayerWeMadeDiscovery:
 	.string "{COLOR BLUE}Oh! {PLAYER}{KUN}!\n"
@@ -1200,7 +1200,7 @@ SlateportCity_Text_OhPlayerWeMadeDiscovery:
 	.string "We found an underwater cavern on\n"
 	.string "ROUTE 128.\p"
 	.string "We think it's the habitat of a POKéMON\n"
-	.string "that's said to have been long extinct.{COLOR DARK_GRAY}$"
+	.string "that's said to have been long extinct.$"
 
 SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
 	.string "{COLOR BLUE}Fufufu…\n"
@@ -1211,22 +1211,22 @@ SlateportCity_Text_AquaWillAssumeControlOfSubmarine:
 	.string "We expect your total cooperation!\p"
 	.string "Fufufu…\n"
 	.string "Just watch and learn what TEAM\l"
-	.string "AQUA has planned!{COLOR DARK_GRAY}$"
+	.string "AQUA has planned!$"
 
 SlateportCity_Text_SternWhatWasAllThat:
 	.string "{COLOR BLUE}CAPT. STERN: What was that all about?\p"
 	.string "It sounded like someone using\n"
 	.string "a megaphone…\p"
-	.string "Where did it come from?{COLOR DARK_GRAY}$"
+	.string "Where did it come from?$"
 
 SlateportCity_Text_FromHarborTryingToTakeSub:
 	.string "{COLOR BLUE}It's from the HARBOR!\p"
 	.string "The submarine!\n"
-	.string "They're trying to take it!{COLOR DARK_GRAY}$"
+	.string "They're trying to take it!$"
 
 SlateportCity_Text_PleaseComeWithMe:
 	.string "{COLOR BLUE}{PLAYER}{KUN}!\n"
-	.string "Please, come with me!{COLOR DARK_GRAY}$"
+	.string "Please, come with me!$"
 
 SlateportCity_Text_BattleTentSign:
 	.string "BATTLE TENT SLATEPORT SITE\n"
@@ -1296,7 +1296,7 @@ SlateportCity_Text_ExplainBerries:
 	.string "You seem to have an interest\n"
 	.string "in BERRIES!\p"
 	.string "I've got something good for someone\n"
-	.string "like you.{COLOR DARK_GRAY}$"
+	.string "like you.$"
 
 SlateportCity_Text_ExplainBerryPowder:
 	.string "{COLOR RED}I recently had machines installed at\n"
@@ -1307,39 +1307,39 @@ SlateportCity_Text_ExplainBerryPowder:
 	.string "Could you make BERRY POWDER for\n"
 	.string "me using those machines?\p"
 	.string "I can make you all sorts of medicine\n"
-	.string "if you bring me lots of BERRY POWDER.{COLOR DARK_GRAY}$"
+	.string "if you bring me lots of BERRY POWDER.$"
 
 SlateportCity_Text_BroughtMeSomeBerryPowder:
 	.string "{COLOR RED}Have you brought me some\n"
-	.string "BERRY POWDER?{COLOR DARK_GRAY}$"
+	.string "BERRY POWDER?$"
 
 SlateportCity_Text_ExchangeWhatWithIt:
 	.string "{COLOR RED}What would you like to exchange\n"
-	.string "it with?{COLOR DARK_GRAY}$"
+	.string "it with?$"
 
 SlateportCity_Text_ExchangeBerryPowderForItem:
 	.string "{COLOR RED}Okay, you want to exchange your\n"
-	.string "BERRY POWDER for one {STR_VAR_1}?{COLOR DARK_GRAY}$"
+	.string "BERRY POWDER for one {STR_VAR_1}?$"
 
 SlateportCity_Text_DontHaveEnoughBerryPowder:
 	.string "{COLOR RED}Oh, dear. You don't have enough\n"
-	.string "BERRY POWDER.{COLOR DARK_GRAY}$"
+	.string "BERRY POWDER.$"
 
 SlateportCity_Text_FineBerryPowderTradeSomethingElse:
 	.string "{COLOR RED}This is fine BERRY POWDER.\n"
 	.string "It will make excellent medicine.\p"
 	.string "Would you like to trade more of your\n"
-	.string "BERRY POWDER for something else?{COLOR DARK_GRAY}$"
+	.string "BERRY POWDER for something else?$"
 
 SlateportCity_Text_WhenYouGetMoreBringItToMe:
 	.string "{COLOR RED}Okay! When you get some more\n"
-	.string "BERRY POWDER, bring it to me, please!{COLOR DARK_GRAY}$"
+	.string "BERRY POWDER, bring it to me, please!$"
 
 SlateportCity_Text_ComeBackToTradeBerryPowder:
 	.string "{COLOR RED}Come back if you'd like to trade your\n"
 	.string "BERRY POWDER for some medicine.\p"
 	.string "I'm always running a bazaar here.\p"
-	.string "Did you know?{COLOR DARK_GRAY}$"
+	.string "Did you know?$"
 
 SlateportCity_Text_YouDroveTeamAquaAway:
 	.string "{COLOR BLUE}SCOTT: Huh?\n"
@@ -1348,17 +1348,17 @@ SlateportCity_Text_YouDroveTeamAquaAway:
 	.string "If not, my name's SCOTT.\p"
 	.string "I just saw TEAM AQUA run away from\n"
 	.string "here like they were stung.\p"
-	.string "Let me guess--you drove them away?{COLOR DARK_GRAY}$"
+	.string "Let me guess--you drove them away?$"
 
 SlateportCity_Text_MaybeThisTrainer:
 	.string "{COLOR BLUE}SCOTT: Hmm…\n"
-	.string "Maybe, just maybe, this TRAINER…{COLOR DARK_GRAY}$"
+	.string "Maybe, just maybe, this TRAINER…$"
 
 SlateportCity_Text_LetsRegisterEachOther:
 	.string "{COLOR BLUE}SCOTT: All right! I think you're going\n"
 	.string "to become a good friend.\p"
 	.string "So, let's register each other in our\n"
-	.string "POKéNAVS.{COLOR DARK_GRAY}\p"
+	.string "POKéNAVS.\p"
 	.string "… … … … … …$"
 
 SlateportCity_Text_RegisteredScott:
@@ -1371,7 +1371,7 @@ SlateportCity_Text_KeepEyeOnTrainersBeSeeingYou:
 	.string "on the talents of other people, too.\p"
 	.string "So, I'll be off to roam other towns\n"
 	.string "a bit more.\p"
-	.string "Be seeing you, {PLAYER}{KUN}!{COLOR DARK_GRAY}$"
+	.string "Be seeing you, {PLAYER}{KUN}!$"
 
 SlateportCity_Text_TakingBattleTentChallenge:
 	.string "{COLOR BLUE}SCOTT: Oh, hey!\n"
@@ -1382,4 +1382,4 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "That's a really great idea!\p"
 	.string "After all, a tough TRAINER is\n"
 	.string "the perfect fit for the BATTLE TENT!\p"
-	.string "Give it your best effort!{COLOR DARK_GRAY}$"
+	.string "Give it your best effort!$"

@@ -11,5 +11,5 @@ OldaleTown_House1_Text_LeftPokemonGoesOutFirst:
 	.string "So, when you get more POKéMON in your\n"
 	.string "party, try switching around the order\l"
 	.string "of your POKéMON.\p"
-	.string "It could give you an advantage.{COLOR DARK_GRAY}$"
+	.string "It could give you an advantage.$"
 

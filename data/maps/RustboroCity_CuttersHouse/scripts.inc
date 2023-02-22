@@ -31,7 +31,7 @@ RustboroCity_CuttersHouse_Text_YouCanPutThisHMToGoodUse:
 	.string "I'm sure that you can put this\n"
 	.string "HIDDEN MACHINE to good use.\p"
 	.string "No need to be modest or shy.\n"
-	.string "Go on, take it!{COLOR DARK_GRAY}$"
+	.string "Go on, take it!$"
 
 RustboroCity_CuttersHouse_Text_ExplainCut:
 	.string "{COLOR BLUE}That HIDDEN MACHINE, or HM for\n"
@@ -42,11 +42,11 @@ RustboroCity_CuttersHouse_Text_ExplainCut:
 	.string "chop down thin trees if the TRAINER\l"
 	.string "has earned the STONE BADGE.\p"
 	.string "And, unlike a TM, an HM can be used\n"
-	.string "more than once.{COLOR DARK_GRAY}$"
+	.string "more than once.$"
 
 RustboroCity_CuttersHouse_Text_DadHelpedClearLandOfTrees:
 	.string "{COLOR RED}When they were expanding the city of\n"
 	.string "RUSTBORO, my dad helped out.\p"
 	.string "He made his POKéMON use CUT to clear\n"
-	.string "the land of trees.{COLOR DARK_GRAY}$"
+	.string "the land of trees.$"
 

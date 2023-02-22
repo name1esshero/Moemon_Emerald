@@ -263,48 +263,48 @@ DewfordTown_Hall_Text_CantImagineLifeWithoutTrend:
 	.string "{COLOR RED}What's in vogue? Why, it has to be\n"
 	.string "“{STR_VAR_1}”!\p"
 	.string "I can't imagine what life would be like\n"
-	.string "without “{STR_VAR_1}”!{COLOR DARK_GRAY}$"
+	.string "without “{STR_VAR_1}”!$"
 
 DewfordTown_Hall_Text_GettingBoredOfTrend:
 	.string "{COLOR RED}What's in vogue? Why, it has to be\n"
 	.string "“{STR_VAR_1}”!\p"
 	.string "But I'm getting kind of bored with it.\p"
-	.string "I should look for the next big thing.{COLOR DARK_GRAY}$"
+	.string "I should look for the next big thing.$"
 
 DewfordTown_Hall_Text_TeachingMonAboutTrend:
 	.string "{COLOR RED}I'm teaching my POKéMON about\n"
 	.string "“{STR_VAR_1},”\l"
 	.string "but it's not going well.\p"
-	.string "It's a bit too much, I think.{COLOR DARK_GRAY}$"
+	.string "It's a bit too much, I think.$"
 
 DewfordTown_Hall_Text_DeepLinkBetweenXAndY:
 	.string "{COLOR BLUE}I'm studying up on the hip and trendy\n"
 	.string "“{STR_VAR_1}” now.\p"
 	.string "Is it true that there's a deep link\n"
 	.string "between “{STR_VAR_1}”\l"
-	.string "and “{STR_VAR_2}”?{COLOR DARK_GRAY}$"
+	.string "and “{STR_VAR_2}”?$"
 
 DewfordTown_Hall_Text_MyHunchWasRight:
 	.string "{COLOR BLUE}Oh!\n"
 	.string "So, my hunch was right!\p"
 	.string "I'm one step closer to being hip and\n"
-	.string "happening, yowza!{COLOR DARK_GRAY}$"
+	.string "happening, yowza!$"
 
 DewfordTown_Hall_Text_NotEasyToKeepUp:
 	.string "{COLOR BLUE}What?!\n"
 	.string "Is that so?!\p"
 	.string "It's not easy for an older fellow like\n"
-	.string "me to keep up with trends!{COLOR DARK_GRAY}$"
+	.string "me to keep up with trends!$"
 
 DewfordTown_Hall_Text_TVShowAboutTrend:
 	.string "{COLOR BLUE}This whole business about\n"
 	.string "“{STR_VAR_1}”…\l"
-	.string "Isn't there a TV show on it?{COLOR DARK_GRAY}$"
+	.string "Isn't there a TV show on it?$"
 
 DewfordTown_Hall_Text_IsTrendMorePopularAcrossSea:
 	.string "{COLOR RED}Across the sea…\p"
 	.string "Is “{STR_VAR_1}”\n"
-	.string "even more popular?{COLOR DARK_GRAY}$"
+	.string "even more popular?$"
 
 DewfordTown_Hall_Text_CollectTrendMerchandise:
 	.string "{COLOR BLUE}I collect official\n"
@@ -318,7 +318,7 @@ DewfordTown_Hall_Text_CollectTrendMerchandise:
 	.string "“{STR_VAR_1}”\l"
 	.string "picture books.\p"
 	.string "Heheh, I own!\n"
-	.string "I'm not sharing anything with you!{COLOR DARK_GRAY}$"
+	.string "I'm not sharing anything with you!$"
 
 DewfordTown_Hall_Text_BooksAboutTrend:
 	.string "IDENTIFYING GOOD\n"
@@ -353,7 +353,7 @@ DewfordTown_Hall_Text_SawTrendCoolestThing:
 	.string "Cool, huh?\p"
 	.string "It's, like, the coolest thing going!\p"
 	.string "It was awesome!\n"
-	.string "It was the real thing, oh yeah!{COLOR DARK_GRAY}$"
+	.string "It was the real thing, oh yeah!$"
 
 DewfordTown_Hall_Text_AllegedTrendNotAuthentic:
 	.string "{COLOR BLUE}Oh, no, no, no.\p"
@@ -363,7 +363,7 @@ DewfordTown_Hall_Text_AllegedTrendNotAuthentic:
 	.string "The authentic article is much…\n"
 	.string "How should I say it?\l"
 	.string "Sharper, yet more mellow!\p"
-	.string "Ah, no matter. It's astonishing!{COLOR DARK_GRAY}$"
+	.string "Ah, no matter. It's astonishing!$"
 
 DewfordTown_Hall_Text_ComposedTrendThemeSong:
 	.string "{COLOR BLUE}Hey, listen, I composed a theme song\n"
@@ -375,20 +375,20 @@ DewfordTown_Hall_Text_ComposedTrendThemeSong:
 	.string "Oh!\n"
 	.string "{STR_VAR_1}!\p"
 	.string "Wonderful\n"
-	.string "{STR_VAR_1}!{COLOR DARK_GRAY}$"
+	.string "{STR_VAR_1}!$"
 
 DewfordTown_Hall_Text_WorkOnYourSinging:
 	.string "{COLOR BLUE}… …\p"
 	.string "I dare say, chap, it would pay for you\n"
 	.string "to work on your singing before you\l"
 	.string "trifle yourself with\l"
-	.string "“{STR_VAR_1}.”{COLOR DARK_GRAY}$"
+	.string "“{STR_VAR_1}.”$"
 
 DewfordTown_Hall_Text_OrganizeTrendParty:
 	.string "{COLOR BLUE}Anyway, as I was saying earlier, we\n"
 	.string "should get together and organize a\l"
 	.string "“{STR_VAR_1}” party\l"
-	.string "on the island.{COLOR DARK_GRAY}$"
+	.string "on the island.$"
 
 DewfordTown_Hall_Text_BrilliantIndeed:
 	.string "{COLOR BLUE}Oh, a smashing good idea!\p"
@@ -397,14 +397,14 @@ DewfordTown_Hall_Text_BrilliantIndeed:
 	.string "“{STR_VAR_1}.”\l"
 	.string "Brilliant, indeed!\p"
 	.string "Starting today, our lives will revolve\n"
-	.string "around “{STR_VAR_1}”!{COLOR DARK_GRAY}$"
+	.string "around “{STR_VAR_1}”!$"
 
 DewfordTown_Hall_Text_TrendHasBecomePartOfLife:
 	.string "{COLOR BLUE}I was thinking, though…\p"
 	.string "Wouldn't you agree that\n"
 	.string "“{STR_VAR_1}” has\l"
 	.string "grown from being something trendy to\l"
-	.string "being a part of our daily lives?{COLOR DARK_GRAY}$"
+	.string "being a part of our daily lives?$"
 
 DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind:
 	.string "{COLOR BLUE}Beg pardon?\n"
@@ -415,19 +415,19 @@ DewfordTown_Hall_Text_TrendWeighsHeavilyOnMind:
 	.string "you're awake or asleep.\p"
 	.string "Absolutely, you're the\n"
 	.string "“{STR_VAR_1}”\l"
-	.string "PROFESSOR, old sport!{COLOR DARK_GRAY}$"
+	.string "PROFESSOR, old sport!$"
 
 DewfordTown_Hall_Text_IfWeTeamUpWellBeInvincible:
 	.string "{COLOR BLUE}If you and me team up as a combo,\n"
 	.string "we'll be invincible when it comes to all\l"
-	.string "things “{STR_VAR_1}”!{COLOR DARK_GRAY}$"
+	.string "things “{STR_VAR_1}”!$"
 
 DewfordTown_Hall_Text_WellBeTrendDuo:
 	.string "{COLOR BLUE}Spot on, my friend!\p"
 	.string "We shall be the\n"
 	.string "“{STR_VAR_1}” DUO!\p"
 	.string "Isn't that a ripe image?\n"
-	.string "Hahahah!{COLOR DARK_GRAY}$"
+	.string "Hahahah!$"
 
 DewfordTown_Hall_Text_GiveYouSludgeBomb:
 	.string "{COLOR BLUE}For me, SLUDGE BOMB is at the peak\n"
@@ -435,11 +435,11 @@ DewfordTown_Hall_Text_GiveYouSludgeBomb:
 	.string "Hunh? You're telling me that you don't\n"
 	.string "know about SLUDGE BOMB?\p"
 	.string "That's outright pitiful.\n"
-	.string "I'll give you one.{COLOR DARK_GRAY}$"
+	.string "I'll give you one.$"
 
 DewfordTown_Hall_Text_LoveSludgeBombButTrendInToo:
 	.string "{COLOR BLUE}I love SLUDGE BOMB.\p"
 	.string "But POKéMON with the move\n"
 	.string "“{STR_VAR_1}”\l"
-	.string "are in, too.{COLOR DARK_GRAY}$"
+	.string "are in, too.$"
 

@@ -36,7 +36,7 @@ Route110_TrickHousePuzzle4_Text_WroteSecretCodeLockOpened:
 
 Route110_TrickHousePuzzle4_Text_CoraIntro:
 	.string "{COLOR RED}It's too much bother to think this out.\n"
-	.string "I only wanted to battle!{COLOR DARK_GRAY}$"
+	.string "I only wanted to battle!$"
 
 Route110_TrickHousePuzzle4_Text_CoraDefeat:
 	.string "Even though I lost, I still like battling\n"
@@ -44,11 +44,11 @@ Route110_TrickHousePuzzle4_Text_CoraDefeat:
 
 Route110_TrickHousePuzzle4_Text_CoraPostBattle:
 	.string "{COLOR RED}Wouldn't you agree? You would go\n"
-	.string "anywhere if TRAINERS were there.{COLOR DARK_GRAY}$"
+	.string "anywhere if TRAINERS were there.$"
 
 Route110_TrickHousePuzzle4_Text_YujiIntro:
 	.string "{COLOR BLUE}Heh! Boulders like this, I can brush\n"
-	.string "aside with one finger!{COLOR DARK_GRAY}$"
+	.string "aside with one finger!$"
 
 Route110_TrickHousePuzzle4_Text_YujiDefeat:
 	.string "I can push boulders, but I can't solve\n"
@@ -56,15 +56,15 @@ Route110_TrickHousePuzzle4_Text_YujiDefeat:
 
 Route110_TrickHousePuzzle4_Text_YujiPostBattle:
 	.string "{COLOR BLUE}It's not good enough to be brawny…\n"
-	.string "You have to use your head. Be brainy!{COLOR DARK_GRAY}$"
+	.string "You have to use your head. Be brainy!$"
 
 Route110_TrickHousePuzzle4_Text_PaulaIntro:
 	.string "{COLOR RED}The TRICK HOUSE is getting trickier,\n"
-	.string "isn't it?{COLOR DARK_GRAY}$"
+	.string "isn't it?$"
 
 Route110_TrickHousePuzzle4_Text_PaulaDefeat:
 	.string "Aaak!$"
 
 Route110_TrickHousePuzzle4_Text_PaulaPostBattle:
-	.string "{COLOR RED}Has anyone made it to the end?{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}Has anyone made it to the end?$"
 

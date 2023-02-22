@@ -13,12 +13,12 @@ PetalburgCity_House2_Text_NormanBecameGymLeader:
 	.string "{COLOR RED}NORMAN became our town's new\n"
 	.string "GYM LEADER.\p"
 	.string "I think he called his family over from\n"
-	.string "somewhere far away.{COLOR DARK_GRAY}$"
+	.string "somewhere far away.$"
 
 PetalburgCity_House2_Text_BattledNormanOnce:
 	.string "{COLOR BLUE}I battled NORMAN once, but, whew,\n"
 	.string "he was way too strong.\p"
 	.string "How would I put it?\p"
 	.string "I just got the feeling that he\n"
-	.string "lives for POKéMON.{COLOR DARK_GRAY}$"
+	.string "lives for POKéMON.$"
 

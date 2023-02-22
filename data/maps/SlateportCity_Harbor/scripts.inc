@@ -390,44 +390,44 @@ SlateportCity_Harbor_Text_FerryServiceUnavailable:
 	.string "{COLOR RED}I beg your pardon?\n"
 	.string "You're looking for a ship?\p"
 	.string "I'm sorry, the ferry service isn't\n"
-	.string "available at present…{COLOR DARK_GRAY}$"
+	.string "available at present…$"
 
 SlateportCity_Harbor_Text_MayISeeYourTicket:
 	.string "{COLOR RED}Hello, are you here for the ferry?\n"
-	.string "May I see your TICKET?{COLOR DARK_GRAY}$"
+	.string "May I see your TICKET?$"
 
 SlateportCity_Harbor_Text_YouMustHaveTicket:
 	.string "{COLOR RED}{PLAYER} doesn't have the TICKET…\p"
 	.string "I'm terribly sorry.\p"
 	.string "You must have a TICKET to board\n"
-	.string "the ferry.{COLOR DARK_GRAY}$"
+	.string "the ferry.$"
 
 SlateportCity_Harbor_Text_FlashedTicketWhereTo:
 	.string "{COLOR RED}{PLAYER} flashed the TICKET.\p"
 	.string "Perfect! That's all you need!\p"
-	.string "And where would you like to go?{COLOR DARK_GRAY}$"
+	.string "And where would you like to go?$"
 
 SlateportCity_Harbor_Text_SailAnotherTime:
-	.string "{COLOR RED}Please sail with us another time!{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}Please sail with us another time!$"
 
 SlateportCity_Harbor_Text_LilycoveItIs:
-	.string "{COLOR RED}LILYCOVE CITY it is, then!{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}LILYCOVE CITY it is, then!$"
 
 SlateportCity_Harbor_Text_BattleFrontierItIs:
-	.string "{COLOR RED}BATTLE FRONTIER it is, then!{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}BATTLE FRONTIER it is, then!$"
 
 SlateportCity_Harbor_Text_PleaseBoardFerry:
 	.string "{COLOR RED}Please board the ferry and wait for\n"
-	.string "departure.{COLOR DARK_GRAY}$"
+	.string "departure.$"
 
 SlateportCity_Harbor_Text_WhereWouldYouLikeToGo:
-	.string "{COLOR RED}Then, where would you like to go?{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}Then, where would you like to go?$"
 
 SlateportCity_Harbor_Text_LoveToGoDeepUnderwaterSomeday:
 	.string "{COLOR BLUE}A journey to the bottom of the sea…\n"
 	.string "I wonder what it'd be like?\p"
 	.string "I'd love to go deep underwater like\n"
-	.string "that someday.{COLOR DARK_GRAY}$"
+	.string "that someday.$"
 
 SlateportCity_Harbor_Text_AbnormalWeather:
 	.string "{COLOR BLUE}For a ship to sail safely, we need to\n"
@@ -437,19 +437,19 @@ SlateportCity_Harbor_Text_AbnormalWeather:
 	.string "He was saying abnormal weather has\n"
 	.string "been reported all over the place!\p"
 	.string "You should visit the WEATHER INSTITUTE\n"
-	.string "and ask around!{COLOR DARK_GRAY}$"
+	.string "and ask around!$"
 
 SlateportCity_Harbor_Text_SubTooSmallForMe:
 	.string "{COLOR BLUE}I wanted to go with CAPT. STERN on\n"
 	.string "the ocean floor exploration.\p"
 	.string "But the sub's too small for me.\p"
 	.string "If I squeezed in, there wouldn't be\n"
-	.string "any room for the CAPTAIN…{COLOR DARK_GRAY}$"
+	.string "any room for the CAPTAIN…$"
 
 SlateportCity_Harbor_Text_SameThugsTriedToRobAtMuseum:
 	.string "{COLOR BLUE}CAPT. STERN: Those thugs…\p"
 	.string "They're the same lot who tried to rob\n"
-	.string "the DEVON GOODS at the MUSEUM.{COLOR DARK_GRAY}$"
+	.string "the DEVON GOODS at the MUSEUM.$"
 
 SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "{COLOR BLUE}ARCHIE: Oh?\n"
@@ -460,7 +460,7 @@ SlateportCity_Harbor_Text_ArchieYouAgainHideoutInLilycove:
 	.string "No one can stop us! No one!\p"
 	.string "Or, will you follow us back to our\n"
 	.string "HIDEOUT in LILYCOVE CITY?\p"
-	.string "Fwahahahaha…{COLOR DARK_GRAY}$"
+	.string "Fwahahahaha…$"
 
 SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "{COLOR BLUE}CAPT. STERN: Why…\p"
@@ -469,7 +469,7 @@ SlateportCity_Harbor_Text_CaptSternWhyStealMySubmarine:
 	.string "They can't be after the slumbering\n"
 	.string "POKéMON at the bottom of the sea…\p"
 	.string "But even if I were to chase them,\n"
-	.string "I don't stand a chance against them…{COLOR DARK_GRAY}$"
+	.string "I don't stand a chance against them…$"
 
 SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "{COLOR BLUE}CAPT. STERN: Oh, {PLAYER}{KUN}…\p"
@@ -484,7 +484,7 @@ SlateportCity_Harbor_Text_TeamAquaLeftNeedDive:
 	.string "Perhaps if you went out to\n"
 	.string "MOSSDEEP CITY…\p"
 	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…{COLOR DARK_GRAY}$"
+	.string "someone might teach you…$"
 
 SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "{COLOR BLUE}CAPT. STERN: Trying to catch a\n"
@@ -494,13 +494,13 @@ SlateportCity_Harbor_Text_NeedDiveToCatchSub:
 	.string "Perhaps if you went out to\n"
 	.string "MOSSDEEP CITY…\p"
 	.string "A lot of divers live out there, so\n"
-	.string "someone might teach you…{COLOR DARK_GRAY}$"
+	.string "someone might teach you…$"
 
 SlateportCity_Harbor_Text_WontBeLongBeforeWeFinishFerry:
 	.string "{COLOR BLUE}CAPT. STERN: Oh, yes.\n"
 	.string "MR. BRINEY came to our SHIPYARD.\p"
 	.string "It won't be long now before we finish\n"
-	.string "making the ferry!{COLOR DARK_GRAY}$"
+	.string "making the ferry!$"
 
 SlateportCity_Harbor_Text_FinishedMakingFerry:
 	.string "{COLOR BLUE}CAPT. STERN: {PLAYER}{KUN}!\p"
@@ -508,7 +508,7 @@ SlateportCity_Harbor_Text_FinishedMakingFerry:
 	.string "S.S. TIDAL!\p"
 	.string "We couldn't have done it without\n"
 	.string "your friend MR. BRINEY.\p"
-	.string "Please go for a short cruise on it!{COLOR DARK_GRAY}$"
+	.string "Please go for a short cruise on it!$"
 
 SlateportCity_Harbor_Text_WouldYouTradeScanner:
 	.string "{COLOR BLUE}CAPT. STERN: Oh?\n"
@@ -518,24 +518,24 @@ SlateportCity_Harbor_Text_WouldYouTradeScanner:
 	.string "{PLAYER}{KUN}, would you trade your\n"
 	.string "SCANNER for something?\p"
 	.string "Like, say, a DEEPSEATOOTH or\n"
-	.string "a DEEPSEASCALE that I have?{COLOR DARK_GRAY}$"
+	.string "a DEEPSEASCALE that I have?$"
 
 SlateportCity_Harbor_Text_IfYouWantToTradeLetMeKnow:
 	.string "{COLOR BLUE}CAPT. STERN: Are you certain?\n"
 	.string "It's useless to you, {PLAYER}{KUN}…\p"
 	.string "Well, okay, then. If you want to trade\n"
-	.string "your SCANNER, let me know.{COLOR DARK_GRAY}$"
+	.string "your SCANNER, let me know.$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaTooth:
 	.string "{COLOR BLUE}CAPT. STERN: So you'll trade it for\n"
-	.string "my DEEPSEATOOTH?{COLOR DARK_GRAY}$"
+	.string "my DEEPSEATOOTH?$"
 
 SlateportCity_Harbor_Text_TradeForDeepSeaScale:
 	.string "{COLOR BLUE}CAPT. STERN: So you'll trade it for\n"
-	.string "my DEEPSEASCALE?{COLOR DARK_GRAY}$"
+	.string "my DEEPSEASCALE?$"
 
 SlateportCity_Harbor_Text_WhichOneDoYouWant:
-	.string "{COLOR BLUE}CAPT. STERN: Which one do you want?{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}CAPT. STERN: Which one do you want?$"
 
 SlateportCity_Harbor_Text_HandedScannerToStern:
 	.string "{PLAYER} handed the SCANNER to\n"
@@ -543,4 +543,4 @@ SlateportCity_Harbor_Text_HandedScannerToStern:
 
 SlateportCity_Harbor_Text_ThisWillHelpResearch:
 	.string "{COLOR BLUE}CAPT. STERN: Thanks, {PLAYER}{KUN}!\n"
-	.string "This will help our research a lot!{COLOR DARK_GRAY}$"
+	.string "This will help our research a lot!$"

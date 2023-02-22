@@ -36,18 +36,18 @@ Route110_TrickHousePuzzle8_Text_WroteSecretCodeLockOpened::
 
 Route110_TrickHousePuzzle8_Text_VincentIntro:
 	.string "{COLOR BLUE}Not many TRAINERS have made it\n"
-	.string "this far.{COLOR DARK_GRAY}$"
+	.string "this far.$"
 
 Route110_TrickHousePuzzle8_Text_VincentDefeat:
 	.string "That must mean you're tough, too…$"
 
 Route110_TrickHousePuzzle8_Text_VincentPostBattle:
 	.string "{COLOR BLUE}You've beaten the POKéMON LEAGUE\n"
-	.string "CHAMPION? That's too much!{COLOR DARK_GRAY}$"
+	.string "CHAMPION? That's too much!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraIntro:
 	.string "{COLOR RED}Consider yourself lucky to be\n"
-	.string "battling me!{COLOR DARK_GRAY}$"
+	.string "battling me!$"
 
 Route110_TrickHousePuzzle8_Text_KeiraDefeat:
 	.string "This isn't right!\n"
@@ -55,11 +55,11 @@ Route110_TrickHousePuzzle8_Text_KeiraDefeat:
 
 Route110_TrickHousePuzzle8_Text_KeiraPostBattle:
 	.string "{COLOR RED}It's a miracle that you beat me.\n"
-	.string "You can brag about it.{COLOR DARK_GRAY}$"
+	.string "You can brag about it.$"
 
 Route110_TrickHousePuzzle8_Text_LeroyIntro:
 	.string "{COLOR BLUE}You've been slugging through the TRICK\n"
-	.string "HOUSE challenge, too.{COLOR DARK_GRAY}$"
+	.string "HOUSE challenge, too.$"
 
 Route110_TrickHousePuzzle8_Text_LeroyDefeat:
 	.string "I see…\n"
@@ -67,5 +67,5 @@ Route110_TrickHousePuzzle8_Text_LeroyDefeat:
 
 Route110_TrickHousePuzzle8_Text_LeroyPostBattle:
 	.string "{COLOR BLUE}Seeing someone like you should please\n"
-	.string "the TRICK MASTER.{COLOR DARK_GRAY}$"
+	.string "the TRICK MASTER.$"
 

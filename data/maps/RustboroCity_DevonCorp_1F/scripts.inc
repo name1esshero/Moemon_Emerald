@@ -84,40 +84,40 @@ RustboroCity_DevonCorp_1F_Text_WelcomeToDevonCorp:
 	.string "{COLOR RED}Hello and welcome to the DEVON\n"
 	.string "CORPORATION.\p"
 	.string "We're proud producers of items and\n"
-	.string "medicine that enhance your life.{COLOR DARK_GRAY}$"
+	.string "medicine that enhance your life.$"
 
 RustboroCity_DevonCorp_1F_Text_StaffGotRobbed:
 	.string "{COLOR RED}One of our research staff stupidly\n"
-	.string "got robbed of an important parcel.{COLOR DARK_GRAY}$"
+	.string "got robbed of an important parcel.$"
 
 RustboroCity_DevonCorp_1F_Text_ThoseShoesAreOurProduct:
 	.string "{COLOR BLUE}Hey, those RUNNING SHOES!\n"
 	.string "They're one of our products!\p"
 	.string "It makes me happy when I see someone\n"
-	.string "using something we made.{COLOR DARK_GRAY}$"
+	.string "using something we made.$"
 
 RustboroCity_DevonCorp_1F_Text_RobberWasntVeryBright:
 	.string "{COLOR BLUE}That stolen parcel…\p"
 	.string "Well, sure it's important, but it's not\n"
 	.string "anything that anyone can use.\p"
 	.string "In my estimation, that robber must not\n"
-	.string "have been very bright.{COLOR DARK_GRAY}$"
+	.string "have been very bright.$"
 
 RustboroCity_DevonCorp_1F_Text_SoundsLikeStolenGoodsRecovered:
 	.string "{COLOR BLUE}It sounds like they've recovered\n"
-	.string "the ripped-off DEVON GOODS.{COLOR DARK_GRAY}$"
+	.string "the ripped-off DEVON GOODS.$"
 
 RustboroCity_DevonCorp_1F_Text_OnlyAuthorizedPeopleEnter:
 	.string "{COLOR BLUE}I'm sorry, only authorized people\n"
-	.string "are allowed to enter here.{COLOR DARK_GRAY}$"
+	.string "are allowed to enter here.$"
 
 RustboroCity_DevonCorp_1F_Text_HowCouldWeGetRobbed:
 	.string "{COLOR BLUE}It's beyond stupid.\n"
-	.string "How could we get robbed?{COLOR DARK_GRAY}$"
+	.string "How could we get robbed?$"
 
 RustboroCity_DevonCorp_1F_Text_YoureAlwaysWelcomeHere:
 	.string "{COLOR BLUE}Hi, there!\n"
-	.string "You're always welcome here!{COLOR DARK_GRAY}$"
+	.string "You're always welcome here!$"
 
 RustboroCity_DevonCorp_1F_Text_RocksMetalDisplay:
 	.string "Samples of rocks and metal are\n"

@@ -290,7 +290,7 @@ Route103_EventScript_Isabelle::
 
 Route103_Text_MayRoute103Pokemon:
 	.string "{COLOR RED}MAY: Let's see… The POKéMON found\n"
-	.string "on ROUTE 103 include…{COLOR DARK_GRAY}$"
+	.string "on ROUTE 103 include…$"
 
 Route103_Text_MayLetsBattle:
 	.string "{COLOR RED}Oh, hi, {PLAYER}{KUN}!\p"
@@ -299,7 +299,7 @@ Route103_Text_MayLetsBattle:
 	.string "Since we're here, let's have a quick\n"
 	.string "battle!\p"
 	.string "I'll give you a taste of what being\n"
-	.string "a TRAINER is like.{COLOR DARK_GRAY}$"
+	.string "a TRAINER is like.$"
 
 Route103_Text_MayDefeated:
 	.string "Wow! That's great!\n"
@@ -313,11 +313,11 @@ Route103_Text_MayTimeToHeadBack:
 	.string "You might be able to befriend any\n"
 	.string "kind of POKéMON easily.\p"
 	.string "Well, it's time to head back to\n"
-	.string "the LAB.{COLOR DARK_GRAY}$"
+	.string "the LAB.$"
 
 Route103_Text_BrendanRoute103Pokemon:
 	.string "{COLOR BLUE}BRENDAN: Okay, so it's this one and\n"
-	.string "that one that live on ROUTE 103…{COLOR DARK_GRAY}$"
+	.string "that one that live on ROUTE 103…$"
 
 Route103_Text_BrendanLetsBattle:
 	.string "{COLOR BLUE}Hey, it's {PLAYER}!\p"
@@ -325,7 +325,7 @@ Route103_Text_BrendanLetsBattle:
 	.string "Since we're here, how about a little\n"
 	.string "battle?\p"
 	.string "I'll teach you what being a TRAINER's\n"
-	.string "about!{COLOR DARK_GRAY}$"
+	.string "about!$"
 
 Route103_Text_BrendanDefeated:
 	.string "Huh, {PLAYER}, you're not too shabby.$"
@@ -338,16 +338,16 @@ Route103_Text_BrendanTimeToHeadBack:
 	.string "even though you just got it.\p"
 	.string "{PLAYER}, I get the feeling that you\n"
 	.string "could befriend any POKéMON with ease.\p"
-	.string "We should head back to the LAB.{COLOR DARK_GRAY}$"
+	.string "We should head back to the LAB.$"
 
 Route103_Text_ShouldHaveBroughtPotion:
 	.string "{COLOR BLUE}My POKéMON is staggeringly tired…\n"
-	.string "I should have brought a POTION…{COLOR DARK_GRAY}$"
+	.string "I should have brought a POTION…$"
 
 Route103_Text_ShortcutToOldale:
 	.string "{COLOR BLUE}If you cross the sea from here,\n"
 	.string "it'll be a shortcut to OLDALE TOWN.\p"
-	.string "Fufufu, that's useful, isn't it?{COLOR DARK_GRAY}$"
+	.string "Fufufu, that's useful, isn't it?$"
 
 Route103_Text_RouteSign:
 	.string "ROUTE 103\n"

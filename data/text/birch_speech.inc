@@ -3,13 +3,13 @@ gText_Birch_Welcome::
 	.string "Welcome to the world of POKéMON!\p"
 	.string "My name is BIRCH.\p"
 	.string "But everyone calls me the POKéMON\n"
-	.string "PROFESSOR.{COLOR DARK_GRAY}\p"
+	.string "PROFESSOR.\p"
 	.string "$"
 
 gText_Birch_Pokemon::
 	.string "{COLOR BLUE}This is what we call a “POKéMON.”\p"
 	.string "\n"
-	.string "{COLOR DARK_GRAY}$"
+	.string "$"
 
 gText_Birch_MainSpeech::
 	.string "{COLOR BLUE}This world is widely inhabited by\n"
@@ -25,28 +25,28 @@ gText_Birch_MainSpeech::
 	.string "secrets surrounding POKéMON.\p"
 	.string "To unravel POKéMON mysteries,\n"
 	.string "I've been undertaking research.\l"
-	.string "That's what I do.{COLOR DARK_GRAY}\p"
+	.string "That's what I do.\p"
 	.string "$"
 
 gText_Birch_AndYouAre::
-	.string "{COLOR BLUE}And you are?{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}And you are?$"
 
 gText_Birch_BoyOrGirl::
 	.string "{COLOR BLUE}Are you a boy?\n"
-	.string "Or are you a girl?{COLOR DARK_GRAY}$"
+	.string "Or are you a girl?$"
 
 gText_Birch_WhatsYourName::
 	.string "{COLOR BLUE}All right.\n"
-	.string "What's your name?{COLOR DARK_GRAY}$"
+	.string "What's your name?$"
 
 gText_Birch_SoItsPlayer::
-	.string "{COLOR BLUE}So it's {PLAYER}{KUN}?{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}So it's {PLAYER}{KUN}?$"
 
 gText_Birch_YourePlayer::
 	.string "{COLOR BLUE}Ah, okay!\p"
 	.string "You're {PLAYER}{KUN} who's moving to my\n"
 	.string "hometown of LITTLEROOT.\l"
-	.string "I get it now!{COLOR DARK_GRAY}\p"
+	.string "I get it now!\p"
 	.string "$"
 
 gText_Birch_AreYouReady::
@@ -57,5 +57,5 @@ gText_Birch_AreYouReady::
 	.string "world of POKéMON where dreams,\l"
 	.string "adventure, and friendships await!\p"
 	.string "Well, I'll be expecting you later.\n"
-	.string "Come see me in my POKéMON LAB.{COLOR DARK_GRAY}\p"
+	.string "Come see me in my POKéMON LAB.\p"
 	.string "$"

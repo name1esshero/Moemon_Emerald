@@ -282,7 +282,7 @@ SlateportCity_BattleTentLobby_Text_CouldntFindMonForMe:
 	.string "And he wouldn't hear me out, like, hey!\n"
 	.string "So, like, total bummer, man!\p"
 	.string "Hey, like, you! Zip it, you know?\n"
-	.string "Just, you know, take this!{COLOR DARK_GRAY}$"
+	.string "Just, you know, take this!$"
 
 SlateportCity_BattleTentLobby_Text_ExplainTorment:
 	.string "{COLOR BLUE}That's, like, TM41, you know?\n"
@@ -290,20 +290,20 @@ SlateportCity_BattleTentLobby_Text_ExplainTorment:
 	.string "Like, it won't let the other guy\n"
 	.string "use the same move twice in a row, see?\p"
 	.string "Hey, now, you listen here, like,\n"
-	.string "I'm not laying a torment on you!{COLOR DARK_GRAY}$"
+	.string "I'm not laying a torment on you!$"
 
 SlateportCity_BattleTentLobby_Text_IllTryUsingBugMons:
 	.string "{COLOR BLUE}I don't really like BUG POKéMON,\n"
 	.string "but maybe I'll try using some for\l"
 	.string "a change of pace.\p"
 	.string "Who knows, I might even get to like\n"
-	.string "them!{COLOR DARK_GRAY}$"
+	.string "them!$"
 
 SlateportCity_BattleTentLobby_Text_BattleEvenWithoutToughMons:
 	.string "{COLOR RED}You can battle all you want here even\n"
-	.string "if you don't have any tough POKéMON.{COLOR DARK_GRAY}$"
+	.string "if you don't have any tough POKéMON.$"
 
 SlateportCity_BattleTentLobby_Text_NiceIfMoreSelection:
 	.string "{COLOR RED}Wouldn't it be nice if they had more of\n"
-	.string "a selection?{COLOR DARK_GRAY}$"
+	.string "a selection?$"
 

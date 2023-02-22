@@ -210,14 +210,14 @@ RustboroCity_DevonCorp_3F_Text_MrStoneIHaveFavor:
 	.string "Well, on the way, could you stop off in\n"
 	.string "DEWFORD TOWN?\p"
 	.string "I was hoping that you'd deliver a\n"
-	.string "LETTER to STEVEN in DEWFORD.{COLOR DARK_GRAY}$"
+	.string "LETTER to STEVEN in DEWFORD.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneWantYouToHaveThis:
 	.string "{COLOR BLUE}MR. STONE: Now, you should know that\n"
 	.string "I am a great PRESIDENT.\p"
 	.string "So, I'd never be so cheap as to ask\n"
 	.string "a favor for nothing in return.\p"
-	.string "That's why I want you to have this!{COLOR DARK_GRAY}$"
+	.string "That's why I want you to have this!$"
 
 RustboroCity_DevonCorp_3F_Text_ReceivedPokenav:
 	.string "{PLAYER} received a POKéNAV.$"
@@ -235,20 +235,20 @@ RustboroCity_DevonCorp_3F_Text_MrStoneExplainPokenavRestUp:
 	.string "criminals--MAGMA and AQUA, I believe--\l"
 	.string "have been making trouble far and wide.\p"
 	.string "I think it would be best if you rested\n"
-	.string "up before you go on your way.{COLOR DARK_GRAY}$"
+	.string "up before you go on your way.$"
 
 RustboroCity_DevonCorp_3F_Text_MrStoneGoWithCautionAndCare:
 	.string "{COLOR BLUE}MR. STONE: Well, then, {PLAYER}{KUN},\n"
-	.string "go with caution and care!{COLOR DARK_GRAY}$"
+	.string "go with caution and care!$"
 
 RustboroCity_DevonCorp_3F_Text_CountingOnYou:
-	.string "{COLOR BLUE}MR. STONE: I'm counting on you!{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}MR. STONE: I'm counting on you!$"
 
 RustboroCity_DevonCorp_3F_Text_ThankYouForDeliveringLetter:
 	.string "{COLOR BLUE}MR. STONE: You delivered my LETTER?\n"
 	.string "Thank you kindly!\p"
 	.string "This is my way of thanking you.\n"
-	.string "It should help you, a TRAINER.{COLOR DARK_GRAY}$"
+	.string "It should help you, a TRAINER.$"
 
 RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 	.string "{COLOR BLUE}MR. STONE: A POKéMON holding that\n"
@@ -257,7 +257,7 @@ RustboroCity_DevonCorp_3F_Text_ExplainExpShare:
 	.string "It will get EXP Points even if it didn't\n"
 	.string "actually battle.\p"
 	.string "I would say EXP. SHARE is quite useful\n"
-	.string "for raising weak POKéMON.{COLOR DARK_GRAY}$"
+	.string "for raising weak POKéMON.$"
 
 RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "{COLOR BLUE}MR. STONE: Since my youth, I've immersed\n"
@@ -265,7 +265,7 @@ RustboroCity_DevonCorp_3F_Text_NotFamiliarWithTrends:
 	.string "Consequently, I'm not familiar with\n"
 	.string "trends and that sort of thing.\p"
 	.string "But do young people all want to be\n"
-	.string "TRAINERS in the POKéMON LEAGUE?{COLOR DARK_GRAY}$"
+	.string "TRAINERS in the POKéMON LEAGUE?$"
 
 RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
 	.string "{COLOR BLUE}This is the DEVON CORPORATION's\n"
@@ -283,24 +283,24 @@ RustboroCity_DevonCorp_3F_Text_ThisIs3rdFloorWaitHere:
 	.string "Uh… Hehehe, so, uh, could I count\n"
 	.string "on you to do that for me?\p"
 	.string "Oh, that's right.\n"
-	.string "Could you wait here a second?{COLOR DARK_GRAY}$"
+	.string "Could you wait here a second?$"
 
 RustboroCity_DevonCorp_3F_Text_WordWithPresidentComeWithMe:
 	.string "{COLOR BLUE}Our PRESIDENT would like to have\n"
 	.string "a word with you.\p"
-	.string "Please come with me.{COLOR DARK_GRAY}$"
+	.string "Please come with me.$"
 
 RustboroCity_DevonCorp_3F_Text_PleaseGoAhead:
-	.string "{COLOR BLUE}Please, go ahead.{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}Please, go ahead.$"
 
 RustboroCity_DevonCorp_3F_Text_VisitCaptSternShipyard:
 	.string "{COLOR BLUE}If you visit the SHIPYARD in SLATEPORT,\n"
-	.string "you should go see CAPT. STERN.{COLOR DARK_GRAY}$"
+	.string "you should go see CAPT. STERN.$"
 
 RustboroCity_DevonCorp_3F_Text_RepeatAndTimerHugelyPopular:
 	.string "{COLOR BLUE}DEVON's new products, the REPEAT BALL\n"
 	.string "and TIMER BALL, have become hugely\l"
-	.string "popular among TRAINERS.{COLOR DARK_GRAY}$"
+	.string "popular among TRAINERS.$"
 
 RustboroCity_DevonCorp_3F_Text_RareRocksDisplay:
 	.string "It's a collection of rare rocks and\n"

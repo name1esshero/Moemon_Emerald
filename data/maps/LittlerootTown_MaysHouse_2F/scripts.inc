@@ -332,11 +332,11 @@ RivalsHouse_2F_Text_MayWhoAreYou:
 	.string "Oh, no! I forgot!\p"
 	.string "I was supposed to go help Dad catch\n"
 	.string "some wild POKéMON!\p"
-	.string "{PLAYER}{KUN}, I'll catch you later!{COLOR DARK_GRAY}$"
+	.string "{PLAYER}{KUN}, I'll catch you later!$"
 
 RivalsHouse_2F_Text_MayGettingReady:
 	.string "{COLOR RED}POKéMON fully restored!\n"
-	.string "Items ready, and…{COLOR DARK_GRAY}$"
+	.string "Items ready, and…$"
 
 RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "{COLOR BLUE}Hey!\n"
@@ -356,11 +356,11 @@ RivalsHouse_2F_Text_BrendanWhoAreYou:
 	.string "Aw, darn, I forgot…\p"
 	.string "I'm supposed to go help my dad catch\n"
 	.string "some wild POKéMON.\p"
-	.string "Some other time, okay?{COLOR DARK_GRAY}$"
+	.string "Some other time, okay?$"
 
 RivalsHouse_2F_Text_BrendanGettingReady:
 	.string "{COLOR BLUE}POKéMON fully restored…\n"
-	.string "Items all packed, and…{COLOR DARK_GRAY}$"
+	.string "Items all packed, and…$"
 
 RivalsHouse_2F_Text_ItsRivalsPokeBall:
 	.string "It's {RIVAL}'s POKé BALL!\p"
@@ -374,13 +374,13 @@ RivalsHouse_2F_Text_MayJustCheckingMyPokedex:
 	.string "And there are many others that\n"
 	.string "I think will evolve.\p"
 	.string "I wonder where I should go catch\n"
-	.string "some POKéMON next?{COLOR DARK_GRAY}$"
+	.string "some POKéMON next?$"
 
 RivalsHouse_2F_Text_MayWhereShouldIGoNext:
 	.string "{COLOR RED}MAY: I wonder where I should go catch\n"
 	.string "some POKéMON next?\p"
 	.string "Wouldn't it be funny if we ran into each\n"
-	.string "other, {PLAYER}{KUN}?{COLOR DARK_GRAY}$"
+	.string "other, {PLAYER}{KUN}?$"
 
 RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
 	.string "{COLOR BLUE}BRENDAN: Hey, it's {PLAYER}.\p"
@@ -389,11 +389,11 @@ RivalsHouse_2F_Text_BrendanJustCheckingMyPokedex:
 	.string "I need to catch, I know, but this\l"
 	.string "is looking pretty good.\p"
 	.string "Checking this POKéDEX out gives me\n"
-	.string "the urge to hit the road again.{COLOR DARK_GRAY}$"
+	.string "the urge to hit the road again.$"
 
 RivalsHouse_2F_Text_BrendanWhereShouldIGoNext:
 	.string "{COLOR BLUE}BRENDAN: I'm having a hard time deciding\n"
 	.string "where I should catch POKéMON next.\p"
 	.string "Hey, {PLAYER}, if I see you while I'm out\n"
 	.string "catching POKéMON, I can pitch you a\l"
-	.string "battle if you'd like.{COLOR DARK_GRAY}$"
+	.string "battle if you'd like.$"

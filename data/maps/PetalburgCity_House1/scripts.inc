@@ -12,7 +12,7 @@ PetalburgCity_House1_EventScript_Woman::
 PetalburgCity_House1_Text_TravelingIsWonderful:
 	.string "{COLOR BLUE}Traveling is wonderful!\p"
 	.string "When I was young, I roamed the seas\n"
-	.string "and the mountains!{COLOR DARK_GRAY}$"
+	.string "and the mountains!$"
 
 PetalburgCity_House1_Text_GoOnAdventure:
 	.string "{COLOR RED}Sigh…\p"
@@ -24,5 +24,5 @@ PetalburgCity_House1_Text_GoOnAdventure:
 	.string "Wander about in dark caves…\p"
 	.string "And, sometimes, even get a little\n"
 	.string "homesick…\p"
-	.string "It must be fabulous to travel!{COLOR DARK_GRAY}$"
+	.string "It must be fabulous to travel!$"
 

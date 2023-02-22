@@ -23,15 +23,15 @@ RustboroCity_Flat2_2F_EventScript_GavePremierBall::
 
 RustboroCity_Flat2_2F_Text_DevonWasTinyInOldDays:
 	.string "{COLOR BLUE}Way back in the old days, DEVON was just\n"
-	.string "a teeny, tiny company.{COLOR DARK_GRAY}$"
+	.string "a teeny, tiny company.$"
 
 RustboroCity_Flat2_2F_Text_MyDaddyMadeThisYouCanHaveIt:
 	.string "{COLOR BLUE}My daddy's working at the CORPORATION.\p"
 	.string "My daddy made this!\n"
-	.string "But I can't use it, so you can have it.{COLOR DARK_GRAY}$"
+	.string "But I can't use it, so you can have it.$"
 
 RustboroCity_Flat2_2F_Text_GoingToWorkAtDevonToo:
 	.string "{COLOR BLUE}My daddy's working at the CORPORATION.\p"
 	.string "When I grow up, I'm going to work for\n"
-	.string "DEVON, too.{COLOR DARK_GRAY}$"
+	.string "DEVON, too.$"
 

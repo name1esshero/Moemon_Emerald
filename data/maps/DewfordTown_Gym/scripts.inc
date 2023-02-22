@@ -296,27 +296,27 @@ DewfordTown_Gym_Text_GymGuideAdvice:
 	.string "the ocean floor.\p"
 	.string "But it will get brighter after defeating\n"
 	.string "the TRAINERS in your way.\p"
-	.string "Hey, okay, go for it!{COLOR DARK_GRAY}$"
+	.string "Hey, okay, go for it!$"
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
 	.string "{COLOR BLUE}Whoah! It's turned too bright in here!\p"
-	.string "Your future is bright, too!{COLOR DARK_GRAY}$"
+	.string "Your future is bright, too!$"
 
 DewfordTown_Gym_Text_TakaoIntro:
 	.string "{COLOR BLUE}Might is right!\n"
-	.string "Come on!{COLOR DARK_GRAY}$"
+	.string "Come on!$"
 
 DewfordTown_Gym_Text_TakaoDefeat:
 	.string "Not enough power…$"
 
 DewfordTown_Gym_Text_TakaoPostBattle:
 	.string "{COLOR BLUE}Your skill overcame my strength!\n"
-	.string "Your technique is commendable!{COLOR DARK_GRAY}$"
+	.string "Your technique is commendable!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
 	.string "{COLOR RED}There's no need for BRAWLY to be\n"
 	.string "involved!\p"
-	.string "I'll crush you!{COLOR DARK_GRAY}$"
+	.string "I'll crush you!$"
 
 DewfordTown_Gym_Text_JocelynDefeat:
 	.string "But… How?\n"
@@ -327,11 +327,11 @@ DewfordTown_Gym_Text_JocelynPostBattle:
 	.string "I'll use it to motivate me to train!\p"
 	.string "One day I'll become a GYM LEADER…\p"
 	.string "No, I'll become the POKéMON LEAGUE\n"
-	.string "CHAMPION!{COLOR DARK_GRAY}$"
+	.string "CHAMPION!$"
 
 DewfordTown_Gym_Text_LauraIntro:
 	.string "{COLOR RED}Don't you dare brush me off!\n"
-	.string "It's not my fault if you cry!{COLOR DARK_GRAY}$"
+	.string "It's not my fault if you cry!$"
 
 DewfordTown_Gym_Text_LauraDefeat:
 	.string "Waaaaaaah!\n"
@@ -341,11 +341,11 @@ DewfordTown_Gym_Text_LauraPostBattle:
 	.string "{COLOR RED}I battle in the dark to make my heart\n"
 	.string "stronger.\p"
 	.string "But because it's so dark, I can never\n"
-	.string "see BRAWLY's face…{COLOR DARK_GRAY}$"
+	.string "see BRAWLY's face…$"
 
 DewfordTown_Gym_Text_LilithIntro:
 	.string "{COLOR RED}Ufufu…\n"
-	.string "Are you stumbling around in the dark?{COLOR DARK_GRAY}$"
+	.string "Are you stumbling around in the dark?$"
 
 DewfordTown_Gym_Text_LilithDefeat:
 	.string "Oh, you…\n"
@@ -353,11 +353,11 @@ DewfordTown_Gym_Text_LilithDefeat:
 
 DewfordTown_Gym_Text_LilithPostBattle:
 	.string "{COLOR RED}You deserve to stay lost and end up\n"
-	.string "back at the entrance again!{COLOR DARK_GRAY}$"
+	.string "back at the entrance again!$"
 
 DewfordTown_Gym_Text_BrendenIntro:
 	.string "{COLOR BLUE}I'll show you the gumption of\n"
-	.string "a sailing man!{COLOR DARK_GRAY}$"
+	.string "a sailing man!$"
 
 DewfordTown_Gym_Text_BrendenDefeat:
 	.string "How'd this happen?\n"
@@ -365,11 +365,11 @@ DewfordTown_Gym_Text_BrendenDefeat:
 
 DewfordTown_Gym_Text_BrendenPostBattle:
 	.string "{COLOR BLUE}Oh, aye! You're worthy of seeing\n"
-	.string "our GYM LEADER.{COLOR DARK_GRAY}$"
+	.string "our GYM LEADER.$"
 
 DewfordTown_Gym_Text_CristianIntro:
 	.string "{COLOR BLUE}If you mean to pass, it has to be\n"
-	.string "through me!{COLOR DARK_GRAY}$"
+	.string "through me!$"
 
 DewfordTown_Gym_Text_CristianDefeat:
 	.string "Grrrrr!\n"
@@ -377,7 +377,7 @@ DewfordTown_Gym_Text_CristianDefeat:
 
 DewfordTown_Gym_Text_CristianPostBattle:
 	.string "{COLOR BLUE}You win!\n"
-	.string "Go after that BADGE!{COLOR DARK_GRAY}$"
+	.string "Go after that BADGE!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
 	.string "{COLOR BLUE}I'm BRAWLY!\n"
@@ -386,7 +386,7 @@ DewfordTown_Gym_Text_BrawlyIntro:
 	.string "of these parts, and I've grown tough\l"
 	.string "in the pitch-black cave!\p"
 	.string "So you wanted to challenge me?\n"
-	.string "Let me see what you're made of!{COLOR DARK_GRAY}$"
+	.string "Let me see what you're made of!$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
 	.string "Whoah, wow! You made a much bigger\n"
@@ -406,12 +406,12 @@ DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "And, you'll be able to use the HM move\n"
 	.string "FLASH outside of battle.\p"
 	.string "If you'd like, use this TECHNICAL\n"
-	.string "MACHINE, too.{COLOR DARK_GRAY}$"
+	.string "MACHINE, too.$"
 
 DewfordTown_Gym_Text_ExplainBulkUp:
 	.string "{COLOR BLUE}That TM08 contains BULK UP.\p"
 	.string "It's a move that raises both ATTACK\n"
-	.string "and DEFENSE stats.{COLOR DARK_GRAY}\p"
+	.string "and DEFENSE stats.\p"
 	.string "… … … … … …$"
 
 DewfordTown_Gym_Text_RegisteredBrawly:
@@ -421,7 +421,7 @@ DewfordTown_Gym_Text_RegisteredBrawly:
 DewfordTown_Gym_Text_BrawlyPostBattle:
 	.string "{COLOR BLUE}I can see your talent becoming a giant\n"
 	.string "wave to cause a storm of astonishment\l"
-	.string "among TRAINERS one day!{COLOR DARK_GRAY}$"
+	.string "among TRAINERS one day!$"
 
 DewfordTown_Gym_Text_GymStatue:
 	.string "DEWFORD TOWN POKéMON GYM$"
@@ -438,7 +438,7 @@ DewfordTown_Gym_Text_BrawlyPreRematch:
 	.string "A giant wave of a talent like you…\n"
 	.string "I knew you would return!\p"
 	.string "Show me how much higher\n"
-	.string "you've gone!{COLOR DARK_GRAY}$"
+	.string "you've gone!$"
 
 DewfordTown_Gym_Text_BrawlyRematchDefeat:
 	.string "Wow!\n"
@@ -447,7 +447,7 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 DewfordTown_Gym_Text_BrawlyPostRematch:
 	.string "{COLOR BLUE}BRAWLY: Battling is vast and it's deep.\n"
 	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!{COLOR DARK_GRAY}$"
+	.string "It's just like the sea of HOENN!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "{COLOR BLUE}BRAWLY: A wave may draw back, but it\n"
@@ -457,4 +457,4 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "Oh? You only have one POKéMON\n"
 	.string "that can battle.\p"
 	.string "I'm sorry, but I'd like you to come back\n"
-	.string "with at least two POKéMON.{COLOR DARK_GRAY}$"
+	.string "with at least two POKéMON.$"

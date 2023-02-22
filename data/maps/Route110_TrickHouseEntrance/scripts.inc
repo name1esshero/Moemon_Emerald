@@ -702,42 +702,42 @@ Route110_TrickHouseEntrance_Text_YoureBeingWatched:
 Route110_TrickHouseEntrance_Text_ConcealedBeneathDesk:
 	.string "{COLOR BLUE}Hah? Grrr…\p"
 	.string "How did you know I concealed myself\n"
-	.string "beneath this desk? You're sharp!{COLOR DARK_GRAY}$"
+	.string "beneath this desk? You're sharp!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindTree:
 	.string "{COLOR BLUE}Hah? Grrr…\p"
 	.string "How did you know I concealed myself\n"
-	.string "behind this tree? You're sharp!{COLOR DARK_GRAY}$"
+	.string "behind this tree? You're sharp!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInDresser:
 	.string "{COLOR BLUE}Hah? Grrr…\p"
 	.string "How did you know I concealed myself\n"
-	.string "in this dresser? You're sharp!{COLOR DARK_GRAY}$"
+	.string "in this dresser? You're sharp!$"
 
 Route110_TrickHouseEntrance_Text_ConealedBeyondWindow:
 	.string "{COLOR BLUE}Hah? Grrr…\p"
 	.string "How did you know I concealed myself\n"
-	.string "beyond this window? You're sharp!{COLOR DARK_GRAY}$"
+	.string "beyond this window? You're sharp!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInPlanter:
 	.string "{COLOR BLUE}Hah? Grrr…\p"
 	.string "How did you know I concealed myself\n"
-	.string "in this planter? You're sharp!{COLOR DARK_GRAY}$"
+	.string "in this planter? You're sharp!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedInCupboard:
 	.string "{COLOR BLUE}Hah? Grrr…\p"
 	.string "How did you know I concealed myself\n"
-	.string "in this cupboard? You're sharp!{COLOR DARK_GRAY}$"
+	.string "in this cupboard? You're sharp!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBehindWindow:
 	.string "{COLOR BLUE}Hah? Grrr…\p"
 	.string "How did you know I concealed myself\n"
-	.string "behind this window? You're sharp!{COLOR DARK_GRAY}$"
+	.string "behind this window? You're sharp!$"
 
 Route110_TrickHouseEntrance_Text_ConcealedBeneathCushion:
 	.string "{COLOR BLUE}Hah? Grrr…\p"
 	.string "How did you know I concealed myself\n"
-	.string "beneath this cushion? You're sharp!{COLOR DARK_GRAY}$"
+	.string "beneath this cushion? You're sharp!$"
 
 Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 	.string "{COLOR BLUE}Behold!\p"
@@ -745,7 +745,7 @@ Route110_TrickHouseEntrance_Text_TheyCallMeTrickMaster:
 	.string "of a man in all of HOENN!\l"
 	.string "They call me…\p"
 	.string "The TRICK MASTER!\n"
-	.string "Wahahaha! Glad to meet you!{COLOR DARK_GRAY}$"
+	.string "Wahahaha! Glad to meet you!$"
 
 Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
 	.string "{COLOR BLUE}You, you've come to challenge\n"
@@ -755,7 +755,7 @@ Route110_TrickHouseEntrance_Text_ComeToChallengeTrickHouse:
 	.string "Consider your challenge accepted!\p"
 	.string "Enter through the scroll there,\n"
 	.string "and let your challenge commence!\p"
-	.string "I shall be waiting in the back!{COLOR DARK_GRAY}$"
+	.string "I shall be waiting in the back!$"
 
 Route110_TrickHouseEntrance_Text_ItsAScroll:
 	.string "It's a scroll.$"
@@ -773,7 +773,7 @@ Route110_TrickHouseEntrance_Text_NextTimeUseThisTrick:
 	.string "{COLOR BLUE}For the next time, I'll use this trick,\n"
 	.string "and that scheme, and those ruses…\p"
 	.string "Mufufufu… If I may say so, it's\n"
-	.string "brilliantly difficult, even for me!{COLOR DARK_GRAY}$"
+	.string "brilliantly difficult, even for me!$"
 
 Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
 	.string "{COLOR BLUE}Hah? What?!\n"
@@ -783,32 +783,32 @@ Route110_TrickHouseEntrance_Text_InMidstOfDevisingNewChallenges:
 	.string "It's not too much to ask for a bit more\n"
 	.string "time for me to think, is it now?\l"
 	.string "You wouldn't begrudge me that?\l"
-	.string "Come back in a little while!{COLOR DARK_GRAY}$"
+	.string "Come back in a little while!$"
 
 Route110_TrickHouseEntrance_Text_YoureHereToAcceptReward:
 	.string "{COLOR BLUE}Ah, it's you! You're here to accept the\n"
 	.string "reward from before, isn't that right?\l"
 	.string "Yes, right I am!\p"
 	.string "Here!\n"
-	.string "I'll give it to you now!{COLOR DARK_GRAY}$"
+	.string "I'll give it to you now!$"
 
 Route110_TrickHouseEntrance_Text_DidYouNotComeToClaimReward:
 	.string "{COLOR BLUE}Hah?\n"
-	.string "Did you not come to claim your reward?{COLOR DARK_GRAY}$"
+	.string "Did you not come to claim your reward?$"
 
 Route110_TrickHouseEntrance_Text_MechadollWhichTent:
 	.string "{COLOR BLUE}MECHADOLL 5 I AM!\n"
 	.string "IF REWARD IS NOT TAKEN BY YOU,\l"
 	.string "THEN TRICK MASTER YOU CANNOT FOLLOW.\p"
 	.string "RED TENT OR BLUE TENT,\n"
-	.string "WHICH DO YOU PREFER?{COLOR DARK_GRAY}$"
+	.string "WHICH DO YOU PREFER?$"
 
 Route110_TrickHouseEntrance_Text_ThenFarewell:
-	.string "{COLOR BLUE}THEN FAREWELL.{COLOR DARK_GRAY}$"
+	.string "{COLOR BLUE}THEN FAREWELL.$"
 
 Route110_TrickHouseEntrance_Text_PCFullAgain:
 	.string "{COLOR BLUE}YOUR PC STATUS: FULL AGAIN.\n"
-	.string "MEAN, YOU ARE.{COLOR DARK_GRAY}$"
+	.string "MEAN, YOU ARE.$"
 
 Route110_TrickHousePuzzle_Text_FoundAScroll:
 	.string "{PLAYER} found a scroll.$"

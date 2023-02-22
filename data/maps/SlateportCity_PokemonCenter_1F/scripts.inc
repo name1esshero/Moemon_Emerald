@@ -33,10 +33,10 @@ SlateportCity_PokemonCenter_1F_Text_RaiseDifferentTypesOfPokemon:
 	.string "It's no good to make just one\n"
 	.string "POKéMON strong.\p"
 	.string "If it has a type disadvantage,\n"
-	.string "it might not stand a chance.{COLOR DARK_GRAY}$"
+	.string "it might not stand a chance.$"
 
 SlateportCity_PokemonCenter_1F_Text_TradedMonWithFriend:
 	.string "{COLOR RED}I trade POKéMON with my friends.\p"
 	.string "If a traded POKéMON is holding an\n"
-	.string "item, it makes me twice as happy!{COLOR DARK_GRAY}$"
+	.string "item, it makes me twice as happy!$"
 

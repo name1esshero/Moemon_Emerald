@@ -288,12 +288,12 @@ RustboroCity_DevonCorp_2F_EventScript_WorkOnNext::
 RustboroCity_DevonCorp_2F_Text_DeviceForTalkingToPokemon:
 	.string "{COLOR BLUE}We're developing a device for talking\n"
 	.string "with POKéMON.\p"
-	.string "But we haven't had much success…{COLOR DARK_GRAY}$"
+	.string "But we haven't had much success…$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopingNewBalls:
 	.string "{COLOR BLUE}I'm developing new kinds of\n"
 	.string "POKé BALLS…\p"
-	.string "But I haven't made much headway…{COLOR DARK_GRAY}$"
+	.string "But I haven't made much headway…$"
 
 RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "{COLOR BLUE}We finally made new kinds of\n"
@@ -304,12 +304,12 @@ RustboroCity_DevonCorp_2F_Text_WeFinallyMadeNewBalls:
 	.string "POKéMON the longer a battle runs.\p"
 	.string "Both are proudly developed by\n"
 	.string "the DEVON CORPORATION.\p"
-	.string "Please give them a try!{COLOR DARK_GRAY}$"
+	.string "Please give them a try!$"
 
 RustboroCity_DevonCorp_2F_Text_IMadePokenav:
 	.string "{COLOR BLUE}I made the POKéNAV!\p"
 	.string "As an engineer, I feel blessed to have\n"
-	.string "made something so great!{COLOR DARK_GRAY}$"
+	.string "made something so great!$"
 
 RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "{COLOR BLUE}Oh, wow!\n"
@@ -320,18 +320,18 @@ RustboroCity_DevonCorp_2F_Text_WowThatsAPokenav:
 	.string "Would you like me to describe its\n"
 	.string "features in detail?\p"
 	.string "No, no. I think you'll find out just by\n"
-	.string "trying the POKéNAV out.{COLOR DARK_GRAY}$"
+	.string "trying the POKéNAV out.$"
 
 RustboroCity_DevonCorp_2F_Text_DeviceToVisualizePokemonDreams:
 	.string "{COLOR BLUE}I'm trying to develop a device that\n"
 	.string "visually reproduces the dreams of\l"
 	.string "POKéMON…\p"
-	.string "But it's not going well.{COLOR DARK_GRAY}$"
+	.string "But it's not going well.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopDeviceToResurrectFossils:
 	.string "{COLOR BLUE}I've been trying to develop a device\n"
 	.string "that resurrects POKéMON from fossils…\p"
-	.string "And, it's working!{COLOR DARK_GRAY}$"
+	.string "And, it's working!$"
 
 RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 	.string "{COLOR BLUE}Wait! That thing you have there…\n"
@@ -339,12 +339,12 @@ RustboroCity_DevonCorp_2F_Text_WantToBringFossilBackToLife:
 	.string "Would you like to bring that POKéMON\n"
 	.string "back to life?\p"
 	.string "I can with my newly developed\n"
-	.string "FOSSIL REGENERATOR.{COLOR DARK_GRAY}$"
+	.string "FOSSIL REGENERATOR.$"
 
 RustboroCity_DevonCorp_2F_Text_OhIsThatSo:
 	.string "{COLOR BLUE}Oh, is that so?\p"
 	.string "DEVON's technological expertise\n"
-	.string "is outstanding, I tell you.{COLOR DARK_GRAY}$"
+	.string "is outstanding, I tell you.$"
 
 RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "{COLOR BLUE}Oh, now that's a surprise!\n"
@@ -352,11 +352,11 @@ RustboroCity_DevonCorp_2F_Text_TwoFossilsPickOne:
 	.string "Unfortunately, my machine can only\n"
 	.string "regenerate one POKéMON at a time.\p"
 	.string "Would you like to pick one of your\n"
-	.string "fossils for regeneration?{COLOR DARK_GRAY}$"
+	.string "fossils for regeneration?$"
 
 RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher:
 	.string "{COLOR BLUE}Excellent!\n"
-	.string "Let's do this right away.{COLOR DARK_GRAY}\p"
+	.string "Let's do this right away.\p"
 	.string "{PLAYER} handed the {STR_VAR_1} to\n"
 	.string "the DEVON RESEARCHER.$"
 
@@ -366,14 +366,14 @@ RustboroCity_DevonCorp_2F_Text_FossilRegeneratorTakesTime:
 	.string "But it has one drawback--it takes\n"
 	.string "a long time to work.\p"
 	.string "So, uh… How about you go for a stroll\n"
-	.string "and look around for a while?{COLOR DARK_GRAY}$"
+	.string "and look around for a while?$"
 
 RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife:
 	.string "{COLOR BLUE}Thanks for waiting!\p"
 	.string "Your fossilized POKéMON has been\n"
 	.string "brought back to life!\p"
 	.string "The fossil was an ancient POKéMON.\n"
-	.string "{STR_VAR_2}, it was!{COLOR DARK_GRAY}$"
+	.string "{STR_VAR_2}, it was!$"
 
 RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
 	.string "{PLAYER} received {STR_VAR_2} from\n"
@@ -382,12 +382,12 @@ RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher:
 @ Unused
 RustboroCity_DevonCorp_2F_Text_TooManyPokemon:
 	.string "{COLOR BLUE}Uh-oh, you've got too many POKéMON.\n"
-	.string "You have no room for this one.{COLOR DARK_GRAY}$"
+	.string "You have no room for this one.$"
 
 RustboroCity_DevonCorp_2F_Text_DevelopNewPokenavFeature:
 	.string "{COLOR BLUE}I'm trying to develop a new feature\n"
 	.string "for the POKéNAV…\p"
-	.string "But it's not going well.{COLOR DARK_GRAY}$"
+	.string "But it's not going well.$"
 
 RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
 	.string "{COLOR BLUE}Well, now what shall I work on\n"
@@ -395,5 +395,5 @@ RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext:
 	.string "Our company allows us to make our\n"
 	.string "inspirations into reality.\p"
 	.string "One couldn't ask for a better\n"
-	.string "environment as an engineer.{COLOR DARK_GRAY}$"
+	.string "environment as an engineer.$"
 

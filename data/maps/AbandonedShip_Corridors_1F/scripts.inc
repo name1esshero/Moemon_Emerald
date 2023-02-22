@@ -12,15 +12,15 @@ AbandonedShip_Corridors_1F_EventScript_Charlie::
 
 AbandonedShip_Corridors_1F_Text_CharlieIntro:
 	.string "{COLOR BLUE}What's so funny about having my inner\n"
-	.string "tube aboard the ship?{COLOR DARK_GRAY}$"
+	.string "tube aboard the ship?$"
 
 AbandonedShip_Corridors_1F_Text_CharlieDefeat:
 	.string "Whoa, you overwhelmed me!$"
 
 AbandonedShip_Corridors_1F_Text_CharliePostBattle:
 	.string "{COLOR BLUE}It's not easy throwing POKé BALLS\n"
-	.string "while hanging on to an inner tube!{COLOR DARK_GRAY}$"
+	.string "while hanging on to an inner tube!$"
 
 AbandonedShip_Corridors_1F_Text_IsntItFunHere:
 	.string "{COLOR BLUE}Isn't it fun here?\n"
-	.string "I get excited just being here!{COLOR DARK_GRAY}$"
+	.string "I get excited just being here!$"

@@ -14,5 +14,5 @@ AbandonedShip_Rooms_B1F_Text_GettingQueasy:
 	.string "{COLOR BLUE}Urrrrppp…\p"
 	.string "I'm getting queasy just being aboard\n"
 	.string "this ship…\p"
-	.string "It's not even moving, but…{COLOR DARK_GRAY}$"
+	.string "It's not even moving, but…$"
 

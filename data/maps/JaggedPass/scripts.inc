@@ -154,7 +154,7 @@ JaggedPass_Text_EricIntro:
 	.string "Now this is what I've always wanted\n"
 	.string "in a mountain.\p"
 	.string "This jagged bumpiness…\n"
-	.string "It rocks my soul!{COLOR DARK_GRAY}$"
+	.string "It rocks my soul!$"
 
 JaggedPass_Text_EricDefeat:
 	.string "Losing left me bitter!$"
@@ -162,11 +162,11 @@ JaggedPass_Text_EricDefeat:
 JaggedPass_Text_EricPostBattle:
 	.string "{COLOR BLUE}Yes, I did lose at POKéMON…\p"
 	.string "But, when it comes to the love of\n"
-	.string "the mountains, I have you beat!{COLOR DARK_GRAY}$"
+	.string "the mountains, I have you beat!$"
 
 JaggedPass_Text_DianaIntro:
 	.string "{COLOR RED}This place isn't your casual hike.\n"
-	.string "It's not suited for a picnic.{COLOR DARK_GRAY}$"
+	.string "It's not suited for a picnic.$"
 
 JaggedPass_Text_DianaDefeat:
 	.string "Ohhh, no!\n"
@@ -175,15 +175,15 @@ JaggedPass_Text_DianaDefeat:
 JaggedPass_Text_DianaPostBattle:
 	.string "{COLOR RED}Did you know?\p"
 	.string "Some people cleverly ride their\n"
-	.string "bicycles up this horribly bumpy pass.{COLOR DARK_GRAY}$"
+	.string "bicycles up this horribly bumpy pass.$"
 
 JaggedPass_Text_DianaRegister:
 	.string "{COLOR RED}Will you ever be back in this area?\n"
-	.string "If you do return, I'd like a rematch.{COLOR DARK_GRAY}$"
+	.string "If you do return, I'd like a rematch.$"
 
 JaggedPass_Text_DianaRematchIntro:
 	.string "{COLOR RED}Picnics are fun wherever you go.\n"
-	.string "Just like POKéMON!{COLOR DARK_GRAY}$"
+	.string "Just like POKéMON!$"
 
 JaggedPass_Text_DianaRematchDefeat:
 	.string "I only lost because the ground is\n"
@@ -191,11 +191,11 @@ JaggedPass_Text_DianaRematchDefeat:
 
 JaggedPass_Text_DianaPostRematch:
 	.string "{COLOR RED}I'll forget about losing and just\n"
-	.string "enjoy this bumpy hike.{COLOR DARK_GRAY}$"
+	.string "enjoy this bumpy hike.$"
 
 JaggedPass_Text_EthanIntro:
 	.string "{COLOR BLUE}JAGGED PASS is hard to walk on.\n"
-	.string "It's a good place for training.{COLOR DARK_GRAY}$"
+	.string "It's a good place for training.$"
 
 JaggedPass_Text_EthanDefeat:
 	.string "It was all over while we were still\n"
@@ -203,16 +203,16 @@ JaggedPass_Text_EthanDefeat:
 
 JaggedPass_Text_EthanPostBattle:
 	.string "{COLOR BLUE}If I had an ACRO BIKE, I'd be able to\n"
-	.string "jump ledges.{COLOR DARK_GRAY}$"
+	.string "jump ledges.$"
 
 JaggedPass_Text_EthanRegister:
 	.string "{COLOR BLUE}When I get more used to this bumpiness,\n"
 	.string "I'll be sure to win!\p"
-	.string "Can you register me in your POKéNAV?{COLOR DARK_GRAY}$"
+	.string "Can you register me in your POKéNAV?$"
 
 JaggedPass_Text_EthanRematchIntro:
 	.string "{COLOR BLUE}I got used to this bumpiness.\n"
-	.string "I sing while I climb now.{COLOR DARK_GRAY}$"
+	.string "I sing while I climb now.$"
 
 JaggedPass_Text_EthanRematchDefeat:
 	.string "It's still not easy to battle on this\n"
@@ -220,13 +220,13 @@ JaggedPass_Text_EthanRematchDefeat:
 
 JaggedPass_Text_EthanPostRematch:
 	.string "{COLOR BLUE}I should get an ACRO BIKE from RYDEL\n"
-	.string "in MAUVILLE CITY…{COLOR DARK_GRAY}$"
+	.string "in MAUVILLE CITY…$"
 
 JaggedPass_Text_GruntIntro:
 	.string "{COLOR BLUE}Wah!\n"
 	.string "What are you doing here?\p"
 	.string "What am I doing in a place like this?\p"
-	.string "What business is it of yours?{COLOR DARK_GRAY}$"
+	.string "What business is it of yours?$"
 
 JaggedPass_Text_GruntDefeat:
 	.string "Urrrgh…\p"
@@ -237,7 +237,7 @@ JaggedPass_Text_GoWhereverYouWant:
 	.string "{COLOR BLUE}Okay, oh-kay!\n"
 	.string "I admit it--you're strong!\p"
 	.string "Don't worry about me.\n"
-	.string "Go wherever you want!{COLOR DARK_GRAY}$"
+	.string "Go wherever you want!$"
 
 JaggedPass_Text_BoulderShakingInResponseToEmblem:
 	.string "Oh! This boulder is shaking in response\n"
@@ -245,18 +245,18 @@ JaggedPass_Text_BoulderShakingInResponseToEmblem:
 
 JaggedPass_Text_JulioIntro:
 	.string "{COLOR BLUE}Aiyeeh! It's awfully scary to shoot\n"
-	.string "down the mountain in one go!{COLOR DARK_GRAY}$"
+	.string "down the mountain in one go!$"
 
 JaggedPass_Text_JulioDefeat:
 	.string "I feel like I'm falling apart…$"
 
 JaggedPass_Text_JulioPostBattle:
 	.string "{COLOR BLUE}My bicycle bounced around so much,\n"
-	.string "my rear end's sore…{COLOR DARK_GRAY}$"
+	.string "my rear end's sore…$"
 
 JaggedPass_Text_AutumnIntro:
 	.string "{COLOR RED}I climb this hill every day.\n"
-	.string "I have confidence in my strength!{COLOR DARK_GRAY}$"
+	.string "I have confidence in my strength!$"
 
 JaggedPass_Text_AutumnDefeat:
 	.string "Hmm…\n"
@@ -264,5 +264,5 @@ JaggedPass_Text_AutumnDefeat:
 
 JaggedPass_Text_AutumnPostBattle:
 	.string "{COLOR RED}What is that odd rock protrusion\n"
-	.string "a little up the hill from here?{COLOR DARK_GRAY}$"
+	.string "a little up the hill from here?$"
 

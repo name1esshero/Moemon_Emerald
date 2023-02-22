@@ -27,7 +27,7 @@ GraniteCave_1F_Text_GetsDarkAheadHereYouGo:
 	.string "to be all right, but…\p"
 	.string "Well, for us HIKERS, helping out those\n"
 	.string "that we meet is our motto.\p"
-	.string "Here you go, I'll pass this on to you.{COLOR DARK_GRAY}$"
+	.string "Here you go, I'll pass this on to you.$"
 
 GraniteCave_1F_Text_ExplainFlash:
 	.string "{COLOR BLUE}Teach that hidden move FLASH to\n"
@@ -35,5 +35,5 @@ GraniteCave_1F_Text_ExplainFlash:
 	.string "It lights up even the inky darkness\n"
 	.string "of caves.\p"
 	.string "But, to use it, you need the GYM BADGE\n"
-	.string "from DEWFORD's POKéMON GYM.{COLOR DARK_GRAY}$"
+	.string "from DEWFORD's POKéMON GYM.$"
 

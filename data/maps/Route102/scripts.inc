@@ -79,26 +79,26 @@ Route102_Text_WatchMeCatchPokemon:
 	.string "don't they?\p"
 	.string "Please watch me and see if I can\n"
 	.string "catch one properly.\p"
-	.string "…Whoa!{COLOR DARK_GRAY}$"
+	.string "…Whoa!$"
 
 Route102_Text_WallyIDidIt:
 	.string "{COLOR BLUE}WALLY: I did it… It's my…\n"
-	.string "My POKéMON!{COLOR DARK_GRAY}$"
+	.string "My POKéMON!$"
 
 Route102_Text_LetsGoBack:
 	.string "{COLOR BLUE}{PLAYER}, thank you!\n"
-	.string "Let's go back to the GYM!{COLOR DARK_GRAY}$"
+	.string "Let's go back to the GYM!$"
 
 Route102_Text_ImNotVeryTall:
 	.string "{COLOR BLUE}I'm…not very tall, so I sink right\n"
 	.string "into tall grass.\p"
 	.string "The grass goes up my nose and…\n"
 	.string "Fwafwafwafwafwa…\p"
-	.string "Fwatchoo!{COLOR DARK_GRAY}$"
+	.string "Fwatchoo!$"
 
 Route102_Text_CatchWholeBunchOfPokemon:
 	.string "{COLOR BLUE}I'm going to catch a whole bunch of\n"
-	.string "POKéMON!{COLOR DARK_GRAY}$"
+	.string "POKéMON!$"
 
 Route102_Text_RouteSignOldale:
 	.string "ROUTE 102\n"

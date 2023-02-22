@@ -11,8 +11,8 @@ RustboroCity_Flat1_1F_EventScript_Woman::
 
 RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility:
 	.string "{COLOR BLUE}Every POKéMON has a special ability\n"
-	.string "that it can use.{COLOR DARK_GRAY}$"
+	.string "that it can use.$"
 
 RustboroCity_Flat1_1F_Text_PokemonStrange:
-	.string "{COLOR RED}POKéMON are such strange creatures.{COLOR DARK_GRAY}$"
+	.string "{COLOR RED}POKéMON are such strange creatures.$"
 

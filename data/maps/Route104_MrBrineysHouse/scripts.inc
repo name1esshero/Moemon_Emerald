@@ -99,7 +99,7 @@ Route104_MrBrineysHouse_EventScript_Peeko::
 
 Route104_MrBrineysHouse_Text_WaitUpPeeko:
 	.string "{COLOR BLUE}MR. BRINEY: Hold on, lass!\n"
-	.string "Wait up, PEEKO!{COLOR DARK_GRAY}$"
+	.string "Wait up, PEEKO!$"
 
 Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 	.string "{COLOR BLUE}Hm? You're {PLAYER}{KUN}!\n"
@@ -114,18 +114,18 @@ Route104_MrBrineysHouse_Text_ItsYouLetsSailToDewford:
 	.string "But, certainly, what you're asking is\n"
 	.string "no problem at all.\p"
 	.string "You've come to the right man!\n"
-	.string "We'll set sail for DEWFORD.{COLOR DARK_GRAY}$"
+	.string "We'll set sail for DEWFORD.$"
 
 Route104_MrBrineysHouse_Text_SetSailForDewford:
 	.string "{COLOR BLUE}MR. BRINEY: DEWFORD it is, then!\p"
 	.string "Anchors aweigh!\n"
-	.string "PEEKO, we're setting sail, my darling!{COLOR DARK_GRAY}$"
+	.string "PEEKO, we're setting sail, my darling!$"
 
 Route104_MrBrineysHouse_Text_DeclineDeliverySail:
 	.string "{COLOR BLUE}MR. BRINEY: Is that so?\n"
 	.string "Your deliveries can wait?\p"
 	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail!{COLOR DARK_GRAY}$"
+	.string "you want to set sail!$"
 
 Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy!\n"
@@ -134,7 +134,7 @@ Route104_MrBrineysHouse_Text_NeedToMakeDeliveriesSailToDewford:
 	.string "and a package to SLATEPORT.\p"
 	.string "What you need me to do is no problem\n"
 	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.{COLOR DARK_GRAY}$"
+	.string "First, we'll set sail for DEWFORD.$"
 
 Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy!\n"
@@ -143,18 +143,18 @@ Route104_MrBrineysHouse_Text_NeedToDeliverPackageSailToDewford:
 	.string "CAPT. STERN in SLATEPORT.\p"
 	.string "What you need me to do is no problem\n"
 	.string "at all--I'm the man for the job!\p"
-	.string "First, we'll set sail for DEWFORD.{COLOR DARK_GRAY}$"
+	.string "First, we'll set sail for DEWFORD.$"
 
 Route104_MrBrineysHouse_Text_WhereAreWeBound:
 	.string "{COLOR BLUE}MR. BRINEY: Ahoy!\n"
 	.string "For you, I'll go out to sea anytime!\p"
-	.string "Now, my friend, where are we bound?{COLOR DARK_GRAY}$"
+	.string "Now, my friend, where are we bound?$"
 
 Route104_MrBrineysHouse_Text_TellMeWheneverYouWantToSail:
 	.string "{COLOR BLUE}MR. BRINEY: Is that so?\n"
 	.string "Well, PEEKO owes her life to you.\p"
 	.string "You just go on and tell me whenever\n"
-	.string "you want to set sail!{COLOR DARK_GRAY}$"
+	.string "you want to set sail!$"
 
 Route104_MrBrineysHouse_Text_Peeko:
 	.string "PEEKO: Pii piihyoro!$"

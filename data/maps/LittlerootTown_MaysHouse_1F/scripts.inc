@@ -330,26 +330,26 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "age as you.\p"
 	.string "Our {STR_VAR_1} was excited about making\n"
 	.string "a new friend.\p"
-	.string "Our {STR_VAR_1} is upstairs, I think.{COLOR DARK_GRAY}$"
+	.string "Our {STR_VAR_1} is upstairs, I think.$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
 	.string "{COLOR RED}Like child, like father.\p"
 	.string "My husband is as wild about POKéMON\n"
 	.string "as our child.\p"
 	.string "If he's not at his LAB, he's likely\n"
-	.string "scrabbling about in grassy places.{COLOR DARK_GRAY}$"
+	.string "scrabbling about in grassy places.$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
 	.string "{COLOR RED}That {RIVAL}!\p"
 	.string "I guess our child is too busy with\n"
 	.string "POKéMON to notice that you came\l"
-	.string "to visit, {PLAYER}{KUN}.{COLOR DARK_GRAY}$"
+	.string "to visit, {PLAYER}{KUN}.$"
 
 RivalsHouse_1F_Text_WentOutToRoute103:
 	.string "{COLOR RED}Oh, {RIVAL} went out to ROUTE 103\n"
 	.string "just a little while ago.\p"
 	.string "Like father, like child.\n"
-	.string "{RIVAL} can't stay quietly at home.{COLOR DARK_GRAY}$"
+	.string "{RIVAL} can't stay quietly at home.$"
 
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
 	.string "{COLOR RED}I think it's wonderful for people to\n"
@@ -357,7 +357,7 @@ RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
 	.string "But you should go home every so often\n"
 	.string "to let your mother know you're okay.\p"
 	.string "She might not say it, but I'm sure she\n"
-	.string "worries about you, {PLAYER}{KUN}.{COLOR DARK_GRAY}$"
+	.string "worries about you, {PLAYER}{KUN}.$"
 
 RivalsHouse_1F_Text_MayWhoAreYou:
 	.string "{COLOR RED}Huh?\n"
@@ -381,7 +381,7 @@ RivalsHouse_1F_Text_MayWhoAreYou:
 	.string "Oh, no! I forgot!\p"
 	.string "I was supposed to go help Dad catch\n"
 	.string "some wild POKéMON!\p"
-	.string "{PLAYER}{KUN}, I'll catch you later!{COLOR DARK_GRAY}$"
+	.string "{PLAYER}{KUN}, I'll catch you later!$"
 
 RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "{COLOR BLUE}Hey!\n"
@@ -401,9 +401,9 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "Aw, darn, I forgot…\p"
 	.string "I'm supposed to go help my dad catch\n"
 	.string "some wild POKéMON.\p"
-	.string "Some other time, okay?{COLOR DARK_GRAY}$"
+	.string "Some other time, okay?$"
 
 RivalsHouse_1F_Text_DoYouHavePokemon:
 	.string "{COLOR BLUE}Hi, neighbor!\p"
 	.string "Do you already have your\n"
-	.string "own POKéMON?{COLOR DARK_GRAY}$"
+	.string "own POKéMON?$"

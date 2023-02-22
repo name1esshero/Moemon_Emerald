@@ -58,15 +58,15 @@ OldaleTown_Mart_EventScript_Boy::
 
 OldaleTown_Mart_Text_PokeBallsAreSoldOut:
 	.string "{COLOR RED}The clerk says they're all sold out.\n"
-	.string "I can't buy any POKé BALLS.{COLOR DARK_GRAY}$"
+	.string "I can't buy any POKé BALLS.$"
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls:
 	.string "{COLOR RED}I'm going to buy a bunch of POKé BALLS\n"
-	.string "and catch a bunch of POKéMON!{COLOR DARK_GRAY}$"
+	.string "and catch a bunch of POKéMON!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion:
 	.string "{COLOR BLUE}If a POKéMON gets hurt and loses its HP\n"
 	.string "and faints, it won't be able to battle.\p"
 	.string "To prevent your POKéMON from fainting,\n"
-	.string "restore its HP with a POTION.{COLOR DARK_GRAY}$"
+	.string "restore its HP with a POTION.$"
 
