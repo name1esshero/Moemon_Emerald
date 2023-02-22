@@ -98,7 +98,7 @@ LilycoveCity_House3_EventScript_WereDoingContest::
 	end
 
 LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks:
-	.string "Oh, my, my! Are you traveling alone?\n"
+	.string "{COLOR RED}Oh, my, my! Are you traveling alone?\n"
 	.string "But you're so young! Good for you!\p"
 	.string "I'm sure my kids could learn a thing\n"
 	.string "or two from you!\p"
@@ -109,12 +109,12 @@ LilycoveCity_House3_Text_LearnFromMasterOfPokeblocks:
 	.string "a master of {POKEBLOCK}S?$"
 
 LilycoveCity_House3_Text_OhAreYouSure:
-	.string "Oh? Are you sure?\p"
+	.string "{COLOR RED}Oh? Are you sure?\p"
 	.string "You shouldn't always try to do\n"
 	.string "everything by yourself, dear!$"
 
 LilycoveCity_House3_Text_ExplainPokeblocks:
-	.string "Oh, good! You're a smart soul!\n"
+	.string "{COLOR RED}Oh, good! You're a smart soul!\n"
 	.string "This is a bit long, so listen up!\p"
 	.string "Are you ready?\p"
 	.string "If you look at {POKEBLOCK}S, you should see\n"
@@ -143,26 +143,26 @@ LilycoveCity_House3_Text_ExplainPokeblocks:
 	.string "Don't give up, dear!$"
 
 LilycoveCity_House3_Text_HappyToHaveQuadruplets:
-	.string "When my wife gave birth to quadruplets,\n"
+	.string "{COLOR BLUE}When my wife gave birth to quadruplets,\n"
 	.string "you bet I was shocked.\p"
 	.string "But, now, seeing them play together,\n"
 	.string "it makes me happy.$"
 
 LilycoveCity_House3_Text_GoingToWinMultiBattles:
-	.string "We're having MULTI BATTLES, but I know\n"
+	.string "{COLOR BLUE}We're having MULTI BATTLES, but I know\n"
 	.string "I'm going to win.$"
 
 LilycoveCity_House3_Text_LikeMixingAtRecordCorner:
-	.string "We like mixing stuff at\n"
+	.string "{COLOR BLUE}We like mixing stuff at\n"
 	.string "the RECORD CORNER.\p"
 	.string "But what gets mixed up?$"
 
 LilycoveCity_House3_Text_MakePokeblocksWithBerryBlender:
-	.string "We're going to make super {POKEBLOCK}S\n"
+	.string "{COLOR BLUE}We're going to make super {POKEBLOCK}S\n"
 	.string "with a BERRY BLENDER!$"
 
 LilycoveCity_House3_Text_GoingToEnterContest:
-	.string "I want to brag about how tough my\n"
+	.string "{COLOR BLUE}I want to brag about how tough my\n"
 	.string "POKéMON is, so we're going to enter\l"
 	.string "a CONTEST together.$"
 

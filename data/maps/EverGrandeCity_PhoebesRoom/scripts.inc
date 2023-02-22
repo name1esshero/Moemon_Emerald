@@ -59,7 +59,7 @@ EverGrandeCity_PhoebesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_PhoebesRoom_Text_IntroSpeech:
-	.string "Ahahaha!\p"
+	.string "{COLOR RED}Ahahaha!\p"
 	.string "I'm PHOEBE of the ELITE FOUR.\n"
 	.string "I did my training on MT. PYRE.\p"
 	.string "While I trained, I gained the ability\n"
@@ -74,7 +74,7 @@ EverGrandeCity_PhoebesRoom_Text_Defeat:
 	.string "I've gone and lost.$"
 
 EverGrandeCity_PhoebesRoom_Text_PostBattleSpeech:
-	.string "There's a definite bond between you\n"
+	.string "{COLOR RED}There's a definite bond between you\n"
 	.string "and your POKéMON, too.\p"
 	.string "I didn't recognize it, so it's only\n"
 	.string "natural that I lost.\p"

@@ -65,7 +65,7 @@ EverGrandeCity_SidneysRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_SidneysRoom_Text_IntroSpeech:
-	.string "Welcome, challenger!\n"
+	.string "{COLOR BLUE}Welcome, challenger!\n"
 	.string "I'm SIDNEY of the ELITE FOUR.\p"
 	.string "I like that look you're giving me.\n"
 	.string "I guess you'll give me a good match.\l"
@@ -79,7 +79,7 @@ EverGrandeCity_SidneysRoom_Text_Defeat:
 	.string "Eh, it was fun, so it doesn't matter.$"
 
 EverGrandeCity_SidneysRoom_Text_PostBattleSpeech:
-	.string "Well, listen to what this loser has\n"
+	.string "{COLOR BLUE}Well, listen to what this loser has\n"
 	.string "to say.\p"
 	.string "You've got what it takes to go far.\n"
 	.string "Now, go on to the next room and enjoy\l"

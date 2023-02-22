@@ -30,13 +30,13 @@ FortreeCity_PokemonCenter_1F_EventScript_Boy::
 	end
 
 FortreeCity_PokemonCenter_1F_Text_GoToSafariZone:
-	.string "Listen, kid, are you working\n"
+	.string "{COLOR BLUE}Listen, kid, are you working\n"
 	.string "on a POKéDEX?\p"
 	.string "Hmm… Go to the SAFARI ZONE.\n"
 	.string "That's my suggestion.$"
 
 FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
-	.string "Have you done anything at\n"
+	.string "{COLOR BLUE}Have you done anything at\n"
 	.string "the RECORD CORNER?\p"
 	.string "It's pretty neat. It mixes and matches\n"
 	.string "the records of TRAINERS.\p"
@@ -44,7 +44,7 @@ FortreeCity_PokemonCenter_1F_Text_RecordCornerIsNeat:
 	.string "but it's cool. It's exciting, even!$"
 
 FortreeCity_PokemonCenter_1F_Text_DoYouKnowAboutPokenav:
-	.string "Oh, wow, you have a POKéNAV!\n"
+	.string "{COLOR BLUE}Oh, wow, you have a POKéNAV!\n"
 	.string "And it's just like mine!\p"
 	.string "Do you know about POKéNAV's\n"
 	.string "MATCH CALL system?\p"

@@ -185,19 +185,19 @@ LilycoveCity_DepartmentStoreRooftop_EventScript_ExitVendingMachine::
 	end
 
 LilycoveCity_DepartmentStoreRooftop_Text_SetDatesForClearOutSales:
-	.string "Don't they have set dates for their\n"
+	.string "{COLOR BLUE}Don't they have set dates for their\n"
 	.string "clear-out sales?\p"
 	.string "I watch TV, but they never show any\n"
 	.string "commercials.$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_BeenWaitingForClearOutSale:
-	.string "Yes! I've been waiting a long time for\n"
+	.string "{COLOR BLUE}Yes! I've been waiting a long time for\n"
 	.string "this clear-out sale.\p"
 	.string "They have items that you can only get\n"
 	.string "here. I'm going to load up, that I am!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_BoneDryThirsty:
-	.string "Ohh… I'm bone-dry thirsty!$"
+	.string "{COLOR BLUE}Ohh… I'm bone-dry thirsty!$"
 
 LilycoveCity_DepartmentStoreRooftop_Text_WhichDrinkWouldYouLike:
 	.string "It's a VENDING MACHINE.\n"

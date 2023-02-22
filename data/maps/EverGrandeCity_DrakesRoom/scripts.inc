@@ -62,7 +62,7 @@ EverGrandeCity_DrakesRoom_EventScript_Defeated::
 	end
 
 EverGrandeCity_DrakesRoom_Text_IntroSpeech:
-	.string "I am the last of the POKéMON LEAGUE\n"
+	.string "{COLOR BLUE}I am the last of the POKéMON LEAGUE\n"
 	.string "ELITE FOUR, DRAKE the DRAGON master!\p"
 	.string "In their natural state, POKéMON are\n"
 	.string "wild living things. They are free.\p"
@@ -78,7 +78,7 @@ EverGrandeCity_DrakesRoom_Text_Defeat:
 	.string "Superb, it should be said.$"
 
 EverGrandeCity_DrakesRoom_Text_PostBattleSpeech:
-	.string "You deserve every credit for coming\n"
+	.string "{COLOR BLUE}You deserve every credit for coming\n"
 	.string "this far as a TRAINER of POKéMON.\p"
 	.string "You do seem to know what is needed.\p"
 	.string "Yes, what a TRAINER needs is a\n"

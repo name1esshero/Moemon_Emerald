@@ -65,21 +65,21 @@ FortreeCity_House4_EventScript_Wingull::
 	end
 
 FortreeCity_House4_Text_BringsWorldCloserTogether:
-	.string "By being together with POKéMON,\n"
+	.string "{COLOR RED}By being together with POKéMON,\n"
 	.string "people make more and more friends.\p"
 	.string "And that brings the world closer\n"
 	.string "together. I think it's wonderful!$"
 
 FortreeCity_House4_Text_GoBirdPokemon:
-	.string "There!\n"
+	.string "{COLOR BLUE}There!\n"
 	.string "Go, BIRD POKéMON!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand:
-	.string "Heheh, I asked my WINGULL to run\n"
+	.string "{COLOR BLUE}Heheh, I asked my WINGULL to run\n"
 	.string "an errand for me.$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
-	.string "Good!\n"
+	.string "{COLOR BLUE}Good!\n"
 	.string "Welcome back, WINGULL!\p"
 	.string "Huh? What is this?\n"
 	.string "What is it holding?\p"
@@ -89,7 +89,7 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 	.string "have it.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
-	.string "Thanks to my WINGULL, I have friends\n"
+	.string "{COLOR BLUE}Thanks to my WINGULL, I have friends\n"
 	.string "who live far away.$"
 
 FortreeCity_House4_Text_Wingull:

@@ -303,14 +303,14 @@ FallarborTown_BattleTentLobby_EventScript_ExitRules::
 	end
 
 FallarborTown_BattleTentLobby_Text_MakeThinkImJustKid:
-	.string "Fufufufufu.\p"
+	.string "{COLOR BLUE}Fufufufufu.\p"
 	.string "I'm going to make everyone think\n"
 	.string "I'm just a kid and let them play down.\p"
 	.string "Then, I'll shock them and grab\n"
 	.string "the title!$"
 
 FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite:
-	.string "You know how BATTLE TENTS offer\n"
+	.string "{COLOR RED}You know how BATTLE TENTS offer\n"
 	.string "different events in different towns?\p"
 	.string "My favorite is definitely the BATTLE\n"
 	.string "TENT in FALLARBOR TOWN.\p"
@@ -319,7 +319,7 @@ FallarborTown_BattleTentLobby_Text_FallarborTentMyFavorite:
 	.string "their POKéMON.$"
 
 FallarborTown_BattleTentLobby_Text_CameToCampOut:
-	.string "I heard something about some tent,\n"
+	.string "{COLOR BLUE}I heard something about some tent,\n"
 	.string "so I came to camp out.\p"
 	.string "I didn't know that tents these days\n"
 	.string "are so luxurious!\p"
@@ -327,7 +327,7 @@ FallarborTown_BattleTentLobby_Text_CameToCampOut:
 	.string "my hand at battling!$"
 
 FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone:
-	.string "SCOTT: Hi, {PLAYER}{KUN}!\n"
+	.string "{COLOR BLUE}SCOTT: Hi, {PLAYER}{KUN}!\n"
 	.string "So you came out to this BATTLE TENT!\p"
 	.string "The people in these parts tend to be\n"
 	.string "easygoing and laid-back.\p"
@@ -342,7 +342,7 @@ FallarborTown_BattleTentLobby_Text_ScottLookingForSomeone:
 	.string "Keep working at it!$"
 
 FallarborTown_BattleTentLobby_Text_ScottMakeChallenge:
-	.string "SCOTT: Instead of wasting your\n"
+	.string "{COLOR BLUE}SCOTT: Instead of wasting your\n"
 	.string "time with the likes of me, why not\l"
 	.string "make a challenge?$"
 

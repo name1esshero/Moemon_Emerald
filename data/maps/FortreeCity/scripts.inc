@@ -88,7 +88,7 @@ FortreeCity_Movement_KecleonFlee:
 	step_end
 
 FortreeCity_Text_SawGiganticPokemonInSky:
-	.string "No one believes me, but I saw this\n"
+	.string "{COLOR BLUE}No one believes me, but I saw this\n"
 	.string "gigantic POKéMON in the sky.\p"
 	.string "It seemed to squirm as it flew toward\n"
 	.string "ROUTE 131.\p"
@@ -97,23 +97,23 @@ FortreeCity_Text_SawGiganticPokemonInSky:
 	.string "Were you at a volcano or something?$"
 
 FortreeCity_Text_SomethingBlockingGym:
-	.string "I want to go to the POKéMON GYM,\n"
+	.string "{COLOR RED}I want to go to the POKéMON GYM,\n"
 	.string "but something's blocking the way.\p"
 	.string "After all the bother I went through\n"
 	.string "training on ROUTE 120…$"
 
 FortreeCity_Text_ThisTimeIllBeatWinona:
-	.string "I've got my pride-and-joy POKéMON\n"
+	.string "{COLOR RED}I've got my pride-and-joy POKéMON\n"
 	.string "with me. This time, I'll beat WINONA.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater:
-	.string "The ground absorbs rainwater, and\n"
+	.string "{COLOR RED}The ground absorbs rainwater, and\n"
 	.string "trees grow by drinking that water…\p"
 	.string "Our FORTREE CITY exists because\n"
 	.string "there's both water and soil.$"
 
 FortreeCity_Text_EveryoneHealthyAndLively:
-	.string "The CITY consists of homes built on\n"
+	.string "{COLOR BLUE}The CITY consists of homes built on\n"
 	.string "trees.\p"
 	.string "Perhaps because of that lifestyle,\n"
 	.string "everyone is healthy and lively.\p"
@@ -121,13 +121,13 @@ FortreeCity_Text_EveryoneHealthyAndLively:
 	.string "grown thirty years younger.$"
 
 FortreeCity_Text_BugPokemonComeThroughWindow:
-	.string "Living on top of trees is okay.\p"
+	.string "{COLOR BLUE}Living on top of trees is okay.\p"
 	.string "But sometimes BUG POKéMON come in\n"
 	.string "through windows.\l"
 	.string "It can be really startling.$"
 
 FortreeCity_Text_PokemonThatEvolveWhenTraded:
-	.string "There are POKéMON that evolve when\n"
+	.string "{COLOR BLUE}There are POKéMON that evolve when\n"
 	.string "you trade them! That's what I heard.$"
 
 FortreeCity_Text_SomethingUnseeable:
