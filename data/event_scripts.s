@@ -577,6 +577,7 @@ gStdScripts_End::
 	.include "data/scripts/hall_of_fame.inc"
 
 	.include "data/scripts/debug.inc"
+	#include "constants/mugshots.h"
 
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour

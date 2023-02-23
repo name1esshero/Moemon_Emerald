@@ -154,3 +154,4 @@
 	.include "src/debug.o"
 	.include "src/dexnav.o"
 	.include "src/teachy_tv.o"
+	.include "src/mugshot.o"

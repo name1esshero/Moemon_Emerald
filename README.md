@@ -47,6 +47,7 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Make Cleanse Tag Avoid All Wild Encounters and Usable If Held By Anyone in Your Party; Make PokeDoll Do the Same for Trainers Seeing You**](https://github.com/pret/pokeemerald/wiki/Make-Cleanse-Tag-Avoid-All-Wild-Encounters-and-Usable-If-Held-By-Anyone-in-Your-Party;-Make-PokeDoll-Do-the-Same-for-Trainers-Seeing-You) by Devolov
 * [**Faster HP Drain**](https://github.com/pret/pokeemerald/wiki/Faster-HP-Drain) by Sonikku A
 * [**Wrong Save Type Error Screen**](https://www.pokecommunity.com/showpost.php?p=10449518) by Anon822
+* [**Display Mugshots In the Overworld**](https://www.pokecommunity.com/showpost.php?p=10345947&postcount=252) by Anon822
 * [**Shuckle Makes Berry Juice**](https://github.com/pret/pokeemerald/wiki/Shuckle-makes-Berry-Juice) by Asparagus Eduardo
 * [**Wonder Trade Pokemon**](https://github.com/pret/pokeemerald/commit/8d47338056a056bb7c8d44391a1c0b4634b95372) by Deokishisu & Lunos
 * [**All Trees Permanently Get Cut**](https://github.com/pret/pokeemerald/wiki/All-Trees-Permanently-Get-Cut) by Devolov
