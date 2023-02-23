@@ -36,10 +36,12 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Enemy Trainers Use Revival Items**](https://www.pokecommunity.com/showthread.php?t=453908) by WiserVisor
 * [**Feed Any Number Of PokeBlocks**](https://www.pokecommunity.com/showpost.php?p=10364627) by Robinlukke
 * [**Adding The Fairy Type**](https://www.pokecommunity.com/showpost.php?p=10325868) by Lunos
+* [**Survive Poison outside Battle**](https://www.pokecommunity.com/showpost.php?p=10068565&postcount=32) by Lunos
 * [**Adding The Teachy TV**](https://github.com/Jaizu/rhh-public/commit/30c515ff50d95ed6d190ae1dcc219e8598786973) by Jaizu
 * [**Not Showing Dex Entries Till Getting Pokedex**](https://github.com/pret/pokeemerald/wiki/Not-showing-dex-entries-until-getting-the-Pokédex) by Jaizu
 * [**Randomizer, Nuzlocke, And Challenges**](https://github.com/TheXaman/pokeemerald/tree/tx_randomizer_and_challenges) by TheXaman
 * [**Trade Pokemon With Self**](https://www.pokecommunity.com/showpost.php?p=10215480&postcount=169) by TheXaman
+* [**Debug Menu**](https://github.com/pret/pokeemerald/wiki/Add-a-debug-menu) by TheXaman
 * [**Better Options Menu**](https://github.com/TheXaman/pokeemerald/tree/tx_optionsPlus) by TheXaman
 * [**Speedy Nurse Joy**](https://github.com/pret/pokeemerald/wiki/Speedy-Nurse-Joy) by TheXaman
 * [**Make Cleanse Tag Avoid All Wild Encounters and Usable If Held By Anyone in Your Party; Make PokeDoll Do the Same for Trainers Seeing You**](https://github.com/pret/pokeemerald/wiki/Make-Cleanse-Tag-Avoid-All-Wild-Encounters-and-Usable-If-Held-By-Anyone-in-Your-Party;-Make-PokeDoll-Do-the-Same-for-Trainers-Seeing-You) by Devolov
@@ -49,6 +51,7 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Wonder Trade Pokemon**](https://github.com/pret/pokeemerald/commit/8d47338056a056bb7c8d44391a1c0b4634b95372) by Deokishisu & Lunos
 * [**All Trees Permanently Get Cut**](https://github.com/pret/pokeemerald/wiki/All-Trees-Permanently-Get-Cut) by Devolov
 * [**Allow Jumping Ledge with Acro Bike**](https://github.com/pret/pokeemerald/wiki/Allow-Jumping-Over-Ledges-with-Acro-Bike) by Devolov
+* [**Allow Feebas Fishing Anywhere on Route 119**](https://github.com/pret/pokeemerald/wiki/Allow-Feebas-to-be-caught-on-any-Valid-Fishing-Spot-in-Route-119-rather-than-only-Three) by Devolov
 
 
 
