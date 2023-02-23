@@ -58,6 +58,7 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 
 ## Graphics
 * Moemon Sprites by The Moemon Project
+* Moemon Overworlds by The Moemon Project
 * Brendan & May Trainer front and backsprites by solo993
 
 ## Special Thanks
