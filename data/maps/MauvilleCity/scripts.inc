@@ -652,7 +652,7 @@ MauvilleCity_Text_GameCornerSign:
 	.string "MAUVILLE GAME CORNER$"
 
 MauvilleCity_Text_ExplainTV:
-	.string "Hi, do you check out TV at all?\p"
+	.string "{COLOR BLUE}Hi, do you check out TV at all?\p"
 	.string "They've added a bunch of cool new\n"
 	.string "shows recently.\p"
 	.string "TV is so cool. I've seen my friends on\n"
@@ -664,4 +664,4 @@ MauvilleCity_Text_ExplainTV:
 	.string "out TVs whenever you can.$"
 
 MauvilleCity_Text_BeenCheckingOutTV:
-	.string "Hi, have you been checking out TVs?$"
+	.string "{COLOR BLUE}Hi, have you been checking out TVs?$"

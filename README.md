@@ -39,21 +39,25 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Adding The Teachy TV**](https://github.com/Jaizu/rhh-public/commit/30c515ff50d95ed6d190ae1dcc219e8598786973) by Jaizu
 * [**Not Showing Dex Entries Till Getting Pokedex**](https://github.com/pret/pokeemerald/wiki/Not-showing-dex-entries-until-getting-the-Pokédex) by Jaizu
 * [**Randomizer, Nuzlocke, And Challenges**](https://github.com/TheXaman/pokeemerald/tree/tx_randomizer_and_challenges) by TheXaman
+* [**Trade Pokemon With Self**](https://www.pokecommunity.com/showpost.php?p=10215480&postcount=169) by TheXaman
 * [**Better Options Menu**](https://github.com/TheXaman/pokeemerald/tree/tx_optionsPlus) by TheXaman
 * [**Speedy Nurse Joy**](https://github.com/pret/pokeemerald/wiki/Speedy-Nurse-Joy) by TheXaman
 * [**Make Cleanse Tag Avoid All Wild Encounters and Usable If Held By Anyone in Your Party; Make PokeDoll Do the Same for Trainers Seeing You**](https://github.com/pret/pokeemerald/wiki/Make-Cleanse-Tag-Avoid-All-Wild-Encounters-and-Usable-If-Held-By-Anyone-in-Your-Party;-Make-PokeDoll-Do-the-Same-for-Trainers-Seeing-You) by Devolov
 * [**Faster HP Drain**](https://github.com/pret/pokeemerald/wiki/Faster-HP-Drain) by Sonikku A
 * [**Wrong Save Type Error Screen**](https://www.pokecommunity.com/showpost.php?p=10449518) by Anon822
-
+* [**Shuckle Makes Berry Juice**](https://github.com/pret/pokeemerald/wiki/Shuckle-makes-Berry-Juice) by Asparagus Eduardo
+* [**Wonder Trade Pokemon**](https://github.com/pret/pokeemerald/commit/8d47338056a056bb7c8d44391a1c0b4634b95372) by Deokishisu & Lunos
+* [**All Trees Permanently Get Cut**](https://github.com/pret/pokeemerald/wiki/All-Trees-Permanently-Get-Cut) by Devolov
+* [**Allow Jumping Ledge with Acro Bike**](https://github.com/pret/pokeemerald/wiki/Allow-Jumping-Over-Ledges-with-Acro-Bike) by Devolov
 
 
 
 ## Graphics
-Moemon Sprites by The Moemon Project
-Brendan & May Trainer front and backsprites by solo993
+* Moemon Sprites by The Moemon Project
+* Brendan & May Trainer front and backsprites by solo993
 
 ## Special Thanks
 
-Lunos for all kinds of assistance when I was stuck trying to figure something out
-Archie for help when I was stuck as well.
-Cookie Softcore, Rache, Princess Kitty, SoulOfMod, Nerak55, LeafJewel, Filth-Sama, and all the people on the moemon discord for tolerating my shenanigans and being great friends.
+* Lunos for all kinds of assistance when I was stuck trying to figure something out
+* Archie for help when I was stuck as well.
+* Cookie Softcore, Rache, Princess Kitty, SoulOfMod, Nerak55, LeafJewel, Filth-Sama, and all the people on the moemon discord for tolerating my shenanigans and being great friends.
