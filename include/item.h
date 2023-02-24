@@ -75,6 +75,7 @@ ItemUseFunc ItemId_GetBattleFunc(u16 itemId);
 u8 ItemId_GetSecondaryId(u16 itemId);
 void DrawHeaderBox(void);
 void HideHeaderBox(void);
+void ItemId_GetHoldEffectParam_Script();
 
 enum ItemObtainFlags
 {

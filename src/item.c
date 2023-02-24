@@ -2030,3 +2030,8 @@ static void DestroyItemIconSprite(void)
         DestroySprite(&gSprites[sItemIconSpriteId2]);
     }
 }
+
+void ItemId_GetHoldEffectParam_Script()
+{
+    VarSet(VAR_RESULT, ItemId_GetHoldEffectParam(VarGet(VAR_0x8004)));
+}
