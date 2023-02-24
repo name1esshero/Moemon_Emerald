@@ -55,7 +55,7 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Allow Feebas Fishing Anywhere on Route 119**](https://github.com/pret/pokeemerald/wiki/Allow-Feebas-to-be-caught-on-any-Valid-Fishing-Spot-in-Route-119-rather-than-only-Three) by Devolov
 * [**Mid Battle Evolutions**](https://www.pokecommunity.com/showpost.php?p=10464666) by CtrlFootPrint
 * [**Check for a specific Pokémon species**](https://www.pokecommunity.com/showpost.php?p=10213715&postcount=167) by Vexio & Lunos
-
+* [**Remove Reeling In While Fishing**](https://www.pokecommunity.com/showthread.php?t=441800) by NobodySociety
 
 
 ## Graphics

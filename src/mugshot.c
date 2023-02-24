@@ -63,7 +63,7 @@ static const struct Mugshot sMugshots[] = {
     [MUGSHOT_MOM_SERIOUS] = {.x = 17, .y = 1, .width = 104, .height = 104, .image = sMugshotImg_Mom_Serious, .palette = sMugshotPal_Mom_Serious},
     [MUGSHOT_MAY_SERIOUS] = {.x = 17, .y = 1, .width = 104, .height = 104, .image = sMugshotImg_May_Serious, .palette = sMugshotPal_May_Serious},
     [MUGSHOT_MAY_HAPPY] = {.x = 17, .y = 1, .width = 104, .height = 104, .image = sMugshotImg_May_Happy, .palette = sMugshotPal_May_Happy},
-    [MUGSHOT_MAY_POUT] = {.x = 17, .y = 1, .width = 104, .height = 104, .image = sMugshotImg_May_Pout, .palette = sMugshotPal_May_Pout},
+    [MUGSHOT_MAY_POUT] = {.x = 0, .y = 1, .width = 240, .height = 104, .image = sMugshotImg_May_Pout, .palette = sMugshotPal_May_Pout},
     [MUGSHOT_MAY_SMILE] = {.x = 17, .y = 1, .width = 104, .height = 104, .image = sMugshotImg_May_Smile, .palette = sMugshotPal_May_Smile},
     [MUGSHOT_BIRCH_SCARED] = {.x = 17, .y = 1, .width = 104, .height = 104, .image = sMugshotImg_Birch_Scared, .palette = sMugshotPal_Birch_Scared},
     [MUGSHOT_BIRCH_SERIOUS] = {.x = 17, .y = 1, .width = 104, .height = 104, .image = sMugshotImg_Birch_Serious, .palette = sMugshotPal_Birch_Serious},

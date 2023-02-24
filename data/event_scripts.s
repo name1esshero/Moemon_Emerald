@@ -56,6 +56,7 @@
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"
 	.include "constants/constants.inc"
+	#include "constants/mugshots.h"
 
 	.section script_data, "aw", %progbits
 
@@ -577,7 +578,6 @@ gStdScripts_End::
 	.include "data/scripts/hall_of_fame.inc"
 
 	.include "data/scripts/debug.inc"
-	#include "constants/mugshots.h"
 
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
