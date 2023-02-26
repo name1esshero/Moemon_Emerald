@@ -515,7 +515,7 @@ MauvilleCity_Text_WallyHereICome:
 	.string "Okay… Here I come!$"
 
 MauvilleCity_Text_WallyDefeat:
-	.string "{COLOR BLUE}WALLY: … … … … … … …\p"
+	.string "WALLY: … … … … … … …\p"
 	.string "… … … … … … … …\p"
 	.string "I lost…$"
 

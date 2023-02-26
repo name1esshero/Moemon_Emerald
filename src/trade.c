@@ -4626,7 +4626,7 @@ void CreateInGameTradePokemon(void)
     else if(gSpecialVar_0x8004 == 7) // Version 2 Step 1 (trade your pokemon for the defined pokemon below and saves your pokemon data to the trader)
     {
         struct Pokemon *pokemon = &gEnemyParty[0];
-        CreateMon(pokemon, SPECIES_MEW, 99, 32, FALSE, 0, OT_ID_PRESET, 0); // (After the trade this pokemon is set as "Seen and caught" in the players pokedex!)
+        CreateMon(pokemon, SPECIES_ZIGZAGOON, 99, 32, FALSE, 0, OT_ID_PRESET, 0); // (After the trade this pokemon is set as "Seen and caught" in the players pokedex!)
         gEnemyParty[1] = gPlayerParty[gSpecialVar_0x8005];
     }
     else if(gSpecialVar_0x8004 == 8) // Version 2 Step 2 (trades your saved pokemon from the trader back to you)
