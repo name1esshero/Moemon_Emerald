@@ -75,4 +75,4 @@ SCRIPT_SelfTrade_Text_ComeBack:
 
 SCRIPT_SelfTrade_Text_YouDontWantToThatsOkay:
 	.string "You dont want to?\n"
-        .string "Okay come back anytime$"
+    .string "Okay come back anytime.$"

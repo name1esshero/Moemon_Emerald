@@ -46,7 +46,7 @@
 #define OBJECT_EVENTS_COUNT 16
 #define MAIL_COUNT (5 + PARTY_SIZE)
 #define SECRET_BASES_COUNT 10
-#define TV_SHOWS_COUNT 10
+#define TV_SHOWS_COUNT 10 //DO NOT SET BELOW 10. If set too low it will cause a warp bug in mauville.
 #define POKE_NEWS_COUNT 16
 #define PC_ITEMS_COUNT 50
 #define BAG_ITEMS_COUNT 30
