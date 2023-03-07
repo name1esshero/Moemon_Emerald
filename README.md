@@ -64,7 +64,7 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * Moemon Overworlds by The Moemon Project
 * Brendan & May Trainer front and backsprites by solo993
 * Type Icons By Vent
-* FRLG Style Overworlds by kalarie, Poffin_Case, and aveontrainer
+* FRLG Style Overworlds by kalarie, Poffin_Case, MrDollSteak, and aveontrainer
 
 ## Special Thanks
 

@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LASS",
+      "graphics_id": "OBJ_EVENT_GFX_PSYCHIC_F",
       "x": 11,
       "y": 4,
       "elevation": 3,
@@ -54,7 +54,7 @@
       "flag": "FLAG_ITEM_MT_PYRE_3F_SUPER_REPEL"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_2",
+      "graphics_id": "OBJ_EVENT_GFX_BREEDER_F",
       "x": 6,
       "y": 4,
       "elevation": 3,

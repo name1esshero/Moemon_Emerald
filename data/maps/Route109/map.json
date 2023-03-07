@@ -325,7 +325,7 @@
       "flag": "FLAG_ITEM_ROUTE_109_POTION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_BIRDKEEPER",
       "x": 17,
       "y": 56,
       "elevation": 3,

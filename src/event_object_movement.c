@@ -535,6 +535,29 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_SPENSER                 0x1157
 #define OBJ_EVENT_PAL_TAG_GRETA                   0x1158
 #define OBJ_EVENT_PAL_TAG_MAYN                    0x1159
+#define OBJ_EVENT_PAL_TAG_BREEDER_F               0x115A
+#define OBJ_EVENT_PAL_TAG_BREEDER_M               0x115B
+#define OBJ_EVENT_PAL_TAG_BIRDKEEPER              0x115C
+#define OBJ_EVENT_PAL_TAG_PSYCHIC_F               0x115D
+#define OBJ_EVENT_PAL_TAG_GUITARIST               0x115E
+#define OBJ_EVENT_PAL_TAG_CLAIRE                  0x115F
+#define OBJ_EVENT_PAL_TAG_LADY                    0x1160
+#define OBJ_EVENT_PAL_TAG_AROMA_LADY              0x1161
+#define OBJ_EVENT_PAL_TAG_PARASOL_LADY            0x1162
+#define OBJ_EVENT_PAL_TAG_POKEFAN_F               0x1163
+#define OBJ_EVENT_PAL_TAG_POKEFAN_M               0x1164
+#define OBJ_EVENT_PAL_TAG_WOMAN_5                 0x1165
+#define OBJ_EVENT_PAL_TAG_MAN_3                   0x1166
+#define OBJ_EVENT_PAL_TAG_TWIN                    0x1167
+#define OBJ_EVENT_PAL_TAG_LASS                    0x1168
+#define OBJ_EVENT_PAL_TAG_DRAGON_TAMER            0x1169
+#define OBJ_EVENT_PAL_TAG_MR_STONE                0x116A
+#define OBJ_EVENT_PAL_TAG_BUG_MANIAC              0x116B
+#define OBJ_EVENT_PAL_TAG_RUIN_MANIAC             0x116C
+#define OBJ_EVENT_PAL_TAG_POKE_MANIAC             0x116D
+#define OBJ_EVENT_PAL_TAG_RANGER_F                0x116E
+#define OBJ_EVENT_PAL_TAG_RANGER_M                0x116F
+#define OBJ_EVENT_PAL_TAG_SCHOOL_KID_F            0x1170
 #define OBJ_EVENT_PAL_TAG_LIGHT                   0x8001
 #define OBJ_EVENT_PAL_TAG_LIGHT_2                 0x8002
 #define OBJ_EVENT_PAL_TAG_EMOTES                  0x8003
@@ -638,7 +661,30 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Tucker,                OBJ_EVENT_PAL_TAG_TUCKER},
     {gObjectEventPal_Spenser,               OBJ_EVENT_PAL_TAG_SPENSER},
     {gObjectEventPal_Greta,                 OBJ_EVENT_PAL_TAG_GRETA},
-    {gObjectEventPal_MayN,                 OBJ_EVENT_PAL_TAG_MAYN},
+    {gObjectEventPal_MayN,                  OBJ_EVENT_PAL_TAG_MAYN},
+    {gObjectEventPal_BreederF,              OBJ_EVENT_PAL_TAG_BREEDER_F},
+    {gObjectEventPal_BreederM,              OBJ_EVENT_PAL_TAG_BREEDER_M},
+    {gObjectEventPal_BirdKeeper,            OBJ_EVENT_PAL_TAG_BIRDKEEPER},
+    {gObjectEventPal_Guitarist,             OBJ_EVENT_PAL_TAG_GUITARIST},
+    {gObjectEventPal_Lady,                  OBJ_EVENT_PAL_TAG_LADY},
+    {gObjectEventPal_AromaLady,             OBJ_EVENT_PAL_TAG_AROMA_LADY},
+    {gObjectEventPal_ParasolLady,           OBJ_EVENT_PAL_TAG_PARASOL_LADY},
+    {gObjectEventPal_Claire,                OBJ_EVENT_PAL_TAG_CLAIRE},
+    {gObjectEventPal_PsychicF,              OBJ_EVENT_PAL_TAG_PSYCHIC_F},
+    {gObjectEventPal_PokefanF,              OBJ_EVENT_PAL_TAG_POKEFAN_F},
+    {gObjectEventPal_PokefanM,              OBJ_EVENT_PAL_TAG_POKEFAN_M},
+    {gObjectEventPal_Woman5,                OBJ_EVENT_PAL_TAG_WOMAN_5},
+    {gObjectEventPal_Man3,                  OBJ_EVENT_PAL_TAG_MAN_3},
+    {gObjectEventPal_Twin,                  OBJ_EVENT_PAL_TAG_TWIN},
+    {gObjectEventPal_Lass,                  OBJ_EVENT_PAL_TAG_LASS},
+    {gObjectEventPal_DragonTamer,           OBJ_EVENT_PAL_TAG_DRAGON_TAMER},
+    {gObjectEventPal_RuinManiac,            OBJ_EVENT_PAL_TAG_RUIN_MANIAC},
+    {gObjectEventPal_PokeManiac,            OBJ_EVENT_PAL_TAG_POKE_MANIAC},
+    {gObjectEventPal_BugManiac,             OBJ_EVENT_PAL_TAG_BUG_MANIAC},
+    {gObjectEventPal_RangerF,               OBJ_EVENT_PAL_TAG_RANGER_F},
+    {gObjectEventPal_RangerM,               OBJ_EVENT_PAL_TAG_RANGER_M},
+    {gObjectEventPal_SchoolKidF,            OBJ_EVENT_PAL_TAG_SCHOOL_KID_F},
+    {gObjectEventPal_MrStone,               OBJ_EVENT_PAL_TAG_MR_STONE},
     {gObjectEventPaletteLight,              OBJ_EVENT_PAL_TAG_LIGHT},
     {gObjectEventPaletteLight2,             OBJ_EVENT_PAL_TAG_LIGHT_2},
     {gObjectEventPaletteEmotes,             OBJ_EVENT_PAL_TAG_EMOTES},

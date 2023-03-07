@@ -83,7 +83,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_PARASOL_LADY",
       "x": 51,
       "y": 11,
       "elevation": 3,
@@ -187,7 +187,7 @@
       "flag": "FLAG_ITEM_ROUTE_113_HYPER_POTION"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MANIAC",
+      "graphics_id": "OBJ_EVENT_GFX_POKE_MANIAC",
       "x": 75,
       "y": 3,
       "elevation": 3,
@@ -226,7 +226,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_MAN_5",
+      "graphics_id": "OBJ_EVENT_GFX_BIRDKEEPER",
       "x": 7,
       "y": 13,
       "elevation": 3,

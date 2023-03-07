@@ -240,6 +240,23 @@
 #define OBJ_EVENT_GFX_LINK_RS_MAY                236
 #define OBJ_EVENT_GFX_LUGIA                      237
 #define OBJ_EVENT_GFX_HOOH                       238
+#define OBJ_EVENT_GFX_GUITARIST                  239
+#define OBJ_EVENT_GFX_BREEDER_F                  240
+#define OBJ_EVENT_GFX_BREEDER_M                  241
+#define OBJ_EVENT_GFX_LADY                       242
+#define OBJ_EVENT_GFX_AROMA_LADY                 243
+#define OBJ_EVENT_GFX_PARASOL_LADY               244
+#define OBJ_EVENT_GFX_PSYCHIC_F                  245
+#define OBJ_EVENT_GFX_BIRDKEEPER                 246
+#define OBJ_EVENT_GFX_CLAIRE                     247
+#define OBJ_EVENT_GFX_MR_STONE                   248
+#define OBJ_EVENT_GFX_DRAGON_TAMER               249
+#define OBJ_EVENT_GFX_SCHOOL_KID_F               250
+#define OBJ_EVENT_GFX_RANGER_F                   251
+#define OBJ_EVENT_GFX_RANGER_M                   252
+#define OBJ_EVENT_GFX_BUG_MANIAC                 253
+#define OBJ_EVENT_GFX_POKE_MANIAC                254
+#define OBJ_EVENT_GFX_RUIN_MANIAC                255
 #define OBJ_EVENT_GFX_ANIMATED_BALL              OBJ_EVENT_GFX_ITEM_BALL // replaces ITEM_BALL
 #define OBJ_EVENT_GFX_OW_MON                     OBJ_EVENT_GFX_REGICE
 #define OBJ_EVENT_GFX_LIGHT_SPRITE               OBJ_EVENT_GFX_QUINTY_PLUMP
@@ -253,7 +270,7 @@
 // object graphics that can be removed. If more graphics are needed, anything that
 // stores graphics ids will need to be increased in size. See wiki entry below:
 // https://github.com/pret/pokeemerald/wiki/Feature-Branches#overworld-expansion
-#define NUM_OBJ_EVENT_GFX                        239
+#define NUM_OBJ_EVENT_GFX                        256
 
 
 // These are dynamic object gfx ids.
