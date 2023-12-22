@@ -795,6 +795,7 @@ static const u16 sPickupItems[] =
     ITEM_ULTRA_BALL,
     ITEM_HYPER_POTION,
     ITEM_RARE_CANDY,
+    ITEM_THIEF_BALL,
     ITEM_PROTEIN,
     ITEM_REVIVE,
     ITEM_HP_UP,
@@ -812,11 +813,12 @@ static const u16 sRarePickupItems[] =
     ITEM_FULL_RESTORE,
     ITEM_ETHER,
     ITEM_WHITE_HERB,
-    ITEM_TM44_REST,
+    ITEM_GANLON_BERRY,
     ITEM_ELIXIR,
-    ITEM_TM01_FOCUS_PUNCH,
+    ITEM_APICOT_BERRY,
     ITEM_LEFTOVERS,
-    ITEM_TM26_EARTHQUAKE,
+    ITEM_SALAC_BERRY,
+    ITEM_PETAYA_BERRY,
 };
 
 static const u8 sPickupProbabilities[] =

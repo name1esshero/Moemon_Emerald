@@ -820,10 +820,9 @@ u16 returnValidSpecies(u16 input)
         SPECIES_OMANYTE,
         SPECIES_KABUTO,
         SPECIES_AERODACTYL,
-    #ifndef POKEMON_EXPANSION
         SPECIES_SNORLAX,
-    #endif
         SPECIES_DRATINI,
+        SPECIES_CYNDAQUIL,
         SPECIES_CHIKORITA,
         SPECIES_TOTODILE,
         SPECIES_SENTRET,
