@@ -2,15 +2,16 @@ name: Build ROM
 
 on:
   push:
-    branches: [ followers ]
+    branches:
+      - master
   pull_request:
 
 jobs:
-  build_rom:
-    name: Build ROM
+  build_agbcc:
+    name: Build ROM with agbcc
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Install dependencies
         run: sudo apt-get install binutils-arm-none-eabi gcc-arm-none-eabi
       - name: Build & install agbcc
@@ -19,7 +20,30 @@ jobs:
           git clone --depth 1 https://github.com/pret/agbcc
           cd agbcc
           ./build.sh
-          ./install.sh ../pokeemerald
+          ./install.sh ../Moemon_Emerald
       - name: Build ROM
         run: |
-          make
+          make -j$(nproc) debug=1
+
+  build_modern:
+    name: Build ROM with DevKitPro
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          sudo apt-get install apt-transport-https
+          if ! [ -f /usr/local/share/keyring/devkitpro-pub.gpg ]; then
+            sudo mkdir -p /usr/local/share/keyring/
+            sudo wget -O /usr/local/share/keyring/devkitpro-pub.gpg https://apt.devkitpro.org/devkitpro-pub.gpg
+          fi
+          if ! [ -f /etc/apt/sources.list.d/devkitpro.list ]; then
+            sudo bash -c 'echo "deb [signed-by=/usr/local/share/keyring/devkitpro-pub.gpg] https://apt.devkitpro.org stable main" > /etc/apt/sources.list.d/devkitpro.list'
+          fi
+          sudo apt-get update
+          sudo apt-get install devkitpro-pacman
+          sudo dkp-pacman -S --noconfirm 3ds-dev
+      - name: Build ROM
+        run: |
+          source /etc/profile.d/devkit-env.sh
+          make -j$(nproc) modern debug=1
