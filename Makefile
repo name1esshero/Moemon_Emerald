@@ -430,10 +430,16 @@ $(ROM): $(ELF)
 	$(OBJCOPY) -O binary $< $@
 	$(FIX) $@ --silent
 
+.PHONY: rebuild
+rebuild:
+	$(MAKE) clean
+	$(MAKE) all
+
 modern: all
 
 libagbsyscall:
 	@$(MAKE) -C libagbsyscall TOOLCHAIN=$(TOOLCHAIN) MODERN=$(MODERN)
+
 
 ###################
 ### Symbol file ###
