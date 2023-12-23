@@ -57,6 +57,7 @@ You can find PRET on [Discord](https://discord.gg/d5dubZ3) and [IRC](https://web
 * [**Check for a specific Pokémon species**](https://www.pokecommunity.com/showpost.php?p=10213715&postcount=167) by Vexio & Lunos
 * [**Remove Reeling In While Fishing**](https://www.pokecommunity.com/showthread.php?t=441800) by NobodySociety
 * [**Prompt for reusing Repels**](https://github.com/pret/pokeemerald/wiki/Prompt-for-reusing-Repels) by ExpoSeed
+* [**Fix Workflow And Allow Building On Modern And Agbcc**](https://github.com/name1esshero/Moemon_Emerald/commit/627586388b5fc3af8c615e168ab9600a31d15769) by aronson
 
 
 ## Graphics
