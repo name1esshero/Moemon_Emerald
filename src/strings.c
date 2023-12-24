@@ -1859,5 +1859,5 @@ const u8 gText_BattleRules_NoItems_Player[]                 = _("Competitive rul
 #include "data/text/teachy_tv.h"
 
 //Save strings
-const u8 gText_SaveFileOldUpdated[] = _("Your save file is for an older release\nof Moemon Emerald Vanilla+.\pYour save will be updated. Please back\nup your old save if you wish to keep it.");
-const u8 gText_SaveFileOldErrored[] = _("Your save file is for an older release\nof Moemon Emerald Vanilla+.\pThe attempt to update the save file\nhas failed.\pPlease report this to the author.");
+const u8 gText_SaveFileOldUpdated[] = _("Your save file is for an older release\nof Moemon Vanilla+ Emerald.\pYour save will be updated. Please back\nup your old save if you wish to keep it.");
+const u8 gText_SaveFileOldErrored[] = _("Your save file is for an older release\nof Moemon Vanilla+ Emerald.\pThe attempt to update the save file\nhas failed.\pPlease report this to the author.");

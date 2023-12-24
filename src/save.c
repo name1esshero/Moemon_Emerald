@@ -1,10 +1,12 @@
 #include "global.h"
-#include "malloc.h"
 #include "agb_flash.h"
 #include "gba/flash_internal.h"
 #include "fieldmap.h"
 #include "save.h"
 #include "task.h"
+#include "malloc.h"
+#include "strings.h"
+#include "string_util.h"
 #include "decompress.h"
 #include "load_save.h"
 #include "overworld.h"
@@ -506,7 +508,7 @@ static u8 CopySaveSlotData(u16 sectorId, struct SaveSectorLocation *locations)
         if (id == 0)
             gLastWrittenSector = i;
 
-        checksum = CalculateChecksum(gReadWriteSector->data, locations[id].size);
+        checksum = CalculateChecksum(gReadWriteSector->data, SECTOR_DATA_SIZE);
 
         // Only copy data for sectors whose signature and checksum fields are correct
         if (gReadWriteSector->signature == SECTOR_SIGNATURE && gReadWriteSector->checksum == checksum)
@@ -538,7 +540,7 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
         if (gReadWriteSector->signature == SECTOR_SIGNATURE)
         {
             signatureValid = TRUE;
-            checksum = CalculateChecksum(gReadWriteSector->data, locations[gReadWriteSector->id].size);
+            checksum = CalculateChecksum(gReadWriteSector->data, SECTOR_DATA_SIZE);
             if (gReadWriteSector->checksum == checksum)
             {
                 saveSlot1Counter = gReadWriteSector->counter;
@@ -570,7 +572,7 @@ static u8 GetSaveValidStatus(const struct SaveSectorLocation *locations)
         if (gReadWriteSector->signature == SECTOR_SIGNATURE)
         {
             signatureValid = TRUE;
-            checksum = CalculateChecksum(gReadWriteSector->data, locations[gReadWriteSector->id].size);
+            checksum = CalculateChecksum(gReadWriteSector->data, SECTOR_DATA_SIZE);
             if (gReadWriteSector->checksum == checksum)
             {
                 saveSlot2Counter = gReadWriteSector->counter;
@@ -652,7 +654,7 @@ static u8 TryLoadSaveSector(u8 sectorId, u8 *data, u16 size)
     ReadFlashSector(sectorId, sector);
     if (sector->signature == SECTOR_SIGNATURE)
     {
-        u16 checksum = CalculateChecksum(sector->data, size);
+        u16 checksum = CalculateChecksum(sector->data, SECTOR_DATA_SIZE);
         if (sector->id == checksum)
         {
             // Signature and checksum are correct, copy data
@@ -1074,7 +1076,7 @@ bool8 UpdateSaveFile(void)
     u8* ptr1;
     u8* ptr2;
     u8* ptr3;
-    int i, x;
+    int i;
     bool8 result = TRUE;
     // Load the old save file into the heap
     sOldSaveBlock = AllocZeroed(SECTOR_DATA_SIZE * NUM_SECTORS_PER_SLOT);
@@ -1118,6 +1120,6 @@ bool8 UpdateSaveFile(void)
     // Clean up and perform post-load copying operations
     Free(sOldSaveBlock);
     CopyPartyAndObjectsFromSave();
-    // Note, the save is now up to date, but it won't be saved back to FLASH until the player saves the game.
+    // Note, the save is now up-to-date, but it won't be saved back to FLASH until the player saves the game.
     return result;
 }
