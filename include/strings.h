@@ -3060,4 +3060,8 @@ extern const u8 gTeachyTvText_CatchingScript2[];
 extern const u8 gTeachyTvText_TMsScript2[];
 extern const u8 gTeachyTvText_RegisterScript2[];
 
+//Save upgrades
+extern const u8 gText_SaveFileOldUpdated[];
+extern const u8 gText_SaveFileOldErrored[];
+
 #endif // GUARD_STRINGS_H

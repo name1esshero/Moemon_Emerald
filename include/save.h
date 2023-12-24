@@ -33,7 +33,13 @@
 #define SAVE_STATUS_OK       1
 #define SAVE_STATUS_CORRUPT  2
 #define SAVE_STATUS_NO_FLASH 4
+#define SAVE_STATUS_OUTDATED 10
+#define SAVE_STATUS_UPDATED  11
 #define SAVE_STATUS_ERROR    0xFF
+
+// Save update fail reasons
+#define SAVE_UFR_SUCCESS               0
+#define SAVE_UFR_VERSION_UNSUPPORTED   1
 
 // Special sector id value for certain save functions to
 // indicate that no specific sector should be used.
@@ -110,5 +116,8 @@ void Task_LinkFullSave(u8 taskId);
 
 // save_failed_screen.c
 void DoSaveFailedScreen(u8 saveType);
+
+// save upgrades
+bool8 UpdateSaveFile(void);
 
 #endif // GUARD_SAVE_H

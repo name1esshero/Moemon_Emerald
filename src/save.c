@@ -1,4 +1,5 @@
 #include "global.h"
+#include "malloc.h"
 #include "agb_flash.h"
 #include "gba/flash_internal.h"
 #include "fieldmap.h"
@@ -477,6 +478,13 @@ static u8 TryLoadSaveSlot(u16 sectorId, struct SaveSectorLocation *locations)
     {
         status = GetSaveValidStatus(locations);
         CopySaveSlotData(FULL_SAVE_SLOT, locations);
+    }
+
+    if (status == SAVE_STATUS_OK) {
+        if (gSaveBlock2Ptr->_saveSentinel != 0xFF)
+            status = SAVE_STATUS_OUTDATED;
+        if (gSaveBlock2Ptr->saveVersion != SAVE_VERSION)
+            status = SAVE_STATUS_OUTDATED;
     }
 
     return status;
@@ -1050,4 +1058,66 @@ void Task_LinkFullSave(u8 taskId)
         }
         break;
     }
+}
+
+#include "data/old_saves/save.v0.h"
+
+u16 DetermineSaveVersion()
+{
+    if (gSaveBlock2Ptr->_saveSentinel != 0xFF) return 0;
+    return gSaveBlock2Ptr->saveVersion;
+}
+bool8 UpdateSaveFile(void)
+{
+    u16 version = DetermineSaveVersion();
+    u8* sOldSaveBlock;
+    u8* ptr1;
+    u8* ptr2;
+    u8* ptr3;
+    int i, x;
+    bool8 result = TRUE;
+    // Load the old save file into the heap
+    sOldSaveBlock = AllocZeroed(SECTOR_DATA_SIZE * NUM_SECTORS_PER_SLOT);
+    // Assign locations to load the old save block into the heap
+    ptr1 = sOldSaveBlock; //pretend this is gSaveBlock2Ptr
+    ptr2 = sOldSaveBlock; //pretend this is gSaveBlock1Ptr
+    ptr3 = sOldSaveBlock; //pretend this is gPokemonStoragePtr
+    i = SECTOR_ID_SAVEBLOCK2;
+
+    gRamSaveSectorLocations[i].data = (void *)(ptr1) + sSaveSlotLayout[i].offset;
+    gRamSaveSectorLocations[i].size = sSaveSlotLayout[i].size;
+    ptr3 = ptr2 = ptr1 + sSaveSlotLayout[i].size;
+
+    for (i = SECTOR_ID_SAVEBLOCK1_START; i <= SECTOR_ID_SAVEBLOCK1_END; i++)
+    {
+        gRamSaveSectorLocations[i].data = (void *)(ptr2) + sSaveSlotLayout[i].offset;
+        gRamSaveSectorLocations[i].size = sSaveSlotLayout[i].size;
+        ptr3 += sSaveSlotLayout[i].size;
+    }
+
+    for (i = SECTOR_ID_PKMN_STORAGE_START; i <= SECTOR_ID_PKMN_STORAGE_END; i++)
+    {
+        gRamSaveSectorLocations[i].data = (void *)(ptr3) + sSaveSlotLayout[i].offset;
+        gRamSaveSectorLocations[i].size = sSaveSlotLayout[i].size;
+    }
+    // Load the save from FLASH and onto the heap
+    CopySaveSlotData(FULL_SAVE_SLOT, gRamSaveSectorLocations);
+    // Zero out the data currently loaded into the save structs
+    CpuFill16(0, &gSaveblock2, sizeof(struct SaveBlock2ASLR));
+    CpuFill16(0, &gSaveblock1, sizeof(struct SaveBlock1ASLR));
+    CpuFill16(0, &gPokemonStorage, sizeof(struct PokemonStorageASLR));
+    // Attempt to update the save
+    switch (version) {
+        case 0: // Upgrading from vanilla to version 1
+            result = UpdateSave_v0_v1(gRamSaveSectorLocations);
+            break;
+        default: // Unsupported version to upgrade
+            result = FALSE;
+            break;
+    }
+    // Clean up and perform post-load copying operations
+    Free(sOldSaveBlock);
+    CopyPartyAndObjectsFromSave();
+    // Note, the save is now up to date, but it won't be saved back to FLASH until the player saves the game.
+    return result;
 }
