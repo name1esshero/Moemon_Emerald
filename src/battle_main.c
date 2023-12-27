@@ -126,6 +126,7 @@ static void HandleEndTurn_MonFled(void);
 static void HandleEndTurn_FinishBattle(void);
 static void SpriteCB_UnusedBattleInit(struct Sprite *sprite);
 static void SpriteCB_UnusedBattleInit_Main(struct Sprite *sprite);
+static void BattleIntroQuickRun(void);
 static void PlayerTryEvolution(void);
 static void BeginLeftEvoluionAfterFade(void);
 static void BeginRightEvoluionAfterFade(void);
@@ -3844,8 +3845,23 @@ static void BattleIntroPrintWildMonAttacked(void)
 {
     if (gBattleControllerExecFlags == 0)
     {
-        gBattleMainFunc = BattleIntroPrintPlayerSendsOut;
+        gBattleMainFunc = BattleIntroQuickRun;
         PrepareStringBattle(STRINGID_INTROMSG, 0);
+    }
+}
+
+static void BattleIntroQuickRun(void)
+{
+    if (gBattleControllerExecFlags == 0)
+    {
+        if ((JOY_HELD(R_BUTTON))&&(JOY_HELD(L_BUTTON))){
+            if (!IsRunningFromBattleImpossible() && TryRunFromBattle(gBattlerAttacker)){
+                gBattleMainFunc = HandleEndTurn_RanFromBattle;
+                return;
+            }
+            PrepareStringBattle(STRINGID_CANTESCAPE, 0);
+        }
+        gBattleMainFunc = BattleIntroPrintPlayerSendsOut;
     }
 }
 
