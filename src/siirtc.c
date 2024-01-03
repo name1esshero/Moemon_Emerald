@@ -60,10 +60,6 @@
 #define DIR_ALL_IN  (DIR_0_IN | DIR_1_IN | DIR_2_IN)
 #define DIR_ALL_OUT (DIR_0_OUT | DIR_1_OUT | DIR_2_OUT)
 
-#define GPIO_PORT_DATA        (*(vu16 *)0x80000C4)
-#define GPIO_PORT_DIRECTION   (*(vu16 *)0x80000C6)
-#define GPIO_PORT_READ_ENABLE (*(vu16 *)0x80000C8)
-
 extern vu16 GPIOPortDirection;
 
 static u16 sDummy; // unused variable

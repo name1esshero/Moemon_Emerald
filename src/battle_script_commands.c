@@ -52,6 +52,7 @@
 #include "constants/songs.h"
 #include "constants/trainers.h"
 #include "tx_randomizer_and_challenges.h"
+#include "rumble.h"
 
 extern const u8 *const gBattleScriptsForMoveEffects[];
 
@@ -3038,6 +3039,7 @@ static void Cmd_tryfaintmon(void)
             gBattlescriptCurrInstr = BS_ptr;
             if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
             {
+                SetTimedRumble(10);
                 gHitMarker |= HITMARKER_PLAYER_FAINTED;
                 if (gBattleResults.playerFaintCounter < 255)
                     gBattleResults.playerFaintCounter++;

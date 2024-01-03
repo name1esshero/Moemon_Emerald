@@ -27,6 +27,7 @@
 #include "main_menu.h"
 #include "save.h"
 #include "new_game.h"
+#include "rumble.h"
 
 static void VBlankIntr(void);
 static void HBlankIntr(void);
@@ -130,6 +131,8 @@ void AgbMain()
 #endif
     for (;;)
     {
+        RumbleFrameUpdate();
+
         ReadKeys();
 
         if (gSoftResetDisabled == FALSE
@@ -370,6 +373,9 @@ static void VBlankIntr(void)
         Random();
 
     UpdateWirelessStatusIndicatorSprite();
+
+    if (!IsSEPlaying())
+        RumbleStop();
 
     INTR_CHECK |= INTR_FLAG_VBLANK;
     gMain.intrCheck |= INTR_FLAG_VBLANK;

@@ -13,6 +13,7 @@
 #include "sound.h"
 #include "sprite.h"
 #include "task.h"
+#include "rumble.h"
 #include "constants/event_object_movement.h"
 #include "constants/event_objects.h"
 #include "constants/field_effects.h"
@@ -164,6 +165,7 @@ bool8 FldEff_UseRockSmash(void)
 static void FieldMove_RockSmash(void)
 {
     PlaySE(SE_M_ROCK_THROW);
+    RumbleStart();
     FieldEffectActiveListRemove(FLDEFF_USE_ROCK_SMASH);
     ScriptContext_Enable();
 }

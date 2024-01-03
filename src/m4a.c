@@ -1,5 +1,7 @@
 #include <string.h>
 #include "gba/m4a_internal.h"
+#include "rumble.h"
+#include "constants/songs.h"
 
 extern const u8 gCgb3Vol[];
 
@@ -110,6 +112,27 @@ void m4aSongNumStart(u16 n)
     const struct Song *songTable = gSongTable;
     const struct Song *song = &songTable[n];
     const struct MusicPlayer *mplay = &mplayTable[song->ms];
+
+    switch (n)
+    {
+        case SE_LEDGE:
+        case SE_BIKE_BELL:
+        case SE_BIKE_HOP:
+        case SE_ICE_BREAK:
+        case SE_ICE_CRACK:
+        case SE_TRUCK_MOVE:
+        case SE_TRUCK_STOP:
+        case SE_TRUCK_UNLOAD:
+        case SE_TRUCK_DOOR:
+        case SE_ITEMFINDER:
+        case SE_BREAKABLE_DOOR:
+        case SE_FIELD_POISON:
+        case SE_M_SELF_DESTRUCT:
+        case SE_M_EXPLOSION:
+        case SE_RG_SS_ANNE_HORN:
+        case SE_POKENAV_CALL:
+            RumbleStart();
+    }
 
     MPlayStart(mplay->info, song->header);
 }
