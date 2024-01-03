@@ -107,7 +107,7 @@ LIBPATH := -L ../../tools/agbcc/lib
 LIB := $(LIBPATH) -lgcc -lc -L../../libagbsyscall -lagbsyscall
 else
 CC1              = $(shell $(PATH_MODERNCC) --print-prog-name=cc1) -quiet
-override CFLAGS += -mthumb -mthumb-interwork -Os -mabi=apcs-gnu -mtune=arm7tdmi -march=armv4t -fno-toplevel-reorder -Wno-pointer-to-int-cast -flto -ffat-lto-objects -g
+override CFLAGS += -mthumb -mthumb-interwork -Os -mabi=apcs-gnu -mtune=arm7tdmi -march=armv4t -fno-toplevel-reorder -Wno-pointer-to-int-cast -flto -ffat-lto-objects
 ROM := $(MODERN_ROM_NAME)
 OBJ_DIR := $(MODERN_OBJ_DIR_NAME)
 LIBPATH := -L "$(dir $(shell $(PATH_MODERNCC) -mthumb -print-file-name=libgcc.a))" -L "$(dir $(shell $(PATH_MODERNCC) -mthumb -print-file-name=libnosys.a))" -L "$(dir $(shell $(PATH_MODERNCC) -mthumb -print-file-name=libc.a))"
@@ -117,11 +117,6 @@ endif
 CPPFLAGS := -iquote include -iquote $(GFLIB_SUBDIR) -Wno-trigraphs -DMODERN=$(MODERN)
 ifneq ($(MODERN),1)
 CPPFLAGS += -I tools/agbcc/include -I tools/agbcc -nostdinc -undef
-endif
-
-LDFLAGS = -Map ../../$(MAP)
-ifneq ($(MODERN),0)
-LDFLAGS += -flto -s --no-warn-rwx-segments
 endif
 
 
@@ -425,7 +420,11 @@ endif
 $(OBJ_DIR)/ld_script.ld: $(LD_SCRIPT) $(LD_SCRIPT_DEPS)
 	cd $(OBJ_DIR) && sed "s#tools/#../../tools/#g" ../../$(LD_SCRIPT) > ld_script.ld
 
-LDFLAGS = -Map ../../$(MAP) --no-warn-rwx-segments
+LDFLAGS = -Map ../../$(MAP)
+ifneq ($(MODERN),0)
+LDFLAGS += -flto -s
+endif
+
 $(ELF): $(OBJ_DIR)/ld_script.ld $(OBJS) libagbsyscall
 	@echo "cd $(OBJ_DIR) && $(LD) $(LDFLAGS) -T ld_script.ld -o ../../$@ <objects> <lib>"
 	@cd $(OBJ_DIR) && $(LD) $(LDFLAGS) -T ld_script.ld -o ../../$@ $(OBJS_REL) $(LIB)
